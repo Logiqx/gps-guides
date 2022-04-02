@@ -6,7 +6,7 @@ Since all 3 devices are very similar in features the tips are identical:
 
 - Set up the device correctly prior to speed sailing. 
   - I thoroughly recommend using the [guide](https://drive.google.com/file/d/1YQbuPNeTJ3ivgykGI4qOz2yzMxxHmD9B/view?usp%3Dsharing) by [Ingolf van Oostveen](https://surf-center.com/nl/ingolf).
-  - Use the [auto-sync]((https://www.gps-speedsurfing.com/default.aspx?mnu=item&item=HowAddSession)) feature on GP3S so that sessions can be posted quickly and easily.
+  - Use the [auto-sync](https://www.gps-speedsurfing.com/default.aspx?mnu=item&item=HowAddSession) feature on GP3S so that sessions can be posted quickly and easily.
 - When exporting tracks for analysis, always choose the [FIT](https://developer.garmin.com/fit/protocol/) file format over [GPX](https://en.wikipedia.org/wiki/GPS_Exchange_Format).
   - FIT files from sports watches tend to include Doppler speed in addition to latitude and longitude. FIT files also include metrics such as heart rate, temperature, etc.
   - COROS have also added some useful GPS information to the FIT data, enabling run verification for GP3S; Satellites, COG, HDOP.
