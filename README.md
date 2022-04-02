@@ -25,7 +25,7 @@ Spoiler alert:
 
 #### GPS Devices
 
-I have created a separate [page](devices/README.md) for all of my articles and information relating to individual GPS devices.
+I have created a separate page for all of my articles and information relating to individual [GPS devices]((devices/README.md)).
 
 
 
@@ -38,7 +38,7 @@ I have created a separate [page](devices/README.md) for all of my articles and i
 
 #### Analysis / Sessions
 
-The session data and detailed analysis relating to all of my recent articles is also [available](sessions/README.md) on a dedicated page.
+The session data and detailed analysis relating to all of my recent articles is also available on a [dedicated page](sessions/README.md).
 
 
 
