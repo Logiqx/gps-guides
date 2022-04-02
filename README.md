@@ -10,7 +10,7 @@ After several years using the Locosys [GW-60](devices/locosys/gw-60/README.md) w
 
 
 
-### Spoiler Alert
+#### Spoiler Alert
 
 Due to several observations relating to the CORO Apex Pro, I've decided to write some new articles to share my findings and what I have learnt about other modern GPS devices.
 
