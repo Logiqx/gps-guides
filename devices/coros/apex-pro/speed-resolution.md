@@ -115,19 +115,19 @@ It was whilst looking at a track from the COROS APEX Pro that I decided to under
 
 Putting aside that COROS speeds are often repeated every second (which is concerning in its own right), I noticed that the vast majority of speeds recorded by the COROS had a second decimal digit of "9". I've highlighted this observation in red to make it more obvious.
 
-![img](../../../sessions/20220327/img/COROS_resolution_1.png)
+![img](../../../sessions/20220327/img/coros_resolution_1.png)
 
 
 
 I thought this was curious so I exported the whole track as a CSV and plotted a histogram to see the frequency distribution of the 3 decimals. This chart confirmed that the second decimal digit did indeed tend to gravitate towards "9"; e.g. decimals of 090-099, 190-199, 290-299, etc.
 
-![img](../../../sessions/20220327/img/COROS_resolution_2.png)
+![img](../../../sessions/20220327/img/coros_resolution_2.png)
 
 
 
 Looking at the last 2 digits of all the speeds also results in an interesting frequency distribution. The histogram shows that over 80% of the speed readings in my session had a last 2 digits of 95-99 and the other 20% were either 89-94 or 00-01.
 
-![img](../../../sessions/20220327/img/COROS_resolution_3.png)
+![img](../../../sessions/20220327/img/coros_resolution_3.png)
 
 It's looked like the COROS speed data was/is essentially constrained to within 0.1 of a knot which was very surprising.
 
@@ -158,7 +158,7 @@ By sorting all of the speed data (working in mm/s), I was able to plot a chart t
 
 Converting 50 mm/s to knots gives 0.1 knots which is consistent with the original observations described earlier.
 
-![img](../../../sessions/20220327/img/COROS_resolution_4.png)
+![img](../../../sessions/20220327/img/coros_resolution_4.png)
 
 
 
@@ -166,13 +166,13 @@ Just out of curiosity, I zoomed in to discover that 50, 52 and 53 are the most c
 
 The explanation for the slight variations will almost certainly be due to a floating point to integer conversion; either performed by the APEX Pro itself or the onboard GPS chip.
 
-![img](../../../sessions/20220327/img/COROS_resolution_5.png)
+![img](../../../sessions/20220327/img/coros_resolution_5.png)
 
 
 
 Having confirmed that all of the unique speed values within the FIT file were separated by around 50mm/s, I produced one final plot showing the frequency distribution for all of the speeds after converting to cm/s. This chart shows clear gaps which are not present in the equivalent charts for other GPS devices, later in this article.
 
-![img](../../../sessions/20220327/img/COROS_resolution_6.png)
+![img](../../../sessions/20220327/img/coros_resolution_6.png)
 
 
 
