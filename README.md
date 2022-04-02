@@ -25,7 +25,7 @@ Spoiler alert:
 
 #### GPS Devices
 
-I have created a separate page for all of my articles and information relating to individual [GPS devices]((devices/README.md)).
+I have created a separate page for all of my articles and information relating to individual [GPS devices](devices/README.md).
 
 
 
