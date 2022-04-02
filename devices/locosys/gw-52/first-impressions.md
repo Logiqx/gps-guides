@@ -28,9 +28,7 @@ The GW-52 shipped with firmware V1.0G1120B but has subsequently been upgraded to
 
 -  V1.2G0529 added “SCROLL SEC”, allowing the Speed Genie pages to be shown for longer
 
-The latest GW-52 Updater and Firmware revisions are available from the Locosys website:
-
-[http://locosystech.com/product.php?zln=en&id=126](http://locosystech.com/product.php?zln=en&id=126)
+The latest [GW-52 Updater](https://www.locosystech.com/en/product/gps-handheld-data-logger-gw-52.html) and Firmware revisions are available from the Locosys website.
 
 
 
@@ -128,9 +126,7 @@ Downloading data from the GW-52 to a computer must be done via the USB connector
 
 Note: The GT-31 uses the mini USB connector whilst GW-52 uses the (newer) micro USB connector.
 
-Locosys provide instructions and videos which explain how to open the USB cover:
-
-[http://locosystech.com/product.php?zln=en&id=126](http://locosystech.com/product.php?zln=en&id=126)
+Locosys provide [instructions](https://www.locosystech.com/en/product/gps-handheld-data-logger-gw-52.html) and videos which explain how to open the USB cover.
 
  
 
@@ -146,9 +142,7 @@ Download speeds (via USB) are 50-80 times faster on the GW-52:
 
 - GW-52 is 460,800 bps – full log (35h50m @ 1Hz) takes 1 minute. i.e. 1s per hour of sailing
 
-The latest GW-52 Utility is available from the Locosys website:
-
-[http://locosystech.com/product.php?zln=en&id=126](http://locosystech.com/product.php?zln=en&id=126)
+The latest [GW-52 Utility](http://locosystech.com/product.php?zln=en&id=126) is available from the Locosys website.
 
  
 
@@ -204,12 +198,6 @@ Until the accuracy of 5Hz logging is better understood, 1Hz is probably advisabl
 
 ### LINKS
 
-Locosys website:
+Locosys [page](https://www.locosystech.com/en/product/gps-handheld-data-logger-gw-52.html).
 
-[http://locosystech.com/product.php?zln=en&id=126](http://locosystech.com/product.php?zln=en&id=126)
-
-First impressions video by Tristan Haskins of GPS Speed - 8 May 2015:
-
-[https://www.youtube.com/watch?v=1Y0Akxo91sQ](https://www.youtube.com/watch?v=1Y0Akxo91sQ)
-
- 
+First impressions [video](https://www.youtube.com/watch?v=1Y0Akxo91sQ) by Tristan Haskins of GPS Speed - 8 May 2015: 
