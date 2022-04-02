@@ -101,7 +101,7 @@ The methodology that I used to identify the resolutions will be explained later 
 
 Note: The "speed resolution" doesn't necessarily tell us anything about the accuracy of the speeds being calculated and reported by the GPS. It only indicates the precision and the appropriate number of decimal places to display.
 
-TBH it is somewhat disappointing to see such a low "speed resolution" from the COROS APEX Pro, considering the relatively high price and when considering other known [shortcomings](COROS-apex-pro/issues.md) relating to the GPS data quality.
+TBH it is somewhat disappointing to see such a low "speed resolution" from the COROS APEX Pro, considering the relatively high price and when considering other known [shortcomings](data-issues.md) relating to the GPS data quality.
 
 
 
