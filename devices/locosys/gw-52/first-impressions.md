@@ -142,7 +142,7 @@ Download speeds (via USB) are 50-80 times faster on the GW-52:
 
 - GW-52 is 460,800 bps – full log (35h50m @ 1Hz) takes 1 minute. i.e. 1s per hour of sailing
 
-The latest [GW-52 Utility](http://locosystech.com/product.php?zln=en&id=126) is available from the Locosys website.
+The latest [GW-52 Utility](https://www.locosystech.com/en/product/gps-handheld-data-logger-gw-52.html) is available from the Locosys website.
 
  
 
