@@ -1,6 +1,6 @@
 ## Sessions
 
-TODO - link to GitHub
+All of the data and Excel files for these sessions can be found on [GitHub](https://github.com/Logiqx/gps-guides),
 
 
 
