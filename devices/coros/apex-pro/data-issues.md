@@ -102,7 +102,7 @@ TLDR: I was also able to prove that the resolution of speeds recorded by the APE
 
 
 
-The reason that this matters is because it is much lower than devices from Locosys (GT-31 / GW-52 / GW-60) which have a speed resolution of 1 cm/s and Motion which is 1 mm/s. The resolution of 5 cm/s is equivalent to a precision of ~0.2 knots, 1 decimal place.
+The reason that this matters is because it is much lower than devices from Locosys (GT-31 / GW-52 / GW-60) which have a speed resolution of 1 cm/s and Motion which is 1 mm/s. The resolution of 5 cm/s is equivalent to a precision of around 0.1 knot, 1 decimal place.
 
 This discovery might go some way to explaining why so many identical speeds can be seen continuously for several seconds in the APEX Pro data. A combination of smoothing and low precision results could perhaps connect both of these data issues.
 
