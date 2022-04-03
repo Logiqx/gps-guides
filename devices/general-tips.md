@@ -41,7 +41,7 @@ Boom and wrist tend to show micro-accelerations caused by chop.
 ### Frequency
 
 - Higher frequency units show higher acceleration.
-  - 10Hz Motion > 5Hz GW-60 > 1Hz Coros
+  - 10Hz Motion > 5Hz GW-60 > 1Hz COROS
   - GPS Results 6.173 PC / 5.63 Mac changed maximum acceleration for 10Hz units to 10m/s².
 - Higher frequencies have distances (m) closer to intended - e.g. 500.3m vs 503.8m.
 
@@ -194,7 +194,7 @@ Here is a very brief summary of popular GPS chips in sports watches:
 - Sony
   - CXD5603GF was popular from 2018 to 2020; COROS, Garmin, Suunto, Polar
     - There was an Issue impacting positional [accuracy](https://www.dcrainmaker.com/2021/01/gps-accuracy-impacting-devices.html) in early 2021.
-    - FIT files from the COROS APEX Pro exhibit a number of [issues](coros/data-issues.md).
+    - FIT files from the COROS APEX Pro and VERTIX exhibit a number of [data issues](coros/data-issues.md).
 - Airoha (subsidiary of MediaTek)
   - AG3335M has gained popularity since 2021; CORO VERTIX 2, Garmin Fenix 7, etc.
 

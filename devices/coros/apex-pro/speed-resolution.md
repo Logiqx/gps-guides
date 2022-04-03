@@ -90,7 +90,7 @@ The table below shows the "speed resolution" that I have identified for my own G
 
 The methodology that I used to identify the resolutions will be explained later in this article.
 
-|                                   | Coros<br />Apex Pro | Locosys<br />GW-52 + GW-60 | Motion<br />Mini |
+|                                   | COROS<br />APEX Pro | Locosys<br />GW-52 + GW-60 | Motion<br />Mini |
 | --------------------------------- | ------------------- | -------------------------- | ---------------- |
 | Doppler "speed resolution"        | 5cm/s               | 1cm/s                      | 1mm/s            |
 | Resolution in km/h                | 0.18                | 0.036                      | 0.0036           |

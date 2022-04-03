@@ -1,4 +1,4 @@
-## COROS APEX Pro
+## COROS APEX Pro + VERTIX
 
 ### Data Issues
 
