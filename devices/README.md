@@ -26,9 +26,9 @@ I haven't created pages for all of these devices yet, but I do plan to do so in 
   - [VERTIX](coros/vertix/README.md)
   - [VERTIX 2](coros/vertix-2/README.md)
 - Garmin
-  - Fenix-5
-  - Fenix-6
-  - Fenix-7
+  - Fenix 5
+  - Fenix 6
+  - Fenix 7
 - Suunto
   - Suunto 5
   - Suunto 7
