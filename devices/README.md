@@ -6,7 +6,7 @@ I haven't created pages for all of these devices yet, but I plan to do so in the
 
 ### Dedicated Devices
 
-- ESP-GPS
+- [ESP-GPS](esp-gps/README.md)
 - Gyro1
 - [Locosys](locosys/README.md)
   - [GT-11](locosys/gt-11/README.md)
