@@ -54,7 +54,7 @@ TODO - APEX Pro was fastest device on both days; GT-31, GW-60 and APEX Pro
 
 ### Mark's Tracks
 
-Mark provided 3 tracks to confirm my observations relating to the COROS APEX Pro.
+Mark provided three VERTIX tracks to confirm my observations relating to the APEX Pro.
 
 - Repeated speeds were abundant in the data, as per my own sessions.
 - I was also able to confirm the speed resolution of 5cm/s.
