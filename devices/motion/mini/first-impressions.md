@@ -35,7 +35,7 @@ OAO files can be loaded into tools such as [GPSResults](https://www.gps-speed.co
 
 The Motion Mini typically reported 16 to 18 usable satellites during all of my test sessions.
 
-This was better than the 11 to 13 of the COROS Apex Pro and 6 to 9 of my Locosys GW-60. 
+This was better than the 11 to 13 of the COROS APEX Pro and 6 to 9 of my Locosys GW-60. 
 
 
 
@@ -70,7 +70,7 @@ The total time and distance reported by the Motion Mini are also closer than any
 
 The Motion Mini is an amazing little device and I can't recommend it highly enough!
 
-After many years using the Locosys GT-11, GT-31, GW-52, GW-60 and COROS Apex Pro this is by far the best quality GPS logger that I have owned.
+After many years using the Locosys GT-11, GT-31, GW-52, GW-60 and COROS APEX Pro this is by far the best quality GPS logger that I have owned.
 
 
 
