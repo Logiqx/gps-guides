@@ -39,4 +39,4 @@ I have written a separate article, summarising the observable [data issues](../d
 
 ### Tips
 
-Since the APEX Pro, VERTEX and VERTEX 2 are so similar in features. all of the [tips](../tips.md) are identical.
+Since the APEX Pro, VERTIX and VERTIX 2 are so similar in features. all of the [tips](../tips.md) are identical.

@@ -36,4 +36,4 @@ The VERTIX 2 has a different GPS chipset to the VERTIX and APEX Pro, so I cannot
 
 ### Tips
 
-Since the APEX Pro, VERTEX and VERTEX 2 are so similar in features. all of the [tips](../tips.md) are identical.
+Since the APEX Pro, VERTIX and VERTIX 2 are so similar in features. all of the [tips](../tips.md) are identical.
