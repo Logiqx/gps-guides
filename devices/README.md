@@ -9,9 +9,9 @@
   - [GT-31](locosys/gt-31/README.md)
   - [GW-52](locosys/gw-52/README.md)
   - [GW-60](locosys/gw-60/README.md)
-- Motion
-  - Motion Mini
-  - Motion LCD
+- [Motion](motion/README.md)
+  - Wireless
+  - [Wireless Mini](motion/mini/README.md)
 
 
 

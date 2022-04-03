@@ -1,31 +1,32 @@
-## Motion Mini - TODO
+## Motion Mini
 
-|                     | Motion                     |
-| ------------------- | -------------------------- |
-| Waterproof          | yes                        |
-| Recording Frequency | 1 Hz / 2 Hz / 5 Hz / 10 Hz |
-| Battery             | 14 hours?                  |
-| Charging            | Contactless                |
-| Download            | Download via WiFi          |
-| Best Format         | .oao                       |
-| Other Formats       | .gpx (1Hz)                 |
+
+![mini](img/mini.jpg)
 
 
 
-Card capacity and sailing time? 8GB, ~1.75MB per hour so >4,500 hours. Several years!
+The Motion Mini provides superior data quality compared to the popular [Locosys](../../locosys/README.md) devices and modern smart / sports watches from the likes of COROS, Garmin, Suunto and Polar.
 
-[u-blox 8](https://www.u-blox.com/en/product/ubx-g8020-chip) - TBC
+The [UBX-M8030](https://www.u-blox.com/en/product/ubx-m8030-series) GPS chip combined with Motion's custom filters, amplifier and oscillator provide high accuracy positional, speed and verification data at 10Hz.
+
+The device has no screen as it is purely designed to be a high-accuracy logging device. It is very reasonably priced and is perfect for anyone who cares about the accuracy of their data.
+
+I have written up my [first impressions](first-impressions.md) of the Motion Mini in a short article.
+
+Further details for the [Motion Mini](https://www.motion-gps.com/motion/documentation.html) can be found on the Motion GPS website.
 
 
 
-### Website
+### Specifications
 
-Product can be found on [Motion-GPS.com](https://www.motion-gps.com/motion/index.html)
+| Item          | Details                                                      |
+| ------------- | ------------------------------------------------------------ |
+| Logging       | 1Hz, 2Hz,  5Hz or 10Hz                                       |
+| Memory        | 8 GB                                                         |
+| Battery       | ~14 hours @ 10Hz                                             |
+| Charging      | Contactless                                                  |
+| Download      | WiFi - connect to built-in web server                        |
+| Best Format   | OAO                                                          |
+| Other Formats | GPX - 1Hz                                                    |
+| GPS chipset   | u-blox [UBX-M8030](https://www.u-blox.com/en/product/ubx-m8030-series) |
 
-
-
-#### Upgrade Firmware
-
-Safe mode, [documentation](https://www.motion-gps.com/motion/documentation.html)
-
-Contactless was melting Bought Anker from Amazon

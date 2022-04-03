@@ -103,6 +103,18 @@ sAcc
 
 
 
+#### sAcc
+
+The u-blox GPS chips generate a speed accuracy metric (sAcc) which isn't dissimilar to SDOP on Locosys devices.
+
+According to the u-blox 7 specification, "Speed accuracy estimate" appears in NAV-VELECEF messages and is measured in m/s.
+
+sAcc is very consistent on the Motion Mini and usually suggests speeds are accurate to within +/- 0.5 knots.
+
+sAcc > 1 should be regarded as bad data.
+
+
+
 #### Max Speed
 
 Really "max speed + noise"
