@@ -25,6 +25,8 @@ The VERTIX is basically a more rugged version of the [APEX Pro](../apex-pro/READ
 | Best Format   | [FIT](https://developer.garmin.com/fit/protocol/)            |
 | Other Formats | [GPX](https://en.wikipedia.org/wiki/GPS_Exchange_Format)     |
 | GPS chipset   | [Sony](https://www.sony-semicon.co.jp/e/products/lsi/gps/product.html) - probably the CXD5603GF |
+| Approved for [GP3S](https://www.gps-speedsurfing.com/) | [Yes](https://www.gps-speedsurfing.com/default.aspx?mnu=forum&forum=6&val=166382) |
+| Approved for [GPSTC](https://www.gpsteamchallenge.com.au/) | -      |
 
 
 

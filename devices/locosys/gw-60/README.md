@@ -24,6 +24,8 @@ Convenient as it was to have a wrist watch, the GW-60 was prone to water ingress
 | Best Format   | SiRF binary, packed (SBP)              |
 | Other Formats | n/a                                    |
 | GPS chipset   | MediaTek, possibly the MT3318          |
+| Approved for [GP3S](https://www.gps-speedsurfing.com/) | [Yes](https://www.gps-speedsurfing.com/default.aspx?mnu=item&item=gw60) |
+| Approved for [GPSTC](https://www.gpsteamchallenge.com.au/) | [Yes](https://www.gpsteamchallenge.com.au/pages/rules)      |
 
 
 

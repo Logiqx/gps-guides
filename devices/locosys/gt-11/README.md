@@ -12,14 +12,16 @@ In addition to the positional data (latitude and longitude) it recorded Doppler 
 
 ### Specifications
 
-| Item          | Details                                        |
-| ------------- | ---------------------------------------------- |
-| Logging       | 1Hz                                            |
-| Memory        | TBC                                            |
-| Battery       | >24 hours                                      |
-| Charging      | Mini USB cable                                 |
-| Download      | SD card or mini USB cable + NAVILINK           |
-| Best Formats  | SiRF binary (SBN) or SiRF binary, packed (SBP) |
-| Other Formats | n/a                                            |
-| GPS chipset   | SiRF Star II                                   |
+| Item                                                       | Details                                        |
+| ---------------------------------------------------------- | ---------------------------------------------- |
+| Logging                                                    | 1Hz                                            |
+| Memory                                                     | TBC                                            |
+| Battery                                                    | >24 hours                                      |
+| Charging                                                   | Mini USB cable                                 |
+| Download                                                   | SD card or mini USB cable + NAVILINK           |
+| Best Formats                                               | SiRF binary (SBN) or SiRF binary, packed (SBP) |
+| Other Formats                                              | n/a                                            |
+| GPS chipset                                                | SiRF Star II                                   |
+| Approved for [GP3S](https://www.gps-speedsurfing.com/)     | -                                              |
+| Approved for [GPSTC](https://www.gpsteamchallenge.com.au/) | -                                              |
 
