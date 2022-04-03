@@ -1,5 +1,9 @@
 ## GPS Devices
 
+I haven't created pages for all of these devices yet, but I do plan to do so in the future!
+
+
+
 ### Dedicated Devices
 
 - ESP-GPS
