@@ -23,7 +23,7 @@ This may be fine during a true speed sailing session because you will tend to ac
 
 
 
-![img](img/coros_app.png)
+![img](apex-pro/img/coros_app.png)
 
 
 
@@ -37,7 +37,7 @@ Any big differences in the 5 best 10s runs (e.g. 10s run #5) are almost certainl
 
 
 
-![img](img/gpsss.png)
+![img](apex-pro/img/gpsss.png)
 
 
 
@@ -51,7 +51,7 @@ The most ridiculous alpha result that I've seen so far was during a light wind w
 
 Fortunately, alpha results are correct when posted to GP3S and when the FIT file is analysed offline but it is worth knowing they can be highly spurious on the APEX Pro itself and in the COROS app.
 
-![img](img/alpha.jpg)
+![img](apex-pro/img/alpha.jpg)
 
 
 
@@ -70,25 +70,25 @@ The issues described above are just minor annoyances but actual data issues are 
 
 It is common to see repeated speeds in data from the APEX Pro. The screenshot below compares the same 500m run recorded on the Locosys GT-31 (blue) and COROS APEX Pro (red). You might be forgiven for thinking that the COROS has done a better job with the smoother looking plot:
 
-![img](img/500m_151342_2.png)
+![img](apex-pro/img/500m_151342_2.png)
 
 
 
 However, there are lots of repeated speeds in the APEX Pro data which is completely unrealistic. I suspect this may be some kind of smoothing being done by the APEX Pro itself or by the Sony GPS chip. Combined with the next issue (low resolution speed data) it results in unrealistically consistent speeds being recorded.
 
-![img](img/500m_151342_3.png)
+![img](apex-pro/img/500m_151342_3.png)
 
 
 
 When looking across a number of runs it is clear that there are lots of flat regions in the APEX Pro data (red), showing no apparent change of speed.
 
-![img](img/coros_vs_gt31.png)
+![img](apex-pro/img/coros_vs_gt31.png)
 
 
 
 The above comparison with GT-31 data is from a light wind foiling [session](../../../sessions/20220327/README.md) on 27 Mar 2022 but the chart below combines three windsurfing sessions recorded by a [friend](../../../sessions/mark/README.md) on his COROS VERTIX. The chart illustrates that repeated speeds for 5 or 6 seconds are not uncommon in the data and can be go on for as long as 13 seconds. This simply isn't realistic for a windsurfer, let alone when speeds are recorded to 3 decimal places!
 
-![img](img/vertix-repeats.png)
+![img](vertix/img/vertix-repeats.png)
 
 
 
@@ -98,7 +98,7 @@ I completed a detailed [investigation](speed-resolution.md) into the apparent lo
 
 TLDR: I was also able to prove that the resolution of speeds recorded by the VERTIX is 5 cm/s and produced a nice chart (below) by combining the data from my friend's three [sessions](../../../sessions/mark/README.md). Speeds below 8 knots (4 m/s) occasionally appear to have a higher resolution (although it could just be noise) but higher speeds are always around 5 cm/s.
 
-![img](img/vertix-resolution.png)
+![img](vertix/img/vertix-resolution.png)
 
 
 
