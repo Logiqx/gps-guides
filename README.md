@@ -41,6 +41,12 @@ The session data and detailed analysis relating to all of my recent articles is 
 
 
 
+### Contact
+
+If you wish to make contact, feel free to message me on [Facebook](https://www.facebook.com/michael.george.545) or [Seabreaze.com](https://www.seabreeze.com.au/Members/Profile/Details.aspx?member=K888).
+
+
+
 ### Links
 
 GPS technology is pretty complex but it is certainly interesting to understand the general principles.
