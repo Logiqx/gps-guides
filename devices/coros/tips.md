@@ -1,6 +1,6 @@
 ## COROS Tips
 
-### APEX Pro / VERTEX / VERTEX 2
+### APEX Pro / VERTIX / VERTIX 2
 
 Since all 3 devices are very similar in features the tips are identical:
 
