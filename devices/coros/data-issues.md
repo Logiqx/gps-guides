@@ -1,6 +1,6 @@
-## COROS APEX Pro + VERTIX
+## COROS Data Issues
 
-### Data Issues
+### APEX Pro + VERTIX
 
 The issues that I have observed can be placed into two distinct categories:
 
