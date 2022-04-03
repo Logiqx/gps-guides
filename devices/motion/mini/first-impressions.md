@@ -15,7 +15,7 @@ I'd like to do a proper in-depth  review but for now, I'll just jot down some of
 - Firmware update was quick and easy, simply by following the [instructions](https://www.motion-gps.com/motion/documentation.html) provided.
 - Contactless charging is very convenient.
 - Switching the unit on, checking battery levels and switching off is very easy.
-- Downloading data via the built in web server is quick and easy.
+- Downloading data via the built in webserver is quick and easy.
 - Data quality looks to be excellent when analysed in [GPSResults](https://www.gps-speed.com/index.html) and [GPS Speedreader](https://ecwindfest.org/GPS/GPSSpeedreader.html).
 
 
@@ -43,13 +43,13 @@ This was better than the 11 to 13 of the COROS Apex Pro and 6 to 9 of my Locosys
 
 This is the first 10Hz device that I've owned but to my surprise, speed and location data looks to be less "noisy" than the 5Hz devices that I've previously owned.
 
-The Locosys GW-52 and GW-60 were useful devices for direct data comparisons; 5Hz vs 10Hz.
+The Locosys GW-52 and GW-60 were useful devices for direct comparisons; 5Hz vs 10Hz.
 
 
 
 #### sAcc
 
-The u-blox GPS chips generate a speed accuracy metric (sAcc) which is similar to [SDOP](https://nujournal.net/estimating-accuracy-of-gps-doppler-speed-measurement-using-speed-dilution-of-precision-sdop-parameter/) from [Locosys](../../locosys/README.md) devices since the [GT-31](../../locosys/gt-31/README.md).
+The u-blox GPS chips generate a speed accuracy metric (sAcc) which is similar to [SDOP](https://nujournal.net/estimating-accuracy-of-gps-doppler-speed-measurement-using-speed-dilution-of-precision-sdop-parameter/) from the [Locosys](../../locosys/README.md) devices since the [GT-31](../../locosys/gt-31/README.md).
 
 sAcc is extremely consistent on the Motion Mini, far more so than SDOP on any of the Locosys devices. This suggests that speed accuracy is also more consistent than the Locosys devices.
 
@@ -61,7 +61,7 @@ The Motion Mini has far better positional data than any other device that I have
 
 Whilst Doppler speeds should be used in preference to speeds calculated from position data it is worth noting that Doppler and non-Doppler speeds are much closer than on any of the GPS devices from Locosys, COROS, Garmin, etc.
 
-The total time and distance reported by the Motion Mini are also closer than any other GPS device. Static testing of the Motion Mini suggests that positional data is exceptionally accurate.
+The total time and distance reported by the Motion Mini are also closer than any other GPS device that I have tested. Static testing of the Motion Mini suggests that positional data is exceptionally accurate.
 
 
 
@@ -76,9 +76,9 @@ After many years using the Locosys GT-11, GT-31, GW-52, GW-60 and COROS Apex Pro
 
 Pros:
 
-- The device feels solid and is glued shut to ensure it remains waterproof.
-- The adjustable arm strap is comfortable and keeps the unit in place on your arm.
-  - This helps to ensure the GPS is always pointing upwards for the best reception.
+- The device feels solid and is well sealed to ensure it remains waterproof.
+- The adjustable strap is comfortable and keeps the unit in place on your arm.
+  - This helps to ensure the GPS is always pointing upwards for best possible reception.
 - Exceptionally high quality data; better than the GT-31, GW-52 and GW-60.
   - Now that I've seen how good this data is I'll always wear this device on the water!
 - The 10Hz data appears to be better quality than the 5Hz data from Locosys devices.
@@ -89,11 +89,11 @@ Cons:
 
 - The lack of a display means you can't check your speeds during a session.
   - This is not a genuine issue as the device is not designed for this purpose.
-  - The Motion LCD has a display if you want to check your speeds whilst sailing.
-- Connecting to the WiFi of the Motion does mean you temporarily lose your internet.
+  - There is an LCD model with a display if you want to check your speeds whilst sailing.
+- Connecting to the WiFi of the Motion does mean you will temporarily lose your internet.
   - This is really not a biggie. I just download my tracks then switch back to regular WiFi.
 - My mobile phone (Samsung Galaxy S7) cannot access the Motion's built-in webserver.
   - I will investigate further... checking session results from my phone would be nice.
-- Wireless charger showed signs of melting so I replaced it with an [Anker](https://www.amazon.co.uk/dp/B07THHQMHM/) one.
+- Wireless charger showed early signs of melting so I replaced it with an [Anker](https://www.amazon.co.uk/dp/B07THHQMHM/) charger.
   - Julien is now aware and is looking to source an alternative wireless charger.
 
