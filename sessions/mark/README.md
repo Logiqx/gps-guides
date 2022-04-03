@@ -1,16 +1,16 @@
 ## Mark's Tracks
 
-### COROS APEX Pro
+### COROS VERTIX
 
-Mark provided 3 tracks from 2021 to confirm the observations relating to my own APEX Pro.
+Mark provided 3 VERTIX tracks from 2021 to compare with the observations relating to my APEX Pro.
 
-Repeated speeds were abundant in Mark's data, as per my own APEX Pro sessions. The chart below illustrates that repeats for 5 or 6 seconds are not uncommon and can be go on for as long as 13 seconds.
+Repeated speeds were abundant in Mark's VERTIX sessions, just like my APEX Pro sessions. The chart below illustrates that repeats for 5 or 6 seconds are not uncommon and can be go on for as long as 13 seconds.
 
-![img](img/apex-pro-repeats.png)
+![img](img/vertix-repeats.png)
 
 I was also able to confirm the speed resolution of 5cm/s by combining the data from all 3 sessions. Speeds below 8 knots (4 m/s) can sometimes have a higher resolution.
 
-![img](img/apex-pro-resolution.png)
+![img](img/vertix-resolution.png)
 
 
 

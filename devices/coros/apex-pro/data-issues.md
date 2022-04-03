@@ -86,9 +86,9 @@ When looking across a number of runs it is clear that there are lots of flat reg
 
 
 
-The above comparison with GT-31 data is from a light wind foiling [session](../../../sessions/20220327/README.md) on 27 Mar 2022 but the chart below combines three windsurfing sessions recorded by a [friend](../../../sessions/mark/README.md) on his own APEX Pro. The chart illustrates that repeated speeds for 5 or 6 seconds are not uncommon in the data and can be go on for as long as 13 seconds. This simply isn't realistic for a windsurfer, let alone when speeds are recorded to 3 decimal places!
+The above comparison with GT-31 data is from a light wind foiling [session](../../../sessions/20220327/README.md) on 27 Mar 2022 but the chart below combines three windsurfing sessions recorded by a [friend](../../../sessions/mark/README.md) on his COROS VERTIX. The chart illustrates that repeated speeds for 5 or 6 seconds are not uncommon in the data and can be go on for as long as 13 seconds. This simply isn't realistic for a windsurfer, let alone when speeds are recorded to 3 decimal places!
 
-![img](img/apex-pro-repeats.png)
+![img](img/vertix-repeats.png)
 
 
 
@@ -96,9 +96,9 @@ The above comparison with GT-31 data is from a light wind foiling [session](../.
 
 I completed a detailed [investigation](speed-resolution.md) into the apparent low resolution of Doppler speeds logged by the APEX Pro. I would encourage you to take a read if you are interested in how I determined the resolution of speed data on various GPS devices.
 
-TLDR: I was also able to prove that the resolution of speeds recorded by the APEX Pro is  5 cm/s and produced a nice chart (below) by combining the data from my friend's three [sessions](../../../sessions/mark/README.md). Speeds below 8 knots (4 m/s) occasionally appear to have a higher resolution (although it could just be noise) but higher speeds are always around 5 cm/s.
+TLDR: I was also able to prove that the resolution of speeds recorded by the VERTIX is 5 cm/s and produced a nice chart (below) by combining the data from my friend's three [sessions](../../../sessions/mark/README.md). Speeds below 8 knots (4 m/s) occasionally appear to have a higher resolution (although it could just be noise) but higher speeds are always around 5 cm/s.
 
-![img](img/apex-pro-resolution.png)
+![img](img/vertix-resolution.png)
 
 
 
