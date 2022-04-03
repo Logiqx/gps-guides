@@ -14,7 +14,7 @@ Due to several observations relating to the CORO Apex Pro, I've decided to write
 
 #### Spoiler Alert
 
-I've discovered some surprising + frankly disappointing [issues](devices/coros/apex-pro/data-issues.md) with the data of the COROS APEX Pro. It's a great sports watch and I love it in many respects, except its GPS data quality. At best the data can be described as "ok" but it falls short of the GT-31.
+I've discovered some surprising + frankly disappointing [issues](devices/coros/data-issues.md) with the data of the COROS APEX Pro. It's a great sports watch and I love it in many respects, except its GPS data quality. At best the data can be described as "ok" but it falls short of the GT-31.
 
 The Motion Mini offers superior data quality and will now be my primary logging device. However, I'll also continue wearing the APEX Pro during windsurfing, windfoiling and wingfoiling sessions due to its instant feedback and various other handy features.
 

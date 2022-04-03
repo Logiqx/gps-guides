@@ -32,7 +32,7 @@ The VERTIX is basically a more rugged version of the [APEX Pro](../apex-pro/READ
 
 Since the VERTIX shares the same Sony GPS chip and [firmware](https://mobile.coros.com/release) as the [APEX Pro](../apex-pro/README.md), I fully expect the VERTIX to have the same data issues.
 
-I have written a separate article, summarising the observable [data issues](../apex-pro/data-issues.md) on the APEX Pro with links to further details and analysis. The data issues can be summarised as follows:
+I have written a separate article, summarising the observable [data issues](../data-issues.md) on the APEX Pro with links to further details and analysis. The data issues can be summarised as follows:
 
 - Repeated speeds are not uncommon in the data (e.g. exactly the same speed for 5 or 6 seconds) and I've even seen speeds repeated for as long as 12 or 13 seconds.
 - The resolution of Doppler speed data is only to within 5cm/s. This is 5 times lower than devices from Locosys and 50 times lower than devices such as the Motion.

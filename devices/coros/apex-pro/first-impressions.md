@@ -66,4 +66,4 @@ This isn't a full review (or even a mini-review) and is simply a list of bullet 
 - GPX tracks cannot be trusted for speeds.
   - This is fine and is to be expected to some extent. Export FIT data for the best data.
 - FIT data suggests that speeds are being smoothed and somewhat unrealistic.
-  - See my article describing the [data issues](data-issues.md) on the APEX Pro.
+  - See my article describing the [data issues](../data-issues.md) on the APEX Pro.
