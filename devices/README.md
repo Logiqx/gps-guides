@@ -1,6 +1,6 @@
 ## GPS Devices
 
-I haven't created pages for all of these devices yet, but I do plan to do so in the future!
+I haven't created pages for all of these devices yet, but I plan to do so in the future!
 
 
 
