@@ -25,8 +25,8 @@ Further details for the [Motion Mini](https://www.motion-gps.com/motion/document
 | Memory        | 8 GB                                                         |
 | Battery       | ~14 hours @ 10Hz                                             |
 | Charging      | Contactless                                                  |
-| Download      | WiFi - connect to built-in web server                        |
-| Best Format   | OAO                                                          |
+| Download      | WiFi - connect to built-in webserver                         |
+| Best Format   | OAO - up to 10Hz                                             |
 | Other Formats | GPX - 1Hz                                                    |
 | GPS chipset   | u-blox [UBX-M8030](https://www.u-blox.com/en/product/ubx-m8030-series) |
 
