@@ -26,4 +26,5 @@ The GT-31 was superseded by the [GW-52](../gw-52/README.md) in 2015, when Locosy
 | Best Formats  | SiRF binary (SBN) or SiRF binary, packed (SBP)             |
 | Other Formats | n/a                                                        |
 | GPS chipset   | [SiRF Star III](https://en.wikipedia.org/wiki/SiRFstarIII) |
-
+| Approved for [GP3S](https://www.gps-speedsurfing.com/) | [Yes](https://www.gps-speedsurfing.com/default.aspx?mnu=item&item=GTx) |
+| Approved for [GPSTC](https://www.gpsteamchallenge.com.au/) | [Yes](https://www.gpsteamchallenge.com.au/pages/rules)      |

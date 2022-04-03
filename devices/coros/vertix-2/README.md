@@ -14,17 +14,19 @@ The VERTIX 2 is basically an upgraded [VERTIX](../vertix/README.md) with improve
 
 ### Specifications
 
-| Item          | Details                                                      |
-| ------------- | ------------------------------------------------------------ |
-| Logging       | 1Hz                                                          |
-| Memory        | [200 hours](https://support.coros.com/hc/en-us/articles/360044993811-How-much-memory-do-COROS-watches-have) |
-| Battery       | 60 days (non-GPS) / 140 hours (GPS)                          |
-| Charging      | Custom USB cable                                             |
-| Download      | Export from the COROS app - e.g. Dropbox                     |
-| Auto Upload   | [Yes](https://www.gps-speedsurfing.com/default.aspx?mnu=item&item=HowAddSession) |
-| Best Format   | [FIT](https://developer.garmin.com/fit/protocol/)            |
-| Other Formats | [GPX](https://en.wikipedia.org/wiki/GPS_Exchange_Format)     |
-| GPS chipset   | [Airoha AG3335M](http://www.airoha.com.tw/webe/html/pro/index.aspx?kind=80&num=182&lv=2) |
+| Item                                                       | Details                                                      |
+| ---------------------------------------------------------- | ------------------------------------------------------------ |
+| Logging                                                    | 1Hz                                                          |
+| Memory                                                     | [200 hours](https://support.coros.com/hc/en-us/articles/360044993811-How-much-memory-do-COROS-watches-have) |
+| Battery                                                    | 60 days (non-GPS) / 140 hours (GPS)                          |
+| Charging                                                   | Custom USB cable                                             |
+| Download                                                   | Export from the COROS app - e.g. Dropbox                     |
+| Auto Upload                                                | [Yes](https://www.gps-speedsurfing.com/default.aspx?mnu=item&item=HowAddSession) |
+| Best Format                                                | [FIT](https://developer.garmin.com/fit/protocol/)            |
+| Other Formats                                              | [GPX](https://en.wikipedia.org/wiki/GPS_Exchange_Format)     |
+| GPS chipset                                                | [Airoha AG3335M](http://www.airoha.com.tw/webe/html/pro/index.aspx?kind=80&num=182&lv=2) |
+| Approved for [GP3S](https://www.gps-speedsurfing.com/)     | -                                                            |
+| Approved for [GPSTC](https://www.gpsteamchallenge.com.au/) | -                                                            |
 
 
 

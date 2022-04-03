@@ -19,14 +19,16 @@ Further details for the [Motion Mini](https://www.motion-gps.com/motion/document
 
 ### Specifications
 
-| Item          | Details                                                      |
-| ------------- | ------------------------------------------------------------ |
-| Logging       | 1Hz, 2Hz,  5Hz or 10Hz                                       |
-| Memory        | 8 GB                                                         |
-| Battery       | ~14 hours @ 10Hz                                             |
-| Charging      | Contactless                                                  |
-| Download      | WiFi - connect to built-in webserver                         |
-| Best Format   | OAO - up to 10Hz                                             |
-| Other Formats | GPX - 1Hz                                                    |
-| GPS chipset   | u-blox [UBX-M8030](https://www.u-blox.com/en/product/ubx-m8030-series) |
+| Item                                                       | Details                                                      |
+| ---------------------------------------------------------- | ------------------------------------------------------------ |
+| Logging                                                    | 1Hz, 2Hz,  5Hz or 10Hz                                       |
+| Memory                                                     | 8 GB                                                         |
+| Battery                                                    | ~14 hours @ 10Hz                                             |
+| Charging                                                   | Wireless                                                     |
+| Download                                                   | WiFi - connect to built-in webserver                         |
+| Best Format                                                | [OAO](https://www.motion-gps.com/motion/documentation/oao-file-format.html) - up to 10Hz |
+| Other Formats                                              | [GPX](https://en.wikipedia.org/wiki/GPS_Exchange_Format) - 1Hz |
+| GPS chipset                                                | u-blox [UBX-M8030](https://www.u-blox.com/en/product/ubx-m8030-series) |
+| Approved for [GP3S](https://www.gps-speedsurfing.com/)     | [Yes](https://www.gps-speedsurfing.com/default.aspx?mnu=item&item=gpsother) |
+| Approved for [GPSTC](https://www.gpsteamchallenge.com.au/) | [Yes](https://www.gpsteamchallenge.com.au/pages/rules)       |
 

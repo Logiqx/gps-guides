@@ -24,6 +24,8 @@ The GW-52 superseded the [GT-31](../gt-31/README.md) in 2015, when Locosys stopp
 | Best Format   | SiRF binary, packed (SBP)     |
 | Other Formats | n/a                           |
 | GPS chipset   | MediaTek, possibly the MT3318 |
+| Approved for [GP3S](https://www.gps-speedsurfing.com/) | [Yes](https://www.gps-speedsurfing.com/default.aspx?mnu=item&item=GTx) |
+| Approved for [GPSTC](https://www.gpsteamchallenge.com.au/) | [Yes](https://www.gpsteamchallenge.com.au/pages/rules)      |
 
 
 
