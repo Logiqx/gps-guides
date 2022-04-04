@@ -1,5 +1,7 @@
 ## Gyro1 - TODO
 
+![img](img/gyro1.jpg)
+
 ### Overview
 
 Approved since Aug 2016 on [GP3S](https://www.gps-icesailing.com/default.aspx?mnu=forum&forum=6&val=108406)
@@ -11,6 +13,20 @@ Raymond's profile on [Seabreeze.com](https://www.seabreeze.com.au/Members/Profil
 
 
 ### Specification
+
+- Output : raw UBX, NAV-PVT and NAV-SVINFO (as required by GP3S)(1,5,10 and 18hz)
+
+- Waterproof : TBA, depends on approval
+
+- Communication: Micro-SD card up to 32GB, I use Linux  (SDXC could work, but for now 32GB is fine)
+
+- Settings: Via a config file, you can create this on my website : gearloose.nl/gps.html
+
+- Battery: 1800mAh, on 18hz it runs 24hr
+
+- Screen: LCD, 3 times the size of the GT-31
+
+  
 
 - 1 gps @ 18hz
 - 1800mah lipo battery
