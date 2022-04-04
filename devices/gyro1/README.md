@@ -2,7 +2,7 @@
 
 ### Overview
 
-Approved since 2016 on [GP3S](https://www.gps-icesailing.com/default.aspx?mnu=forum&forum=6&val=108406)
+Approved since Aug 2016 on [GP3S](https://www.gps-icesailing.com/default.aspx?mnu=forum&forum=6&val=108406)
 
 Official [Website](http://gearloose.nl/)
 
