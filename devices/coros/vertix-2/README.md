@@ -8,7 +8,7 @@ Details about the [VERTIX 2](https://coros.com/vertix2) can be found on the CORO
 
 GPS-Speedsurfing.com (GP3S) and COROS worked together to develop a tailor made workout mode. This includes additional data for session verification and automatic uploading to GP3S. Further details can be found on the GP3S [website](https://www.gps-speedsurfing.com/default.aspx?mnu=item&item=coros).
 
-The VERTIX 2 is basically an upgraded [VERTIX](../vertix/README.md) with improved battery life and a different GPS chip; replacing the Sony with one from Airoha.
+The VERTIX 2 is essentially an upgraded [VERTIX](../vertix/README.md) with improved battery life and a different GPS chip; replacing the Sony with the AG3335M from Airoha. I have been informed that the VERTIX 2 is comparable to u-blox 8 based devices such as the Gyro1, [Motions](../../motion/README.md) and [ESP-GPS](../../esp-gps/README.md).
 
 
 
@@ -27,12 +27,6 @@ The VERTIX 2 is basically an upgraded [VERTIX](../vertix/README.md) with improve
 | GPS chipset                                                | [Airoha AG3335M](http://www.airoha.com.tw/webe/html/pro/index.aspx?kind=80&num=182&lv=2) |
 | Approved for [GP3S](https://www.gps-speedsurfing.com/)     | -                                                            |
 | Approved for [GPSTC](https://www.gpsteamchallenge.com.au/) | -                                                            |
-
-
-
-### Data Quality
-
-The VERTIX 2 has a different GPS chipset to the VERTIX and APEX Pro, so I cannot comment on the likely data quality at this time.
 
 
 
