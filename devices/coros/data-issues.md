@@ -94,7 +94,7 @@ The above comparison with GT-31 data is from a light wind foiling [session](../.
 
 #### Low Resolution Doppler Speeds
 
-I completed a detailed [investigation](speed-resolution.md) into the apparent low resolution of Doppler speeds logged by the APEX Pro. I would encourage you to take a read if you are interested in how I determined the resolution of speed data on various GPS devices.
+I completed a detailed [investigation](apex-pro/speed-resolution.md) into the apparent low resolution of Doppler speeds logged by the APEX Pro. I would encourage you to take a read if you are interested in how I determined the resolution of speed data on various GPS devices.
 
 TLDR: I was also able to prove that the resolution of speeds recorded by the VERTIX is 5 cm/s and produced a nice chart (below) by combining the data from my friend's three [sessions](../../../sessions/mark/README.md). Speeds below 8 knots (4 m/s) occasionally appear to have a higher resolution (although it could just be noise) but higher speeds are always around 5 cm/s.
 
@@ -108,7 +108,7 @@ This discovery might go some way to explaining why so many identical speeds can 
 
 It's worth noting that this may also affect other devices with the Sony GPS chip; e.g. Garmin, Suunto and Polar devices launched between 2018/2019 and 2021. I will confirm this when I get hold of some data from the various devices.
 
-For full details, please see the [investigation](speed-resolution.md) into low resolution Doppler speeds on the APEX Pro.
+For full details, please see the [investigation](apex-pro/speed-resolution.md) into low resolution Doppler speeds on the APEX Pro.
 
 
 

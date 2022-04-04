@@ -8,7 +8,7 @@ The ESP-GPS is an inexpensive GPS logger with display, specifically designed for
 
 It is designed to be easy to build yourself with readily available components. It uses the Beitian BN220 / BN280 GPS chips which are based on the u-blox [NEO-M8N](https://www.u-blox.com/en/product/neo-m8-series) GNSS module.
 
-The device provides superior data quality compared to the popular [Locosys](../../locosys/README.md) devices and modern smart / sports watches from the likes of COROS, Garmin, Suunto and Polar.
+The device provides superior data quality compared to the popular [Locosys](../locosys/README.md) devices and modern smart / sports watches from the likes of COROS, Garmin, Suunto and Polar.
 
 Recent developments and community participation can be found on [Seabreeze.com](https://www.seabreeze.com.au/forums/Windsurfing/Gps/Another-DIY-GPS-logger-approach).
 
