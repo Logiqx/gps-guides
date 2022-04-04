@@ -186,3 +186,10 @@ It's also worth noting that the error levels of the GW-60 increase when using an
 Most people already know about differences between speeds on the COROS app and the GP3S website. It's a mild irritation but not hugely important that the watch calculates slightly different results during the session.
 
 I'm most concerned about the quality of the speed data that it produces; certainly nowhere near as good as the old trusty GT-31.
+
+
+
+### Track Data
+
+You can find all of the tracks on [GitHub](https://github.com/Logiqx/gps-guides) under sessions/2022026/tracks.
+

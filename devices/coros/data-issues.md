@@ -111,3 +111,8 @@ It's worth noting that this may also affect other devices with the Sony GPS chip
 For full details, please see the [investigation](speed-resolution.md) into low resolution Doppler speeds on the APEX Pro.
 
 
+
+### Track Data
+
+You can find all of the tracks on [GitHub](https://github.com/Logiqx/gps-guides) under sessions/20220327/tracks.
+

@@ -37,3 +37,10 @@ Focused on analysis of 500m runs:
   - Very flat in Doppler data
 
 Really good example of COROS app not matching results in .fit / GP3S
+
+
+
+### Track Data
+
+You can find all of the tracks on [GitHub](https://github.com/Logiqx/gps-guides) under sessions/20220326/tracks.
+
