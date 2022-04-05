@@ -10,6 +10,7 @@ Summary:
 
 - My first time breaking 30 knots on a hydrofoil. yay!
 - I confirmed the COROS [data issues](../../devices/coros/data-issues.md) are still present in the V2.66.0 firmware.
+- 500m results add useful insight into appropriate mAcc filter values.
 - I also did some "crash testing" during the session. Useful for SDOP and sAcc analysis!
 
 The session [notes](20220404/README.md) contain more detail on these topics.

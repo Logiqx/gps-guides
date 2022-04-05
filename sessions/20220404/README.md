@@ -6,11 +6,10 @@
 
 Windfoil session in westerly winds. Brogborough Lake, UK.
 
-My first time breaking 30 knots on a hydrofoil. yay!
-
-Importantly, I confirmed the COROS [data issues](../../devices/coros/data-issues.md) are still present in the V2.66.0 firmware.
-
-I also did some "crash testing" during the session. Useful for SDOP and sAcc analysis!
+- My first time breaking 30 knots on a hydrofoil. yay!
+- Importantly, I confirmed the COROS [data issues](../../devices/coros/data-issues.md) are still present in the V2.66.0 firmware.
+- 500m results add useful insight into appropriate mAcc filter values.
+- I also did some "crash testing" during the session. Useful for SDOP and sAcc analysis!
 
 
 
@@ -24,6 +23,23 @@ I also did some "crash testing" during the session. Useful for SDOP and sAcc ana
 - Motion Mini (10 Hz) - firmware 3068 - left bicep.
 
 ![img](img/devices.jpg)
+
+
+
+### mAcc Filter
+
+The alpha 500 results provide useful insights into appropriate mAcc filter values on a 10Hz device.
+
+- GPSResults reports the best alpha 500 (slightly over 22 knots) at 12:56 on all devices.
+- All devices with the exception of the Motion Mini also have this alpha as the fastest 500m.
+
+GPSResults does not regard the Motion Mini alpha as a valid 500m because mAcc is 11.2 and the filter only allows mAcc of 10.0. This results in an anomaly that the alpha is faster than the 500m; 22.132 @ 12:56:03 vs 21.820 @ 14:10:13 
+
+Looking at the data from the Motion Mini it is is clear that the sAcc is very low and consistent through the alpha and the high mAcc for what was probably 1/10th second was most likely the rig flip.
+
+Other alpha results in this track contain an mAcc of 13.7, 13.8 and 14.1. In all instances the sAcc is extremely low and these runs should therefore be considered valid over 500m.
+
+Conclusion: For 10Hz data from the Motion Mini it seems to make sense to have an mAcc filter of 16.0 like [GPS Speedreader](https://ecwindfest.org/GPS/GPSSpeedreader.html).
 
 
 
