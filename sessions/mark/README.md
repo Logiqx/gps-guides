@@ -8,7 +8,7 @@ Repeated speeds were abundant in Mark's VERTIX sessions, just like my APEX Pro s
 
 ![img](img/vertix-repeats.png)
 
-I was also able to confirm the speed resolution of 5cm/s by combining the data from all 3 sessions. Speeds below 8 knots (4 m/s) can sometimes have a higher resolution.
+I was also able to confirm the speed resolution of 5 cm/s by combining the data from all 3 sessions. Speeds below 8 knots (4 m/s) can sometimes have a higher resolution.
 
 ![img](img/vertix-resolution.png)
 
@@ -18,7 +18,7 @@ I was also able to confirm the speed resolution of 5cm/s by combining the data f
 
 Mark also provided me with a track from the Garmin Fenix 5.
 
-I was able to confirm the resolution of 1cm/s which is the same as Locosys devices; e.g. GT-31, GW-52, GW-60:
+I was able to confirm the resolution of 1 cm/s which is the same as Locosys devices; e.g. GT-31, GW-52, GW-60:
 
 ![img](img/fenix-5-resolution.png)
 
