@@ -191,5 +191,5 @@ I'm most concerned about the quality of the speed data that it produces; certain
 
 ### Track Data
 
-You can find all of the tracks on [GitHub](https://github.com/Logiqx/gps-guides) under sessions/2022026/tracks.
+You can find all of the tracks on [GitHub](https://github.com/Logiqx/gps-guides) under sessions/20220327/tracks.
 
