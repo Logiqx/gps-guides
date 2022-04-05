@@ -92,7 +92,7 @@ The methodology that I used to identify the resolutions will be explained later 
 
 |                                   | COROS<br />APEX Pro | Locosys<br />GW-52 + GW-60 | Motion<br />Mini |
 | --------------------------------- | ------------------- | -------------------------- | ---------------- |
-| Doppler "speed resolution"        | 5cm/s               | 1cm/s                      | 1mm/s            |
+| Doppler "speed resolution"        | 5 cm/s              | 1 cm/s                     | 1 mm/s           |
 | Resolution in km/h                | 0.18                | 0.036                      | 0.0036           |
 | Resolution in knots               | 0.09719             | 0.01944                    | 0.001944         |
 | Approximate resolution in km/h    | 0.2                 | 0.04                       | 0.004            |
