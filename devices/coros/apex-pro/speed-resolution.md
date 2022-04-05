@@ -216,11 +216,11 @@ The speeds are integers (cm/s) and it was noted that the full resolution of 1 cm
 
 #### Motion Mini
 
-For practical reasons the 1HZ GPX file from the Motion Mini was used for this piece of analysis, instead of the 10Hz OAO file.
+For practical reasons the 1HZ GPX file from the Motion Mini was used for this piece of analysis, instead of the 10 Hz OAO file.
 
 The speeds are integers (mm/s) and it was observed that the full resolution of 1 mm/s was being used by the Motion Mini.
 
-Due to 10x the number of possible speeds, relatively short session and 1 Hz data (not 10Hz), not all values were confirmed as being possible but the data was plenty good enough to show that the Motion Mini does indeed have a speed resolution of 1 mm/s.
+Due to 10x the number of possible speeds, relatively short session and 1 Hz data (not 10 Hz), not all values were confirmed as being possible but the data was plenty good enough to show that the Motion Mini does indeed have a speed resolution of 1 mm/s.
 
 1 mm/s is approximately 0.004 km/h or 0.002 knots so it makes sense to report speeds from the Motion to 3 decimal places, unless it is shown that the GPS accuracy doesn't warrant such high levels of precision when reported.
 

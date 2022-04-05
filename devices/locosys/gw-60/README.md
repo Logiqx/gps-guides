@@ -16,9 +16,9 @@ Convenient as it was to have a wrist watch, the GW-60 was prone to water ingress
 
 | Item          | Details                                |
 | ------------- | -------------------------------------- |
-| Logging       | 1Hz or 5Hz                             |
+| Logging       | 1 Hz or 5 Hz                             |
 | Memory        | TBC but somewhat larger than the GW-52 |
-| Battery       | ~5 hours @ 5Hz                         |
+| Battery       | ~5 hours @ 5 Hz                         |
 | Charging      | Custom USB cable                       |
 | Download      | Custom USB cable + GW60Util            |
 | Best Format   | SiRF binary, packed (SBP)              |

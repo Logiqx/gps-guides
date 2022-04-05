@@ -18,7 +18,7 @@ The GT-31 was superseded by the [GW-52](../gw-52/README.md) in 2015, when Locosy
 
 | Item          | Details                                                    |
 | ------------- | ---------------------------------------------------------- |
-| Logging       | 1Hz                                                        |
+| Logging       | 1 Hz                                                        |
 | Memory        | ~4h 30m (internal) but much more with SD card              |
 | Battery       | >30 hours                                                  |
 | Charging      | Mini USB cable                                             |

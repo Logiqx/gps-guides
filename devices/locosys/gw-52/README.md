@@ -16,9 +16,9 @@ The GW-52 superseded the [GT-31](../gt-31/README.md) in 2015, when Locosys stopp
 
 | Item          | Details                       |
 | ------------- | ----------------------------- |
-| Logging       | 1Hz or 5Hz                    |
-| Memory        | 35h 50m @ 1Hz or 7h 10m @ 5Hz |
-| Battery       | ~8 hours @ 5Hz                |
+| Logging       | 1 Hz or 5 Hz                    |
+| Memory        | 35h 50m @ 1 Hz or 7h 10m @ 5 Hz |
+| Battery       | ~8 hours @ 5 Hz                |
 | Charging      | Micro USB cable               |
 | Download      | Micro USB cable + GW52Util    |
 | Best Format   | SiRF binary, packed (SBP)     |

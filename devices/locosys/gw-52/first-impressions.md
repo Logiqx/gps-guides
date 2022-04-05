@@ -82,7 +82,7 @@ Resetting the top 10 speeds to zero is straightforward before going sailing. It 
 
 Whilst sailing the GW-52 behaves in much the same way as the GT-31. Whilst travelling at speed the GW-52 will display current speed or N second average, according to the ACTION SPD. After each run the GW-52 will show the peak speed / N second average and firmware V1.1 / V1.2 will also show the best speed(s) of the session.
 
-It is worth noting that the Speed Genie of the GW-52 will often show higher speeds than a computer once the track has been downloaded. This is because the Speed Genie is updating at 5Hz even if the data is being logged at 1Hz.
+It is worth noting that the Speed Genie of the GW-52 will often show higher speeds than a computer once the track has been downloaded. This is because the Speed Genie is updating at 5 Hz even if the data is being logged at 1 Hz.
 
 Reviewing the best runs of the session is slightly better on the GW-52. The picture above shows how five results are displayed at a time on the GW-52 in comparison with three results on the GT-31. Five results is ideal for reviewing the session average (5x10s) and the GW-52 is also easier to operate than the GT-31 when inside an Aqua Pac.
 
@@ -94,13 +94,13 @@ Note: Screen contrast is slightly lower on the GW-52 so it may be harder to read
 
 The GT-31 and GW-52 both have a circular memory which wraps around when full:
 
-- GT-31 = 16,190 data points, approx. 4h30m@1Hz
+- GT-31 = 16,190 data points, approx. 4h30m@1 Hz
 
-- GW-52 = 129,024 data points, approx. 35h50m@1Hz or 7h10m@5Hz
+- GW-52 = 129,024 data points, approx. 35h50m@1 Hz or 7h10m@5 Hz
 
 The GT-31 also allows data to be written to SD-CARD which offers greater capacity and is also a pretty convenient way of downloading data onto a computer.
 
-Setting the MIN SPEED to “1” means that the GW-52 will only record data whilst moving and the capacity at 1Hz can then be considered to be 36 hours of movement.
+Setting the MIN SPEED to “1” means that the GW-52 will only record data whilst moving and the capacity at 1 Hz can then be considered to be 36 hours of movement.
 
 
 
@@ -108,7 +108,7 @@ Setting the MIN SPEED to “1” means that the GW-52 will only record data whil
 
 The battery life of the GT-31 was pretty remarkable for a handheld GPS device and it didn’t require charging every session. It could easily have lasted for around 36 hours in total.
 
-The battery life of the GW-52 is approximately 8 hours when logging at 5Hz. Logging at 1Hz may extend the battery life by about an hour and charging takes about 2.5 hours after a full discharge.
+The battery life of the GW-52 is approximately 8 hours when logging at 5 Hz. Logging at 1 Hz may extend the battery life by about an hour and charging takes about 2.5 hours after a full discharge.
 
 This reminds me of way-back when I switched from a simple Nokia mobile phone with a battery life in excess of a week to a smart phone which needed to be charged every day… progress?
 
@@ -138,9 +138,9 @@ The GW-52 Utility allows the GW-52 settings to be reviewed/changed and log data 
 
 Download speeds (via USB) are 50-80 times faster on the GW-52:
 
-- GT-31 is 9,600 bps – full log (4.5h @ 1Hz) takes 6 minutes. i.e. 80s per hour of sailing
+- GT-31 is 9,600 bps – full log (4.5h @ 1 Hz) takes 6 minutes. i.e. 80s per hour of sailing
 
-- GW-52 is 460,800 bps – full log (35h50m @ 1Hz) takes 1 minute. i.e. 1s per hour of sailing
+- GW-52 is 460,800 bps – full log (35h50m @ 1 Hz) takes 1 minute. i.e. 1s per hour of sailing
 
 The latest [GW-52 Utility](https://www.locosystech.com/en/product/gps-handheld-data-logger-gw-52.html) is available from the Locosys website.
 
@@ -150,13 +150,13 @@ The latest [GW-52 Utility](https://www.locosystech.com/en/product/gps-handheld-d
 
 ![img](img/clip_image020.jpg)
 
-Weymouth session comparing GT-31 (top) and GW-52 @1Hz (bottom) over 1000m.
+Weymouth session comparing GT-31 (top) and GW-52 @1 Hz (bottom) over 1000m.
 
 Traces look near-identical and mSDOP is comparable, practically the same level of accuracy.
 
 ![img](img/clip_image022.jpg)
 
-Southend-on-Sea session comparing GT-31 (top) and GW-52 @1Hz (bottom) over 1000m.
+Southend-on-Sea session comparing GT-31 (top) and GW-52 @1 Hz (bottom) over 1000m.
 
 Traces look near-identical and mSDOP is comparable, practically the same level of accuracy.
 
@@ -166,13 +166,13 @@ Traces look near-identical and mSDOP is comparable, practically the same level o
 
 ![img](img/clip_image024.jpg)
 
-Southend-on-Sea session comparing GT-31 (top) and GW-52 @5Hz (bottom) over 1000m.
+Southend-on-Sea session comparing GT-31 (top) and GW-52 @5 Hz (bottom) over 1000m.
 
 Notice how the mSDOP values are 2.6 times higher on the GW-52, implying the individual readings are less accurate. The GW-52 trace is more jagged and emphasises the inaccuracy of the individual readings. 
 
 ![img](img/clip_image026.jpg)
 
-West Kirby session comparing GT-31 (top) and GW-52 @5Hz (bottom) over 500m.
+West Kirby session comparing GT-31 (top) and GW-52 @5 Hz (bottom) over 500m.
 
 Notice how the mSDOP values are 3.2 times higher on the GW-52, implying the individual readings are less accurate. The GW-52 trace is more jagged and emphasises the inaccuracy of the individual readings. 
 
@@ -180,7 +180,7 @@ Notice how the mSDOP values are 3.2 times higher on the GW-52, implying the indi
 
 ### INTERPRETATION
 
-The nature of the physics, electronics and mathematics relating to GPS technology dictates that the accuracy of an individual readings will decrease when sampling rate is increased. This appears to be evident in the GW-52 when the logging is changed from 1Hz to 5Hz.
+The nature of the physics, electronics and mathematics relating to GPS technology dictates that the accuracy of an individual readings will decrease when sampling rate is increased. This appears to be evident in the GW-52 when the logging is changed from 1 Hz to 5 Hz.
 
 To rule out the possibility of chop being a cause for inaccuracies (or indeed the track being an accurate representation of bouncing over chop) a further test recording was done in a car. It showed the same differences in mSDOP values and the same jagged traces even on smooth roads.
 
@@ -192,7 +192,7 @@ Whilst it is possible for the jagged traces to be smoothed out in software it do
 
 The GW-52 is a nice device and possibly a little better than the GT-31 whilst selling for a similar price. If you have been planning to buy a GT-31 or need to replace a broken GT-31 then the GW-52 is probably for you, putting aside Mac support. If you already have a GT-31 which you are happy with it probably isn’t worth rushing out to buy a GW-52 as an upgrade.
 
-Until the accuracy of 5Hz logging is better understood, 1Hz is probably advisable. 1Hz is comparable to the GT-31 and will increase the GW-52 memory capacity from 7h10m (5Hz) to 35h50m (1Hz). The time taken to download via USB will be reduced and the processing time in GPSResults / GpsarPro will also be reduced.
+Until the accuracy of 5 Hz logging is better understood, 1 Hz is probably advisable. 1 Hz is comparable to the GT-31 and will increase the GW-52 memory capacity from 7h10m (5 Hz) to 35h50m (1 Hz). The time taken to download via USB will be reduced and the processing time in GPSResults / GpsarPro will also be reduced.
 
  
 

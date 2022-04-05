@@ -16,7 +16,7 @@ The VERTIX 2 is essentially an upgraded [VERTIX](../vertix/README.md) with impro
 
 | Item                                                       | Details                                                      |
 | ---------------------------------------------------------- | ------------------------------------------------------------ |
-| Logging                                                    | 1Hz                                                          |
+| Logging                                                    | 1 Hz                                                          |
 | Memory                                                     | [200 hours](https://support.coros.com/hc/en-us/articles/360044993811-How-much-memory-do-COROS-watches-have) |
 | Battery                                                    | 60 days (non-GPS) / 140 hours (GPS)                          |
 | Charging                                                   | Custom USB cable                                             |

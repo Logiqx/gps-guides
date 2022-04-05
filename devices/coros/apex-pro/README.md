@@ -16,7 +16,7 @@ I made notes about my [first impressions](first-impressions.md) of the APEX Pro 
 
 | Item          | Details                                                      |
 | ------------- | ------------------------------------------------------------ |
-| Logging       | 1Hz                                                          |
+| Logging       | 1 Hz                                                          |
 | Memory        | [200 hours](https://support.coros.com/hc/en-us/articles/360044993811-How-much-memory-do-COROS-watches-have) |
 | Battery       | 30 days (non-GPS) / 40 hours (GPS)                           |
 | Charging      | Custom USB cable                                             |
