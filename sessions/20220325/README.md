@@ -14,11 +14,11 @@ Issues highlighted:
 
 #### Devices
 
-- COROS APEX Pro (1Hz) - firmware V2.54 - left wrist over wetsuit.
+- COROS APEX Pro (1 Hz) - firmware V2.54 - left wrist over wetsuit.
 
-- Locosys GW-60 (5Hz) - firmware V1.3A0926B - right wrist over wetsuit.
+- Locosys GW-60 (5 Hz) - firmware V1.3A0926B - right wrist over wetsuit.
 
-- Motion Mini (10Hz) - firmware 3068 - right bicep.
+- Motion Mini (10 Hz) - firmware 3068 - right bicep.
 
 
 

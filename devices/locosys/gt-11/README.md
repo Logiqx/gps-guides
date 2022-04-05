@@ -14,7 +14,7 @@ In addition to the positional data (latitude and longitude) it recorded Doppler 
 
 | Item                                                       | Details                                        |
 | ---------------------------------------------------------- | ---------------------------------------------- |
-| Logging                                                    | 1Hz                                            |
+| Logging                                                    | 1 Hz                                            |
 | Memory                                                     | TBC                                            |
 | Battery                                                    | >24 hours                                      |
 | Charging                                                   | Mini USB cable                                 |

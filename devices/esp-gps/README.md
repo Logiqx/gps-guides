@@ -20,12 +20,12 @@ Full details of the [ESP-GPS](https://tinyurl.com/yc87n4p5), including the [DIY]
 
 | Item               | Details                                                      |
 | ------------------ | ------------------------------------------------------------ |
-| Logging            | 1Hz, 2Hz,  5Hz or 10Hz                                       |
+| Logging            | 1 Hz, 2 Hz,  5 Hz or 10 Hz                                       |
 | Memory             | Micro SD card                                                |
 | Battery            | ~15 hours                                                    |
 | Charging           | Micro USB cable or Wireless                                  |
 | Download           | [FTP](https://en.wikipedia.org/wiki/File_Transfer_Protocol) - connect to built-in FTP server |
-| Best Format        | [OAO](https://www.motion-gps.com/motion/documentation/oao-file-format.html) - up to 10Hz |
+| Best Format        | [OAO](https://www.motion-gps.com/motion/documentation/oao-file-format.html) - up to 10 Hz |
 | Other Formats      | UBX                                                          |
 | GPS chipset        | Beitian BN220 / BN280 - based on u-blox [NEO-M8N](https://www.u-blox.com/en/product/neo-m8-series) |
 | Approved for [GP3S](https://www.gps-speedsurfing.com/) | [Yes](https://www.gps-speedsurfing.com/default.aspx?mnu=item&item=gpsother) |

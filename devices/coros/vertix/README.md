@@ -16,7 +16,7 @@ The VERTIX is basically a more rugged version of the [APEX Pro](../apex-pro/READ
 
 | Item          | Details                                                      |
 | ------------- | ------------------------------------------------------------ |
-| Logging       | 1Hz                                                          |
+| Logging       | 1 Hz                                                          |
 | Memory        | [200 hours](https://support.coros.com/hc/en-us/articles/360044993811-How-much-memory-do-COROS-watches-have) |
 | Battery       | 45 days (non-GPS) / 60 hours (GPS)                           |
 | Charging      | Custom USB cable                                             |

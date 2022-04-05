@@ -15,12 +15,12 @@ Issues highlighted:
 
 #### Devices
 
-- COROS APEX Pro (1Hz) - firmware V2.54 - left wrist over wetsuit.
-- Locosys GW-60 (5Hz) - firmware V1.3A0926B - right wrist over wetsuit.
-- Locosys GW-52 (5Hz) and GT-31 (1Hz) - stored in Aquapac on right bicep.
+- COROS APEX Pro (1 Hz) - firmware V2.54 - left wrist over wetsuit.
+- Locosys GW-60 (5 Hz) - firmware V1.3A0926B - right wrist over wetsuit.
+- Locosys GW-52 (5 Hz) and GT-31 (1 Hz) - stored in Aquapac on right bicep.
   - GW-52 - firmware V1.2 G0529C - bottom of Aquapac, oriented downwards.
   - GW-31 - firmware V1.4 B0803T - top of Aquapac, oriented upwards with screen flipped.
-- Motion Mini (10Hz) - firmware 3068 - left bicep.
+- Motion Mini (10 Hz) - firmware 3068 - left bicep.
 
 ![img](img/devices.jpg)
 

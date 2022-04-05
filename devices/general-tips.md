@@ -41,8 +41,8 @@ Boom and wrist tend to show micro-accelerations caused by chop.
 ### Frequency
 
 - Higher frequency units show higher acceleration.
-  - 10Hz Motion > 5Hz GW-60 > 1Hz COROS
-  - GPS Results 6.173 PC / 5.63 Mac changed maximum acceleration for 10Hz units to 10m/s².
+  - 10 Hz Motion > 5 Hz GW-60 > 1 Hz COROS
+  - GPS Results 6.173 PC / 5.63 Mac changed maximum acceleration for 10 Hz units to 10m/s².
 - Higher frequencies have distances (m) closer to intended - e.g. 500.3m vs 503.8m.
 
 Note that higher frequency logs take significantly longer to process in GPSResults - **TBC 6.185**
@@ -123,8 +123,8 @@ Really "max speed + noise"
 
 #### Filters
 
-- Maximum speed error (knots); 2.0 for 1 Hz, 4.0 for 5 Hz / 10Hz
-  - Recommend using 1.0 for 5Hz / 10Hz - sailquick
+- Maximum speed error (knots); 2.0 for 1 Hz, 4.0 for 5 Hz / 10 Hz
+  - Recommend using 1.0 for 5 Hz / 10 Hz - sailquick
   - Use 2.0 for GW-60 due to wrist mounting during gybes
 - Maximum acceleration (m/s<sup>2</sup>); 4.0 @ 1 Hz, 8.0 @ 5 Hz, **10.0** @ 10 Hz
 - Error propagation; average @ 1 Hz, Gaussian @ 5 Hz / 10 Hz
@@ -220,6 +220,6 @@ https://www.seabreeze.com.au/forums/Windsurfing/Gps/GW-52-5-Hz-Spikes-are-noise)
 
 [Kalman Filter](https://en.wikipedia.org/wiki/Kalman_filter) on WIkipedia
 
-[Dead Toys and Lots of Noise](https://boardsurfr.blogspot.com/2016/07/dead-toys-and-lots-of-noise.html?utm_source=seabreeze.com.au) blog about 5Hz noise on GW-52
+[Dead Toys and Lots of Noise](https://boardsurfr.blogspot.com/2016/07/dead-toys-and-lots-of-noise.html?utm_source=seabreeze.com.au) blog about 5 Hz noise on GW-52
 
 ​	[GW-52 5 Hz Spikes are noise](

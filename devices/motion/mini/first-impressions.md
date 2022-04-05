@@ -39,11 +39,11 @@ This was better than the 11 to 13 of the COROS APEX Pro and 6 to 9 of my Locosys
 
 
 
-#### 10Hz
+#### 10 Hz
 
-This is the first 10Hz device that I've owned but to my surprise, speed and location data looks to be less "noisy" than the 5Hz devices that I've previously owned.
+This is the first 10 Hz device that I've owned but to my surprise, speed and location data looks to be less "noisy" than the 5 Hz devices that I've previously owned.
 
-The Locosys GW-52 and GW-60 were useful devices for direct comparisons; 5Hz vs 10Hz.
+The Locosys GW-52 and GW-60 were useful devices for direct comparisons; 5 Hz vs 10 Hz.
 
 
 
@@ -81,7 +81,7 @@ Pros:
   - This helps to ensure the GPS is always pointing upwards for best possible reception.
 - Exceptionally high quality data; better than the GT-31, GW-52 and GW-60.
   - Now that I've seen how good this data is I'll always wear this device on the water!
-- The 10Hz data appears to be better quality than the 5Hz data from Locosys devices.
+- The 10 Hz data appears to be better quality than the 5 Hz data from Locosys devices.
 - Decent battery life which will last me several sessions before a recharge.
 - Nice price - £90 as a UK purchaser.
 
