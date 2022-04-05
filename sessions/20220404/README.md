@@ -37,6 +37,10 @@ GPSResults does not regard the Motion Mini alpha as a valid 500m because mAcc is
 
 Looking at the data from the Motion Mini it is is clear that the sAcc is very low and consistent through the alpha and the high mAcc for what was probably 1/10th second was most likely the rig flip.
 
+The screenshot is from GPS Speedreader, showing consistent sAcc at the bottom.
+
+![img](img/alpha.png)
+
 Other alpha results in this track contain an mAcc of 13.7, 13.8 and 14.1. In all instances the sAcc is extremely low and these runs should therefore be considered valid over 500m.
 
 Conclusion: For 10Hz data from the Motion Mini it seems to make sense to have an mAcc filter of 16.0 like [GPS Speedreader](https://ecwindfest.org/GPS/GPSSpeedreader.html).
