@@ -19,7 +19,7 @@ The devices below were all developed specifically for speedsurfing.
 
 ### Sports Watches
 
-Please read general [guidance](../guidance.md) for all users of smart / sports watches!
+Please read the general [guidance](../guidance.md) for all users of smart / sports watches!
 
 Smart / sports watches popular for speedsurfing include the following:
 

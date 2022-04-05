@@ -1,6 +1,6 @@
 ## Motion
 
-The Motion devices are fully approved for [GP3S](https://www.gps-speedsurfing.com/default.aspx?mnu=item&item=coros) and [GPSTC](https://www.gpsteamchallenge.com.au/pages/rules).
+The Motion devices are fully approved for [GP3S](https://www.gps-speedsurfing.com/default.aspx?mnu=item&item=gpsother) and [GPSTC](https://www.gpsteamchallenge.com.au/pages/rules).
 
 Devices:
 
