@@ -32,3 +32,8 @@ Further details for the [Motion Mini](https://www.motion-gps.com/motion/document
 | Approved for [GP3S](https://www.gps-speedsurfing.com/)     | [Yes](https://www.gps-speedsurfing.com/default.aspx?mnu=item&item=gpsother) |
 | Approved for [GPSTC](https://www.gpsteamchallenge.com.au/) | [Yes](https://www.gpsteamchallenge.com.au/pages/rules)       |
 
+
+
+### Tips
+
+- Be sure to update the timezone (via the built in settings) when clocks change.
