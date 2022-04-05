@@ -19,7 +19,7 @@ Further details for the [Gyro1](https://gearloose.nl/) can be found on the Gearl
 | Item                                                       | Details                                                      |
 | ---------------------------------------------------------- | ------------------------------------------------------------ |
 | Logging                                                    | 1 Hz, 5 Hz, 10 Hz or 18 Hz                                   |
-| Memory                                                     | Micro SD card - up to 32GB                                   |
+| Memory                                                     | Micro SD card - up to 32 GB                                   |
 | Battery                                                    | 24 hours                                                     |
 | Charging                                                   | TBC                                                          |
 | Download                                                   | TBC                                                          |
