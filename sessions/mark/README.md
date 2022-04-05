@@ -34,6 +34,16 @@ The true speed (red) was about 33 knots which was consistent with the GW-60 trac
 
 
 
+#### British Speed Challenge
+
+It is worth noting that  250m runs can be much faster when using non-Doppler results.
+
+For example, the 250m run at 14:19:03 is 34.435 knots non-Doppler, 33.470 knots Doppler.
+
+For this reason, British Speed Challenge <u>must</u> always ensure Doppler speeds are used.
+
+
+
 ### Track Data
 
 You can find all of the tracks on [GitHub](https://github.com/Logiqx/gps-guides) under sessions/mark/tracks.
