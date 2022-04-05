@@ -1,13 +1,11 @@
 ## GPS Devices
 
-I haven't created pages for all of these devices yet, but I plan to do so in the future!
-
-
-
 ### Dedicated Devices
 
+The devices below were all developed specifically for speedsurfing.
+
 - [ESP-GPS](esp-gps/README.md)
-- Gyro1
+- [Gyro1](gyro1/README.md)
 - [Locosys](locosys/README.md)
   - [GT-11](locosys/gt-11/README.md)
   - [GT-31](locosys/gt-31/README.md)
@@ -20,6 +18,8 @@ I haven't created pages for all of these devices yet, but I plan to do so in the
 
 
 ### Sports Watches
+
+Smart / sports watches popular for speedsurfing include the following:
 
 - [COROS](coros/README.md)
   - [APEX Pro](coros/apex-pro/README.md)
