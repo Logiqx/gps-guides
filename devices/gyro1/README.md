@@ -1,53 +1,30 @@
-## Gyro1 - TODO
+## Gyro1
 
 ![img](img/gyro1.jpg)
 
-### Overview
-
-Approved since Aug 2016 on [GP3S](https://www.gps-icesailing.com/default.aspx?mnu=forum&forum=6&val=108406)
-
-Official [Website](http://gearloose.nl/)
-
-Raymond's profile on [Seabreeze.com](https://www.seabreeze.com.au/Members/Profile/Details.aspx?member=raymondw)
 
 
+The Gyro1 provides superior data quality compared to the popular [Locosys](../../locosys/README.md) devices and modern smart / sports watches from the likes of COROS, Garmin, Suunto and Polar.
 
-### Specification
+The u-blox [NEO-M8Q](https://www.u-blox.com/en/product/neo-m8-series) GPS chip provides high accuracy positional, speed and verification data at 10 Hz or 18 Hz, depending on the GPS systems being used.
 
-- Output : raw UBX, NAV-PVT and NAV-SVINFO (as required by GP3S)(1,5,10 and 18hz)
+This was the first GPS device utilising a u-blox 8 to be officially [approved](https://www.gps-icesailing.com/default.aspx?mnu=forum&forum=6&val=108406) by GP3S. The history of the device and how it was developed can be found on [Windsurfing.nl](https://forum.windsurfing.nl/viewtopic.php?f=62&t=13890429).
 
-- Waterproof : TBA, depends on approval
-
-- Communication: Micro-SD card up to 32GB, I use Linux  (SDXC could work, but for now 32GB is fine)
-
-- Settings: Via a config file, you can create this on my website : gearloose.nl/gps.html
-
-- Battery: 1800mAh, on 18hz it runs 24hr
-
-- Screen: LCD, 3 times the size of the GT-31
-
-  
-
-- 1 gps @ 18hz
-- 1800mah lipo battery
-- big lcd display
-- custom display options
-- micro-sd card up to 32gb
-- 1 button design
-- 18hz gps, 10hz gps/glonass, 10hz gps/glonass/galileo
+Further details for the [Gyro1](https://gearloose.nl/) can be found on the Gearloose.nl website, including a page to generate [configuration](https://gearloose.nl/gps.html) files.
 
 
 
-Thought to use the 18hz [Ublox Max-M8Q](https://www.u-blox.com/en/product/max-m8-series).
+### Specifications
 
-
-
-### Links
-
-GPS chip determined from thread on [Seabreeze.com](https://www.seabreeze.com.au/forums/Windsurfing/Gps/GW-52-5-Hz-Spikes-are-noise).
-
-> 9 Aug 2016 7:47PM - Back from holiday and really bad wifi :) Here is a screenshot from GPSAR
->
-> - Gyro (Ublox-M8q@18hz, data comes from UBX and was saved to SBP via GPS Results)
-
-
+| Item                                                       | Details                                                      |
+| ---------------------------------------------------------- | ------------------------------------------------------------ |
+| Logging                                                    | 1 Hz, 5 Hz, 10 Hz or 18 Hz                                   |
+| Memory                                                     | Micro SD card - up to 32GB                                   |
+| Battery                                                    | 24 hours                                                     |
+| Charging                                                   | TBC                                                          |
+| Download                                                   | TBC                                                          |
+| Best Format                                                | UBX                                                          |
+| Other Formats                                              | -                                                            |
+| GPS chipset                                                | u-blox [NEO-M8Q](https://www.u-blox.com/en/product/neo-m8-series) |
+| Approved for [GP3S](https://www.gps-speedsurfing.com/)     | [Yes](https://www.gps-icesailing.com/default.aspx?mnu=forum&forum=6&val=108406) |
+| Approved for [GPSTC](https://www.gpsteamchallenge.com.au/) | -                                                            |
