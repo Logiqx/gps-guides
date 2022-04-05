@@ -1,28 +1,4 @@
-## General Tips - WIP
-
-### Doppler vs Positional
-
-Garmin Fenix 5 track from Mark is a good spike example  40 knots
-
-Weird spikes on APEX Pro non-doppler.
-
-Green overlay is much worse over 500m for APEX Pro.
-
-Motion has much better positional speeds than APEX Pro.
-
-Total time and distance most similar on Motion.
-
-
-
-### FIT vs GPX
-
-When exporting tracks for analysis, always choose the [FIT](https://developer.garmin.com/fit/protocol/) file format over [GPX](https://en.wikipedia.org/wiki/GPS_Exchange_Format).
-
-- FIT files from sports watches tend to include Doppler speed in addition to latitude and longitude. FIT files also include metrics such as heart rate, temperature, etc.
-- COROS have also added some useful GPS information to the FIT data, enabling run verification for GP3S; Satellites, COG, HDOP.
-- GPX files contain latitude and longitude but not Doppler speed. Speeds calculated from positional data are less accurate than Doppler speeds and prone to "spikes".
-
-
+## Technical Info - WIP
 
 ### Wrist Watches
 
