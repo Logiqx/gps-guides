@@ -2,7 +2,7 @@
 
 ### Wrist Watches
 
-![img](../sessions/20220327/img/gw60_underhand.png)
+![img](sessions/20220327/img/gw60_underhand.png)
 
 Far from ideal for GPS due to underhand / overhand and sail flips.
 
