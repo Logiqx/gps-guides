@@ -1,12 +1,8 @@
 ## GP3S Tracks
 
-All of the data and Excel files for these sessions can be found on [GitHub](https://github.com/Logiqx/gps-guides),
-
-
-
 ### 20220212-fenix-7
 
-Observed the FIT file only contains enhanced_speed so can;t be loaded into GPSResults 6.185.
+Observed the FIT file only contains enhanced_speed so can't be loaded into GPSResults 6.185.
 
 Fenix 7 has a speed resolution of 10 mm/s, same as the Fenix 5.
 
@@ -48,3 +44,10 @@ There are repeated values evident in the data. For example:
 
 - 500m #4 ends with lots of 29.395 knot readings.
 - 500m #6 has a lot of 31.296 and shortly after it at 11:15:55 there are lots of 4.795.
+
+
+
+### Track Data
+
+You can find all of the tracks on [GitHub](https://github.com/Logiqx/gps-guides) under sessions/contacts/gp3s/tracks.
+

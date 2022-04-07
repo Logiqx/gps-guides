@@ -46,5 +46,5 @@ For this reason, British Speed Challenge <u>must</u> always ensure Doppler speed
 
 ### Track Data
 
-You can find all of the tracks on [GitHub](https://github.com/Logiqx/gps-guides) under sessions/mark/tracks.
+You can find all of the tracks on [GitHub](https://github.com/Logiqx/gps-guides) under sessions/contacts/mark/tracks.
 
