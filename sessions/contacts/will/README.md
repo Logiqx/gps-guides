@@ -18,7 +18,7 @@ Confirmed speed resolution to be 1 mm/s, higher than the 10 mm/s of Paul's Fenix
 
 ### VERTIX 2
 
-Firmware TBC
+Firmware 2.65.
 
 
 
