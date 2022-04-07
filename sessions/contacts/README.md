@@ -10,10 +10,11 @@ Tracks provided to me from my contacts.
 
 | Product Name | Product Number |
 | ------------ | -------------- |
+| Fenix 3      | 2050           |
 | Fenix 5      | 2697           |
 | Fenix 6      | 3290           |
 | Fenix 7      | 3905 / 3906    |
-| Vivoactive 3 | 2050 / 2700    |
+| Vivoactive 3 | 2700           |
 
 
 
