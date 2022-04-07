@@ -34,8 +34,6 @@ The true speed (red) was about 33 knots which was consistent with the GW-60 trac
 
 
 
-
-
 #### Doppler vs Positional
 
 Used Fenix-5 session (top 20 runs over 250m) to see that non-Doppler is always fastest:
