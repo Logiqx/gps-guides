@@ -1,8 +1,16 @@
 ## Richard's Tracks
 
+### Garmin Fenix 3
+
+Richard's track.
+
+This watch uses the MediaTek MT3333.
+
+
+
 ### Garmin Vivoactive 3
 
-A couple of sessions from Richard and Max who both have the Vivoactive3.
+Max's Track.
 
 This watch uses the same Sony GPS as the Fenix 6, COROS Apex Pro, etc.
 
