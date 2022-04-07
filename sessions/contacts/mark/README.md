@@ -34,6 +34,17 @@ The true speed (red) was about 33 knots which was consistent with the GW-60 trac
 
 
 
+
+
+#### Doppler vs Positional
+
+Used Fenix-5 session (top 20 runs over 250m) to see that non-Doppler is always fastest:
+
+- Average of 0.41 knots faster
+- Maximum of 0.97 knots faster
+
+
+
 #### British Speed Challenge
 
 It is worth noting that  250m runs can be much faster when using non-Doppler results.
