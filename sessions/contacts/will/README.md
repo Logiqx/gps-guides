@@ -28,6 +28,15 @@ Confirmed speed resolution to be 5 mm/s, same as GP3S data.
 
 
 
+#### Doppler vs Positional
+
+Used top 20 runs over 250m to compare Doppler and non-Doppler results:
+
+- Average for the 20 results is identical; difference of 0.00.
+- Non-Doppler varies between -0.19 and +0.19.
+
+
+
 ### Track Data
 
 You can find all of the tracks on [GitHub](https://github.com/Logiqx/gps-guides) under sessions/contacts/will/tracks.
