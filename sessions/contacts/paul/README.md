@@ -2,13 +2,15 @@
 
 ### Garmin Fenix 6
 
+Firmware 19.20.
+
 This watch uses the same Sony GPS as the COROS APEX Pro and VERTIX, etc.
 
 
 
 #### Speed Resolution
 
-Confirmed speed resolution to be 1 cm/s.
+Confirmed speed resolution to be 10 mm/s, lower than the 1 mm/s of Paul's Fenix 6 with 20.50 firmware.w
 
 
 
