@@ -8,6 +8,8 @@ Tracks provided to me from my contacts.
 
 ### Garmin Product Codes
 
+Use the serial number to identify the product name in the Garmin [support centre](https://support.garmin.com/en-US/ql/?focus=topics).
+
 | Product Name | Product Number |
 | ------------ | -------------- |
 | Fenix 3      | 2050           |
