@@ -146,12 +146,12 @@
 0.4
 0.5
 
-./contacts/gp3s/tracks/jh/Vertix_1_Actual_firmware/Speedsurfing20220212112627.csv
+./contacts/gp3s/tracks/jan-hendrik/Vertix_1_Actual_firmware/Speedsurfing20220212112627.csv
 0.7
 0.8
 0.9
 
-./contacts/gp3s/tracks/jh/Vertix_1__previous_firmware/Speedsurfing20220212112636.csv
+./contacts/gp3s/tracks/jan-hendrik/Vertix_1__previous_firmware/Speedsurfing20220212112636.csv
 0.9
 1.0
 1.1
@@ -159,7 +159,7 @@
 1.4
 2.2
 
-./contacts/gp3s/tracks/jh/Vertix_2/Speedsurfing20220212112654.csv
+./contacts/gp3s/tracks/jan-hendrik/Vertix_2/Speedsurfing20220212112654.csv
 0.4
 0.5
 0.6
