@@ -1,0 +1,95 @@
+GPSResults V6.181
+filename: \\Mac\Home\Downloads\8294078075_ACTIVITY.fit
+altitude(s) not considered
+cubic spline integration (10s), one run per leg
+total time: 3min, total length: 1.195km
+
+max:
+  time        m   [knots]
+10:14:27     9.3  18.024
+10:15:05     7.6  14.807
+10:16:13     7.6  14.752
+10:12:27     7.2  14.055
+10:13:24     7.0  13.569
+10:13:56     4.3   8.270
+10:16:48     3.9   7.524
+average[2]:  30.401km/h  16.415knots
+average[3]:  29.374km/h  15.861knots
+average[5]:  27.857km/h  15.041knots
+
+100m:
+  time        m   [knots]
+10:14:30   106.3  17.225
+10:15:11   101.1  14.033
+10:16:22   100.8  14.002
+10:13:33   104.5  12.691
+10:12:34   100.4  11.484
+average[2]:  28.945km/h  15.629knots
+average[3]:  27.940km/h  15.086knots
+average[5]:  25.719km/h  13.887knots
+
+250m:
+  time        m   [knots]
+10:14:35   254.2  14.974
+10:16:41   250.5  13.162
+10:15:28   254.9  13.039
+average[2]:  26.054km/h  14.068knots
+average[3]:  25.418km/h  13.725knots
+average[5]:  15.251km/h   8.235knots
+
+500m:
+  time        m   [knots]
+10:15:27   501.3  12.030
+average[2]:  11.139km/h   6.015knots
+average[3]:   7.426km/h   4.010knots
+average[5]:   4.456km/h   2.406knots
+
+1852m:
+  time        m   [knots]
+average[2]:   0.000km/h   0.000knots
+average[3]:   0.000km/h   0.000knots
+average[5]:   0.000km/h   0.000knots
+
+2s:
+  time        m   [knots]
+10:14:28    18.5  17.945
+10:15:06    15.2  14.760
+10:16:13    15.0  14.533
+10:13:24    13.9  13.556
+10:12:28    13.3  12.969
+10:13:56     8.0   7.764
+10:16:49     6.7   6.552
+average[2]:  30.284km/h  16.352knots
+average[3]:  29.161km/h  15.746knots
+average[5]:  27.322km/h  14.753knots
+
+10s:
+  time        m   [knots]
+10:14:29    89.3  17.353
+10:15:13    72.7  14.129
+10:16:18    72.6  14.110
+10:13:28    67.0  13.023
+10:12:32    60.8  11.822
+10:16:57     6.7   1.310
+average[2]:  29.152km/h  15.741knots
+average[3]:  28.145km/h  15.197knots
+average[5]:  26.090km/h  14.087knots
+
+30min:
+  time        m   [knots]
+average[2]:   0.000km/h   0.000knots
+average[3]:   0.000km/h   0.000knots
+average[5]:   0.000km/h   0.000knots
+
+1hour:
+  time        m   [knots]
+average[2]:   0.000km/h   0.000knots
+average[3]:   0.000km/h   0.000knots
+average[5]:   0.000km/h   0.000knots
+
+alpha 500/50m:
+  time        m   [knots]
+10:15:21   468.4  12.303
+average[2]:  11.393km/h   6.151knots
+average[3]:   7.595km/h   4.101knots
+average[5]:   4.557km/h   2.461knots
