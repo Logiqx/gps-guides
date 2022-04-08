@@ -1,0 +1,10 @@
+./contacts/gp3s/tracks/20220212-fenix-7/8282759311_ACTIVITY.csv: serial 3403592472 product 3905
+./contacts/gp3s/tracks/jh/Garmin_Fenix_7/8282759311_ACTIVITY.csv: serial 3403592472 product 3905
+./contacts/gp3s/tracks/jh/test_1/8294078075_ACTIVITY.csv: serial 3403592472 product 3905
+./contacts/mark/tracks/20220406/fenix-7-8590919337_ACTIVITY.csv: serial 3401137291 product 3906
+./contacts/mark/tracks/fenix-5/fenix-5-4092930843.csv: serial 3949903342 product 2697
+./contacts/paul/tracks/fenix-6/7524114101_ACTIVITY.csv: serial 3316565336 product 3290
+./contacts/paul/tracks/fenix-6/8552780877_ACTIVITY.csv: serial 3316565336 product 3290
+./contacts/richard/tracks/fenix-3/Richard_8528816694_ACTIVITY.csv: serial 3917908387 product 2050
+./contacts/richard/tracks/vivoactive-3/Max_Afternoon_Activity.csv: serial 3980956997 product 2700
+./contacts/will/tracks/fenix-6/8485440362_ACTIVITY.csv: serial 3332712266 product 3290
