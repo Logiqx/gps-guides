@@ -24,7 +24,7 @@ Issues highlighted:
   - GW-31 - firmware V1.4 B0803T - top of Aquapac, oriented upwards with screen flipped.
 - Motion Mini (10 Hz) - firmware 3068 - left bicep.
 
-![img](img/devices.jpg)
+![img](../20220326/img/devices.jpg)
 
 
 
