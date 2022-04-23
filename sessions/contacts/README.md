@@ -15,7 +15,9 @@ Use the serial number to identify the product name in the Garmin [support centre
 | Fenix 3      | 2050           |
 | Fenix 5      | 2697           |
 | Fenix 6      | 3290           |
-| Fenix 7      | 3905 / 3906    |
+| Fenix 6X     | 3291           |
+| Fenix 7      | 3906           |
+| Fenix 7S     | 3905           |
 | Vivoactive 3 | 2700           |
 
 
