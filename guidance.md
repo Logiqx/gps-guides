@@ -6,15 +6,17 @@ In the last few years the quality of consumer GPS devices has improved a lot. Fo
 
 The concept of "verified" devices was introduced by GP3S back in 2009, solely for the purpose of officially recognised [records](https://www.gps-speedsurfing.com/default.aspx?mnu=forum&forum=193) following very specific [rules](https://www.gps-speedsurfing.com/media/uploadimages/GPS_record_Rules%20VA1%202009-09-01.pdf), including the requirement for two approved GPS units. Records attempts must be pre-announced in the GP3S forum, require witnesses + additional evidence and individual ratification by the World GPS Surfing Record Committee.  
 
-To encourage wider participation in GPS speedsurfing it is perfectly acceptable for people to use modern day GPS devices from the likes of Garmin and Suunto to post sessions to the "fun rankings" of GP3S, including the various "events" hosted on the site. It is important that the track should be properly analysed for upload to GP3S, rather than relying upon the on-screen display.
+To encourage wider participation in GPS speedsurfing events it makes complete sense to allow the use of consumer GPS devices from the likes of Garmin and Suunto; both for the "fun rankings" and the various "events" hosted on the site. However, it is important that the tracks should be properly analysed prior to uploading to GP3S, rather than relying upon displayed speeds.
 
-The following should be considered as minimum requirements when taking part in GP3S events:
+The following should be considered as minimum device requirements when taking posting to GP3S events:
 
 - **1 Hz** logging is a minimum requirement. "Smart" logging is often the default setting and is not sufficient for speed sailing.
-- **Doppler** derived speed **must** be logged at a minimum of 1 Hz. This will often necessitate the .FIT format instead of .GPX.
-- If requested, tracks should be provided to event organisers. Unverified sessions are subject to removal from event rankings.
+- **Doppler** derived speed must also be logged at a minimum of 1 Hz. This will often necessitate the .FIT format instead of .GPX.
+- When requested, tracks should be sent to the event organisers. Unverified sessions are subject to removal from the rankings.
 
 A list of recommended devices can be found on [GP3S](https://www.gps-speedsurfing.com/default.aspx?mnu=item&item=GPSInfo) and more detailed information is also available on this [site](devices/README.md).
+
+Mobile phones are **NOT** recommended for any kind of speed sailing because the quality / reliability of the data is hugely variable.
 
 
 
@@ -55,3 +57,25 @@ You should <u>always</u> use the FIT format when uploading GPS tracks from a spo
 
 Never use the GPX format unless it is the only option available!
 
+
+
+### Additional Data
+
+All of the GPS devices approved for GP3S record attempts record the following additional data items:
+
+- Doppler-derived speed - AKA "Doppler speed"
+- COG - course over ground
+- Satellite count
+- HDOP - "horizontal dilution of precision" indicates the positional accuracy
+
+Locosys GT-31, GW-52 and GW-60 also include the following item:
+
+- SDOP - "speed dilution of precision" describes the potential inaccuracy of Doppler derived speeds.
+
+Devices using a u-blox GNSS receiver (e.g. Motion, Gyro1, ESP-GPS) include the following item:
+
+- sAcc - "speed accuracy" describes the potential inaccuracy of Doppler derived speeds.
+
+
+
+Note: Modern GPS devices from Garmin also include the Doppler-derived speed, but only when exporting to the .FIT format.
