@@ -10,15 +10,15 @@ Tracks provided to me from my contacts.
 
 Use the serial number to identify the product name in the Garmin [support centre](https://support.garmin.com/en-US/ql/?focus=topics).
 
-| Product Name | Product Number |
-| ------------ | -------------- |
-| Fenix 3      | 2050           |
-| Fenix 5      | 2697           |
-| Fenix 6      | 3290           |
-| Fenix 6X     | 3291           |
-| Fenix 7      | 3906           |
-| Fenix 7S     | 3905           |
-| Vivoactive 3 | 2700           |
+| Product Name                         | Product Number |
+| ------------------------------------ | -------------- |
+| Fenix 3                              | 2050           |
+| Fenix 5                              | 2697           |
+| Fenix 6 - Pro and Sapphire Editions  | 3290           |
+| Fenix 6X - Pro and Sapphire Editions | 3291           |
+| Fenix 7 - Standard Edition           | 3906           |
+| Fenix 7S - Sapphire Solar Edition    | 3905           |
+| Vivoactive 3                         | 2700           |
 
 
 
