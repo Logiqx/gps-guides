@@ -8,12 +8,11 @@ Details about the [Fenix 5S](https://www.garmin.com/en-GB/p/552237) + [Fenix 5](
 
 The Fenix 5 range was first released in 2017. The 5S (left) is the smaller model and 5X (right) is the larger model.
 
-Please read the general [guidance](../../../guidance.md) for all users of smart / sports watches.
-
 
 
 ### Tips
 
+- Please read the general [guidance](../../../guidance.md) for all users of smart / sports watches.
 - Change the data recording interval to "every second". The default is "smart" and is unsuitable for speed sailing.
 - Export the session in the .FIT format in the Garmin Connect app. Do this using the "[original](https://support.garmin.com/en-GB/?faq=W1TvTPW8JZ6LfJSfK512Q8)" format.
 - Try installing the [GPSTC data field](https://www.seabreeze.com.au/forums/Windsurfing/Gps/Garmin-GPSTC-Datafield-to-complement-the-Motion-Simple-Logger?page=1) for instant feedback, especially created for speed sailors.
