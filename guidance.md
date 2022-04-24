@@ -35,7 +35,7 @@ The example below is from a Garmin Fenix 5, showing the Doppler speed in red and
 
 To summarise, Doppler speeds should <u>always</u> be used in preference to non-Doppler speeds!
 
-![img](sessions/contacts/mark/img/fenix-5-spike.png)
+![img](sessions/contacts/newm/img/fenix-5-spike.png)
 
 
 
