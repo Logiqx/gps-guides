@@ -4,9 +4,9 @@
 
 
 
-Details about the [Fenix 5S Plus](https://www.garmin.com/en-GB/p/603201) + [Fenix 5 Plus](https://www.garmin.com/en-GB/p/603267) + [Fenix 5X Plus](https://www.garmin.com/en-GB/p/603229) can still be found on the Garmin website, plus the [manual](https://www8.garmin.com/manuals/webhelp/fenix5plus/EN-US/GUID-C8E25FD1-3499-4B5C-B45F-C4BF88283284-homepage.html).
-
 The Fenix 5 Plus range was first released in 2018. The 5S Plus (left) is the smaller model and 5X Plus (right) is the larger model.
+
+Details about the [Fenix 5S Plus](https://www.garmin.com/en-GB/p/603201) + [Fenix 5 Plus](https://www.garmin.com/en-GB/p/603267) + [Fenix 5X Plus](https://www.garmin.com/en-GB/p/603229) can still be found on the Garmin website, plus the [manual](https://www8.garmin.com/manuals/webhelp/fenix5plus/EN-US/GUID-C8E25FD1-3499-4B5C-B45F-C4BF88283284-homepage.html).
 
 
 
