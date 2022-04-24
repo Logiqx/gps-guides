@@ -49,11 +49,11 @@ When exporting tracks for analysis, <u>always</u> choose the FIT file format ove
 
 - FIT files from sports watches are designed to include the Doppler speed in addition to location (latitude and longitude). FIT files also include other interesting performance metrics such as heart rate, temperature, etc.
 - COROS have also added some important information to the FIT data, enabling run verification for [GP3S](https://www.gps-speedsurfing.com/); Number of satellites, COG (course over ground) and [HDOP](https://en.wikipedia.org/wiki/Dilution_of_precision_(navigation)).
-- GPX files <u>only</u> contain latitude and longitude. They do not contain the Doppler speed so any analysis can only use speeds calculated from the positional data and will thus be prone to being inaccurate; sometimes slightly, sometimes wildly!
+- GPX files usually <u>only</u> contain latitude and longitude. They rarely contain the Doppler speed so any analysis can only use speeds calculated from the positional data and will thus be prone to being inaccurate; sometimes slightly, sometimes wildly!
 
 Rankings on [GP3S](https://www.gps-speedsurfing.com/) highlight any sessions posted using non-Doppler speeds by showing a yellow icon on the rankings pages, instead of the green icon of [approved](https://www.gps-speedsurfing.com/default.aspx?mnu=item&item=GPSInfo) devices.
 
-You should <u>always</u> use the FIT format when uploading GPS tracks from a sports watch; whether you have COROS, Garmin, Suunto, Polar or any other brand.
+You should <u>always</u> try to use the FIT format when uploading GPS tracks from a sports watch; whether you have COROS, Garmin, Suunto or any other brand.
 
 Never use the GPX format unless it is the only option available!
 
