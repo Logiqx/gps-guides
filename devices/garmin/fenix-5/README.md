@@ -12,7 +12,7 @@ Please read the general [guidance](../../../guidance.md) for all users of smart 
 
 
 
-Tips:
+### Tips
 
 - Change the data recording interval to "every second". The default is "smart" and is unsuitable for speed sailing.
 - Export the session in the .FIT format in the Garmin Connect app. Do this using the "[original](https://support.garmin.com/en-GB/?faq=W1TvTPW8JZ6LfJSfK512Q8)" format.
