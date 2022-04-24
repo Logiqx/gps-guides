@@ -244,4 +244,4 @@ Displaying 2 or 3 decimal places for speeds coming out of the COROS APEX Pro is 
 
 All of the tracks and Excel analysis are available in the [session](../../../sessions/20220327/README.md) dated 27 March 2022.
 
-Further analysis and arguably better charts was undertaken for Mark's [sessions](../../../sessions/contacts/mark/README.md) from 2021.
+Further analysis and arguably better charts was undertaken for Mark's [sessions](../../../sessions/contacts/newm/README.md) from 2021.
