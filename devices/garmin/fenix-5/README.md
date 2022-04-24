@@ -4,9 +4,9 @@
 
 
 
-Details about the [Fenix 5S](https://www.garmin.com/en-GB/p/552237) + [Fenix 5](https://www.garmin.com/en-GB/p/552982) + [Fenix 5X](https://www.garmin.com/en-GB/p/560327) can still be found on the Garmin website, plus the [manual](https://www8.garmin.com/manuals/webhelp/fenix5/EN-US/GUID-C8E25FD1-3499-4B5C-B45F-C4BF88283284-homepage.html).
-
 The Fenix 5 range was first released in 2017. The 5S (left) is the smaller model and 5X (right) is the larger model.
+
+Details about the [Fenix 5S](https://www.garmin.com/en-GB/p/552237) + [Fenix 5](https://www.garmin.com/en-GB/p/552982) + [Fenix 5X](https://www.garmin.com/en-GB/p/560327) can still be found on the Garmin website, plus the [manual](https://www8.garmin.com/manuals/webhelp/fenix5/EN-US/GUID-C8E25FD1-3499-4B5C-B45F-C4BF88283284-homepage.html).
 
 
 
