@@ -39,5 +39,5 @@ Used top 20 runs over 250m to compare Doppler and non-Doppler results:
 
 ### Track Data
 
-You can find all of the tracks on [GitHub](https://github.com/Logiqx/gps-guides) under sessions/contacts/will/tracks.
+You can find all of the tracks on [GitHub](https://github.com/Logiqx/gps-guides) under sessions/contacts/trow/tracks.
 

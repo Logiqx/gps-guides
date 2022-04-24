@@ -25,5 +25,5 @@ Used Max's session (top 20 runs over 250m) to see that non-Doppler is always fas
 
 ### Track Data
 
-You can find all of the tracks on [GitHub](https://github.com/Logiqx/gps-guides) under sessions/contacts/max/tracks.
+You can find all of the tracks on [GitHub](https://github.com/Logiqx/gps-guides) under sessions/contacts/beam/tracks.
 

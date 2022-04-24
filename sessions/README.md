@@ -77,4 +77,4 @@ Another session from a Garmin Fenix 5 was also provided.
 - It was a good example of why non-Doppler speeds should not be trusted...
 - There was a 40 knot spike in the non-Doppler speeds when the true speed was 33 knots.
 
-The session [notes](mark/README.md) contain more detail on these topics, including charts confirming speed resolutions.
+The session [notes](contacts/newm/README.md) contain more detail on these topics, including charts confirming speed resolutions.

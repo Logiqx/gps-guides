@@ -61,5 +61,5 @@ Confirmed resolution of 1 cm/s using data from 20220406.
 
 ### Track Data
 
-You can find all of the tracks on [GitHub](https://github.com/Logiqx/gps-guides) under sessions/contacts/mark/tracks.
+You can find all of the tracks on [GitHub](https://github.com/Logiqx/gps-guides) under sessions/contacts/newm/tracks.
 

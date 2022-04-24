@@ -18,5 +18,5 @@ Confirmed speed resolution to be 10 mm/s, lower than the 1 mm/s of Paul's Fenix 
 
 ### Track Data
 
-You can find all of the tracks on [GitHub](https://github.com/Logiqx/gps-guides) under sessions/contacts/paul/tracks.
+You can find all of the tracks on [GitHub](https://github.com/Logiqx/gps-guides) under sessions/contacts/sibp/tracks.
 

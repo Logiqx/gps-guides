@@ -38,5 +38,5 @@ So essentially, having a definition that a period can only be regarded as "good"
 
 ### Track Data
 
-You can find all of the tracks on [GitHub](https://github.com/Logiqx/gps-guides) under sessions/contacts/jan/tracks.
+You can find all of the tracks on [GitHub](https://github.com/Logiqx/gps-guides) under sessions/contacts/heyj/tracks.
 
