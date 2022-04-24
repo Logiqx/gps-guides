@@ -17,7 +17,9 @@ Please read the general [guidance](../../../guidance.md) for all users of smart 
 Tips:
 
 - Set the GPS accuracy to "best" for ~1 second interval; see section 3.18.3 of the manual.
-- Export the session in the .FIT format using the Suunto app for [Android](https://www.suunto.com/en-gb/Support/faq-articles/suunto-app/how-do-i-download-a-.fit-file-from-suunto-app-for-android/) or [iOS](https://www.suunto.com/en-gb/Support/faq-articles/suunto-app/how-do-i-download-a-.fit-file-from-suunto-app-for-ios/).
+- Export the session in the FIT format using the Suunto app for [Android](https://www.suunto.com/en-gb/Support/faq-articles/suunto-app/how-do-i-download-a-.fit-file-from-suunto-app-for-android/) or [iOS](https://www.suunto.com/en-gb/Support/faq-articles/suunto-app/how-do-i-download-a-.fit-file-from-suunto-app-for-ios/).
+- GPSResults may have problems with files in the Suunto FIT format but such files can be converted to GPX using [GPSBabel](http://www.gpsbabel.org/index.html).
+- GPSBabel will retain the Doppler speeds that were in Suunto FIT file and should be used in preference to Suunto GPX files.
 
 
 
