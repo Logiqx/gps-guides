@@ -27,9 +27,9 @@ Smart / sports watches popular for speedsurfing include the following:
   - [APEX Pro](coros/apex-pro/README.md)
   - [VERTIX](coros/vertix/README.md)
   - [VERTIX 2](coros/vertix-2/README.md)
-- Garmin
+- [Garmin](garmin/README.md)
   - Fenix 3
-  - Fenix 5
+  - [Fenix 5](garmin/fenix-5/README.md)
   - Fenix 6
   - Fenix 7
 - [Suunto](suunto/README.md)
