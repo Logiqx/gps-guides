@@ -176,6 +176,8 @@ Here is a very brief summary of popular GPS chips in sports watches:
 
 An article about the [performance](https://inf.news/en/fitness/a0e724b10c23386846c99d40c3ff225c.html) of mainstream sports watches provides more detail.
 
+There are lots of good GPS reviews, focused mainly on runners at [www.dcrainmaker.com](https://www.dcrainmaker.com/).
+
 
 
 #### Antenna
