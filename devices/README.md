@@ -32,8 +32,8 @@ Smart / sports watches popular for speedsurfing include the following:
   - Fenix 5
   - Fenix 6
   - Fenix 7
-- Suunto
-  - Ambit3
+- [Suunto](suunto/README.md)
+  - [Ambit3](suunto/ambit3/README.md)
   - Suunto 9
   - Suunto 5
   - Suunto 7
