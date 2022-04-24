@@ -4,6 +4,6 @@ The Motion devices are fully approved for [GP3S](https://www.gps-speedsurfing.co
 
 Devices:
 
-- Wireless - The same logging as the Wireless Mini but with an LCD display.
+- Wireless LCD - The same logging as the Wireless Mini but with an LCD display.
 - [Wireless Mini](mini/README.md) - The most affordable 10 Hz device, producing outstanding data.
 
