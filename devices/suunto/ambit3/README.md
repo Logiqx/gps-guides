@@ -10,6 +10,8 @@ The Ambit3 range was first released in 2014 and the range includes sport, run, p
 
 It includes smartphone connectivity which is a handy way to download the session data.
 
+Please read the general [guidance](../../../guidance.md) for all users of smart / sports watches.
+
 
 
 Tips:
