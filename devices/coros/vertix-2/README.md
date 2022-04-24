@@ -12,6 +12,12 @@ The VERTIX 2 is essentially an upgraded [VERTIX](../vertix/README.md) with impro
 
 
 
+### Tips
+
+Since the APEX Pro, VERTIX and VERTIX 2 are so similar in features. all of the [tips](../tips.md) are identical.
+
+
+
 ### Specifications
 
 | Item                                                       | Details                                                      |
@@ -27,9 +33,3 @@ The VERTIX 2 is essentially an upgraded [VERTIX](../vertix/README.md) with impro
 | GPS chipset                                                | [Airoha AG3335M](http://www.airoha.com.tw/webe/html/pro/index.aspx?kind=80&num=182&lv=2) |
 | Approved for [GP3S](https://www.gps-speedsurfing.com/)     | -                                                            |
 | Approved for [GPSTC](https://www.gpsteamchallenge.com.au/) | -                                                            |
-
-
-
-### Tips
-
-Since the APEX Pro, VERTIX and VERTIX 2 are so similar in features. all of the [tips](../tips.md) are identical.
