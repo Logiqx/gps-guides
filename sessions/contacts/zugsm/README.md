@@ -22,7 +22,11 @@
 
 
 
-![img](img/fenix-7-issue.png)
+![img](img/fenix-7-issue-1.png)
+
+
+
+![img](img/fenix-7-issue-2.png)
 
 
 
