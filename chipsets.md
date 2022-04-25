@@ -153,6 +153,11 @@ The COROS VERTIX 2 does not provide accuracy estimates.
 
 
 
+
+### Speed Accuracy
+
+Doppler measurements are affected by vibrations and this is mentioned in the u-blox documentation, mentioning the typical dynamics of cars.
+
 Speed Accuracy thread 
 
 https://www.seabreeze.com.au/forums/Windsurfing/Gps/Speed-Accuracy
@@ -163,35 +168,19 @@ Garmin:
 
 
 
-### Speed Accuracy
+####  SDOP + VSDOP (SiRF)
 
-Doppler measurements are affected by vibrations and this is mentioned in the u-blox documentation, mentioning the typical dynamics of cars.
-
-
-
-####  SDOP (SiRF)
-
-It is not a dilution of precision.
-
-SDoP (speed dilution of precision) / sAcc (Speed accuracy) use closed source algorithms and are not directly comparable.
+[SDOP](https://nujournal.net/estimating-accuracy-of-gps-doppler-speed-measurement-using-speed-dilution-of-precision-sdop-parameter/) paper written by Tom Chalko in 2009
 
 Tom's analysis - and thus the Sirf error-values - *are* 4 SD.... the analysis targeted > 99 percentile, so that we could be extremely confident of the error-bounds. TBC - did they mean 3?
 
-SDOP is not in the .fit data exported by the COROS app.
+SDOP is not in the .fit data exported by the COROS app. Suspect it is also not uploaded to the COROS backend for GP3S.
 
-Suspect it is also not uploaded to the COROS backend for GP3S.
+The Course Over Ground (COG) error COGDOP can be estimated on the basis of SDOP as follows: 
 
-SDOP is lower for Motion than GW-60, leading to smaller +/-
+```COGDOP=arctan(SDOP/speed)```
 
-- GW-60; +/- 0.08
-- Motion; +/- 0.02
-
-sAcc
-
-- Receiver protocol specifications
-  - cm/s for "Speed accuracy estimate" in NAV-VELECEF messages, according to the ublox7 specs
-
-[SDOP](https://nujournal.net/estimating-accuracy-of-gps-doppler-speed-measurement-using-speed-dilution-of-precision-sdop-parameter/) paper written by Tom Chalko in 2009
+Where “speed” is the Speed over Ground (SOG) ± speed error. From equation it is clear that Course Over Ground (COG) error decreases when speed increases and than for small speeds the error rapidly grows.
 
 
 
@@ -205,9 +194,21 @@ sAcc is very consistent on the Motion Mini and usually suggests speeds are accur
 
 sAcc > 1 should be regarded as bad data.
 
+sAcc
+
+- Receiver protocol specifications
+  - cm/s for "Speed accuracy estimate" in NAV-VELECEF messages, according to the ublox7 specs
+
 
 
 #### SDOP vs sAcc
+
+SDoP (speed dilution of precision) / sAcc (Speed accuracy) use closed source algorithms and are not directly comparable.
+
+SDOP is lower for Motion than GW-60, leading to smaller +/-
+
+- GW-60; +/- 0.08
+- Motion; +/- 0.02
 
 SDOP / sAcc (u-blox; speed accuracy)
 
