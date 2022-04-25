@@ -40,6 +40,8 @@ These can help to determine the potential accuracy of GPS readings:
 - TDOP – time dilution of precision
 - GDOP – geometric dilution of precision
 
+Simple summary - https://gisgeography.com/gps-accuracy-hdop-pdop-gdop-multipath/
+
 [paper](pdf/3381-Manuscript-11481-1-10-20151214.pdf)
 
 

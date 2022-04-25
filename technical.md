@@ -40,6 +40,8 @@ There 5 GNSS constellations at this moment in time:
 
 It is generally a good idea to use multiple constellations if your GPS allows you to do so.
 
+Article about Galileo - https://www.euspa.europa.eu/newsroom/news/sample-galileo-enabled-wearables-test-results-are-in
+
 You can find more information in [The 5 GNSS Constellations Explained](https://blog.bliley.com/the-differences-between-the-5-gnss-satellite-network-constellations).
 
 
