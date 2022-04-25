@@ -186,6 +186,11 @@ The Course Over Ground (COG) error COGDOP can be estimated on the basis of SDOP 
 
 Where “speed” is the Speed over Ground (SOG) ± speed error. From equation it is clear that Course Over Ground (COG) error decreases when speed increases and than for small speeds the error rapidly grows.
 
+GW-52 specification refers to Standard Deviation of Speed (SDOS) - resolution 1 cm/s. Also specified as cm/s in Tom's document.
+
+- Accuracy of specific measurement can be determined from SDOS of speed samples used to compute average speed.
+- Seems to equate to 4 SD?
+
 
 
 #### sAcc (u-blox)
@@ -202,6 +207,7 @@ sAcc
 
 - Receiver protocol specifications
   - cm/s for "Speed accuracy estimate" in NAV-VELECEF messages, according to the ublox7 specs
+  - Likely to be 1 standard deviation as that is used for pAcc and many other variables
 
 
 
