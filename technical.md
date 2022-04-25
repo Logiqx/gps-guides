@@ -1,203 +1,137 @@
 ## Technical Info - WIP
 
-### Wrist Watches
+### Introduction
 
-![img](sessions/20220327/img/gw60_underhand.png)
+This article is just a high-level summary of various technical considerations which can affect the accuracy of GPS recordings when speed sailing.
 
-Far from ideal for GPS due to underhand / overhand and sail flips.
+It is specifically focused on speed sailing because it is a very different use-case to many other GPS activities; driving, running, cycling, etc.
 
-Greatly affects GW-60 and likely affects other watches.
+Factors that affect the accuracy of speeds recorded by the GPS include the following:
 
-Helmet, bicep or forearm is best.
+- Hardware - GPS / GNSS chipset, antenna and ground plane / plate
+- Configuration - activity mode and hardware-level filtering - e.g. low pass filters, etc.
+- Software - app processing performed by the GPS manufacturer - e.g. Locosys, Garmin, COROS
+- Satellites - GNSS constellations, number of satellites, geometries, etc.
+- Device placement - where the GPS device is being worn - e.g. helmet, bicep, forearm or wrist.
 
-Boom and wrist tend to show micro-accelerations caused by chop.
 
 
+### GPS Placement
 
-### Frequency
+Although I mentioned it last in the introduction, I will cover this specific topic first. Placement of the GPS is often overlooked and can have a big impact on the accuracy of the GPS recording, sometimes even resulting in a failure to record any data.
 
-- Higher frequency units show higher acceleration.
-  - 10 Hz Motion > 5 Hz GW-60 > 1 Hz COROS
-  - GPS Results 6.173 PC / 5.63 Mac changed maximum acceleration for 10 Hz units to 10m/s².
-- Higher frequencies have distances (m) closer to intended - e.g. 500.3m vs 503.8m.
+GPS relies upon radio signals from the satellites and those signals struggle to pass through water. To be specific, each GPS satellite transmits data on two frequencies; L1 (1575.42 Mhz) and L2 (1227.60 MHz). Frequencies above 1 MHz are absorbed very quickly by water and are in essence blocked by water and also by the human body.
 
-Note that higher frequency logs take significantly longer to process in GPSResults - **TBC 6.185**
+You should avoid wearing your GPS on your torso (e.g. in a front pocket or backpack) because you are made up of about 60% water. If the GPS is in a front pocket then your body will block out most of the satellites behind you. If your orientation suddenly changes the GPS will often lose some of its satellites and then have to lock on to new ones. This is one of the worst things that you can do to degrade your GPS accuracy.
 
+Some people mount their GPS on their helmet to maintain the clearest possible view of the available satellites. The next best options are strapped to a bicep (facing directly upwards) or on your forearm which also tends to maintain an upwards view, regardless of underhand or overhand grip. It is well recognised GPS watches worn on the wrist will be adversely affected by underhand grip. This will be shown in more detail later on.
 
 
 
+### GNSS Constellations
 
-### Accuracy
+There 5 GNSS constellations at this moment in time:
 
-#### Satellites
+- GPS - US
+- QZSS - Japan
+- BEIDOU - China
+- GALILEO - EU
+- GLONASS - Russia
 
-- GW-60; 6 to 9
-- Coros; 11 to 13
-- Motion; 16 to 18
+It is generally a good idea to use multiple constellations if your GPS allows you to do so.
 
-n.b. It is unlikely that all of them will are used concurrently
+You can find more information in [The 5 GNSS Constellations Explained](https://blog.bliley.com/the-differences-between-the-5-gnss-satellite-network-constellations).
 
 
 
-Coros - https://www.seabreeze.com.au/forums/Windsurfing/Gps/Garmin-Fenix-7?page=1
+### Available Satellites
 
-Tests in a german windsurf forum showed that the use of Glonass (in combination with all the other possible systems) the Coros will measure signifiantly lower speeds. Up to 5 kmh in GPS results.
+As a rule of thumb, using more satellites increasing the level of accuracy Typical figures from my own GPS devices are as follows:
 
-GPS-Speedsurfing:...In general it's good to use the GPS/QZSS setting (can be changed SYSTEM, MORE SETTINGS, MODE...)  
+- Locosys GW-60 = 6 to 9
+- COROS APEX Pro = 11 to 13
+- Motion Mini = 16 to 18
 
-
-
-Speed Accuracy thread 
-
-https://www.seabreeze.com.au/forums/Windsurfing/Gps/Speed-Accuracy
-
-Garmin:
-
-> It appears that the Garmin and Suunto GPS Watches use only positional data. What sometimes appears to be Doppler speed data in analysis programs, seems to actually be a smoothed or filtered Positional output.
-
-
-
-#### SDOP
-
-SDoP (speed dilution of precision) / sAcc (Speed accuracy) use closed source algorithms and are not directly comparable.
-
-Tom's analysis - and thus the Sirf error-values - *are* 4 SD.... the analysis targeted > 99 percentile, so that we could be extremely confident of the error-bounds. TBC - did they mean 3?
-
-SDOP is not in the .fit data exported by the COROS app.
-
-Suspect it is also not uploaded to the COROS backend for GP3S.
-
-SDOP is lower for Motion than GW-60, leading to smaller +/-
-
-- GW-60; +/- 0.08
-- Motion; +/- 0.02
-
-sAcc
-
-- Receiver protocol specifications
-  - cm/s for "Speed accuracy estimate" in NAV-VELECEF messages, according to the ublox7 specs
-
-
-
-#### sAcc
-
-The u-blox GPS chips generate a speed accuracy metric (sAcc) which isn't dissimilar to SDOP on Locosys devices.
-
-According to the u-blox 7 specification, "Speed accuracy estimate" appears in NAV-VELECEF messages and is measured in m/s.
-
-sAcc is very consistent on the Motion Mini and usually suggests speeds are accurate to within +/- 0.5 knots.
-
-sAcc > 1 should be regarded as bad data.
-
-
-
-#### Max Speed
-
-Really "max speed + noise"
-
-
-
-#### Filters
-
-- Maximum speed error (knots); 2.0 for 1 Hz, 4.0 for 5 Hz / 10 Hz
-  - Recommend using 1.0 for 5 Hz / 10 Hz - sailquick
-  - Use 2.0 for GW-60 due to wrist mounting during gybes
-- Maximum acceleration (m/s<sup>2</sup>); 4.0 @ 1 Hz, 8.0 @ 5 Hz, **10.0** @ 10 Hz
-- Error propagation; average @ 1 Hz, Gaussian @ 5 Hz / 10 Hz
-
-
-
-Gps SpeedReader
-
-- Error estimates  
-  - The default maximum allowed error estimate (SDoP or sAcc) is 2.0 for 1-Hz data, and 4.0 for 5 Hz and higher data.
-- Acceleration  
-  - The maximum allowed acceleration is 4.0 m/second squared for 1 Hz data; 8.0 for 5 Hz data; and **16.0** for 10 Hz data.
-
-
-
-### Uncertainty
-
-SDOP / sAcc (u-blox; speed accuracy)
-
-Be careful comparing brands
-
-- GW-52 is better than GW-60 which is the most uncertain. Both can be rather iffy!
-  - Better antenna and view of Sky on GW-52
-- GT-31 is more certain than GW-52 and GW-60
-- GT-31 is comparable to Motion but more consistent on the Motion
-
-
-
-Check out underhand / overhand grip in GW-60 track on 27 March.
-
-- Also described in https://www.seabreeze.com.au/forums/Windsurfing/Gps/Speed-Accuracy
-
-
-
-Awesome thread about accuracy, putting aside the occasional bickering!
-
-http://seabreaze.com.au/forums/Windsurfing/Gps/Speed-Accuracy?page=3
-
-> This is a very good example of why GPSTC does not allow posting from Phones or other non "Dopplar-Error" devices:
->
-> 3 Motions all agreed well within the reported error margins. GPS-Logit, using the Android Phones internal GPS, was more than 1 knot out on the two best 2 second runs!!!
->
-> There would have been no way to tell how wrong Logit was if not for the other devices worn. The satellite numbers were high for GPS unit (8 sats) and, HDoP was 0.2, which does not indicate any problems.
-
-
-
-### GNSS
-
-The 5 GNSS constellations:
-
-- GPS (US)
-- QZSS (Japan)
-- BEIDOU (China)
-- GALILEO (EU)
-- GLONASS (Russia)
-
-Link - [The 5 GNSS Constellations Explained](https://blog.bliley.com/the-differences-between-the-5-gnss-satellite-network-constellations)
+Setting up a device to use multiple GNSS constellations will usually increase the number of available satellites.
 
 
 
 ### GPS Chipsets
 
-Here is a very brief summary of popular GPS chips in sports watches:
+Here is a brief summary of the GPS / GNSS chips being used in various popular devices:
+
+- SiRF
+  - Star II was used in the [Locosys GT-11](devices/locosys/gt-11/README.md)
+  - Star III was used in the [Locosys GT-31](devices/locosys/gt-31/README.md)
+  - Star IV was used in the Suunto Ambit + Ambit2
+  - Star V was used in the [Suunto Ambit3](devices/suunto/ambit3/README.md)
 
 - MediaTek 
-  - MT3333 was favoured by Garmin between 2012 and 2018; Fenix 2 to Fenix 5.
+  - MT3318 was suspected to have been used by Locosys in the [GW-52](devices/locosys/gw-52/README.md) and [GW-60](devices/locosys/gw-60/README.md).
+  - MT3333 was favoured by Garmin between 2012 and 2018; e.g. Fenix 2, [Fenix 3](devices/garmin/fenix-3/README.md), [Fenix 5](devices/garmin/fenix-5/README.md) and [Fenix 5 Plus](devices/garmin/fenix-5-plus/README.md).
+  - MT3339 was used in the Suunto Spartan Trainer, released in in 2017.
 - Sony
-  - CXD5603GF was popular from 2018 to 2020; COROS, Garmin, Suunto, Polar
+  - CXD5603GF was popular with several manufacturers between 2018 to 2020; COROS, Garmin, Suunto and Polar.
     - There was an Issue impacting positional [accuracy](https://www.dcrainmaker.com/2021/01/gps-accuracy-impacting-devices.html) in early 2021.
-    - FIT files from the COROS APEX Pro and VERTIX exhibit a number of [data issues](coros/data-issues.md).
-- Airoha (subsidiary of MediaTek)
-  - AG3335M has gained popularity since 2021; CORO VERTIX 2, Garmin Fenix 7, etc.
+    - FIT files from the COROS APEX Pro and VERTIX exhibit a number of [data issues](devices/coros/data-issues.md).
+- Airoha, subsidiary of MediaTek
+  - AG3335M has gained popularity since 2021; [COROS VERTIX 2](devices/coros/vertix-2/README.md), Garmin Fenix 7, etc.
 
-An article about the [performance](https://inf.news/en/fitness/a0e724b10c23386846c99d40c3ff225c.html) of mainstream sports watches provides more detail.
+I have created a separate article with notes about what data the above [chipsets](chipsets.md) provide.
 
-There are lots of good GPS reviews, focused mainly on runners at [www.dcrainmaker.com](https://www.dcrainmaker.com/).
+An article on the [performance](https://inf.news/en/fitness/a0e724b10c23386846c99d40c3ff225c.html) of mainstream sports watches was used to identify the GPS / GNSS chips in various sports watches.
+
+There are also lots of decent GPS reviews, albeit focused mainly on runners (not considering the accuracy of speed) at [www.dcrainmaker.com](https://www.dcrainmaker.com/).
 
 
 
 #### Antenna
 
-It should be noted that data quality is not solely to do with the the GPS chip. The quality of the antenna and ground plane are equally important.
+It should be noted the quality of data from a GPS device is not solely to do with the the GPS / GNSS chipset.
 
-See Roo - https://www.seabreeze.com.au/forums/Windsurfing/Gps/GW-52-5-Hz-Spikes-are-noise
+The quality of the antenna and ground plane are equally important. A good GPS chip with a bad antenna may perform worse than a poor GPS chip with a good antenna.
 
-https://www.seabreeze.com.au/forums/Windsurfing/Gps/GW-52-5-Hz-Spikes-are-noise)
+Wrist watches have limited space for a quality antenna and the watch casing may also impact the quality of GPS signals.
 
 
 
-## References
+### Dilution of Precision
 
-[Dilution of Precision](https://en.wikipedia.org/wiki/Dilution_of_precision_(navigation)) on WIkipedia
+The idea of [Dilution of Precision](https://en.wikipedia.org/wiki/Dilution_of_precision_(navigation)) (DOP) is to calculate how errors in the various GPS measurements will affect the final state estimation.
 
-[SDOP](https://nujournal.net/estimating-accuracy-of-gps-doppler-speed-measurement-using-speed-dilution-of-precision-sdop-parameter/) paper written by Tom Chalko in 2009
+HDOP can potentially say when data quality may be suspect but equally, it can often give no indication that there was an issue with the accuracy of speeds being reported.
 
-[Kalman Filter](https://en.wikipedia.org/wiki/Kalman_filter) on WIkipedia
+I have written up the availability of the various DOP metrics within specific chipsets in a separate [article](chipsets.md).
 
-[Dead Toys and Lots of Noise](https://boardsurfr.blogspot.com/2016/07/dead-toys-and-lots-of-noise.html?utm_source=seabreeze.com.au) blog about 5 Hz noise on GW-52
 
-​	[GW-52 5 Hz Spikes are noise](
+
+### Speed Accuracy
+
+It is a limited number of devices that can provide estimates on the accuracy of the speeds being reported and logged.
+
+These is a key requirement of devices approved for use by GPSTC and GP3S records:
+
+- [Locosys](devices/locosys/README.md) - GT-31, GW-52 and GW-60.
+- [Motion](devices/motion/README.md) - LCD and Mini.
+- [Gyro1](devices/gyro1/README.md)
+- [ESP-GPS](devices/esp-gps/README.md)
+
+Estimating the accuracy of speeds being reported is quite a detailed topic so it has been described in a separate [article](chipsets.md).
+
+
+
+### Filters
+
+TODO
+
+
+
+### Summary
+
+- Placement
+- GNSS + Satellites
+- Chipset + Antenna
+- DOP
+- Speed Accuracy
+- Filters
+
