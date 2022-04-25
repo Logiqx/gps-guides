@@ -11,6 +11,8 @@
 
 Data is not being recorded every second - why?
 
+![img](img/every-second.png)
+
 
 
 ### Track Data
