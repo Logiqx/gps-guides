@@ -6,10 +6,10 @@ Inputs, outputs, estimated errors, masking and filtering.
 
 Protocol documents provide some insight into the inner workings of GPS / GNSS chips.
 
-- [SiRF Binary Protocol Reference Manual](https://cdn.sparkfun.com/datasheets/Sensors/GPS/SiRF_Binary_Protocol.pdf) - Revision 2.4, Nov 2008
+- [SiRF Binary Protocol Reference Manual](pdf/SiRF_Binary_Protocol.pdf) - Revision 2.4, Nov 2008
   - See "Geodetic Navigation Data – Message ID 41"
-  - [Decoding the SiRF Binary Protocol](https://journals.scholarsportal.info/pdf/0208841x/v46i0004/127_dosbp.xml)
-- [u-blox 8 / u-blox M8 - Receiver description - Including protocol specification](https://content.u-blox.com/sites/default/files/products/documents/u-blox8-M8_ReceiverDescrProtSpec_UBX-13003221.pdf) - Revision 26, Nov 2021
+  - [Decoding the SiRF Binary Protocol](pdf/Decoding_of_SiRF_Binary_Protocol.pdf)
+- [u-blox 8 / u-blox M8 - Receiver description - Including protocol specification](pdf/u-blox8-M8_ReceiverDescrProtSpec_UBX-13003221.pdf) - Revision 26, Nov 2021
 
 
 
@@ -39,6 +39,8 @@ These can help to determine the potential accuracy of GPS readings:
 - PDOP – position (3D) dilution of precision
 - TDOP – time dilution of precision
 - GDOP – geometric dilution of precision
+
+[paper](pdf/3381-Manuscript-11481-1-10-20151214.pdf)
 
 
 
@@ -160,7 +162,7 @@ Doppler measurements are affected by vibrations and this is mentioned in the u-b
 
 Speed Accuracy thread 
 
-https://www.seabreeze.com.au/forums/Windsurfing/Gps/Speed-Accuracy
+[https://www.seabreeze.com.au/forums/Windsurfing/Gps/Speed-Accuracy](https://www.seabreeze.com.au/forums/Windsurfing/Gps/Speed-Accuracy)
 
 Garmin:
 
@@ -170,7 +172,7 @@ Garmin:
 
 ####  SDOP + VSDOP (SiRF)
 
-[SDOP](https://nujournal.net/estimating-accuracy-of-gps-doppler-speed-measurement-using-speed-dilution-of-precision-sdop-parameter/) paper written by Tom Chalko in 2009
+[SDOP](pdf/SDOP.pdf) paper written by Tom Chalko in 2009
 
 Tom's analysis - and thus the Sirf error-values - *are* 4 SD.... the analysis targeted > 99 percentile, so that we could be extremely confident of the error-bounds. TBC - did they mean 3?
 
