@@ -10,11 +10,13 @@ This watch uses the MediaTek MT3333.
 
 ### Spikes
 
-Worth noting that there was a 25 knot spike followed by a big 44 knot spike due to a crash.
+Firstly, this was entirely a consequence of running the data through GPSBabel, and serves as a warning that it can do unexpected things to your data!
 
-The standard "max acceleration" filter excluded these from the results.
+The end result was an apparent 25 knot spike followed by a big 44 knot spike, following a crash. These spikes were NOT in the original FIT data.
 
-Note: There is no "Sats", "HDOP" or "SDOP" in the Garmin data to catch this kind of issue.
+The standard "max acceleration" filter excluded these from the GPSBabel results since "Sats", "HDOP" or "SDOP" are not present.
+
+Important note: This spike is not present in the Doppler speeds of the original FIT. It was only introduced by GPSBabel and is from positional speeds.
 
 ![img](img/spike.png)
 
