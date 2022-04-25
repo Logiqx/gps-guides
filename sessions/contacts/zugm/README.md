@@ -21,7 +21,7 @@
 
 
 
-### Details
+### Fenix 7
 
 The GT-31 and Fenix 5 Plus results are very comparable with the two generally within 0.1-0.2 knots for results across the various speed categories. However, the Fenix 7 is reporting much lower than the other two devices.
 
@@ -43,6 +43,18 @@ Aside from the heavy smoothing (likely a basic rolling average but without centr
 Garmin are definitely doing something peculiar with the speed data received from the GNSS chip. So far as I know it's the same chip as the COROS VERTIX 2 and that watch doesn't have these issues.
 
 I'd be sure to complain to Garmin if I owned a Fenix 7. They should definitely look to fix this issue!
+
+
+
+### Fenix 5
+
+Comparing the Fenix 5 to the GT-31 in GPS Speedreader shows they are pretty comparable.
+
+The Fenix 5 speeds are sometimes 0.1-0.3 higher than the GT-31 but either could actually be correct.
+
+There are a few spikes evident in the Fenix 5 data when stationary (actually in the water) but during sailing time the data looks decent.
+
+![img](img/fenix-5.png)
 
 
 
