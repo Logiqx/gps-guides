@@ -9,7 +9,7 @@
 
 ### Observations
 
-Data is not being recorded every second - why?
+Data is not being recorded every second. David subsequently confirmed the watch was recording in "smart" mode.
 
 ![img](img/every-second.png)
 
