@@ -54,6 +54,8 @@ The Fenix 5 speeds are sometimes 0.1-0.3 higher than the GT-31 but either could 
 
 There are a few spikes evident in the Fenix 5 data when stationary (actually in the water) but during sailing time the data looks decent.
 
+The spikes may be due to the use of GPSBabel to load make the FIT file usable. Need to re-check when the original FIT can be analysed.
+
 ![img](img/fenix-5.png)
 
 
