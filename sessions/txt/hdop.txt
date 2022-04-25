@@ -28,20 +28,42 @@
 1.0
 1.1
 
-./contacts/george/tracks/vertix/Speedsurfing20211112114746.csv
+./20220410/tracks/APEX_Pro_Speedsurfing20220410134559.csv
+0.7
+0.8
+0.9
+1.0
+1.1
+1.3
+1.6
+1.7
+2.1
+
+./20220411/tracks/APEX_Pro_Speedsurfing20220411111317.csv
+0.7
+0.8
+0.9
+1.0
+1.1
+1.2
+1.3
+1.4
+1.6
+
+./contacts/fulg/tracks/20211112/vertix/Speedsurfing20211112114746.csv
 0.7
 0.8
 0.9
 1.0
 
-./contacts/george/tracks/vertix/Speedsurfing20220208130338.csv
+./contacts/fulg/tracks/20220208/vertix/Speedsurfing20220208130338.csv
 0.7
 0.8
 0.9
 1.0
 1.1
 
-./contacts/george/tracks/vertix/Speedsurfing20220215160303.csv
+./contacts/fulg/tracks/20220215/vertix/Speedsurfing20220215160303.csv
 0.7
 0.8
 0.9
@@ -50,16 +72,16 @@
 1.3
 1.7
 
-./contacts/george/tracks/vertix/Speedsurfing20220216124244.csv
+./contacts/fulg/tracks/20220216/vertix/Speedsurfing20220216124244.csv
 0.7
 0.8
 0.9
 
-./contacts/george/tracks/vertix/Speedsurfing20220220092122.csv
+./contacts/fulg/tracks/20220222/vertix/Speedsurfing20220220092122.csv
 0.7
 0.8
 
-./contacts/gp3s/tracks/20210808-apex-pro/Speedsurfing20210808123842.csv
+./contacts/gp3s/tracks/20210808/apex-pro/Speedsurfing20210808123842.csv
 0.8
 0.9
 1.0
@@ -76,82 +98,90 @@
 4.2
 6.1
 
-./contacts/gp3s/tracks/20211120-vertix/TWAN_GPS_GLONASS_Speedsurfing20211120115129.csv
+./contacts/gp3s/tracks/20211120/vertix/TWAN_GPS_GLONASS_Speedsurfing20211120115129.csv
 0.7
 0.8
 0.9
 1.0
 
-./contacts/gp3s/tracks/20211126-various/APEX_PRO_BEID_Speedsurfing20211126102434.csv
+./contacts/gp3s/tracks/20211126/apex-pro/APEX_PRO_BEID_Speedsurfing20211126102434.csv
 0.7
 0.8
 
-./contacts/gp3s/tracks/20211126-various/VERT_1_BEID_OutdoorCycle20211126102433.csv
-
-./contacts/gp3s/tracks/20211126-various/VERT_2_ALL_DUAL_20211126102432.csv
+./contacts/gp3s/tracks/20211126/vertix-2/VERT_2_ALL_DUAL_20211126102432.csv
 0.3
 0.4
 
-./contacts/gp3s/tracks/20211128-vertix-2/1_VERT_2_Speedsurfing20211128120052.csv
+./contacts/gp3s/tracks/20211126/vertix/VERT_1_BEID_OutdoorCycle20211126102433.csv
+
+./contacts/gp3s/tracks/20211128/vertix-2/1_VERT_2_Speedsurfing20211128120052.csv
 0.4
 0.5
 
-./contacts/gp3s/tracks/20211128-vertix-2/2_VERT_2_Speedsurfing20211128121850.csv
+./contacts/gp3s/tracks/20211128/vertix-2/2_VERT_2_Speedsurfing20211128121850.csv
 0.4
 0.5
 0.6
 
-./contacts/gp3s/tracks/20211128-vertix-2/3_VERT_2_Speedsurfing20211128125207.csv
+./contacts/gp3s/tracks/20211128/vertix-2/3_VERT_2_Speedsurfing20211128125207.csv
 0.4
 0.5
 
-./contacts/gp3s/tracks/20211130-vertix-2/DUAL_OFF_Speedsurfing20211130083658.csv
+./contacts/gp3s/tracks/20211130/vertix-2/DUAL_OFF_Speedsurfing20211130083658.csv
 0.4
 0.5
 
-./contacts/gp3s/tracks/20211130-vertix-2/DUAL_Speedsurfing20211130081247.csv
+./contacts/gp3s/tracks/20211130/vertix-2/DUAL_Speedsurfing20211130081247.csv
 0.4
 0.5
 
-./contacts/gp3s/tracks/20211204-vertix-1+2/VERT_1_GPS_BEI_GLO_Speedsurfing20211204120018.csv
+./contacts/gp3s/tracks/20211204/vertix-2/VERT_2_ALL_DUO_Speedsurfing20211204120001.csv
+0.3
+0.4
+
+./contacts/gp3s/tracks/20211204/vertix-2/VERT_2_BETA_ALL_DUO_Speedsurfing20211204120014.csv
+0.3
+0.4
+0.5
+
+./contacts/gp3s/tracks/20211204/vertix/VERT_1_GPS_BEI_GLO_Speedsurfing20211204120018.csv
 0.7
 0.8
 0.9
 1.0
 1.1
 
-./contacts/gp3s/tracks/20211204-vertix-1+2/VERT_2_ALL_DUO_Speedsurfing20211204120001.csv
-0.3
+./contacts/gp3s/tracks/20211205/vertix-2/VERT_2_10_Speedsurfing20211205124920.csv
 0.4
 
-./contacts/gp3s/tracks/20211204-vertix-1+2/VERT_2_BETA_ALL_DUO_Speedsurfing20211204120014.csv
-0.3
+./contacts/gp3s/tracks/20211205/vertix-2/VERT_2_Speedsurfing20211205125625.csv
 0.4
-0.5
 
-./contacts/gp3s/tracks/20211205-vertix-1+2/VERT_1_Speedsurfing20211205124921.csv
+./contacts/gp3s/tracks/20211205/vertix/VERT_1_Speedsurfing20211205124921.csv
 0.7
 0.8
 0.9
 1.0
 
-./contacts/gp3s/tracks/20211205-vertix-1+2/VERT_2_10_Speedsurfing20211205124920.csv
-0.4
-
-./contacts/gp3s/tracks/20211205-vertix-1+2/VERT_2_Speedsurfing20211205125625.csv
-0.4
-
-./contacts/gp3s/tracks/20220207-vertix-2/Vert_1_Speedsurfing20220207104635.csv
+./contacts/gp3s/tracks/20220207/vertix-2/Vert_1_Speedsurfing20220207104635.csv
 0.3
 0.4
 0.5
 
-./contacts/gp3s/tracks/jan-hendrik/Vertix_1_Actual_firmware/Speedsurfing20220212112627.csv
+./contacts/gp3s/tracks/20220212/vertix-2/Speedsurfing20220212112654.csv
+0.4
+0.5
+0.6
 0.7
 0.8
 0.9
 
-./contacts/gp3s/tracks/jan-hendrik/Vertix_1__previous_firmware/Speedsurfing20220212112636.csv
+./contacts/gp3s/tracks/20220212/vertix-actual-firmware/Speedsurfing20220212112627.csv
+0.7
+0.8
+0.9
+
+./contacts/gp3s/tracks/20220212/vertix-previous-firmware/Speedsurfing20220212112636.csv
 0.9
 1.0
 1.1
@@ -159,26 +189,18 @@
 1.4
 2.2
 
-./contacts/gp3s/tracks/jan-hendrik/Vertix_2/Speedsurfing20220212112654.csv
-0.4
-0.5
-0.6
-0.7
-0.8
-0.9
+./contacts/newm/tracks/20210503/vertix/vertix-20210503124413.csv
 
-./contacts/mark/tracks/vertix/vertix-20210503124413.csv
+./contacts/newm/tracks/20210706/vertix/vertix-20210706125052.csv
 
-./contacts/mark/tracks/vertix/vertix-20210706125052.csv
-
-./contacts/mark/tracks/vertix/vertix-20210728115643.csv
+./contacts/newm/tracks/20210728/vertix/vertix-20210728115643.csv
 0.7
 0.8
 0.9
 1.0
 1.1
 
-./contacts/will/tracks/vertix-2/Speedsurfing20220319113311.csv
+./contacts/trow/tracks/20220319/vertix-2/Speedsurfing20220319113311.csv
 0.3
 0.4
 0.5

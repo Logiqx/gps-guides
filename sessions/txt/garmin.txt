@@ -1,10 +1,17 @@
-./contacts/gp3s/tracks/20220212-fenix-7/8282759311_ACTIVITY.csv: serial 3403592472 product 3905
-./contacts/gp3s/tracks/jan-hendrik/Garmin_Fenix_7/8282759311_ACTIVITY.csv: serial 3403592472 product 3905
-./contacts/gp3s/tracks/jan-hendrik/test_1/8294078075_ACTIVITY.csv: serial 3403592472 product 3905
-./contacts/mark/tracks/20220406/fenix-7-8590919337_ACTIVITY.csv: serial 3401137291 product 3906
-./contacts/mark/tracks/fenix-5/fenix-5-4092930843.csv: serial 3949903342 product 2697
-./contacts/paul/tracks/fenix-6/7524114101_ACTIVITY.csv: serial 3316565336 product 3290
-./contacts/paul/tracks/fenix-6/8552780877_ACTIVITY.csv: serial 3316565336 product 3290
-./contacts/richard/tracks/fenix-3/Richard_8528816694_ACTIVITY.csv: serial 3917908387 product 2050
-./contacts/richard/tracks/vivoactive-3/Max_Afternoon_Activity.csv: serial 3980956997 product 2700
-./contacts/will/tracks/fenix-6/8485440362_ACTIVITY.csv: serial 3332712266 product 3290
+./contacts/beam/tracks/20210428/vivoactive-3/Afternoon_Activity1.csv: serial 3980956997 product 2700
+./contacts/beam/tracks/20210505/vivoactive-3/Afternoon_Activity2.csv: serial 3980956997 product 2700
+./contacts/beam/tracks/20210522/vivoactive-3/Afternoon_Activity3.csv: serial 3980956997 product 2700
+./contacts/bear/tracks/20220326/fenix-3/Richard_8528816694_ACTIVITY.csv: serial 3917908387 product 2050
+./contacts/germ/tracks/20220422/fenix-6x/8686414511_ACTIVITY.csv: serial 3343826602 product 3291
+./contacts/gp3s/tracks/20220212/fenix-7s/8282759311_ACTIVITY.csv: serial 3403592472 product 3905
+./contacts/gp3s/tracks/20220214/fenix-7s/8294078075_ACTIVITY.csv: serial 3403592472 product 3905
+./contacts/mord/tracks/20220215/fenix-6x/8298737002_ACTIVITY.csv: serial 3345798846 product 3291
+./contacts/mord/tracks/20220225/fenix-6x/8355025260_ACTIVITY.csv: serial 3345798846 product 3291
+./contacts/newm/tracks/20190924/fenix-5/fenix-5-4092930843.csv: serial 3949903342 product 2697
+./contacts/newm/tracks/20220406/fenix-7/fenix-7-8590919337_ACTIVITY.csv: serial 3401137291 product 3906
+./contacts/newm/tracks/20220406/fenix-7/fenix-7-8590919337_ACTIVITY_alt.csv:Data,0,file_id,type,"6 product 1001
+./contacts/sibp/tracks/20210917/fenix-6/7524114101_ACTIVITY.csv: serial 3316565336 product 3290
+./contacts/sibp/tracks/20220330/fenix-6/8552780877_ACTIVITY.csv: serial 3316565336 product 3290
+./contacts/trow/tracks/20220319/fenix-6/8485440362_ACTIVITY.csv: serial 3332712266 product 3290
+./contacts/zugm/tracks/20220424/fenix-5/fenix_5_2022-04-24-10-12-58.csv: serial 3974243096 product 3110
+./contacts/zugm/tracks/20220424/fenix-7/fenix7_8697733603_ACTIVITY.csv: serial 3403379078 product 3906
