@@ -125,11 +125,12 @@ Note: Doppler frequencies and carrier frequencies mentioned in SiRF and u-blox s
 
 **SiRF**
 
-- SDOP - Speed Dilution of Precision
 - EHPE - Estimated Horizontal Position Error (cm)
 - EVPE - Estimated Vertical Position Error (cm)
+- EHVE - Estimated Horizontal Velocity Error (cm/s) - SiRFDRive only - SDOP?
 - ETE - Estimated Time Error (hundredths of a second) - SiRFDRive only
-- EHVE - Estimated Horizontal Velocity Error (cm/s) - SiRFDRive only
+
+SiRF command $PSRFEPE
 
 
 
@@ -170,6 +171,17 @@ Garmin:
 
 > It appears that the Garmin and Suunto GPS Watches use only positional data. What sometimes appears to be Doppler speed data in analysis programs, seems to actually be a smoothed or filtered Positional output.
 
+Patent by Honeywell in 2008 / 2009 describes horizontal and vertical velocity error estimates: https://patents.google.com/patent/US20090182493
+another https://patents.google.com/patent/WO1995000861A1/en
+
+SiRF command $PSRFEPE
+- Star V: https://www.mouser.com/pdfDocs/2613021137000_Elara-II2613021137000Manual_rev1-2.pdf
+
+- THIS ONE - Star V: https://www.we-online.com/catalog/manual/2614011037000_Manual_Erinome-I_2614011037000_rev1.7.pdf
+
+- Star IV: https://mt-system.ru/sites/default/files/docs/documents/sim18%20module%20osp%20manual%20(cs-129291-dc-8)[1].pdf
+
+  
 
 
 ####  SDOP + VSDOP (SiRF)
