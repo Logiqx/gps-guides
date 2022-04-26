@@ -6,7 +6,9 @@ Tracks provided to me from my contacts.
 
 
 
-### Garmin Product Codes
+### Product Codes
+
+#### Garmin
 
 Use the serial number to identify the product name in the Garmin [support centre](https://support.garmin.com/en-US/ql/?focus=topics).
 
@@ -14,11 +16,84 @@ Use the serial number to identify the product name in the Garmin [support centre
 | ------------------------------------ | -------------- |
 | Fenix 3                              | 2050           |
 | Fenix 5                              | 2697           |
+| Fenix 5X                             |                |
 | Fenix 6 - Pro and Sapphire Editions  | 3290           |
 | Fenix 6X - Pro and Sapphire Editions | 3291           |
 | Fenix 7 - Standard Edition           | 3906           |
 | Fenix 7S - Sapphire Solar Edition    | 3905           |
 | Vivoactive 3                         | 2700           |
+
+
+
+### Garmin Sessions
+
+#### Fenix 3
+
+Product 2050. Latest firmware [9.60](https://www8.garmin.com/support/download_details.jsp?id=7623)
+
+| Contact                | Firmware | Sessions | Additional Data |
+| ---------------------- | -------- | -------- | --------------- |
+| [bear](bear/README.md) | 9.60     | 1        |                 |
+| [kisg](kisg/README.md) | 8.20     | 4        | Mini Motion     |
+
+
+
+#### Fenix 5
+
+| Contact                | Firmware | Sessions | Additional Data |
+| ---------------------- | -------- | -------- | --------------- |
+| [newm](newm/README.md) |          |          |                 |
+
+
+
+#### Fenix 5X
+
+| Contact                     | Firmware | Sessions | Additional Data |
+| --------------------------- | -------- | -------- | --------------- |
+| [kisg](kisg/README.md) TODO |          |          |                 |
+
+
+
+#### Fenix 6 - Pro and Sapphire Editions
+
+| Contact                | Firmware | Sessions | Additional Data |
+| ---------------------- | -------- | -------- | --------------- |
+| [sibp](sibp/README.md) |          |          |                 |
+| [trow](trow/README.md) |          |          |                 |
+
+
+
+#### Fenix 6X - Pro and Sapphire Editions
+
+| Contact                     | Firmware | Sessions | Additional Data |
+| --------------------------- | -------- | -------- | --------------- |
+| [germ](germ/README.md) TODO |          |          |                 |
+| [mord](mord/README.md)      |          |          |                 |
+
+
+
+#### Fenix 7 - Standard Edition
+
+| Contact                | Firmware | Sessions | Additional Data |
+| ---------------------- | -------- | -------- | --------------- |
+| [newm](newm/README.md) |          |          |                 |
+| [zugm](zugm/README.md) |          |          |                 |
+
+
+
+#### Fenix 7S - Sapphire Solar Edition
+
+| Contact                     | Firmware | Sessions | Additional Data |
+| --------------------------- | -------- | -------- | --------------- |
+| [gp3s](gps3/README.md) TODO |          |          |                 |
+
+
+
+#### Vivoactive 3
+
+| Contact                | Firmware | Sessions | Additional Data |
+| ---------------------- | -------- | -------- | --------------- |
+| [beam](beam/README.md) |          |          |                 |
 
 
 
