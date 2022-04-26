@@ -33,7 +33,7 @@ Product 2050. Latest firmware [9.60](https://www8.garmin.com/support/download_de
 
 | Contact                | Firmware | Sessions | Additional Data |
 | ---------------------- | -------- | -------- | --------------- |
-| [bear](bear/README.md) | 9.60     | 1        |                 |
+| [bear](bear/README.md) | 9.60     | 1        | N/A             |
 | [kisg](kisg/README.md) | 8.20     | 4        | Mini Motion     |
 
 
@@ -93,9 +93,11 @@ Product 2050. Latest firmware [9.60](https://www8.garmin.com/support/download_de
 
 #### Vivoactive 3
 
+Product 2700. Latest firmware [7.70](https://www8.garmin.com/support/download_details.jsp?id=13009)
+
 | Contact                | Firmware | Sessions | Additional Data |
 | ---------------------- | -------- | -------- | --------------- |
-| [beam](beam/README.md) |          |          |                 |
+| [beam](beam/README.md) | 7.70     | 3        | N/A             |
 
 
 

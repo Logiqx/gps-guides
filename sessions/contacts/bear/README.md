@@ -8,17 +8,17 @@ This watch uses the MediaTek MT3333.
 
 
 
-### Spikes
+### GPS Babel
 
-Firstly, this was entirely a consequence of running the data through GPSBabel, and serves as a warning that it can do unexpected things to your data!
+Firstly, stating this was entirely a consequence of running the data through GPSBabel, and serves as a warning that tools can do unexpected things to your data!
 
-The end result was an apparent 25 knot spike followed by a big 44 knot spike, following a crash. These spikes were NOT in the original FIT data.
+The end result was an apparent 25.36 knot spike @ 15:52:44 followed by a big 44 knot spike, following a crash. These spikes were NOT in the original FIT data.
 
 The standard "max acceleration" filter excluded these from the GPSBabel results since "Sats", "HDOP" or "SDOP" are not present.
 
-Important note: This spike is not present in the Doppler speeds of the original FIT. It was only introduced by GPSBabel and is from positional speeds.
+Important note: This spike is not present in the Doppler speeds of the original FIT. It was only introduced by GPSBabel and is derived from positional data.
 
-![img](img/spike.png)
+![img](img/gpsbabel-spike.png)
 
 
 
