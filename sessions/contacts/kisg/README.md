@@ -180,7 +180,7 @@ General:
 - Fenix 3 can produce significant spikes when stationary / wet but they are obvious when reviewed.
 - Overall, Fenix 3 is pretty decent during normal sailing (especially 500m) but slingshots can lead to over-reading.
 
-Note: Speed from the Fenix 7 does indeed look like it is Doppler-derived and has a Kalman filter.
+Note: Speed from the Fenix 3 does indeed look like it is Doppler-derived and has a Kalman filter.
 
 
 
