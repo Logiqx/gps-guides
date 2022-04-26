@@ -6,9 +6,7 @@ Tracks provided to me from my contacts.
 
 
 
-### Product Codes
-
-#### Garmin
+### Garmin Product Codes
 
 Use the serial number to identify the product name in the Garmin [support centre](https://support.garmin.com/en-US/ql/?focus=topics).
 
