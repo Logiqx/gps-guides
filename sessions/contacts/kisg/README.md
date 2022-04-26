@@ -7,9 +7,8 @@
 
 
 
-### Sessions
 
-#### 20181216 - Fenix 3 vs Motion Mini
+### 20181216 - Fenix 3 vs Motion Mini
 
 No obvious 1 second spikes in Doppler or non-Doppler speeds from the Fenix 3.
 
@@ -33,7 +32,7 @@ Comparing available 500m results:
 
 
 
-#### 20191202 - Fenix 3 vs Motion Mini
+### 20191202 - Fenix 3 vs Motion Mini
 
 Spikes:
 
@@ -77,7 +76,7 @@ Comparing 500m results:
 
 
 
-#### 20191230 - Fenix 3 vs Motion Mini
+### 20191230 - Fenix 3 vs Motion Mini
 
 Spikes:
 
@@ -127,7 +126,7 @@ Look at the data between 14:32 and 14:33. The speed data is **not** just smoothe
 
 
 
-#### 20200309 - Fenix 3 vs Motion Mini
+### 20200309 - Fenix 3 vs Motion Mini
 
 No obvious 1 second spikes in Doppler or non-Doppler speeds from the Fenix 3.
 
@@ -162,8 +161,6 @@ Comparing 500m results:
 - 05:18:13 = 0.07 higher on Fenix 3
 - 05:52:14 = 0.08 higher on Fenix 3
 - 05:42:10 = cannot compare
-
-Note: Turning off filters reveals a 60 knot spike (positional data, 36 knots over 2s) at start of track.
 
 
 
