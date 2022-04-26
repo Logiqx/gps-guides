@@ -30,16 +30,16 @@ Most GPS chipsets are [NMEA-0183](https://gpsd.gitlab.io/gpsd/NMEA.html) complia
 
 The following common NMEA sentences provide useful data for speed sailing:
 
-- **GLL** - Geographic Position - Latitude/Longitude
+- **GLL** - Geographic Position - Latitude/Longitude (e.g. $GNGLL)
   - Includes **latitude**, **longitude**, **time** (UTC)
 - **GSA** - GPS DOP and active satellites (e.g. $GNGSA)
   - Includes **fix type**, **satellite IDs**, **PDOP, HDOP, VDOP**
-- **GSV** - Satellites in view
+- **GSV** - Satellites in view (e.g. $GPGSV)
   - Includes **sats** (0-99)
   
-- **RMC** - Recommended Minimum Navigation Information 
+- **RMC** - Recommended Minimum Navigation Information (e.g. $GNRMC)
   - Includes **COG** and **SOG**
-- **VTG** - Track made good and Ground speed (e.g. $GPVTG)
+- **VTG** - Track made good and Ground speed (e.g. $GPVTG or $GNVTG)
   - Includes **COG** and **SOG**
 
 
@@ -49,11 +49,11 @@ Less common sentence also includes the following:
 - **GBS** - GPS Satellite Fault Detection
   - Expected 1-sigma **error** in latitude, longitude and altitude (meters)
 
-- **GGA** - Global Positioning System Fix Data
+- **GGA** - Global Positioning System Fix Data (e.g. $GPGGA)
   - Includes **latitude**, **longitude**, **fix** (2d / 3d), **sats** (0-99), **HDOP**
-- **GNS** - Fix data (e.g. $GPGNS)
+- **GNS** - Fix data (e.g. $GPGNS or $GNGNS)
   - Includes **time** (UTC), **latitude**, **longitude**, **sats** (0-99) and **HDOP**
-- **ZDA** - GNSS Time & Date
+- **ZDA** - GNSS Time & Date (e.g. $GNZDA)
   - Includes **time** and date (**UTC**)
 
 
@@ -63,6 +63,19 @@ MediaTek have several [proprietary sentences](http://ozzmaker.com/wp-content/upl
 - **EPE** – Accuracy estimate sentence
   - **Horizontal accuracy estimate** (m) xx.xx
   - **Vertical accuracy estimate** (m) xx.xx
+
+
+
+SiRF also have proprietary sentences, at least in the SirfSTAR V, including this one similar to GBS:
+
+- **EPE** – Accuracy estimate sentence
+
+  - **HDOP** - Horizontal Dilution of Precision
+  - **EHPE** - Estimated Horizontal Position Error (meters)
+
+  - **EVPE** - Estimated Vertical Position Error (meters)
+  - **EHVE** - Estimated Velocity Error (m/s)
+  - **EHE** - Estimated Heading Error (degrees)
 
 
 
