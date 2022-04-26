@@ -2,11 +2,13 @@
 
 ### Introduction
 
-Positional, Doppler, Kalman, etc.
+Positional vs Doppler.
 
-Track smoothing in the GT-31:
+Kalman (GPS chip) + smoothing (watch).
 
-- TrkSmoothMode: disabled
+Kalman filtering in the SirfSTAR III chipset uses a combination of both position fixes and the doppler shift, mainly depending upon the strength of the satellite signals. Smoothing then occurs in devices produced by Garmin, etc.
+
+Speeds are best on the Locosys GT-31 when track smoothing is disabled in the SiRF3 chipset navigation parameters. See appendix by Tom Chalko.
 
 
 
