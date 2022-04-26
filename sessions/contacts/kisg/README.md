@@ -103,11 +103,11 @@ Comparing 10s results:
 
 Comparing 250m results:
 
-- 15:28:49 = 0.03 lower on Fenix 3
-- 15:52:00 = 0.13 lower on Fenix 3
-- 13:31:41 = 0.03 lower on Fenix 3
-- 13:05:54 = 0.04 higher on Fenix 3
-- 14:01:20 = 0.02 higher on Fenix 3
+- 05:28:49 = 0.03 lower on Fenix 3
+- 05:52:00 = 0.13 lower on Fenix 3
+- 03:31:41 = 0.03 lower on Fenix 3
+- 03:05:54 = 0.04 higher on Fenix 3
+- 04:01:20 = 0.02 higher on Fenix 3
 
 Comparing 500m results:
 
@@ -149,11 +149,11 @@ Comparing 10s results:
 
 Comparing 250m results:
 
-- 15:31:52 = 0.05 lower on Fenix 3
-- 15:18:58 = 0.21 higher on Fenix 3
-- 15:52:14 = 0.16 higher on Fenix 3
-- 16:16:17 = 0.03 lower on Fenix 3
-- 15:41:57 = 0.06 higher on Fenix 3
+- 05:31:52 = 0.05 lower on Fenix 3
+- 05:18:58 = 0.21 higher on Fenix 3
+- 05:52:14 = 0.16 higher on Fenix 3
+- 06:16:17 = 0.03 lower on Fenix 3
+- 05:41:57 = 0.06 higher on Fenix 3
 
 Comparing 500m results:
 
