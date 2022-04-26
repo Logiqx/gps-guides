@@ -66,20 +66,21 @@ MediaTek have several [proprietary sentences](http://ozzmaker.com/wp-content/upl
 
 #### SiRF
 
-TODO
+SirfSTAR II was the first chip to provide Doppler speed and was used in the Locosys GT-11.
 
-- SiRF Star II - GT-11
-- SiRF Star III - GT-31
+SirfSTAR  III was used in the Locosys GT-31. It updates the tracking of doppler shift [10 times per second](http://greenhulk.net/forums/showthread.php?t=259199) internally.
 
-SDOP + VSDOP (GT-31), SDOS (GW-52 / GW-60)
+SirfSTAR IV has a much improved Doppler shift algorithm internally, is faster to compute the Kalman filter variables, and can provide data from the chipset at 5 times per second. The SirfSTAR IV chipset also at 100 ms, and the Kalman filter outputs every 200 ms.
+
+SirfSTAR V added GLONASS capability alongside GPS for more precise positions. It also processes data internally faster.
+
+TODO - SDOP + VSDOP (GT-31), SDOS (GW-52 / GW-60)
 
 
 
 #### u-blox
 
-TODO
-
-sAcc, etc.
+TODO - sAcc, etc.
 
 
 
