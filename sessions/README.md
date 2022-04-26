@@ -63,18 +63,12 @@ TODO - APEX Pro was fastest device on both days; GT-31, GW-60 and APEX Pro
 
 
 
-## Supplements
+## Contact Sessions
 
-### Mark's Tracks
+I have created a separate page for the analysis of sessions from my [contacts](contacts/README.md).
 
-Mark provided three VERTIX tracks to confirm my observations relating to the APEX Pro.
 
-- Repeated speeds were abundant in the data, as per my own sessions.
-- I was also able to confirm the speed resolution of 5 cm/s.
 
-Another session from a Garmin Fenix 5 was also provided.
+## Testing Approach
 
-- It was a good example of why non-Doppler speeds should not be trusted...
-- There was a 40 knot spike in the non-Doppler speeds when the true speed was 33 knots.
-
-The session [notes](contacts/newm/README.md) contain more detail on these topics, including charts confirming speed resolutions.
+I have written an overview of my [testing approach](testing.md), when comparing devices.

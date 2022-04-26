@@ -43,14 +43,16 @@ Product 2050. Latest firmware [9.60](https://www8.garmin.com/support/download_de
 | Contact                | Firmware | Sessions | Additional Data |
 | ---------------------- | -------- | -------- | --------------- |
 | [newm](newm/README.md) |          |          |                 |
+| [zugm](zugm/README.md) |          |          |                 |
 
 
 
 #### Fenix 5X
 
-| Contact                     | Firmware | Sessions | Additional Data |
-| --------------------------- | -------- | -------- | --------------- |
-| [kisg](kisg/README.md) TODO |          |          |                 |
+| Contact | Firmware | Sessions | Additional Data |
+| ------- | -------- | -------- | --------------- |
+| haia    |          |          |                 |
+| kisg    |          |          |                 |
 
 
 
@@ -65,10 +67,10 @@ Product 2050. Latest firmware [9.60](https://www8.garmin.com/support/download_de
 
 #### Fenix 6X - Pro and Sapphire Editions
 
-| Contact                     | Firmware | Sessions | Additional Data |
-| --------------------------- | -------- | -------- | --------------- |
-| [germ](germ/README.md) TODO |          |          |                 |
-| [mord](mord/README.md)      |          |          |                 |
+| Contact                | Firmware | Sessions | Additional Data |
+| ---------------------- | -------- | -------- | --------------- |
+| germ                   |          |          |                 |
+| [mord](mord/README.md) |          |          |                 |
 
 
 
@@ -83,9 +85,9 @@ Product 2050. Latest firmware [9.60](https://www8.garmin.com/support/download_de
 
 #### Fenix 7S - Sapphire Solar Edition
 
-| Contact                     | Firmware | Sessions | Additional Data |
-| --------------------------- | -------- | -------- | --------------- |
-| [gp3s](gps3/README.md) TODO |          |          |                 |
+| Contact                | Firmware | Sessions | Additional Data |
+| ---------------------- | -------- | -------- | --------------- |
+| [gp3s](gp3s/README.md) |          |          |                 |
 
 
 
