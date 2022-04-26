@@ -27,7 +27,7 @@ Use the serial number to identify the product name in the Garmin [support centre
 
 #### Fenix 3
 
-Product 2050. Latest firmware [9.60](https://www8.garmin.com/support/download_details.jsp?id=7623)
+Product 2050. Latest firmware [9.60](https://www8.garmin.com/support/download_details.jsp?id=7623).
 
 | Contact                | Firmware | Sessions | Additional Data |
 | ---------------------- | -------- | -------- | --------------- |
@@ -65,9 +65,12 @@ Product 2050. Latest firmware [9.60](https://www8.garmin.com/support/download_de
 
 #### Fenix 6X - Pro and Sapphire Editions
 
+Product 3291. Latest firmware [20.51](https://www8.garmin.com/support/download_details.jsp?id=15167).
+
 | Contact                | Firmware | Sessions | Additional Data |
 | ---------------------- | -------- | -------- | --------------- |
 | germ                   |          |          |                 |
+| [gwys](gwys/README.md) | 20.30    | 2        | GW-60           |
 | [mord](mord/README.md) |          |          |                 |
 
 
@@ -91,7 +94,7 @@ Product 2050. Latest firmware [9.60](https://www8.garmin.com/support/download_de
 
 #### Vivoactive 3
 
-Product 2700. Latest firmware [7.70](https://www8.garmin.com/support/download_details.jsp?id=13009)
+Product 2700. Latest firmware [7.70](https://www8.garmin.com/support/download_details.jsp?id=13009).
 
 | Contact                | Firmware | Sessions | Additional Data |
 | ---------------------- | -------- | -------- | --------------- |
