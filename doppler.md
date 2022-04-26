@@ -33,7 +33,8 @@ The following common NMEA sentences provide useful data for speed sailing:
 - **GSA** - GPS DOP and active satellites (e.g. $GNGSA)
   - Includes **fix type**, **satellite IDs**, **PDOP, HDOP, VDOP**
 - **GSV** - Satellites in view
-  Includes **sats** (0-99)
+  - Includes **sats** (0-99)
+  
 - **RMC** - Recommended Minimum Navigation Information 
   - Includes **COG** and **SOG**
 - **VTG** - Track made good and Ground speed (e.g. $GPVTG)
@@ -107,5 +108,5 @@ TODO - Screenshots
 ### References
 
 - [GPS as a low-speed Speedometer](https://www.model-engineer.co.uk/forums/postings.asp?th=175442&p=2)
-  - includes two interesting responses from "Joseph Noci 1", regarding the SiRF chipset and Doppler speeds.
+  - Includes two interesting responses from "Joseph Noci 1", regarding the SiRF chipset and Doppler speeds.
   - Joseph mentions spending many years developing autopilot and flight control systems for Military drones.
