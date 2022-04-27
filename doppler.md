@@ -89,18 +89,19 @@ SiRF also have a proprietary sentence in the SiRFstar IV and V:
 
 Support for the various sentences:
 
-|                    |                                           | SiRF<br />Star III | SiRF<br />Star IV | SiRF<br />Star V | MediaTek<br />MT3318 | MediaTek<br />MTK3333 | Sony<br />CXD5603GF | Airoha<br />AG3335M |
-| :----------------: | ----------------------------------------- | :----------------: | :---------------: | :--------------: | :------------------: | :-------------------: | :-----------------: | :-----------------: |
-| PSRFEPE (SiRF EPE) | time, HDOP, EHPE, EVPE, EHVE, EHE         |         -          |        Yes        |       Yes        |          -           |           -           |          -          |                     |
-|        GBS         | time, 1-sigma errors for lat + long + alt |         -          |         -         |        -         |          -           |           -           |          -          |                     |
-|      **GGA**       | time, lat, long, sats, HDOP               |        Yes         |        Yes        |       Yes        |         Yes          |          Yes          |         Yes         |                     |
-|        GLL         | time, lat, long                           |        Yes         |        Yes        |       Yes        |         Yes          |           -           |         Yes         |                     |
-|        GNS         | time, lat, long, sats, HDOP               |         -          |         -         |       Yes        |          -           |           -           |         Yes         |                     |
-|        GSA         | sats, PDOP, HDOP, VDOP                    |        Yes         |        Yes        |       Yes        |         Yes          |          Yes          |         Yes         |                     |
-|        GSV         | sats                                      |        Yes         |        Yes        |       Yes        |         Yes          |          Yes          |         Yes         |                     |
-|      **RMC**       | time, lat, long, SOG, COG                 |        Yes         |        Yes        |       Yes        |         Yes          |          Yes          |         Yes         |                     |
-|        VTG         | SOG, COG                                  |        Yes         |        Yes        |       Yes        |         Yes          |          Yes          |         Yes         |                     |
-|        ZDA         | time                                      |         -          |        Yes        |       Yes        |          -           |           -           |         Yes         |                     |
+|                         |                                           | SiRF<br />Star III | SiRF<br />Star IV  | SiRF<br />Star V | MediaTek<br />MT3318 | MediaTek<br />MTK3333 |        Sony<br />CXD5603GF        |  Airoha<br />AG3335M  |
+| :---------------------: | ----------------------------------------- | :----------------: | :----------------: | :--------------: | :------------------: | :-------------------: | :-------------------------------: | :-------------------: |
+|                         |                                           |       GT-31        | GW-52?<br />GW-60? |        -         |  GW-52?<br />GW-60?  |      Fenix 3 + 5      | Fenix 6<br />APEX Pro<br />VERTIX | Fenix 7<br />VERTIX 2 |
+| PSRFEPE<br />(SiRF EPE) | time, HDOP, EHPE, EVPE, EHVE, EHE         |         -          |        Yes         |       Yes        |          -           |           -           |                 -                 |           -           |
+|           GBS           | time, 1-sigma errors for lat + long + alt |         -          |         -          |        -         |          -           |           -           |                 -                 |           -           |
+|         **GGA**         | time, lat, long, sats, HDOP               |        Yes         |        Yes         |       Yes        |         Yes          |          Yes          |                Yes                |          Yes          |
+|           GLL           | time, lat, long                           |        Yes         |        Yes         |       Yes        |         Yes          |           -           |                Yes                |          Yes          |
+|           GNS           | time, lat, long, sats, HDOP               |         -          |         -          |       Yes        |          -           |           -           |                Yes                |           -           |
+|           GSA           | sats, PDOP, HDOP, VDOP                    |        Yes         |        Yes         |       Yes        |         Yes          |          Yes          |                Yes                |          Yes          |
+|           GSV           | sats                                      |        Yes         |        Yes         |       Yes        |         Yes          |          Yes          |                Yes                |          Yes          |
+|         **RMC**         | time, lat, long, SOG, COG                 |        Yes         |        Yes         |       Yes        |         Yes          |          Yes          |                Yes                |          Yes          |
+|           VTG           | SOG, COG                                  |        Yes         |        Yes         |       Yes        |         Yes          |          Yes          |                Yes                |          Yes          |
+|           ZDA           | time                                      |         -          |        Yes         |       Yes        |          -           |           -           |                Yes                |          Yes          |
 
 Note: GPSBabel only outputs GPGGA and GPRMC (highlighted) when processing SBP and SBN files.
 
@@ -157,10 +158,12 @@ History
   - Sep [2017](https://web.archive.org/web/20170922115854/http://www.locosystech.com/en/category/GPS-Module/GPS-Module.html)
     - [ROM based](https://web.archive.org/web/20170922232054/http://www.locosystech.com/en/category/GPS-ROM-Base/GPS-ROM-Base.html) - S4-0606, **S4-1513-2R**, S4-1612-2R
     - [flash based](https://web.archive.org/web/20170922230417/http://www.locosystech.com/en/category/GPS-Flash-Base/GPS-Flash-Base.html) - **S4-1513**, **S4-1513-2E**, S4-1612-2E, S4-1613
-  - LOCOSYS S4-1513-2R still listed in [2019](https://web.archive.org/web/20191218151108/https://www.locosystech.com/en/product/index.html);
+  - LOCOSYS S4-1513-2R still listed in [2019](https://web.archive.org/web/20191218151108/https://www.locosystech.com/en/product/index.html) and May [2021](https://web.archive.org/web/20210410140345/https://www.locosystech.com/en/category/GPS-Modules/GPS-Modules.html).
     - ROM based - S4-0606, **S4-1513-2R**, S4-1612-2R
-      - Oddly, not on 2017 page - S5-1010-2R, S5-0707-2R
+      - SiRFstar V - S5-0707-2R, S5-1010-2R
     - flash based - **S4-1513**, **S4-1513-2E**, S4-1612-2E, S4-1613
+      - SiRFstar V - S5-1612-2E
+  - SiRF based GPS modules no longer available in 2022, coincides with GW-60 becoming unavailable in 2021.
 - SiRFstar V was launched in 2012 and it supports PSRFEPE, mentioned in ERINOME-I documentation.
 - GW-52 was released in 2015. Would seem likely it used the Locosys S4-1613. Why MediaTek - what frame references?
 - PSRFEPE message was introduced to [gpsd](https://github.com/ukyg9e5r6k7gubiekd6/gpsd) in [March 2019](https://github.com/ukyg9e5r6k7gubiekd6/gpsd/blob/master/driver_nmea0183.c). Comment in the code says "SiRF won't say if these are 1-sigma or what".
