@@ -12,13 +12,13 @@ Speeds are best on the Locosys GT-31 when track smoothing is disabled in the SiR
 
 
 
-### COG and SOG
+### SOG and COG
 
 SiRF reference
 
 u-box reference
 
-Most GPS chips output COG and SOG in the NMEA sentences RMC and VTG.
+Most GPS chips output SOG and COG in the NMEA sentences RMC and VTG.
 
 
 
@@ -37,10 +37,10 @@ The following common NMEA sentences provide useful data for speed sailing:
 - **GSV** - Satellites in view (e.g. $GPGSV)
   - Includes **sats** (0-99)
   
-- **RMC** - Recommended Minimum Navigation Information (e.g. $GNRMC)
-  - Includes **COG** and **SOG**
-- **VTG** - Track made good and Ground speed (e.g. $GPVTG or $GNVTG)
-  - Includes **COG** and **SOG**
+- **RMC** - Recommended Minimum Navigation Information (e.g. $GNRMC or $GPRMC)
+  - Includes **latitude**, **longitude**, **SOG** and **COG**
+- **VTG** - Track made good and Ground speed (e.g. $GNVTG or $GPVTG)
+  - Includes **SOG** and **COG**
 
 
 
@@ -51,7 +51,7 @@ Less common sentence also includes the following:
 
 - **GGA** - Global Positioning System Fix Data (e.g. $GPGGA)
   - Includes **latitude**, **longitude**, **fix** (2d / 3d), **sats** (0-99), **HDOP**
-- **GNS** - Fix data (e.g. $GPGNS or $GNGNS)
+- **GNS** - Fix data (e.g. $GNGNS or $GPGNS)
   - Includes **time** (UTC), **latitude**, **longitude**, **sats** (0-99) and **HDOP**
 - **ZDA** - GNSS Time & Date (e.g. $GNZDA)
   - Includes **time** and date (**UTC**)
