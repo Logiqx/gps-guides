@@ -169,30 +169,30 @@ The GW-52 product specification hints at the SDOS measure using 3σ which is con
 
 - Locosys
   - Marketing materials
-    - [GW-52 spec v1.2](pdf/locosys/GW-52_spec_v1.2.pdf)
-    - [GW60 EDM](pdf/locosys/GW60_EDM.pdf)
-    - [LOCOSYSTECH DM](pdf/locosys/LOCOSYSTECH_DM.pdf)
+    - [GW-52 specifications v1.2](pdf/locosys/GW-52_spec_v1.2.pdf) - mentioned SDOS and 99.7% certainty
+    - [GW-60 product details](pdf/locosys/GW60_EDM.pdf) - mentioned SDOS and 99.7% certainty
+    - [LOCOSYSTECH product brochure](pdf/locosys/LOCOSYSTECH_DM.pdf) - includes details of the S4-1513 range of GPS modules
   - GPS module data sheets
-    - [s4-0606 datasheet v1.2](pdf/locosys/s4-0606_datasheet_v1.2.pdf)
-    - [s4-1513 datasheet v1.1](pdf/locosys/s4-1513_datasheet_v1.1.pdf)
-    - [s4-1612 datasheet v1.4](pdf/locosys/s4-1612_datasheet_v1.4.pdf)
-    - [s4-1613 datasheet v1.4](pdf/locosys/s4-1613_datasheet_v1.4.pdf)
+    - [S4-0606 datasheet v1.2](pdf/locosys/s4-0606_datasheet_v1.2.pdf) - 1 Hz update rate
+    - [S4-1513 datasheet v1.1](pdf/locosys/s4-1513_datasheet_v1.1.pdf) - up to 5 Hz update rate
+    - [S4-1612 datasheet v1.4](pdf/locosys/s4-1612_datasheet_v1.4.pdf) - 1 Hz update rate
+    - [S4-1613 datasheet v1.4](pdf/locosys/s4-1613_datasheet_v1.4.pdf) - 1 Hz update rate
 - SiRF
   - Marketing materials
-    - [SiRFstar III product insert](pdf/sirf/GSC3LP_Product_Insert.pdf)
+    - [SiRFstar III product insert](pdf/sirf/GSC3LP_Product_Insert.pdf) - supports SiRFDrive
   - Binary protocol descriptions
-    - [SiRF Binary Protocol 1.x Feb 2004](pdf/sirf/SiRF_Binary_Protocol_1.x_2004_02.pdf)
-    - [SiRF Binary Protocol 2.3 Dec 2007](pdf/sirf/SiRF_Binary_Protocol_2.3_2007_12.pdf)
-    - [SiRF Binary Protocol 2.4 Nov 2008](pdf/sirf/SiRF_Binary_Protocol_2.4_2008_11.pdf)
-    - [One Socket Protocol Interface Control Document 2009](pdf/sirf/One_Socket_Protocol_Interface_Control_Document_2009.pdf)
+    - [One Socket Protocol Interface Control Document 2009](pdf/sirf/One_Socket_Protocol_Interface_Control_Document_2009.pdf) - includes SiRF binary protocol from Sep 2009
+    - [SiRF Binary Protocol 2.4 Nov 2008](pdf/sirf/SiRF_Binary_Protocol_2.4_2008_11.pdf) - EPE is included in message 129 (switch To NMEA protocol)
+    - [SiRF Binary Protocol 2.3 Dec 2007](pdf/sirf/SiRF_Binary_Protocol_2.3_2007_12.pdf) - EPE is not included in message 129
+    - [SiRF Binary Protocol 1.x Feb 2004](pdf/sirf/SiRF_Binary_Protocol_1.x_2004_02.pdf) - EPE is not included in message 129
   - NMEA protocol descriptions
-    - [Erinome-I User Manual rev1.7](pdf/sirf/Erinome-I_User_Manual_rev1.7.pdf)
-    - [GSD4e NMEA Manual](pdf/sirf/GSD4e_NMEA_Manual.pdf)
+    - [Erinome-I User Manual rev1.7](pdf/sirf/Erinome-I_User_Manual_rev1.7.pdf) - based on SiRFstar V it details the SiRF specific NMEA message $PSRFEPE; UTC, HDOP, EHPE, EVPE, EHVE, EHE.
+    - [GSD4e NMEA Manual May 2010](pdf/sirf/GSD4e_NMEA_Manual.pdf) - filename relating to the SiRFstar IV includes no details about the NMEA message $PSRFEPE
   - SiRF Demo
-    - [SiRF Demo User Guide 1.5 Jun 2007](pdf/sirf/SiRF_Demo_User_Guide_1.5_2007_06.pdf)
+    - [SiRF Demo User Guide 1.5 Jun 2007](pdf/sirf/SiRF_Demo_User_Guide_1.5_2007_06.pdf) - table 3-6 details EHPE, EVPE, ETE, EHVE but no mentioned of EHE
   - Research papers
-    - [Speed Dilution of Precision](pdf/sirf/Speed_Dilution_of_Precision.pdf)
-    - [Decoding of SiRF Binary Protocol](pdf/sirf/Decoding_of_SiRF_Binary_Protocol.pdf)
+    - [Speed Dilution of Precision](pdf/sirf/Speed_Dilution_of_Precision.pdf) - paper by Tom Chalko in 2009
+    - [Decoding of SiRF Binary Protocol](pdf/sirf/Decoding_of_SiRF_Binary_Protocol.pdf) - paper from 2011
 - u-blox
-  - [u-blox7-V14 ReceiverDescriptionProtocolSpec Public](pdf/ublox/u-blox7-V14_ReceiverDescriptionProtocolSpec_Public.pdf)
-  - [u-blox8-M8 ReceiverDescrProtSpec UBX-13003221](pdf/ublox/u-blox8-M8_ReceiverDescrProtSpec_UBX-13003221.pdf)
+  - [u-blox 7 Receiver Description Including Protocol Specification](pdf/ublox/u-blox7-V14_ReceiverDescriptionProtocolSpec_Public.pdf)
+  - [u-blox 8 / M8 Receiver Description Including Protocol Specification](pdf/ublox/u-blox8-M8_ReceiverDescrProtSpec_UBX-13003221.pdf)
