@@ -28,89 +28,7 @@ Most GPS chips output SOG and COG in the NMEA sentences RMC and VTG.
 
 Pretty much all GPS chipsets are [NMEA-0183](https://gpsd.gitlab.io/gpsd/NMEA.html) compliant.
 
-https://receiverhelp.trimble.com/alloy-gnss/en-us/NMEA-0183messages_MessageOverview.html
-
-https://www.nmea.org/content/STANDARDS/NMEA_0183_Standard
-
-
-
-The following are common NMEA sentences:
-
-- **GGA** - Global Positioning System Fix Data (e.g. $GPGGA)
-  - Includes **time** (UTC), **latitude**, **longitude**, **fix** (2d / 3d), **sats** (0-99), **HDOP**
-- **GLL** - Geographic Position - Latitude/Longitude (e.g. $GNGLL)
-  - Includes **time** (UTC), **latitude and **longitude**
-- **GSA** - GPS DOP and active satellites (e.g. $GNGSA)
-  - Includes **fix type**, **satellite IDs**, **PDOP, HDOP, VDOP**
-- **GSV** - Satellites in view (e.g. $GPGSV)
-  - Includes **sats** (0-99)
-  
-- **RMC** - Recommended Minimum Navigation Information (e.g. $GNRMC or $GPRMC)
-  - Includes **time** (UTC), **latitude**, **longitude**, **SOG** and **COG**
-- **VTG** - Track made good and Ground speed (e.g. $GNVTG or $GPVTG)
-  - Includes **SOG** and **COG**
-
-
-
-Less common sentence include the following:
-
-- **GBS** - GPS Satellite Fault Detection
-  - Includes **time** (UTC) and expected 1-sigma **errors** in latitude, longitude and altitude (meters)
-
-- **GNS** - Fix data (e.g. $GNGNS or $GPGNS)
-  - Includes **time** (UTC), **latitude**, **longitude**, **sats** (0-99) and **HDOP**
-- **ZDA** - GNSS Time & Date (e.g. $GNZDA)
-  - Includes **time** and date (**UTC**)
-
-
-
-MediaTek have some [proprietary sentences](http://ozzmaker.com/wp-content/uploads/2016/08/M10478-M10578-NMEA_Sentence_Output.pdf), including the following:
-
-- **EPE** – Accuracy estimate sentence
-  - **Horizontal accuracy estimate** (m) xx.xx
-  - **Vertical accuracy estimate** (m) xx.xx
-- **GST** - GNSS Pseudorange Error Statistics, including:
-  - **Standard deviation of latitude error** (m) x.x (max 5 characters)
-  - **Standard deviation of longitude error** (m) x.x x.x (max 5 characters)
-  - **Standard deviation of altitude error** (m) x.x x.x (max 5 characters)
-
-
-
-
-SiRF also have a proprietary sentence in the SiRFstar IV and V:
-
-- **PSRFEPE** – Accuracy estimate sentence
-  - **HDOP** - Horizontal Dilution of Precision
-  - **EHPE** - Estimated Horizontal Position Error (meters)
-  
-  - **EVPE** - Estimated Vertical Position Error (meters)
-  - **EHVE** - Estimated Velocity Error (m/s)
-  - **EHE** - Estimated Heading Error (degrees)
-
-
-
-
-
-Support for the various sentences:
-
-|                         |                                           | SiRF<br />Star III | SiRF<br />Star IV  | SiRF<br />Star V | MediaTek<br />MT3318 | MediaTek<br />MTK3333 |        Sony<br />CXD5603GF        |  Airoha<br />AG3335M  |
-| :---------------------: | ----------------------------------------- | :----------------: | :----------------: | :--------------: | :------------------: | :-------------------: | :-------------------------------: | :-------------------: |
-|                         |                                           |       GT-31        | GW-52?<br />GW-60? |        -         |  GW-52?<br />GW-60?  |      Fenix 3 + 5      | Fenix 6<br />APEX Pro<br />VERTIX | Fenix 7<br />VERTIX 2 |
-| PSRFEPE<br />(SiRF EPE) | time, HDOP, EHPE, EVPE, EHVE, EHE         |         -          |        Yes         |       Yes        |          -           |           -           |                 -                 |           -           |
-|           GBS           | time, 1-sigma errors for lat + long + alt |         -          |         -          |        -         |          -           |           -           |                 -                 |           -           |
-|         **GGA**         | time, lat, long, sats, HDOP               |        Yes         |        Yes         |       Yes        |         Yes          |          Yes          |                Yes                |          Yes          |
-|           GLL           | time, lat, long                           |        Yes         |        Yes         |       Yes        |         Yes          |           -           |                Yes                |          Yes          |
-|           GNS           | time, lat, long, sats, HDOP               |         -          |         -          |       Yes        |          -           |           -           |                Yes                |           -           |
-|         **GSA**         | sats, PDOP, HDOP, VDOP                    |        Yes         |        Yes         |       Yes        |         Yes          |          Yes          |                Yes                |          Yes          |
-|         **GSV**         | sats                                      |        Yes         |        Yes         |       Yes        |         Yes          |          Yes          |                Yes                |          Yes          |
-|         **RMC**         | time, lat, long, SOG, COG                 |        Yes         |        Yes         |       Yes        |         Yes          |          Yes          |                Yes                |          Yes          |
-|           VTG           | SOG, COG                                  |        Yes         |        Yes         |       Yes        |         Yes          |          Yes          |                Yes                |          Yes          |
-|           ZDA           | time                                      |         -          |        Yes         |       Yes        |          -           |           -           |                Yes                |          Yes          |
-
-Notes:
-
-- Locosys GW-52 firmware shows GPGGA, GPGSA, GPGSV, GPRMC
-- GPSBabel only outputs GPGGA and GPRMC (highlighted) when processing SBP and SBN files.
+I've written some [notes](nmea.md) specific to NMEA and what is supported several common GPS / GNSS chipsets.
 
 
 
@@ -125,47 +43,39 @@ A brief summary:
 
 
 
-SDOP:
+SDOP / SDOS availabilty in SiRF binary data:
 
-- SDOP + VSDOP (GT-31), SDOS (GW-52 / GW-60). Suspect these are both EHVE from the PSRFEPE message.
+- Note that the name SDOP (GT-31) changed to SDOS (GW-52 / GW-60).
+  - VSDOP (GT-31) was mentioned in the document by Tom Chalko but it is not mentioned alsewhere.
 
-- EPE message available from [Star IV](https://mikrokontroler.pl/wp-content/uploads/pliki/L50_GPS_Protocol_V1%200_Preliminary_20110727.pdf) - section 3.2.2. Also table 2-8 in One Socket Protocol Interface Control Document from 2009. Comment for EPE message:
-  - In SiRFNavIII software, this field is reserved for SiRF's proprietary $PSRFEPE message. Otherwise it is unused
-- EHVE is also mentioned in the SiRFDemo User Guide.
-- Erinome-I uses SiRFstar V and definitely supports PSRFEPE.
+- Suspect SDOP and SDOS are both EHVE from SiRF binary message ID 41 (geodetic navigation data).
+- The EHVE field was documented in the SiRF demo [user guide](pdf/sirf/SiRF_Demo_User_Guide_1.5_2007_06.pdf) from June 2007.
+
+Regarding the propietary SiRF NMEA message $PSRFEPE:
+
+- The $PSRFEPE message has been available from [SiRFstar IV](https://mikrokontroler.pl/wp-content/uploads/pliki/L50_GPS_Protocol_V1%200_Preliminary_20110727.pdf) onwards - see section 3.2.2.
+- Erinome-I uses SiRFstar V and definitely supports $PSRFEPE.
 
 
 
 Data sheets
 
-- [Qualcomm](https://www.qualcomm.com/products/application/automotive/positioning-solutions/SiRFstar-iv-4e?classification=Data+Sheet#Documentation)
-  - [SiRFstar V](https://www.qualcomm.com/products/application/automotive/positioning-solutions/sirfstar-v-5ea) supports SiRFDRive™ dead-reckoning technology as does SiRFstar III. Can assume SiRF 4 also supports it.
-  - [SiRFstar IV](https://www.qualcomm.com/products/application/automotive/positioning-solutions/sirfstar-iv-4e) doesn't mention it but is targeted at automotive industry
+- Qualcomm
+  - [SiRFstar V](https://www.qualcomm.com/products/application/automotive/positioning-solutions/sirfstar-v-5ea) supports SiRFDRive™ dead-reckoning technology as does SiRFstar III.
+  - [SiRFstar IV](https://www.qualcomm.com/products/application/automotive/positioning-solutions/sirfstar-iv-4e) doesn't mention SiRFDrive but is targeted at automotive industry.
+  - Since $PSRFEPE and EHVE were available from SiRFstar IV then so was SiRFdrive.
 
 
 
 
-History
+Timeline:
 
 - SiRFstar III was available in at least [2007](https://www.geospatialworld.net/news/sirfstariii-to-drive-industry/).
-- EHPE, EVPE, EHVE and ETE were all mentioned in SiRFDemo User Guide 1.5 in June 2007.
-- PSRFEPE message was not included in message ID 129 (switch to NMEA) in v2.3 SiRF documentation - Dec 2007.
-- PSRFEPE was added to message ID 129 (switch to NMEA) in v2.4 SiRF documentation, along with ZDA - Dec 2008.
-  - Was PSRFEPE already supported in the SiRFstar III and activated via a firmware update within the GT-31?
 - SiRFstar IV was release in 2009 and it supported PSRFEPE.
 - **Locosys S4-1513** was released in 2010, using SiRFstar IV and it had a 5 Hz update rate.
   - Message 7 is not defined but it is placed where PSRFEPE would go, relative to ZDA which was also added. See Table 5.2-8 Messages.
   - Product page in [2011](https://web.archive.org/web/20111208154333/http://www.locosystech.com/product.php?zln=en&id=62) says 5Hz and mentions marine navigation.
-  - Other modules also existed in 2012 which used the SiRFstar IV
-    - See [WayBackMachine](https://web.archive.org/web/20120418013107/http://www.locosystech.com/product.php?zln=en&id=68)
-    - n.b. S4-1612 and S4-1613 are only 1 Hz
-  - Many of them still existed in [2014](https://web.archive.org/web/20140926104614/http://www.locosystech.com:80/product.php?zln=en&id=68)
-    - S4-0606, S4-1513-xx, S4-1612-xx, S4-1613-xx, S5-1010-2R
-  - A bunch of them existed in [2016](https://web.archive.org/web/20160528205831/http://www.locosystech.com/product.php?zln=en&id=68)
-  - Sep [2017](https://web.archive.org/web/20170922115854/http://www.locosystech.com/en/category/GPS-Module/GPS-Module.html)
-    - [ROM based](https://web.archive.org/web/20170922232054/http://www.locosystech.com/en/category/GPS-ROM-Base/GPS-ROM-Base.html) - S4-0606, **S4-1513-2R**, S4-1612-2R
-    - [flash based](https://web.archive.org/web/20170922230417/http://www.locosystech.com/en/category/GPS-Flash-Base/GPS-Flash-Base.html) - **S4-1513**, **S4-1513-2E**, S4-1612-2E, S4-1613
-  - LOCOSYS S4-1513-2R still listed in [2019](https://web.archive.org/web/20191218151108/https://www.locosystech.com/en/product/index.html) and May [2021](https://web.archive.org/web/20210410140345/https://www.locosystech.com/en/category/GPS-Modules/GPS-Modules.html).
+  - LOCOSYS S4-1513 range still listed in [2019](https://web.archive.org/web/20191218151108/https://www.locosystech.com/en/product/index.html) and May [2021](https://web.archive.org/web/20210410140345/https://www.locosystech.com/en/category/GPS-Modules/GPS-Modules.html).
     - ROM based - S4-0606, **S4-1513-2R**, S4-1612-2R
       - SiRFstar V - S5-0707-2R, S5-1010-2R
     - flash based - **S4-1513**, **S4-1513-2E**, S4-1612-2E, S4-1613
@@ -173,13 +83,7 @@ History
   - SiRF based GPS modules no longer available in 2022, coincides with GW-60 becoming unavailable in 2021.
 - SiRFstar V was launched in 2012 and it supports PSRFEPE, mentioned in ERINOME-I documentation.
 - GW-52 was released in 2015. Would seem likely it used the Locosys S4-1613. Why MediaTek - what frame references?
-- PSRFEPE message was introduced to [gpsd](https://github.com/ukyg9e5r6k7gubiekd6/gpsd) in [March 2019](https://github.com/ukyg9e5r6k7gubiekd6/gpsd/blob/master/driver_nmea0183.c). Comment in the code says "SiRF won't say if these are 1-sigma or what".
-
-
-
-2019 website:
-
-> LOCOSYS S4-1513-2R GPS module features high sensitivity, low power and ultra small form factor. This GPS module's functionality uses the state of the art SiRF GSD4e chip and it provides you with superior sensitivity and performance even in urban canyon and dense foliage environment. Optional Built-in EEPROM realizes SiRF CGEE (Client Generated Extended Ephemeris) function that predicts satellite positions for up to 3 days and delivers CGEE-start time of less than 15 seconds under most conditions, without any network assistance. Besides, MicroPowerMode allows GPS module to stay in a hot-start condition nearly continuously while consuming very little power.
+- GW-60 was released in early 2017.
 
 
 
@@ -191,84 +95,9 @@ TODO - sAcc, etc.
 
 ### Locosys
 
-#### GT-31
-
-NMEA sentences present. These all appear in the memory card logging options:
-
-- $GPGGA 
-- $GPGLL
-- $GPGSA 
-- $GPGSV
-- $GPRMC
-- $GPVTG
-- $GPZDA - additional to Star III spec?
-
-Additional NMEA sentences, presumably also for initializing the GPS chip:
-
-- $PLSC - Locosys xxx?
-- $PLSR - Locosys restart?
-- $PSRF - SiRF prefix
-
-Includes lots of debugging messages and has a reference to SiRFDRive.
-
-No references to MediaTek or MTK are in the firmware.
-
-
-
 #### GW-52 + GW-60
 
 If a SiRFstar chip is being used then binary will be the default mode so there would be no NMEA commands evident. It'd be a bit crazy for the controller to switch to NMEA.
-
-Possible MediaTek [processors](https://en.wikipedia.org/wiki/List_of_MediaTek_processors#Wearable_device_SoCs):
-
-- [MT2052](https://www.mediatek.com/products/wearables/mt2502)
-- [MT2523D](https://www.mediatek.com/products/wearables/mt2523d)
-
-NMEA commands in the GW-52 and GW-60:
-
-- GPRMC - Recommended Minimum Navigation Information
-- GPGSV - Satellites in view
-- GPGSA - GPS DOP and active satellites
-- GPGGA - Global Positioning System Fix Data
-- PMTK
-- PLSEPE - Locosys (PLS) Estimated Positional Error
-- PLSV - Locosys (PLS)
-
-Mediatek commands present:
-
-- $PMTK605*31 - Query the firmware release information. 
-- $PMTK103*30 - Cold Restart: Don't use Time, Position, Almanac / Ephemeris data. 
-- $PMTK253,0,115200*01 - Set data output format and baud rate for current port.
-
-Mediatek commands to change the [fix and output rate](https://github.com/adafruit/Adafruit_GPS/issues/22) are NOT present:
-
-- $PMTK220,1000*1F - Set NMEA port update rate to 1Hz
-- $PMTK220, 200*2C - Set NMEA port update rate to 5Hz
-- $PMTK300,1000,0,0,0,0*1C - Set rate of position fixing activity to 1 Hz
-- $PMTK300,200,0,0,0,0*2F - Set rate of position fixing activity to 5 Hz
-
-[STM32L1xx](https://www.st.com/en/embedded-software/stsw-stm32077.html) peripheral drivers are also referenced:
-
-- Libraries\STM32L1xx_StdPeriph_Driver\src\*.c
-
-GW-52 firmware contains debugging messages:
-
-- Key ABORT BATT CUT OFF event raised
-  - key-abort=%d,cut_off_count=%d
-- GPS_Tx_Buf OverFlow len:%d [%d]
-- CDT event start
-- PowerModeAA(%d)
-- Assertion failed: file %s on line %d
-- NVM_Initialization + NVM_Close
-
-GW-60 firmware contains debugging messages:
-
-- press any key to try again ... 
-
-Device / usernames are different:
-
-- GW31 vs GW60
-- GW52USER vs GW60USER
 
 
 
