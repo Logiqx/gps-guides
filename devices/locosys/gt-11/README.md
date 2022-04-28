@@ -21,7 +21,7 @@ In addition to the positional data (latitude and longitude) it recorded Doppler 
 | Download                                                   | SD card or mini USB cable + NAVILINK           |
 | Best Formats                                               | SiRF binary (SBN) or SiRF binary, packed (SBP) |
 | Other Formats                                              | n/a                                            |
-| GPS chipset                                                | SiRF Star II                                   |
+| GPS chipset                                                | SiRFstar II                                   |
 | Approved for [GP3S](https://www.gps-speedsurfing.com/)     | -                                              |
 | Approved for [GPSTC](https://www.gpsteamchallenge.com.au/) | -                                              |
 

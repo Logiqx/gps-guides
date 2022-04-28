@@ -34,6 +34,6 @@ The Ambit3 range introduced smartphone connectivity which is a convenient way to
 | Download                                                   | Export from the Suunto app for [Android](https://www.suunto.com/en-gb/Support/faq-articles/suunto-app/how-do-i-download-a-.fit-file-from-suunto-app-for-android/) or [iOS](https://www.suunto.com/en-gb/Support/faq-articles/suunto-app/how-do-i-download-a-.fit-file-from-suunto-app-for-ios/) |
 | Best Format                                                | [FIT](https://developer.garmin.com/fit/protocol/)            |
 | Other Formats                                              | [GPX](https://en.wikipedia.org/wiki/GPS_Exchange_Format)     |
-| GPS chipset                                                | [SiRF Star V](https://en.wikipedia.org/wiki/SiRF#SiRFstarV)  |
+| GPS chipset                                                | [SiRFstar V](https://en.wikipedia.org/wiki/SiRF#SiRFstarV)  |
 | Approved for [GP3S](https://www.gps-speedsurfing.com/)     | No                                                           |
 | Approved for [GPSTC](https://www.gpsteamchallenge.com.au/) | No                                                           |
