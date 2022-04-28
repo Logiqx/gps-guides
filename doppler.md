@@ -193,7 +193,7 @@ TODO - sAcc, etc.
 
 #### GT-31
 
-References to NMEA sentences. These all appear in the memory card logging options:
+NMEA sentences present. These all appear in the memory card logging options:
 
 - $GPGGA 
 - $GPGLL
