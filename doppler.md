@@ -28,6 +28,10 @@ Most GPS chips output SOG and COG in the NMEA sentences RMC and VTG.
 
 Pretty much all GPS chipsets are [NMEA-0183](https://gpsd.gitlab.io/gpsd/NMEA.html) compliant.
 
+https://receiverhelp.trimble.com/alloy-gnss/en-us/NMEA-0183messages_MessageOverview.html
+
+https://www.nmea.org/content/STANDARDS/NMEA_0183_Standard
+
 
 
 The following are common NMEA sentences:
@@ -97,13 +101,16 @@ Support for the various sentences:
 |         **GGA**         | time, lat, long, sats, HDOP               |        Yes         |        Yes         |       Yes        |         Yes          |          Yes          |                Yes                |          Yes          |
 |           GLL           | time, lat, long                           |        Yes         |        Yes         |       Yes        |         Yes          |           -           |                Yes                |          Yes          |
 |           GNS           | time, lat, long, sats, HDOP               |         -          |         -          |       Yes        |          -           |           -           |                Yes                |           -           |
-|           GSA           | sats, PDOP, HDOP, VDOP                    |        Yes         |        Yes         |       Yes        |         Yes          |          Yes          |                Yes                |          Yes          |
-|           GSV           | sats                                      |        Yes         |        Yes         |       Yes        |         Yes          |          Yes          |                Yes                |          Yes          |
+|         **GSA**         | sats, PDOP, HDOP, VDOP                    |        Yes         |        Yes         |       Yes        |         Yes          |          Yes          |                Yes                |          Yes          |
+|         **GSV**         | sats                                      |        Yes         |        Yes         |       Yes        |         Yes          |          Yes          |                Yes                |          Yes          |
 |         **RMC**         | time, lat, long, SOG, COG                 |        Yes         |        Yes         |       Yes        |         Yes          |          Yes          |                Yes                |          Yes          |
 |           VTG           | SOG, COG                                  |        Yes         |        Yes         |       Yes        |         Yes          |          Yes          |                Yes                |          Yes          |
 |           ZDA           | time                                      |         -          |        Yes         |       Yes        |          -           |           -           |                Yes                |          Yes          |
 
-Note: GPSBabel only outputs GPGGA and GPRMC (highlighted) when processing SBP and SBN files.
+Notes:
+
+- Locosys GW-52 firmware shows GPGGA, GPGSA, GPGSV, GPRMC
+- GPSBabel only outputs GPGGA and GPRMC (highlighted) when processing SBP and SBN files.
 
 
 
@@ -179,6 +186,89 @@ History
 #### u-blox
 
 TODO - sAcc, etc.
+
+
+
+### Locosys
+
+#### GT-31
+
+References to NMEA sentences. These all appear in the memory card logging options:
+
+- $GPGGA 
+- $GPGLL
+- $GPGSA 
+- $GPGSV
+- $GPRMC
+- $GPVTG
+- $GPZDA - additional to Star III spec?
+
+Additional NMEA sentences, presumably also for initializing the GPS chip:
+
+- $PLSC - Locosys xxx?
+- $PLSR - Locosys restart?
+- $PSRF - SiRF prefix
+
+Includes lots of debugging messages and has a reference to SiRFDRive.
+
+No references to MediaTek or MTK are in the firmware.
+
+
+
+#### GW-52 + GW-60
+
+If a SiRFstar chip is being used then binary will be the default mode so there would be no NMEA commands evident. It'd be a bit crazy for the controller to switch to NMEA.
+
+Possible MediaTek [processors](https://en.wikipedia.org/wiki/List_of_MediaTek_processors#Wearable_device_SoCs):
+
+- [MT2052](https://www.mediatek.com/products/wearables/mt2502)
+- [MT2523D](https://www.mediatek.com/products/wearables/mt2523d)
+
+NMEA commands in the GW-52 and GW-60:
+
+- GPRMC - Recommended Minimum Navigation Information
+- GPGSV - Satellites in view
+- GPGSA - GPS DOP and active satellites
+- GPGGA - Global Positioning System Fix Data
+- PMTK
+- PLSEPE - Locosys (PLS) Estimated Positional Error
+- PLSV - Locosys (PLS)
+
+Mediatek commands present:
+
+- $PMTK605*31 - Query the firmware release information. 
+- $PMTK103*30 - Cold Restart: Don't use Time, Position, Almanac / Ephemeris data. 
+- $PMTK253,0,115200*01 - Set data output format and baud rate for current port.
+
+Mediatek commands to change the [fix and output rate](https://github.com/adafruit/Adafruit_GPS/issues/22) are NOT present:
+
+- $PMTK220,1000*1F - Set NMEA port update rate to 1Hz
+- $PMTK220, 200*2C - Set NMEA port update rate to 5Hz
+- $PMTK300,1000,0,0,0,0*1C - Set rate of position fixing activity to 1 Hz
+- $PMTK300,200,0,0,0,0*2F - Set rate of position fixing activity to 5 Hz
+
+[STM32L1xx](https://www.st.com/en/embedded-software/stsw-stm32077.html) peripheral drivers are also referenced:
+
+- Libraries\STM32L1xx_StdPeriph_Driver\src\*.c
+
+GW-52 firmware contains debugging messages:
+
+- Key ABORT BATT CUT OFF event raised
+  - key-abort=%d,cut_off_count=%d
+- GPS_Tx_Buf OverFlow len:%d [%d]
+- CDT event start
+- PowerModeAA(%d)
+- Assertion failed: file %s on line %d
+- NVM_Initialization + NVM_Close
+
+GW-60 firmware contains debugging messages:
+
+- press any key to try again ... 
+
+Device / usernames are different:
+
+- GW31 vs GW60
+- GW52USER vs GW60USER
 
 
 
