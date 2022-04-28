@@ -18,14 +18,9 @@ TLDR - I strongly believe the GW-52 and GW-60 use the SiRFstar IV. They could us
 
 Data sheets trawled.
 
-SiRF binary message 41 has remained unchanged in all available documents
+- SiRF binary message 41 has remained unchanged in all available documents
 
-- SiRF Binary Protocol Reference Manual published by NAVMAN in Feb 2004
-- 
-
-Table 2-8 Switch To NMEA Protocol – Message ID 129
-
-- EPE
+- Table 2-8 Switch To NMEA Protocol – Message ID 129
 
 
 
@@ -41,7 +36,6 @@ The PSRFEPE output sentences was added later and is mentioned in the SiRF refere
 
 - **HDOP** - Horizontal Dilution of Precision
 - **EHPE** - Estimated Horizontal Position Error (meters)
-
 - **EVPE** - Estimated Vertical Position Error (meters)
 - **EHVE** - Estimated Velocity Error (m/s)
 - **EHE** - Estimated Heading Error (degrees)
