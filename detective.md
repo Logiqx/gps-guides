@@ -180,8 +180,8 @@ The GW-52 product specification hints at the SDOS measure using 3σ which is con
     - [SiRF Binary Protocol 2.3 Dec 2007](pdf/sirf/SiRF_Binary_Protocol_2.3_2007_12.pdf) - EPE is not included in message 129
     - [SiRF Binary Protocol 1.x Feb 2004](pdf/sirf/SiRF_Binary_Protocol_1.x_2004_02.pdf) - EPE is not included in message 129
   - NMEA protocol descriptions
-    - [Erinome-I User Manual rev1.7](pdf/sirf/Erinome-I_User_Manual_rev1.7.pdf) - based on SiRFstar V it details the SiRF specific NMEA message $PSRFEPE; UTC, HDOP, EHPE, EVPE, EHVE, EHE.
-    - [GSD4e NMEA Manual May 2010](pdf/sirf/GSD4e_NMEA_Manual.pdf) - filename relating to the SiRFstar IV includes no details about the NMEA message $PSRFEPE
+    - [Erinome-I User Manual rev1.7](pdf/sirf/Erinome-I_User_Manual_rev1.7.pdf) - based on SiRFstar V it details the SiRF specific NMEA message $PSRFEPE
+    - [GSD4e NMEA Manual May 2010](pdf/sirf/GSD4e_NMEA_Manual.pdf) - document relating to the SiRFstar IV includes no details about $PSRFEPE
   - SiRF Demo
     - [SiRF Demo User Guide 1.5 Jun 2007](pdf/sirf/SiRF_Demo_User_Guide_1.5_2007_06.pdf) - table 3-6 details EHPE, EVPE, ETE, EHVE but no mentioned of EHE
   - Research papers
