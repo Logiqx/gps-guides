@@ -4,7 +4,7 @@
 
 
 
-Details about the [GW-60](https://www.locosystech.com/en/product/GPS-Doppler-Watch-GW-60/gps-watch-gw-60.html) can still be found on the Locosys website.
+The GW-60 was released in early 2017. Details [GW-60](https://www.locosystech.com/en/product/GPS-Doppler-Watch-GW-60/gps-watch-gw-60.html) can still be found on the Locosys website.
 
 In many ways it is comparable to the [GW-52](../gw-52/README.md) but it has the added convenience of being a wrist watch. It also has slightly better functionality for reviewing speed results during and after the session.
 
@@ -23,18 +23,18 @@ Convenient as it was to have a wrist watch, the GW-60 was prone to water ingress
 
 ### Specifications
 
-| Item          | Details                                |
-| ------------- | -------------------------------------- |
-| Logging       | 1 Hz or 5 Hz                             |
-| Memory        | TBC but somewhat larger than the GW-52 |
-| Battery       | ~5 hours @ 5 Hz                         |
-| Charging      | Custom USB cable                       |
-| Download      | Custom USB cable + GW60Util            |
-| Best Format   | SiRF binary, packed (SBP)              |
-| Other Formats | n/a                                    |
-| GPS chipset   | MediaTek, possibly the MT3318          |
-| Approved for [GP3S](https://www.gps-speedsurfing.com/) | [Yes](https://www.gps-speedsurfing.com/default.aspx?mnu=item&item=gw60) |
-| Approved for [GPSTC](https://www.gpsteamchallenge.com.au/) | [Yes](https://www.gpsteamchallenge.com.au/pages/rules)      |
+| Item                                                       | Details                                                      |
+| ---------------------------------------------------------- | ------------------------------------------------------------ |
+| Logging                                                    | 1 Hz or 5 Hz                                                 |
+| Memory                                                     | TBC but somewhat larger than the GW-52                       |
+| Battery                                                    | ~5 hours @ 5 Hz                                              |
+| Charging                                                   | Custom USB cable                                             |
+| Download                                                   | Custom USB cable + GW60Util                                  |
+| Best Format                                                | SiRF binary, packed (SBP)                                    |
+| Other Formats                                              | n/a                                                          |
+| GPS chipset                                                | probably the [SiRFstar IV](https://www.qualcomm.com/products/application/automotive/positioning-solutions/sirfstar-iv-4e) |
+| Approved for [GP3S](https://www.gps-speedsurfing.com/)     | [Yes](https://www.gps-speedsurfing.com/default.aspx?mnu=item&item=gw60) |
+| Approved for [GPSTC](https://www.gpsteamchallenge.com.au/) | [Yes](https://www.gpsteamchallenge.com.au/pages/rules)       |
 
 
 
