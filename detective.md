@@ -4,11 +4,31 @@
 
 SiRFstar IV or MediaTek MT3318?
 
-Speculation leads to more questions - SDOP, SDOS.
+Speculation leads to more questions:
 
-Links to Seabreeze.
+- SDOP - GT-31
+- SDOS - GW-52 + GW-60
+- sAcc - u-blox
 
 
+
+### Seabreeze
+
+[Link](https://www.seabreeze.com.au/forums/Windsurfing/Gps/Speed-Accuracy?page=4#27) to thread - JulienLe on 13 Jan 2022 2:09AM
+
+```
+GT11: SiRF Star II,
+GT31: SiRF Star III,
+and as Roo once mentionned here, GW52 and GW60 both contain plain-text references to MediaTek frames. And their specifications would be consistent with something like MT3318.
+
+Chalko's paper: "This article explores and tests the "Speed Dilution of Precision" (SDOP) parameters developed and kindly provided by SiRF (many thanks SiRF) and implemented by Locosys Technology Inc (many thanks Roger at Locosys) into firmware of their GT31 hand-held GPS datalogger."
+
+Now, is SiRF's-era SDOP the same as MT's-era SDOP? Wasn't SDOP SiRF's property? Locosys' website mentions SDOS. Did anyone ever notice something similar to SDOP in MediaTek's datasheets? You have four hours. A4 sheets, 2cm margin on each side.
+```
+
+
+
+### Approach
 
 Timeline, features of SiRFstar IV and Locosysy GPS modules.
 
@@ -45,6 +65,8 @@ TODO - screenshot from SiRF reference
 SiRFstar III, SiRFstar IV and SiRFstar V all support SiRFDrive and thus can generate the error estimates.
 
 
+
+### Firmware
 
 #### GT-31
 
@@ -151,11 +173,13 @@ So, back to the simplest explanation, Locosys likely used the SiRFstar IV:
 
 ### Summary
 
-The anecdotal evidence of the MediaTek references actually disprove the use of a MediaTek chip. We are therefore left to conclude that in all probability, Locosys used the SiRFstar IV in the GW-52 and GW-60. The SiRFstar IV has all of the features of the GW-52 and GW-60; 1 Hz + 5 Hz logging and estimation of speed errors with a resolution of 1 cm/s. 
+The anecdotal evidence of the MediaTek references actually disprove the use of a MediaTek chip. I've also yet to find any mention of speed error estimates from MediaTek chips. The closest I have found is positional estimates (horizontal, vertical, latitude, longitude and altitude) on the MT3333.
+
+We are therefore left to conclude that in all probability, Locosys used the SiRFstar IV in the GW-52 and GW-60. The SiRFstar IV has all of the features of the GW-52 and GW-60; 1 Hz + 5 Hz logging and estimation of speed errors with a resolution of 1 cm/s. 
 
 The acceptance of using the SiRF IV chips also removes other topics of debate such as what the SDOP / SDOS values represent if they came from a MediaTek chip. Topics such as how the proprietary SiRF error estimates got into the MediaTek chip or whether they devised their own method of estimation are mute points.
 
-The GW-52 product specification hints at the SDOS measure using 3σ which is consistent with the findings of Tom Chalko. It is worth noting that the u-blox measure is almost certainly based on 1σ due to other similar metrics using 1 standard deviation.
+The GW-52 product specification mentioned 99.7% confidence, suggesting the SDOS measure is using 3σ. This would be consistent with the findings of Tom Chalko. It is worth noting that the u-blox measure is almost certainly based on 1σ due to other similar metrics using 1 standard deviation.
 
 
 
@@ -187,6 +211,11 @@ The GW-52 product specification hints at the SDOS measure using 3σ which is con
   - Research papers
     - [Speed Dilution of Precision](pdf/sirf/Speed_Dilution_of_Precision.pdf) - paper by Tom Chalko in 2009
     - [Decoding of SiRF Binary Protocol](pdf/sirf/Decoding_of_SiRF_Binary_Protocol.pdf) - paper from 2011
+- MediaTek
+  - [MT3333_Platform_NMEA_Message_Specification_V1.07](pdf/mediatek/MT3333_Platform_NMEA_Message_Specification_V1.07.pdf) - no mention of the proprietary EPE message
+  - [M10478-M10578-NMEA_Sentence_Output](pdf/mediatek/M10478-M10578-NMEA_Sentence_Output.pdf) - details the proprietary EPE message of the MT3333
+  - [Data_Sheet_M10478-A3](pdf/mediatek/Data_Sheet_M10478-A3.pdf) - confirms MT3333 and 10 Hz
+  - [Data_Sheet_M10578-A3](pdf/mediatek/Data_Sheet_M10578-A3.pdf) - confirms MT3333 and 10 Hz
 - u-blox
   - [u-blox 7 Receiver Description Including Protocol Specification](pdf/ublox/u-blox7-V14_ReceiverDescriptionProtocolSpec_Public.pdf)
   - [u-blox 8 / M8 Receiver Description Including Protocol Specification](pdf/ublox/u-blox8-M8_ReceiverDescrProtSpec_UBX-13003221.pdf)
