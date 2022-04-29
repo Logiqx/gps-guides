@@ -166,7 +166,7 @@ Let's remind ourselves of some basic facts that relate to the GT-31:
 - The SiRF binary format has included EHVE (Estimated Horizontal Velocity Error) in m/s x 10<sup>2</sup> for SiRFDrive since at least 2004.
 - The SiRFstar III was released in 2005 with support for SiRFDrive and was therefore capable of outputting EHVE.
 - The SiRF binary protocol added EPE to the list of NMEA messages for SiRFNavIII in Nov 2008. EHVE is one of the $PSRFEPE fields.
-- The GT-31 was released in 2009. It used the SiRFstar III and recorded SDOP. Tom Chalko also published his SDOP [paper](pdf/sirf/Speed_Dilution_of_Precision.pdf) that same year.
+- The GT-31 was released in 2009. It used the SiRFstar III and recorded SDOP. Tom Chalko also published his SDOP [paper](pdf/sirf/Speed_Dilution_of_Precision.pdf) in 2009.
 - There were several activities relating to EPE for SiRFNavIII (e.g. $PSRFEPE, EHVE) and SDOP in 2008 / 2009, leading up to the GT-31.
 - The GT-31 firmware contains a reference to SiRFDrive which suggests that it knows about EHVE.
 - It is reasonable to conclude the GT-31 is actually recording EHVE but has referred to it as SDOP.
