@@ -181,7 +181,7 @@ Let's remind ourselves of some basic facts about the GW-52 and GW-60:
 - Therefore, neither the GW-52 or GW-60 have any mechanism to receive speed error estimates from a MediaTek GPS / GNSS chip.
 - Neither the GW-52 or the GW-60 has the ability to instruct a MediaTek GPS / GNSS chip to toggle between 1 Hz and 5 Hz.
 
-It's not clear why the GT-31 used the term SDOP (standard dilution of precision) for a field that has units (m/s). SDOP is definitely not a "dilution of precision" but the term may have been used because the DOP was familiar to the speedsurfing community.
+It's not clear why the GT-31 used the term SDOP (standard dilution of precision) for a field that has units (m/s). SDOP is definitely not a "dilution of precision" but the term may have been used because DOP was familiar to the speedsurfing community.
 
 Whilst the above facts don't prove that the GW-52 or GW-60 use a SiRF chip (like their GT-31 predecessor), these facts pretty much rule out a MediaTek chip.
 
