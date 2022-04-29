@@ -17,18 +17,6 @@ However, the possibility of a MediaTek chip being used in the GW-52 and GW-60 cr
 
 
 
-### Approach
-
-I decided to look into this from a number of angles:
-
-- Studying the timeline of the GT-31, GW-52, GW-60 and numerous GPS modules from Locosys, plus the actual GPS chips from SiRF and MediaTek.
-- Features of the likely GPS chips were researched, including the SiRFstar IV and all of the Locosysy GPS modules that used it between 2010 and 2021. 
-- I've looked at the data sheets of GPS modules from the many OEMs using the GPS / GNSS chips from SiRF and MediaTek. 
-- I've studied all of the relevant NMEA [commands and sentences](nmea.md) supported by each chip and hunted for anything resembling a speed accuracy estimate.
-- I've looked at the firmware of the GT-31, GW-52 and GW-60 to see what clues they contain.
-
-
-
 ### Findings
 
 The MediaTek references in the GW-52 and GW-60 firmware are actually strong evidence that a MediaTek GPS chip is **not** being used by those devices!
@@ -38,6 +26,18 @@ This will sound like an odd statement to make right now, and it was also a surpr
 In all likelihood the GW-52 and GW-60 probably use the SiRFstar IV. Whilst they could contain the SiRFstar V it would be rather unnecessary.
 
 The remainder of this document will describe my analysis and the various findings in more detail.
+
+
+
+### Approach
+
+I decided to look into this from a number of angles:
+
+- Studying the timeline of the GT-31, GW-52, GW-60 and numerous GPS modules from Locosys, plus the actual GPS chips from SiRF and MediaTek.
+- Features of the likely GPS chips were researched, including the SiRFstar IV and all of the Locosysy GPS modules that used it between 2010 and 2021. 
+- I've looked at the data sheets of GPS modules from the many OEMs using the GPS / GNSS chips from SiRF and MediaTek. 
+- I've studied all of the relevant NMEA [commands and sentences](nmea.md) supported by each chip and hunted for anything resembling a speed accuracy estimate.
+- I've looked at the firmware of the GT-31, GW-52 and GW-60 to see what clues they contain.
 
 
 
