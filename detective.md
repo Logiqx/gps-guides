@@ -24,7 +24,7 @@ I decided to look into this from a number of angles:
 - Studying the timeline of the GT-31, GW-52, GW-60 and numerous GPS modules from Locosys, plus the actual GPS chips from SiRF and MediaTek.
 - Features of the likely GPS chips were researched, including the SiRFstar IV and all of the Locosysy GPS modules that used it between 2010 and 2021. 
 - I've looked at the data sheets of GPS modules from the many OEMs using the GPS / GNSS chips from SiRF and MediaTek. 
-- I've studied all of the relevant [NMEA commands](nmea.md) available from each chip and hunted for anything resembling a speed accuracy estimate.
+- I've studied all of the relevant NMEA [commands and sentences](nmea.md) supported by each chip and hunted for anything resembling a speed accuracy estimate.
 - I've looked at the firmware of the GT-31, GW-52 and GW-60 to see what clues they contain.
 
 
@@ -33,7 +33,7 @@ I decided to look into this from a number of angles:
 
 The MediaTek references in the GW-52 and GW-60 firmware are actually strong evidence that a MediaTek GPS chip is **not** being used by those devices!
 
-This will sound like an odd statement right now, and it was also a surprise to me, but I'll explain how I reached my conclusion!
+This will sound like an odd statement to make right now, and it was also a surprise to me, but I'll explain how I reached my conclusion!
 
 In all likelihood the GW-52 and GW-60 probably use the SiRFstar IV. Whilst they could contain the SiRFstar V it would be rather unnecessary.
 
@@ -45,7 +45,7 @@ The remainder of this document will describe my analysis and the various finding
 
 #### SiRFDrive  + SiRFNavIII
 
-EHPE, EVPE and EHVE have also been consistently documented since an early SiRF binary protocol document, produced by NAVMAN in [2004](pdf/sirf/SiRF_Binary_Protocol_1.x_2004_02.pdf).
+EHPE, EVPE and EHVE have been consistently documented since an early SiRF binary protocol document, produced by NAVMAN in [2004](pdf/sirf/SiRF_Binary_Protocol_1.x_2004_02.pdf).
 
 The SiRF binary protocol document from 2009 describes them for message ID 41 (geodetic navigation data) as follows:
 
@@ -56,7 +56,7 @@ The SiRF binary protocol document from 2009 describes them for message ID 41 (ge
 | Estimated Time Error                | 4 U   | ETE in seconds x 10<sup>2</sup> (SiRFDRive only) |
 | Estimated Horizontal Velocity Error | 2 U   | EHVE in m/s x 10<sup>2</sup> (SiRFDRive only)    |
 
-It is worth mentioning that EHPE, EVPE, ETE and EHVE are also described in the SiRF demo [user guide](pdf/sirf/SiRF_Demo_User_Guide_1.5_2007_06.pdf) from June 2007.
+It is worth mentioning that EHPE, EVPE, ETE and EHVE were also described in the SiRF demo [user guide](pdf/sirf/SiRF_Demo_User_Guide_1.5_2007_06.pdf) in June 2007.
 
 A SiRF proprietary NMEA output sentence called **$PSRFEPE** also includes accuracy estimates:
 
@@ -101,7 +101,7 @@ Several Mediatek commands were also present in the GW-52 and GW-60 firmware:
 - $PMTK103*30 - Cold Restart: Don't use Time, Position, Almanac / Ephemeris data. 
 - $PMTK253,0,115200*01 - Set data output format and baud rate for current port.
 
-None of the Mediatek commands required to change the [fix and output rate](https://github.com/adafruit/Adafruit_GPS/issues/22) (1 Hz / 5 Hz) are present in the GW-52 or GW-60 firmware:
+None of the Mediatek commands required to change the [fix and output rate](https://forum.arduino.cc/t/gps-pmtk220-versus-pmtk300/249143) (1 Hz / 5 Hz) are present in the GW-52 or GW-60 firmware:
 
 - $PMTK220,1000*1F - Set NMEA port update rate to 1Hz
 - $PMTK220, 200*2C - Set NMEA port update rate to 5Hz
@@ -164,23 +164,27 @@ Significantly there were no common NMEA prefixes listed either, suggesting use o
 Let's remind ourselves of some basic facts that relate to the GT-31:
 
 - The SiRF binary format has included EHVE (Estimated Horizontal Velocity Error) in m/s x 10<sup>2</sup> for SiRFDRive since at least 2004.
-- The SiRFstar III was released in 2005 with support for SiRFDRive.
-- The GT-31 was released in 2009, used the SiRFstar III chip and was the first device to provide SDOP.
-- It seems reasonable to conclude that the GT-31 was using EHVE (Estimated Horizontal Velocity Error) but called it SDOP.
+- The SiRFstar III was released in 2005 with support for SiRFDRive and was therefore capable of outputting EHVE.
+- The SiRF binary protocol added EPE to the list of NMEA messages for SiRFNavIII in Nov 2008. EHVE is one of the $PSRFEPE fields.
+- The GT-31was released in 2009. It used the SiRFstar III and recorded SDOP. Tom Chalko also published his SDOP [paper](pdf/sirf/Speed_Dilution_of_Precision.pdf) that same year.
+- There were several activities relating to EPE for SiRFNavIII (e.g. $PSRFEPE, EHVE) and SDOP in 2008 / 2009, leading up to the GT-31.
+- It seems reasonable to conclude that the GT-31 is actually recording EHVE (Estimated Horizontal Velocity Error) but calls it SDOP.
 
 Let's remind ourselves of some basic facts about the GW-52 and GW-60:
 
 - They both provide logging at 1 Hz or 5 Hz and data is only ever stored in the SiRF binary format.
-- They both provide SDOS (standard deviation of speed), named according to the Locosys product brochures.
-- They both appear to recognise standard NMEA sentences which is enough for basic logging; including COG, HDOP, sats, etc.
-- They both contain a small selection of $PMTK commands (MediaTek prefix) to initialize and restart a MediaTek GPS / GNSS chip.
-- MediaTek error estimates would have to appear in $PMTK sentences. There is no evidence of anything like this in the firmware.
-- Therefore, neither the GW-52 or GW-60 have the ability to receive error estimates from a MediaTek GPS / GNSS chip.
-- Neither device has any ability to instruct a MediaTek GPS / GNSS chip to toggle between 1 Hz and 5 Hz.
+- They both record SDOS (standard deviation of speed). The abbreviation SDOS appeared in the Locosys GW-52 and GW-60 brochures.
+- The GW-52 and GW-60 can interpret standard NMEA sentences, which is enough for session logs (including COG, HDOP, sats, etc).
+- The GW-52 and GW-60 both contain a small selection of $PMTK commands to initialize and restart a MediaTek GPS / GNSS chip.
+- MediaTek speed error estimates would have to appear in $PMTK sentences. There is no evidence in the GW-52 or GW-60 firmware.
+- Therefore, neither the GW-52 or GW-60 have any mechanism to to receive speed error estimates from a MediaTek GPS / GNSS chip.
+- Neither the GW-52 or the GW-60 has the ability to instruct a MediaTek GPS / GNSS chip to toggle between 1 Hz and 5 Hz logging.
 
-Whilst these facts don't prove the GW-52 and GW-60 use a SiRF chip, they pretty much rule out the use of MediaTek chips.
+It's not clear why the GT-31 used the term SDOP (standard dilution of precision) for a field that has units (m/s). SDOP is definitely not a "dilution of precision" but the term may have been used because the term DOP was familiar to the speedsurfing community.
 
-The presence of MediaTek commands suggests the GW-52 and GW-60 could use a MediaTek chip, but their inability to receive speed error estimates or toggle between 1 Hz / 5 Hz suggests they don't actually ship with a MediaTek chip.
+Whilst the above facts don't prove that the GW-52 and GW-60 use a SiRF chip like the GT-31, they pretty much rule out the MediaTek theory.
+
+The presence of proprietary MediaTek NMEA commands in the firmware suggests the GW-52 and GW-60 may support a MediaTek chip. However, inability to receive any speed error estimates or toggle between 1 Hz / 5 Hz indicates they don't actually ship with a MediaTek chip.
 
 
 
@@ -190,7 +194,7 @@ The GT-11, GT-31, GW-52 and GW-60 are obviously products in their own right but 
 
 Between 2010 and 2021, Locosysy were producing a number of GPS modules based on SiRF and MediaTek chips. The company obviously had a lot of expertise in GPS / GNSS chips from SiRF and MediaTek so designing the GW-52 to work with either chip could have been beneficial.
 
-I suspect that the GW-52 was designed to work with SiRF and MediaTek chips, but was released with a SiRF chip. The GW-60 would have been completely new hardware but it's quite likely that Locosys decided to stick with SiRF (and SDOS) and were able to re-use a lot of code from the GW-52.
+I suspect that the GW-52 was designed to work with SiRF and MediaTek chips, but was released with a SiRFstar IV chip. The GW-60 would have been completely new hardware but it's quite likely that Locosys decided to stick with SiRF (and SDOS) and were able to re-use a lot of code from the GW-52.
 
 
 
@@ -198,45 +202,43 @@ I suspect that the GW-52 was designed to work with SiRF and MediaTek chips, but 
 
 #### GW-52
 
-Looking at the Locosys GPS modules between 2010 and 2021, only the [S4-1513](pdf/locosys/s4-1513_datasheet_v1.1.pdf) series used a SiRF chip and supported 5Hz but it could easily have been utilised in the GW-52.
+Looking at the Locosys GPS modules between 2010 and 2021, only the [S4-1513](pdf/locosys/s4-1513_datasheet_v1.1.pdf) series used a SiRF chip that supported 5Hz but it could easily have been utilised in the GW-52.
 
 - Rom based - S4-1513-2R
 - Flash based - S4-1513, S4-1513-2E
 
-It would seem most likely that the GW-52 would have used the S4-1513 (flash), due to the lower power usage when compared to the S4-1513-2X models.
+It would seem most likely that the GW-52 would have used the S4-1513 (flash), due to the lower power usage when compared to the S4-1513-2X models. Even if the GW-52 did not use an S4-1513 module, it could have used the raw components including the SiRFstar IV.
 
 The GW-52 can't have used the S4-0606 or S4-1612 ranges, because despite using SiRFstar IV they were 1 Hz (according to the Locosys product sheets).
 
-Table 5.2-8 of the S4-1513 [datasheet](pdf/locosys/s4-1513_datasheet_v1.1.pdf) shows "undefined" where EPE (request for $PSRFEPE) would be specified, possibly to hide the SiRFDrive capability?
-
-If you match that table up with the relevant section in the SiRF binary protocol reference you'll see that everything else matches up perfectly.
+Table 5.2-8 ($PSRFEPE request) of the S4-1513 [datasheet](pdf/locosys/s4-1513_datasheet_v1.1.pdf) also has "undefined" where EPE would be specified, possibly to obfuscate the SiRFDrive capability? If you match up table 5.2-8 with the relevant section in the SiRF binary protocol reference you'll see that everything else matches perfectly.
 
 
 
 #### GW-60
 
-The GW-60 won't have used a Locosys GPS module due size constraints but it could easily have used the internal components of the S4-1513 module, or something designed specifically for the GW-60. The SiRFstar IV chip is only 3.5 x 3.2 x 0.6 mm in size!
+The GW-60 won't have used a Locosys GPS module due to the size constraints but it could easily have used the internal components of the S4-1513 module, or something similarly designed for the GW-60. The SiRFstar IV chip is only 3.5 x 3.2 x 0.6 mm in size!
 
-This would mean that both the GW-52 and GW-60 would both have used the SiRFstarIV but with EHVE called SDOS. As an aside, SDOP should never really have been called "speed dilution of precision" because it is not a dilution of precision. I can understand Locosys switching to SDOS, rather than SDOP.
+This would mean that both the GW-52 and GW-60 both use the SiRFstar IV but with EHVE called SDOS. As an aside, SDOP should never really have been called "speed dilution of precision" because it is not a dilution of precision. I can understand Locosys using the term SDOS (standard deviation of speed) instead of SDOP because it is more accurate.
 
 
 
 ### Summary
 
-The anecdotal evidence of the MediaTek references in the GW-52 and GW-60 firmware actually disprove the use of a MediaTek chip. I've also yet to discover a speed error estimate being generated by a MediaTek chip. The closest I have found documented is positional estimates (horizontal, vertical, latitude, longitude and altitude) on the MediaTek MT3333.
+The anecdotal evidence of the MediaTek commands in the GW-52 and GW-60 firmware actually go on to disprove use of a MediaTek chip. I've also yet to discover a speed error estimate being generated by any MediaTek chip. The closest I have found documented is positional estimates (horizontal, vertical, latitude, longitude and altitude) from the MediaTek MT3333.
 
-I suspect the $PMTK commands are just hangovers from development and testing. All of the NMEA commands are in plain sight but they are all standard sentences and do not provide error estimates. The NMEA commands required to switch between 1 Hz and 5 Hz logging are also absent from the GW-52 and GW-60 firmware.
+I suspect the $PMTK commands are just hangovers from development and testing. All of the NMEA commands and sentences are in plain sight but they are very basic and do not include speed error estimates. The NMEA commands required to switch between 1 Hz and 5 Hz logging are also absent from the GW-52 and GW-60 firmware.
 
-Two good reasons to suspect that Locosys used the SiRFstar IV:
+Some good reasons to suspect that Locosys used the SiRFstar IV:
 
-- The Locosys S4-1513 used the SiRFstar IV chip which includes 5 Hz logging.
-  - It's technology would likely be ideal for the GW-31 / GW-52 and it existed long before the GW-52.
+- The Locosys S4-1513 uses the SiRFstar IV chip and supports 5 Hz logging.
+  - The S4-1513 technology would have been well suited to the GW-31 / GW-52 and it existed long before the GW-52.
 - Locosys were actively selling the S4-1513 range of GPS modules throughout the lifetimes of the GW-52 and GW-60.
-  - Even if the S4-1513 module itself were not used in the GW-52, Locosys expertise could be applied to the GW-52.
-- SiRF IV supports SiRFdrive and thus EHVE, measured in cm/s just like SDOP / SDOS.
-  - The availability of SDOP (albeit with the name SDOS) was clearly a USP in the marketing brochures.
+  - Even if the S4-1513 module itself were not used in the GW-52, Locosys expertise could have built it around the SiRFstar IV.
+- SiRFstar IV supports SiRFdrive and thus outputs EHVE, measured in cm/s (just like SDOP and SDOS).
+  - The availability of SDOP (albeit with the name SDOS) was clearly a USP in the GW-52 and GW-60 marketing brochures.
 
-I feel that in all probability, Locosys would have used the SiRFstar IV in the GW-52 and GW-60.
+I therefore feel that in all probability, Locosys would have used the SiRFstar IV in the GW-52 and GW-60.
 
 The SiRFstar IV matches the GW-52 and GW-60 specifications; 1 Hz + 5 Hz logging and estimation of speed errors with a resolution of 1 cm/s. 
 
@@ -244,9 +246,13 @@ The SiRFstar IV matches the GW-52 and GW-60 specifications; 1 Hz + 5 Hz logging 
 
 ### Final Note
 
-The acknowledgement of Locosys probably using the SiRF IV chip in the GW-52 and GW-60 means we can assume that SDOP and SDOS are essentially the same thing. It seems more than likely that they are derived from EHVE (Estimated Horizontal Velocity Error) which was created for SiRFDrive.
+The acknowledgement of Locosys probably using the SiRFstar IV chip in the GW-52 and GW-60 means we can assume that SDOP and SDOS are actually the same thing. It seems more than likely that they are derived from EHVE (Estimated Horizontal Velocity Error) which was created for SiRFDrive.
 
-The GW-52 spec refers to SDOS and says "typical accuracy of 10s average speed measurement: ~3 cm/s, 99.7% certainty". The mention of 99.7% suggests to me that that SDOS is based on 3σ (3 standard deviations). This would also seem consistent with the findings of Tom Chalko in 2009. It is also worth noting that the u-blox sAcc measure is almost certainly based on 1σ due to similarly named u-blox metrics being specified as 1 standard deviation.
+Tom Chalko's paper states:
+
+> SDOP is a new SiRF3 parameter determined on the basis of the Kalman Filter covariance computed during each 1-second cycle of the SiRF3 chipset
+
+The GW-52 specification refers to SDOS and says "typical accuracy of 10s average speed measurement: ~3 cm/s, 99.7% certainty". The mention of 99.7% suggests to me that that SDOS is based on 3σ (3 standard deviations). This would also seem consistent with the findings of Tom in 2009. It is also worth noting that the u-blox sAcc measure is almost certainly based on 1σ due to similarly named u-blox metrics being specified as 1 standard deviation.
 
 
 
@@ -271,7 +277,7 @@ The GW-52 spec refers to SDOS and says "typical accuracy of 10s average speed me
     - [SiRF Binary Protocol 2.3 Dec 2007](pdf/sirf/SiRF_Binary_Protocol_2.3_2007_12.pdf) - EPE is not included in message 129
     - [SiRF Binary Protocol 1.x Feb 2004](pdf/sirf/SiRF_Binary_Protocol_1.x_2004_02.pdf) - EPE is not included in message 129
   - NMEA protocol descriptions
-    - [Erinome-I User Manual rev1.7](pdf/sirf/Erinome-I_User_Manual_rev1.7.pdf) - based on SiRFstar V it details the SiRF specific NMEA message $PSRFEPE
+    - [Erinome-I User Manual rev1.7](pdf/sirf/Erinome-I_User_Manual_rev1.7.pdf) - based on SiRFstar V it details the SiRF specific NMEA sentence $PSRFEPE
     - [GSD4e NMEA Manual May 2010](pdf/sirf/GSD4e_NMEA_Manual.pdf) - document relating to the SiRFstar IV includes no details about $PSRFEPE
   - SiRF Demo
     - [SiRF Demo User Guide 1.5 Jun 2007](pdf/sirf/SiRF_Demo_User_Guide_1.5_2007_06.pdf) - table 3-6 details EHPE, EVPE, ETE, EHVE but no mentioned of EHE
@@ -279,10 +285,10 @@ The GW-52 spec refers to SDOS and says "typical accuracy of 10s average speed me
     - [Speed Dilution of Precision](pdf/sirf/Speed_Dilution_of_Precision.pdf) - paper by Tom Chalko in 2009
     - [Decoding of SiRF Binary Protocol](pdf/sirf/Decoding_of_SiRF_Binary_Protocol.pdf) - paper from 2011
 - MediaTek
-  - [MT3333_Platform_NMEA_Message_Specification_V1.07](pdf/mediatek/MT3333_Platform_NMEA_Message_Specification_V1.07.pdf) - no mention of the proprietary EPE message
-  - [M10478-M10578-NMEA_Sentence_Output](pdf/mediatek/M10478-M10578-NMEA_Sentence_Output.pdf) - details the proprietary EPE message of the MT3333
-  - [Data_Sheet_M10478-A3](pdf/mediatek/Data_Sheet_M10478-A3.pdf) - confirms MT3333 and 10 Hz
-  - [Data_Sheet_M10578-A3](pdf/mediatek/Data_Sheet_M10578-A3.pdf) - confirms MT3333 and 10 Hz
+  - [MT3333_Platform_NMEA_Message_Specification_V1.07](pdf/mediatek/MT3333_Platform_NMEA_Message_Specification_V1.07.pdf) - MT3333 messages, including location accuracy
+  - [M10478-M10578-NMEA_Sentence_Output](pdf/mediatek/M10478-M10578-NMEA_Sentence_Output.pdf) - MT3333 sentences, including the proprietary EPE sentence
+  - [Data_Sheet_M10478-A3](pdf/mediatek/Data_Sheet_M10478-A3.pdf) - confirms MT3333 is being used and supports 10 Hz
+  - [Data_Sheet_M10578-A3](pdf/mediatek/Data_Sheet_M10578-A3.pdf) - confirms MT3333 is being used and supports 10 Hz
 - u-blox
   - [u-blox 7 Receiver Description Including Protocol Specification](pdf/ublox/u-blox7-V14_ReceiverDescriptionProtocolSpec_Public.pdf)
   - [u-blox 8 / M8 Receiver Description Including Protocol Specification](pdf/ublox/u-blox8-M8_ReceiverDescrProtSpec_UBX-13003221.pdf)
