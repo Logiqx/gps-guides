@@ -17,7 +17,7 @@ However, the possibility of a MediaTek chip being used in the GW-52 and GW-60 cr
 
 
 
-### Findings
+### Conclusions
 
 The MediaTek references in the GW-52 and GW-60 firmware are actually strong evidence that a MediaTek GPS chip is **not** being used by those devices!
 
