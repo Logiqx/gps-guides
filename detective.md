@@ -53,8 +53,8 @@ The SiRF binary protocol document from 2009 describes them for message ID 41 (ge
 | ----------------------------------- | ----- | ------------------------------------------------ |
 | Estimated Horizontal Position Error | 4 U   | EHPE in meters x 10<sup>2</sup>                  |
 | Estimated Vertical Position Error   | 4 U   | EVPE in meters x 10<sup>2</sup>                  |
-| Estimated Time Error                | 4 U   | ETE in seconds x 10<sup>2</sup> (SiRFDRive only) |
-| Estimated Horizontal Velocity Error | 2 U   | EHVE in m/s x 10<sup>2</sup> (SiRFDRive only)    |
+| Estimated Time Error                | 4 U   | ETE in seconds x 10<sup>2</sup> (SiRFDrive only) |
+| Estimated Horizontal Velocity Error | 2 U   | EHVE in m/s x 10<sup>2</sup> (SiRFDrive only)    |
 
 It is worth mentioning that EHPE, EVPE, ETE and EHVE were also described in the SiRF demo [user guide](pdf/sirf/SiRF_Demo_User_Guide_1.5_2007_06.pdf) in June 2007.
 
@@ -147,9 +147,9 @@ A few possible NMEA commands were also spotted, possibly for initializing the Si
 - $PLSR - Locosys prefix?
 - $PSRF - SiRF prefix
 
-The firmware included a lot of obvious debug messages and it was noted that there was also a reference to SiRFDRive.
+The firmware included a lot of obvious debug messages and it was noted that there was also a reference to SiRFDrive.
 
-You may recall seeing EHVE in m/s x 10<sup>2</sup> in message ID 41 (geodetic navigation data, SiRFDRive only) of the SiRF binary protocol.
+You may recall seeing EHVE in m/s x 10<sup>2</sup> in message ID 41 (geodetic navigation data, SiRFDrive only) of the SiRF binary protocol.
 
 There were no references to either MediaTek, MTK or $PMTK in the GT-31 firmware.
 
@@ -163,8 +163,8 @@ Significantly there were no common NMEA prefixes listed either, suggesting use o
 
 Let's remind ourselves of some basic facts that relate to the GT-31:
 
-- The SiRF binary format has included EHVE (Estimated Horizontal Velocity Error) in m/s x 10<sup>2</sup> for SiRFDRive since at least 2004.
-- The SiRFstar III was released in 2005 with support for SiRFDRive and was therefore capable of outputting EHVE.
+- The SiRF binary format has included EHVE (Estimated Horizontal Velocity Error) in m/s x 10<sup>2</sup> for SiRFDrive since at least 2004.
+- The SiRFstar III was released in 2005 with support for SiRFDrive and was therefore capable of outputting EHVE.
 - The SiRF binary protocol added EPE to the list of NMEA messages for SiRFNavIII in Nov 2008. EHVE is one of the $PSRFEPE fields.
 - The GT-31was released in 2009. It used the SiRFstar III and recorded SDOP. Tom Chalko also published his SDOP [paper](pdf/sirf/Speed_Dilution_of_Precision.pdf) that same year.
 - There were several activities relating to EPE for SiRFNavIII (e.g. $PSRFEPE, EHVE) and SDOP in 2008 / 2009, leading up to the GT-31.
