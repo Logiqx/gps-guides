@@ -240,7 +240,7 @@ Some good reasons to suspect that Locosys used the SiRFstar IV:
   - Even if the S4-1513 module itself were not used in the GW-52, Locosys expertise could have built it around the SiRFstar IV.
 - SiRFstar IV supports SiRFdrive and thus outputs EHVE, measured in cm/s (just like SDOP and SDOS).
   - The availability of SDOP (albeit with the name SDOS) was clearly a USP in the GW-52 and GW-60 marketing brochures.
-- Discontinuation of the GW-60 coincides with discontinutation of the Locosys GPS modules utilising the SiRFstar IV chipset.
+- Discontinuation of the GW-60 coincided with discontinutation of the Locosys GPS modules utilising the SiRFstar IV chipset.
 
 I therefore feel that in all probability, Locosys would have used the SiRFstar IV in the GW-52 and GW-60.
 
