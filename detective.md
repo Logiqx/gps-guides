@@ -271,8 +271,8 @@ I have a broken GW-60 that I plan to open up and examine, some time soon. Hopefu
 
 - Locosys
   - Marketing materials
-    - [GW-52 specifications v1.2](pdf/locosys/GW-52_spec_v1.2.pdf) - mentioned SDOS and 99.7% certainty
-    - [GW-60 product details](pdf/locosys/GW60_EDM.pdf) - mentioned SDOS and 99.7% certainty
+    - [GW-52 specifications v1.2](pdf/locosys/GW-52_spec_v1.2.pdf) - mentions SDOS and 99.7% certainty
+    - [GW-60 product details](pdf/locosys/GW60_EDM.pdf) - mentions SDOS and 99.7% certainty
     - [LOCOSYSTECH product brochure](pdf/locosys/LOCOSYSTECH_DM.pdf) - includes details of the S4-1513 range of GPS modules
   - GPS module data sheets
     - [S4-0606 datasheet v1.2](pdf/locosys/s4-0606_datasheet_v1.2.pdf) - 1 Hz update rate
@@ -289,9 +289,9 @@ I have a broken GW-60 that I plan to open up and examine, some time soon. Hopefu
     - [SiRF Binary Protocol 1.x Feb 2004](pdf/sirf/SiRF_Binary_Protocol_1.x_2004_02.pdf) - EPE is not included in message 129
   - NMEA protocol descriptions
     - [Erinome-I User Manual rev1.7](pdf/sirf/Erinome-I_User_Manual_rev1.7.pdf) - based on SiRFstar V it details the SiRF specific NMEA sentence $PSRFEPE
-    - [GSD4e NMEA Manual May 2010](pdf/sirf/GSD4e_NMEA_Manual.pdf) - document relating to the SiRFstar IV includes no details about $PSRFEPE
+    - [GSD4e NMEA Manual May 2010](pdf/sirf/GSD4e_NMEA_Manual.pdf) - document relating to the SiRFstar IV but has no details about $PSRFEPE
   - SiRF Demo
-    - [SiRF Demo User Guide 1.5 Jun 2007](pdf/sirf/SiRF_Demo_User_Guide_1.5_2007_06.pdf) - table 3-6 details EHPE, EVPE, ETE, EHVE but no mentioned of EHE
+    - [SiRF Demo User Guide 1.5 Jun 2007](pdf/sirf/SiRF_Demo_User_Guide_1.5_2007_06.pdf) - table 3-6 details EHPE, EVPE, ETE, EHVE but no mention of EHE
   - Research papers
     - [Speed Dilution of Precision](pdf/sirf/Speed_Dilution_of_Precision.pdf) - paper by Tom Chalko in 2009
     - [Decoding of SiRF Binary Protocol](pdf/sirf/Decoding_of_SiRF_Binary_Protocol.pdf) - paper from 2011
