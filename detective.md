@@ -240,7 +240,7 @@ Some good reasons to suspect that Locosys used the SiRFstar IV:
 
 I therefore feel that in all probability, Locosys would have used the SiRFstar IV in the GW-52 and GW-60.
 
-The SiRFstar IV matches the GW-52 and GW-60 specifications; 1 Hz + 5 Hz logging and estimation of speed errors with a resolution of 1 cm/s. 
+The SiRFstar IV matches the GW-52 and GW-60 specifications; 1 Hz + 5 Hz logging and estimation of speed errors with a resolution of 1 cm/s.
 
 
 
@@ -253,6 +253,12 @@ Tom Chalko's paper states:
 > SDOP is a new SiRF3 parameter determined on the basis of the Kalman Filter covariance computed during each 1-second cycle of the SiRF3 chipset
 
 The GW-52 specification refers to SDOS and says "typical accuracy of 10s average speed measurement: ~3 cm/s, 99.7% certainty". The mention of 99.7% suggests to me that that SDOS is based on 3σ (3 standard deviations). This would also seem consistent with the findings of Tom in 2009. It is also worth noting that the u-blox sAcc measure is almost certainly based on 1σ due to similarly named u-blox metrics being specified as 1 standard deviation.
+
+
+
+### Addendum
+
+I have a broken GW-60 that I plan to open up, some time soon. Hopefully the chips will have readable product codes.
 
 
 
