@@ -267,7 +267,7 @@ I have a broken GW-60 that I plan to open up and examine, some time soon. Hopefu
 
 
 
-### Relevant References
+### References
 
 - Locosys
   - Marketing materials
