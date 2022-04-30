@@ -8,7 +8,7 @@ What isn't so clear is what GPS chip was used in the GW-52 and GW-60; perhaps th
 
 It has been [mentioned](https://www.seabreeze.com.au/forums/Windsurfing/Gps/Speed-Accuracy?page=4#27) on the Seabreeze forum that the GW-52 and GW-60 firmware both contain plain-text references to MediaTek frames and this has lead to a belief that the GW-52 and GW-60 are using a chip such as the MT3318.
 
-This document will start by summarizing why it matters and then share my final conclusion. The super-geeky amongst you will quite possibly find the review of available evidence quite interesting, but everyone else should stop reading after the conclusion!
+This document will start by summarizing why it matters and then share my final conclusion. The super-geeky amongst you will probably find the remainder of the article quite interesting, but everyone else should stop reading after the conclusion!
 
 
 
