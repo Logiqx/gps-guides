@@ -15,7 +15,7 @@ In addition to the positional data (latitude and longitude) it recorded Doppler 
 | Item                                                       | Details                                        |
 | ---------------------------------------------------------- | ---------------------------------------------- |
 | Logging                                                    | 1 Hz                                           |
-| Memory                                                     | TBC                                            |
+| Memory                                                     | ~2 hours (internal) but much more with SD card |
 | Battery                                                    | >24 hours                                      |
 | Charging                                                   | Mini USB cable                                 |
 | Download                                                   | SD card or mini USB cable + NAVILINK           |
