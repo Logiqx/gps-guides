@@ -10,7 +10,7 @@ It is designed to be easy to build yourself with readily available components. I
 
 The device provides superior data quality compared to the popular [Locosys](../locosys/README.md) devices and modern smart / sports watches from the likes of COROS, Garmin, Suunto and Polar.
 
-Recent developments and community participation can be found on [Seabreeze.com](https://www.seabreeze.com.au/forums/Windsurfing/Gps/Another-DIY-GPS-logger-approach).
+The code is now open source and can be found on [GitHub](https://github.com/RP6conrad/ESP-GPS-Logger). Recent news and community participation can be found on [Seabreeze.com](https://www.seabreeze.com.au/forums/Windsurfing/Gps/Another-DIY-GPS-logger-approach).
 
 Full details of the [ESP-GPS](https://tinyurl.com/yc87n4p5), including the [DIY](https://en.wikipedia.org/wiki/Do_it_yourself) instructions are available in a Google document.
 
