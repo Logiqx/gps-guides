@@ -33,7 +33,7 @@ Since the APEX Pro, VERTIX and VERTIX 2 are so similar in features. all of the [
 | GPS chipset                                                | [Sony](https://www.sony-semicon.co.jp/e/products/lsi/gps/product.html) - probably the CXD5603GF |
 | Additional Logging                                         | Sats, HDOP                                                   |
 | Approved for [GP3S](https://www.gps-speedsurfing.com/)     | [Yes](https://www.gps-speedsurfing.com/default.aspx?mnu=forum&forum=6&val=166382) |
-| Approved for [GPSTC](https://www.gpsteamchallenge.com.au/) | -                                                            |
+| Approved for [GPSTC](https://www.gpsteamchallenge.com.au/) | No                                                           |
 
 
 

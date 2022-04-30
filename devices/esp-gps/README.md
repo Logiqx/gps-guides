@@ -30,4 +30,4 @@ Full details of the [ESP-GPS](https://tinyurl.com/yc87n4p5), including the [DIY]
 | GPS chipset                                                | Beitian BN220 / BN280 - based on u-blox [NEO-M8N](https://www.u-blox.com/en/product/neo-m8-series) |
 | Additional Logging                                         | Sats, HDOP, sAcc                                             |
 | Approved for [GP3S](https://www.gps-speedsurfing.com/)     | [Yes](https://www.gps-speedsurfing.com/default.aspx?mnu=item&item=gpsother) |
-| Approved for [GPSTC](https://www.gpsteamchallenge.com.au/) | -                                                            |
+| Approved for [GPSTC](https://www.gpsteamchallenge.com.au/) | No                                                           |
