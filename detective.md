@@ -16,7 +16,7 @@ This document will start by summarizing why it matters and then share my final c
 
 Two of the most significant factors in GPS performance are the chipset and the antenna design. Chipsets from different manufacturers typically have very different performance characteristics and limitations, which has a bearing on their suitability for competitive speedsurfing.
 
-Something unique to the GT-31, GW-52 and GW-60 is the availability of SDOP (standard dilution of precision, GT-31) and SDOS (standard deviation of speed, GW-52 and GW-60). Aside from u-blox, no other GPS chipset manufacturers provide speed accuracy estimates at this time. The GT-31 provides SDOP and had a scientific paper published but the GW-52 and GW-60 have remained something of a mystery.
+Something unique to the GT-31, GW-52 and GW-60 is the availability of SDOP (standard dilution of precision, GT-31) and SDOS (standard deviation of speed, GW-52 and GW-60). Aside from u-blox, no other GPS chipset manufacturer provides speed accuracy estimates at this time. The GT-31 provides SDOP and had a scientific paper published but the GW-52 and GW-60 have remained something of a mystery.
 
 The possibility of a MediaTek chip being used in the GW-52 and GW-60 (due to references in their firmware) creates further questions:
 
