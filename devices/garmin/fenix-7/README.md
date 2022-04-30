@@ -11,3 +11,7 @@ https://www.dcrainmaker.com/2022/01/garmin-fenix7-7s-7x-in-depth-review.html
 - Windsurf sport type added
 
 - "SpeedPro" function added for windsurfing (primarily for speedsurfers)
+
+Spec: https://www.fitness-tracker-test.info/en/garmin-fenix-7/
+
+- Mentions Airoha’s AG3335M chipset
