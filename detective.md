@@ -37,7 +37,7 @@ This will sound like an odd statement to make right now, and it was also a surpr
 
 In all likelihood the GW-52 and GW-60 probably use the SiRFstar IV. Whilst they could contain the SiRFstar V it would be rather unnecessary.
 
-If you aren't a GPS geek then now would be the time to stop reading, and just take my word that the GW-52 and GW-60 probably use the SiRFstar IV.
+If you aren't a GPS geek then you don't need to read any further, and can just take my word that the GW-52 and GW-60 probably use the SiRFstar IV.
 
 The remainder of this document will describe my analysis and the various findings in more detail.
 
