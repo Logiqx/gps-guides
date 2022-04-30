@@ -23,6 +23,6 @@ In addition to the positional data (latitude and longitude) it recorded Doppler 
 | Other Formats                                              | n/a                                            |
 | GPS chipset                                                | SiRFstar II                                    |
 | Additional Logging                                         | Sats, HDOP                                     |
-| Approved for [GP3S](https://www.gps-speedsurfing.com/)     | -                                              |
-| Approved for [GPSTC](https://www.gpsteamchallenge.com.au/) | -                                              |
+| Approved for [GP3S](https://www.gps-speedsurfing.com/)     | No                                             |
+| Approved for [GPSTC](https://www.gpsteamchallenge.com.au/) | No                                             |
 
