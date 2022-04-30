@@ -26,13 +26,14 @@ Convenient as it was to have a wrist watch, the GW-60 was prone to water ingress
 | Item                                                       | Details                                                      |
 | ---------------------------------------------------------- | ------------------------------------------------------------ |
 | Logging                                                    | 1 Hz or 5 Hz                                                 |
-| Memory                                                     | TBC but somewhat larger than the GW-52                       |
+| Memory                                                     | ~35h @ 1 Hz or ~7h @ 5 Hz                                    |
 | Battery                                                    | ~5 hours @ 5 Hz                                              |
 | Charging                                                   | Custom USB cable                                             |
 | Download                                                   | Custom USB cable + GW60Util                                  |
 | Best Format                                                | SiRF binary, packed (SBP)                                    |
 | Other Formats                                              | n/a                                                          |
 | GPS chipset                                                | probably the [SiRFstar IV](https://www.qualcomm.com/products/application/automotive/positioning-solutions/sirfstar-iv-4e) |
+| Additional Logging                                         | Sats, HDOP, SDOS                                             |
 | Approved for [GP3S](https://www.gps-speedsurfing.com/)     | [Yes](https://www.gps-speedsurfing.com/default.aspx?mnu=item&item=gw60) |
 | Approved for [GPSTC](https://www.gpsteamchallenge.com.au/) | [Yes](https://www.gpsteamchallenge.com.au/pages/rules)       |
 

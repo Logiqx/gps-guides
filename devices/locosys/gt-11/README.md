@@ -14,14 +14,15 @@ In addition to the positional data (latitude and longitude) it recorded Doppler 
 
 | Item                                                       | Details                                        |
 | ---------------------------------------------------------- | ---------------------------------------------- |
-| Logging                                                    | 1 Hz                                            |
+| Logging                                                    | 1 Hz                                           |
 | Memory                                                     | TBC                                            |
 | Battery                                                    | >24 hours                                      |
 | Charging                                                   | Mini USB cable                                 |
 | Download                                                   | SD card or mini USB cable + NAVILINK           |
 | Best Formats                                               | SiRF binary (SBN) or SiRF binary, packed (SBP) |
 | Other Formats                                              | n/a                                            |
-| GPS chipset                                                | SiRFstar II                                   |
+| GPS chipset                                                | SiRFstar II                                    |
+| Additional Logging                                         | Sats, HDOP                                     |
 | Approved for [GP3S](https://www.gps-speedsurfing.com/)     | -                                              |
 | Approved for [GPSTC](https://www.gpsteamchallenge.com.au/) | -                                              |
 

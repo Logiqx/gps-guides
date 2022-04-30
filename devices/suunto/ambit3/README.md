@@ -35,5 +35,6 @@ The Ambit3 range introduced smartphone connectivity which is a convenient way to
 | Best Format                                                | [FIT](https://developer.garmin.com/fit/protocol/)            |
 | Other Formats                                              | [GPX](https://en.wikipedia.org/wiki/GPS_Exchange_Format)     |
 | GPS chipset                                                | [SiRFstar V](https://www.qualcomm.com/products/application/automotive/positioning-solutions/sirfstar-v-5e) |
+| Additional Logging                                         | No                                                           |
 | Approved for [GP3S](https://www.gps-speedsurfing.com/)     | No                                                           |
 | Approved for [GPSTC](https://www.gpsteamchallenge.com.au/) | No                                                           |

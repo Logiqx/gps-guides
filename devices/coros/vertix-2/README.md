@@ -22,7 +22,7 @@ Since the APEX Pro, VERTIX and VERTIX 2 are so similar in features. all of the [
 
 | Item                                                       | Details                                                      |
 | ---------------------------------------------------------- | ------------------------------------------------------------ |
-| Logging                                                    | 1 Hz                                                          |
+| Logging                                                    | 1 Hz                                                         |
 | Memory                                                     | [200 hours](https://support.coros.com/hc/en-us/articles/360044993811-How-much-memory-do-COROS-watches-have) |
 | Battery                                                    | 60 days (non-GPS) / 140 hours (GPS)                          |
 | Charging                                                   | Custom USB cable                                             |
@@ -31,5 +31,6 @@ Since the APEX Pro, VERTIX and VERTIX 2 are so similar in features. all of the [
 | Best Format                                                | [FIT](https://developer.garmin.com/fit/protocol/)            |
 | Other Formats                                              | [GPX](https://en.wikipedia.org/wiki/GPS_Exchange_Format)     |
 | GPS chipset                                                | [Airoha AG3335M](http://www.airoha.com.tw/webe/html/pro/index.aspx?kind=80&num=182&lv=2) |
+| Additional Logging                                         | Sats, HDOP                                                   |
 | Approved for [GP3S](https://www.gps-speedsurfing.com/)     | -                                                            |
 | Approved for [GPSTC](https://www.gpsteamchallenge.com.au/) | -                                                            |
