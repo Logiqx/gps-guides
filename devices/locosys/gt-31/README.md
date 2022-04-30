@@ -19,12 +19,13 @@ The GT-31 was superseded by the [GW-52](../gw-52/README.md) in 2015, when Locosy
 | Item                                                       | Details                                                      |
 | ---------------------------------------------------------- | ------------------------------------------------------------ |
 | Logging                                                    | 1 Hz                                                         |
-| Memory                                                     | ~4h 30m (internal) but much more with SD card                |
-| Battery                                                    | >30 hours                                                    |
+| Memory                                                     | ~5h 30m (internal) but much more with SD card                |
+| Battery                                                    | ~40 hours                                                    |
 | Charging                                                   | Mini USB cable                                               |
 | Download                                                   | SD card or mini USB cable + NAVILINK                         |
 | Best Formats                                               | SiRF binary (SBN) or SiRF binary, packed (SBP)               |
 | Other Formats                                              | n/a                                                          |
 | GPS chipset                                                | [SiRFstar III](https://en.wikipedia.org/wiki/SiRF#SiRFstarIII) |
+| Additional Logging                                         | Sats, HDOP, SDOP                                             |
 | Approved for [GP3S](https://www.gps-speedsurfing.com/)     | [Yes](https://www.gps-speedsurfing.com/default.aspx?mnu=item&item=GTx) |
 | Approved for [GPSTC](https://www.gpsteamchallenge.com.au/) | [Yes](https://www.gpsteamchallenge.com.au/pages/rules)       |

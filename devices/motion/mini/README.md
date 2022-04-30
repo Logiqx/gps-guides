@@ -19,14 +19,15 @@ I have written up my [first impressions](first-impressions.md) of the Motion Min
 
 | Item                                                       | Details                                                      |
 | ---------------------------------------------------------- | ------------------------------------------------------------ |
-| Logging                                                    | 1 Hz, 2 Hz,  5 Hz or 10 Hz                                       |
+| Logging                                                    | 1 Hz, 2 Hz,  5 Hz or 10 Hz                                   |
 | Memory                                                     | 8 GB                                                         |
-| Battery                                                    | ~14 hours @ 10 Hz                                             |
+| Battery                                                    | ~14 hours @ 10 Hz                                            |
 | Charging                                                   | Wireless                                                     |
 | Download                                                   | WiFi - connect to built-in webserver                         |
 | Best Format                                                | [OAO](https://www.motion-gps.com/motion/documentation/oao-file-format.html) - up to 10 Hz |
 | Other Formats                                              | [GPX](https://en.wikipedia.org/wiki/GPS_Exchange_Format) - 1 Hz |
 | GPS chipset                                                | u-blox [UBX-M8030](https://www.u-blox.com/en/product/ubx-m8030-series) |
+| Additional Logging                                         | Sats, HDOP, sAcc                                             |
 | Approved for [GP3S](https://www.gps-speedsurfing.com/)     | [Yes](https://www.gps-speedsurfing.com/default.aspx?mnu=item&item=gpsother) |
 | Approved for [GPSTC](https://www.gpsteamchallenge.com.au/) | [Yes](https://www.gpsteamchallenge.com.au/pages/rules)       |
 

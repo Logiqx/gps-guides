@@ -20,19 +20,20 @@ Since the APEX Pro, VERTIX and VERTIX 2 are so similar in features. all of the [
 
 ### Specifications
 
-| Item          | Details                                                      |
-| ------------- | ------------------------------------------------------------ |
-| Logging       | 1 Hz                                                          |
-| Memory        | [200 hours](https://support.coros.com/hc/en-us/articles/360044993811-How-much-memory-do-COROS-watches-have) |
-| Battery       | 30 days (non-GPS) / 40 hours (GPS)                           |
-| Charging      | Custom USB cable                                             |
-| Download      | Export from the COROS app - e.g. Dropbox                     |
-| Auto Upload   | [Yes](https://www.gps-speedsurfing.com/default.aspx?mnu=item&item=HowAddSession) |
-| Best Format   | [FIT](https://developer.garmin.com/fit/protocol/)            |
-| Other Formats | [GPX](https://en.wikipedia.org/wiki/GPS_Exchange_Format)     |
-| GPS chipset   | [Sony](https://www.sony-semicon.co.jp/e/products/lsi/gps/product.html) - probably the CXD5603GF |
-| Approved for [GP3S](https://www.gps-speedsurfing.com/) | [Yes](https://www.gps-speedsurfing.com/default.aspx?mnu=forum&forum=6&val=166382) |
-| Approved for [GPSTC](https://www.gpsteamchallenge.com.au/) | -      |
+| Item                                                       | Details                                                      |
+| ---------------------------------------------------------- | ------------------------------------------------------------ |
+| Logging                                                    | 1 Hz                                                         |
+| Memory                                                     | [200 hours](https://support.coros.com/hc/en-us/articles/360044993811-How-much-memory-do-COROS-watches-have) |
+| Battery                                                    | 30 days (non-GPS) / 40 hours (GPS)                           |
+| Charging                                                   | Custom USB cable                                             |
+| Download                                                   | Export from the COROS app - e.g. Dropbox                     |
+| Auto Upload                                                | [Yes](https://www.gps-speedsurfing.com/default.aspx?mnu=item&item=HowAddSession) |
+| Best Format                                                | [FIT](https://developer.garmin.com/fit/protocol/)            |
+| Other Formats                                              | [GPX](https://en.wikipedia.org/wiki/GPS_Exchange_Format)     |
+| GPS chipset                                                | [Sony](https://www.sony-semicon.co.jp/e/products/lsi/gps/product.html) - probably the CXD5603GF |
+| Additional Logging                                         | Sats, HDOP                                                   |
+| Approved for [GP3S](https://www.gps-speedsurfing.com/)     | [Yes](https://www.gps-speedsurfing.com/default.aspx?mnu=forum&forum=6&val=166382) |
+| Approved for [GPSTC](https://www.gpsteamchallenge.com.au/) | -                                                            |
 
 
 
