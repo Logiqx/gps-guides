@@ -8,14 +8,26 @@ What isn't so clear is what GPS chip was used in the GW-52 and GW-60; perhaps th
 
 It has been [mentioned](https://www.seabreeze.com.au/forums/Windsurfing/Gps/Speed-Accuracy?page=4#27) on the Seabreeze forum that the GW-52 and GW-60 firmware both contain plain-text references to MediaTek frames and this has lead to a belief that the GW-52 and GW-60 are using a chip such as the MT3318.
 
-However, the possibility of a MediaTek chip being used in the GW-52 and GW-60 creates further questions:
+This document will start by summarizing why it matters and then share my final conclusion. The super-geeky amongst you will quite possibly find the review of available evidence quite interesting, but everyone else should stop reading after the conclusion!
+
+
+
+### Why It Matters
+
+Two of the most significant factors in GPS performance are the chipset and the antenna design. Chipsets from different manufacturers typically have very different performance characteristics and limitations, which has a bearing on their suitability for competitive speedsurfing.
+
+Something unique to the GT-31, GW-52 and GW-60 is the availability of SDOP (standard dilution of precision, GT-31) and SDOS (standard deviation of speed, GW-52 and GW-60). Aside from u-blox, no other GPS chipset manufacturers provide speed accuracy estimates at this time. The GT-31 provides SDOP and had a scientific paper published but the GW-52 and GW-60 have remained something of a mystery.
+
+The possibility of a MediaTek chip being used in the GW-52 and GW-60 (due to references in their firmware) creates further questions:
 
 - Wasn't SDOP on the GT-31 proprietary to SiRF?
 - Why was it renamed to SDOS on the GW-52 / GW-60, are SDOP and SDOS the same thing?
 - How did MediaTek reproduce SDOP in their chip or is SDOS something different?
 - How comparable are SDOP (GT-31), SDOS (GW-52 + GW-60) and sAcc (u-blox)? What do they each represent?
 
+Understanding what these are really helps when building GPS prototypes, or when evaluating existing GPS units (especially for approval for GPSTC).
 
+ 
 
 ### Conclusions
 
@@ -24,6 +36,8 @@ The MediaTek references in the GW-52 and GW-60 firmware are actually strong evid
 This will sound like an odd statement to make right now, and it was also a surprise to me, but I'll explain how I reached my conclusion!
 
 In all likelihood the GW-52 and GW-60 probably use the SiRFstar IV. Whilst they could contain the SiRFstar V it would be rather unnecessary.
+
+If you aren't a GPS geek then now would be the time to stop reading, and just take my word that the GW-52 and GW-60 probably use the SiRFstar IV.
 
 The remainder of this document will describe my analysis and the various findings in more detail.
 
