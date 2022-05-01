@@ -288,11 +288,9 @@ After writing this article, I've opened up a broken GW-60 to see what is inside.
 
 ![img](img/gw-60-3.jpg)
 
-The custom GPS module (Locosys GW-60 1707) gives nothing much away. It's not any of the standard Locosys GPS modules from the time because it is slightly smaller (9.5 x 9mm) and has less pins. Perhaps they shrunk the S4-1513 that I mentioned earlier because the S4-0606 is only 6mm x 6mm module without the shielding.
+The custom GPS module (Locosys GW-60 1707) gives nothing much away. It's not any of the standard Locosys GPS modules from the time because it is slightly smaller (9.5 x 9mm) and has less pins. Perhaps they shrunk the S4-1513 that I mentioned earlier because the S4-0606 is only 6mm x 6mm module but doesn't have the shielding.
 
-It was also interesting to discover what processor is being used by the GW-60. It is an [STM32L](https://www.st.com/en/microcontrollers-microprocessors/stm32l151v8.html) lower-power microcontroller based on the 32-bit ARM Cortex.
-
-The other large chip (bottom left) is a flash memory chip from Winbond. I couldn't read the product code in the artificial lighting!
+It was also interesting to discover what processor is being used by the GW-60. It is the [STM32L151V8](https://www.st.com/en/microcontrollers-microprocessors/stm32l151v8.html) lower-power microcontroller which is based on the 32-bit ARM [Cortex-M3](https://developer.arm.com/Processors/Cortex-M3). The flash memory (bottom left) is a 256M-bit (32MB) Winbond [25Q256FVEG](https://www.winbond.com/hq/product/code-storage-flash-memory/serial-nor-flash/?__locale=zh_TW&partNo=W25Q256FV).
 
 
 
