@@ -234,7 +234,7 @@ Table 5.2-8 ($PSRFEPE request) of the S4-1513 [datasheet](pdf/locosys/s4-1513_da
 
 #### GW-60
 
-The GW-60 won't have used a Locosys GPS module due to size constraints but it could easily have used the internal components of the S4-1513 module, or something designed especially for the GW-60. The SiRFstar IV chip is only 3.5 x 3.2 x 0.6 mm in size!
+The GW-60 won't have used the standard Locosys S4-1513 range due to size constraints but it could easily have used the internal components, or created a custom module designed especially for the GW-60. The SiRFstar IV chip is only 3.5 x 3.2 x 0.6 mm in size!
 
 This would mean that both the GW-52 and GW-60 use the SiRFstar IV but with EHVE called SDOS. As an aside, SDOP should never really have been called "speed dilution of precision" because it is not a dilution of precision. I can understand Locosys using the term SDOS (standard deviation of speed) instead of SDOP because it is more accurate.
 
@@ -278,7 +278,20 @@ The GW-52 specification refers to SDOS and says "typical accuracy of 10s average
 
 ### Addendum
 
-I have a broken GW-60 that I plan to open up and examine, some time soon. Hopefully the chips will have identifiable product codes.
+After writing this article, I've opened up a broken GW-60 to see what is inside.
+
+![img](img/gw-60-1.jpg)
+
+![img](img/gw-60-2.jpg)
+
+![img](img/gw-60-3.jpg)
+
+The custom GPS module (Locosys GW-60 1707) gives nothing much away. It's not any of the standard Locosys GPS modules from the time because it is slightly smaller (9.5 x 9mm) and has less pins. Perhaps they shrunk the S4-1513 that I mentioned earlier because the S4-0606 is only 6mm x 6mm module without the shielding.
+
+It was also interesting to discover what processor is being used by the GW-60. It is an [STM32L](https://www.st.com/en/microcontrollers-microprocessors/stm32-ultra-low-power-mcus.html) lower-power microcontroller based on the 32-bit ARM Cortex.
+
+The other large chip (bottom left) is a flash memory chip from Winbond. I couldn't read the product code in the artificial lighting!
+
 
 
 
