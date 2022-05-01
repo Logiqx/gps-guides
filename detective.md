@@ -213,6 +213,8 @@ Between 2010 and 2021, Locosysy were producing a number of GPS modules based on 
 
 I suspect that the GW-52 was originally designed to work with SiRF and MediaTek chips, but was actually released with a SiRFstar IV chip. The GW-60 would have been completely new hardware but it's quite likely that Locosys decided to stick with the SiRFstar IV and were able to re-use a lot of firmware code from the GW-52.
 
+There is a lot of commonality between the GW-52 and GW-60 firmware. It seems most likely that any MediaTek trials were only done on the GW-31 / GW-52 and the capability was never used on a GW-60. It's just that the associated code was never removed from the GW-60 firmware.
+
 
 
 ### Possibilities
