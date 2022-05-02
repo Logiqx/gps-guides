@@ -4,9 +4,11 @@
 
 Firmware 19.20.
 
-This watch uses the same Sony GPS as the COROS APEX Pro and VERTIX, etc.
 
-The FIT from the Fenix 6 cannot be processed by GPSResults 6.185.
+
+#### Observations
+
+Data is not being recorded every second. Paul subsequently confirmed the watch was recording in "smart" mode.
 
 
 
