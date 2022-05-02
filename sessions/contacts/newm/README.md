@@ -57,7 +57,7 @@ For this reason, British Speed Challenge <u>must</u> always ensure Doppler speed
 
 Confirmed resolution of 1 cm/s using data from 20220406.
 
-Fenix 7 speed data is heavily smooth and shifted rightwards, compared to non-doppler speeds.
+Fenix 7 speed data is heavily smoothed and shifted rightwards, compared to non-doppler speeds.
 
 ![img](img/fenix-7.png)
 
