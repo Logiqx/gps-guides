@@ -4,9 +4,11 @@
 
 Firmware 20.50.
 
-This watch uses the same Sony GPS as the COROS APEX Pro and VERTIX, etc.
 
-The FIT from the Fenix 6 cannot be processed by GPSResults 6.185.
+
+#### Observations
+
+Data is not being recorded every second. Will subsequently confirmed the watch was recording in "smart" mode.
 
 
 
@@ -32,8 +34,8 @@ Confirmed speed resolution to be 5 mm/s, same as GP3S data.
 
 Used top 20 runs over 250m to compare Doppler and non-Doppler results:
 
-- Average for the 20 results is identical; difference of 0.00.
-- Non-Doppler varies between -0.19 and +0.19.
+- Average for the 20 results is identical; mean error of 0.00, mean absolute error of 0.09.
+- Non-Doppler speed vs regular speed varies between -0.19 and +0.24.
 
 
 
