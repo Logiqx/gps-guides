@@ -7,6 +7,26 @@
 
 
 
+### Conclusions
+
+Speeds:
+
+- Massive spikes in non-Doppler speeds can appear during normal runs - 70 knots observed.
+- 2s can often read too high on the Fenix 3, sometimes by 1 or 2 knots.
+- 10s can also read too high on the Fenix 3, sometimes up to 1 knot.
+- 250m can also read too high, particularly during massive slingshots, sometimes up to 1 knot.
+- 500m is typically fairly decent on the Fenix 3, usually +/- 0.10 knots.
+
+General:
+
+- Fenix 3 can over-estimate when accelerating or decelerating rapidly.
+- Fenix 3 can produce significant spikes when stationary / wet but they are obvious when reviewed.
+- Overall, Fenix 3 is pretty decent during normal sailing (especially 500m) but slingshots can lead to over-reading.
+
+Note: Speed from the Fenix 3 does indeed look like it is Doppler-derived and has a Kalman filter.
+
+
+
 
 ### 20181216 - Fenix 3 vs Motion Mini
 
@@ -161,26 +181,6 @@ Comparing 500m results:
 - 05:18:13 = 0.07 higher on Fenix 3
 - 05:52:14 = 0.08 higher on Fenix 3
 - 05:42:10 = cannot compare
-
-
-
-### Conclusions
-
-Speeds:
-
-- Massive spikes in non-Doppler speeds can appear during normal runs - 70 knots observed.
-- 2s can often read too high on the Fenix 3, sometimes by 1 or 2 knots.
-- 10s can also read too high on the Fenix 3, sometimes up to 1 knot.
-- 250m can also read too high, particularly during massive slingshots, sometimes up to 1 knot.
-- 500m is typically fairly decent on the Fenix 3, usually +/- 0.10 knots.
-
-General:
-
-- Fenix 3 can over-estimate when accelerating or decelerating rapidly.
-- Fenix 3 can produce significant spikes when stationary / wet but they are obvious when reviewed.
-- Overall, Fenix 3 is pretty decent during normal sailing (especially 500m) but slingshots can lead to over-reading.
-
-Note: Speed from the Fenix 3 does indeed look like it is Doppler-derived and has a Kalman filter.
 
 
 
