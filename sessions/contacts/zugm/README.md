@@ -62,5 +62,5 @@ The spikes may be due to the use of GPSBabel to load make the FIT file usable. N
 
 ### Track Data
 
-You can find all of the tracks on [GitHub](https://github.com/Logiqx/gps-guides) under sessions/contacts/zugsm/tracks.
+You can find all of the tracks on [GitHub](https://github.com/Logiqx/gps-guides) under sessions/contacts/zugm/tracks.
 

@@ -6,8 +6,6 @@
 
 - Locosys GW-60 - Firmware V1.3A0926C.
 
-n.b. The Fenix 6X uses the same Sony GPS chip as the COROS APEX Pro and VERTIX.
-
 
 
 ### 20220206
