@@ -75,7 +75,7 @@ Product 3291. Latest firmware [20.51](https://www8.garmin.com/support/download_d
 
 | Contact                | Firmware | Sessions | Additional Data |
 | ---------------------- | -------- | -------- | --------------- |
-| germ                   | 20.60    | 1        | N/A             |
+| [germ](germ/README.md) | 20.60    | 1        | N/A             |
 | [gwys](gwys/README.md) | 20.30    | 2        | GW-60           |
 | [mord](mord/README.md) | 20.50    | 2        | Motion Mini     |
 
