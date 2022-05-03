@@ -10,7 +10,7 @@ Popular Garmin Watches:
   - [Fenix 3](fenix-3/README.md)
   - [Fenix 5](fenix-5/README.md)
   - [Fenix 5 Plus](fenix-5-plus/README.md)
-  - Fenix 6
+  - [Fenix 6](fenix-6/README.md)
   - Fenix 7
 - Fitness Trackers
   - [Vivoactive 3](vivoactive-3/README.md)
