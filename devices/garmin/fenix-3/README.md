@@ -27,9 +27,9 @@ Details about the [Fenix 3 / HR](https://www.garmin.com/en-GB/p/160512) can stil
 | Memory                                                     | TBC                                                          |
 | Battery                                                    | up to 20 h                                                   |
 | Charging                                                   | Custom USB cable                                             |
-| Download                                                   | Export from Garmin Connect as "[original](https://support.garmin.com/en-GB/?faq=W1TvTPW8JZ6LfJSfK512Q8)" format |
+| Download                                                   | Export from Garmin Connect |
 | Best Format                                                | [FIT](https://developer.garmin.com/fit/protocol/)            |
-| Other Formats                                              | [GPX](https://en.wikipedia.org/wiki/GPS_Exchange_Format)     |
+| Other Formats                                              | [GPX](https://en.wikipedia.org/wiki/GPS_Exchange_Format) + [TCX](https://en.wikipedia.org/wiki/Training_Center_XML)     |
 | GPS chipset                                                | MediaTek [MT3333](https://labs.mediatek.com/en/chipset/MT3333) |
 | Additional Logging                                         | No                                                           |
 | Approved for [GP3S](https://www.gps-speedsurfing.com/)     | No                                                           |
