@@ -4,7 +4,7 @@
 
 
 
-The Fenix 3 and Fenix 3 HR were first released in 2015 / 2016 respectively.
+The Fenix 3 and Fenix 3 HR were released in 2015 / 2016 respectively.
 
 Details about the [Fenix 3 / HR](https://www.garmin.com/en-GB/p/160512) can still be found on the Garmin website, plus the [manual](https://www8.garmin.com/manuals/webhelp/fenix3/EN-US/GUID-62011D9B-67F0-48B6-8A06-B0C0E6276F7E-homepage.html).
 

@@ -4,7 +4,7 @@
 
 
 
-The Fenix 5 range was first released in 2017. The 5S (left) is the smaller model and 5X (right) is the larger model.
+The Fenix 5 range was released in 2017. The 5S (left) is the smaller model and 5X (right) is the larger model.
 
 There is a Sapphire edition and regular edition of the Fenix 5 + 5S, but only Sapphire edition of the Fenix 5X.
 
