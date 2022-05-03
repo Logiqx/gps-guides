@@ -4,7 +4,7 @@
 
 
 
-The Ambit3 range was first released in 2014 and the range includes sport, run, peak and vertical models.
+The Ambit3 range was released in 2014 and the range includes sport, run, peak and vertical models.
 
 Details about the [Ambit3](https://www.suunto.com/en-gb/Products/sports-watches/Suunto-Ambit3-Sport/Suunto-Ambit3-Sport-Black/) can still be found on the Suunto website, plus the [manual](https://ns.suunto.com/Manuals/Ambit3_Sport/Userguides/Suunto_Ambit3_Sport_UserGuide_EN.pdf).
 

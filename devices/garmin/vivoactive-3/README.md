@@ -4,7 +4,7 @@
 
 
 
-The Vivoactive 3 was first released in 2017.
+The Vivoactive 3 was released in 2017.
 
 Details about the [Vivoactive 3](https://www.garmin.com/en-GB/p/571520) can still be found on the Garmin website, plus the [manual](https://www8.garmin.com/manuals/webhelp/vivoactive3/EN-US/GUID-1AF84C62-834C-4DEC-A756-B06099B1D586-homepage.html).
 

@@ -4,7 +4,7 @@
 
 
 
-The Fenix 6 range was first released in 2019. The 6X (left) is the larger model and 6S (right) is the smaller model.
+The Fenix 6 range was released in 2019. The 6X (left) is the larger model and 6S (right) is the smaller model.
 
 There is a Sapphire, Pro and Solar edition for each of the 3 sizes, making 9 watches in total. The only differences are the Sapphire glass vs Gorilla glass (Pro) vs Power glass (Solar) and protective coatings on the metal parts.
 

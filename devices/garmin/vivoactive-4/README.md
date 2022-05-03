@@ -4,7 +4,7 @@
 
 
 
-The Vivoactive 4 was first released in 2019.
+The Vivoactive 4 was released in 2019.
 
 The Fenix 4 (left) is the standard model and Fenix 4S (right) is the smaller model.
 
