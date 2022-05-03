@@ -6,6 +6,10 @@
 
 The Fenix 5 range was first released in 2017. The 5S (left) is the smaller model and 5X (right) is the larger model.
 
+There is a Sapphire edition and regular edition of the Fenix 5 + 5S, but only Sapphire edition of the Fenix 5X.
+
+Aside from the non-scratch glass (in theory) the main difference is the Sapphire models have WiFi, whilst the regular models do not.
+
 Details about the [Fenix 5S](https://www.garmin.com/en-GB/p/552237) + [Fenix 5](https://www.garmin.com/en-GB/p/552982) + [Fenix 5X](https://www.garmin.com/en-GB/p/560327) can still be found on the Garmin website, plus the [manual](https://www8.garmin.com/manuals/webhelp/fenix5/EN-US/GUID-C8E25FD1-3499-4B5C-B45F-C4BF88283284-homepage.html).
 
 
