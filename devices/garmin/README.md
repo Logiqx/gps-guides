@@ -14,5 +14,5 @@ Popular Garmin Watches:
   - Fenix 7
 - Fitness Trackers
   - [Vivoactive 3](vivoactive-3/README.md)
-  - Vivoactive 4
+  - [Vivoactive 4](vivoactive-4/README.md)
 

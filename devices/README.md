@@ -36,7 +36,7 @@ Smart / sports watches popular for speedsurfing include the following:
     - Fenix 7
   - Fitness Trackers
     - [Vivoactive 3](garmin/vivoactive-3/README.md)
-    - Vivoactive 4
+    - [Vivoactive 4](garmin/vivoactive-4/README.md)
 - [Suunto](suunto/README.md)
   - [Ambit3](suunto/ambit3/README.md)
   - Suunto 9
