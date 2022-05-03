@@ -1,12 +1,14 @@
 ## Locosys GT-11
 
-Details about the GT-11 can no longer be found on the Locosys website.
+The GT-11 was released by Locosys in 2006 but details are no longer on their website.
 
-You can find some details about it in my [feature comparison](../../feature-comparison.pdf), last updated in Jul 2010.
-
-This device was the original benchmark for quality 1 Hz logging at an affordable price!
+It was the original benchmark for quality 1 Hz logging at an affordable price!
 
 In addition to the positional data (latitude and longitude) it recorded Doppler speed, COG, HDOP and satellite counts.
+
+It was also sold as NAVI GPS by NAVMAN and the [Amaryllo Trip Tracker](https://www.amaryllo.com/almooj/sports-products/amaryllo-trip-tracker-gps-sports-device-7.html) by Amaryllo.
+
+You can find some details about it in my [feature comparison](../../feature-comparison.pdf), last updated in Jul 2010.
 
 
 
