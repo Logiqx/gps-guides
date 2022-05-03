@@ -12,7 +12,7 @@ The devices below were all developed specifically for speedsurfing.
   - [GW-52](locosys/gw-52/README.md)
   - [GW-60](locosys/gw-60/README.md)
 - [Motion](motion/README.md)
-  - Wireless LCD
+  - [Wireless LCD](motion/lcd/README.md)
   - [Wireless Mini](motion/mini/README.md)
 
 
