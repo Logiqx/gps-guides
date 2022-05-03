@@ -24,7 +24,7 @@ I have written up my [first impressions](first-impressions.md) of the Motion Min
 | Battery                                                    | ~14 hours @ 10 Hz                                            |
 | Charging                                                   | Wireless                                                     |
 | Download                                                   | WiFi - connect to built-in webserver                         |
-| Best Format                                                | [OAO](https://www.motion-gps.com/motion/documentation/oao-file-format.html) - up to 10 Hz |
+| Best Format                                                | [OAO](https://www.motion-gps.com/motion/documentation/oao-file-format.html) |
 | Other Formats                                              | [GPX](https://en.wikipedia.org/wiki/GPS_Exchange_Format) - 1 Hz |
 | GPS chipset                                                | u-blox [UBX-M8030](https://www.u-blox.com/en/product/ubx-m8030-series) |
 | Additional Logging                                         | Sats, HDOP, sAcc                                             |
