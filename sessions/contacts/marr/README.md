@@ -32,6 +32,8 @@ The FIT file contains both the positional data (i.e. latitude, longitude and alt
 | Timex Connect and on-watch | 11.33            | 18.97           |
 | Strava                     | 11.32            | 22.0            |
 
+Note: The FIT file also contains distance data during the session and this shows a total of 11.33 miles.
+
 
 
 #### Estimated Speeds
