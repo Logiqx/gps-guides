@@ -38,7 +38,7 @@ Note: The FIT file also contains distance data during the session and this shows
 
 #### Estimated Speeds
 
-In most GPS devices the "estimated" speed will be derived from the observable Doppler shift in the carrier signal from each individual satellite. The effects of noise are reduced by a Kalman filter (or to be more precise and extended Kalman filter), resulting in the best possible estimate of the true speed.
+In most GPS devices the "estimated" speed will be derived from the observable Doppler shift in the carrier signal from each individual satellite. The effects of noise are reduced by a Kalman filter (or to be more precise an extended Kalman filter), resulting in the best possible estimate of the true speed.
 
 The max speed reported by the Ironman and Timex Connect was 18.97 mph and this was also the max speed in the FIT file. All of the speeds "estimated" by the Ironman and recorded in the FIT file are shown in the chart below.
 
@@ -74,7 +74,7 @@ I would imagine Strava calculates speeds from positional data because many GPS d
 
 The accuracy of the speeds being reported is crucial for speedsurfers and positional data should not be used when the estimated speeds are available. On most GPS devices the estimated speed is derived from the Doppler shift and hence the term "doppler speed" amongst the speedsurfing community.
 
-TLDR - ignore the max spees reported on Strava.
+TLDR - ignore the max speed reported on Strava.
 
 
 
