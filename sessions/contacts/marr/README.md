@@ -2,7 +2,7 @@
 
 ### Devices
 
-- Timex Ironman
+- Timex Ironman M087
 
 
 
