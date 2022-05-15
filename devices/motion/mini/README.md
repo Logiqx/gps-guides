@@ -36,3 +36,4 @@ I have written up my [first impressions](first-impressions.md) of the Motion Min
 ### Tips
 
 - Be sure to update the timezone (via the built in settings) when clocks change.
+- Do not use the Motion to record walks because logging only occurs when speed > 3 knots.
