@@ -14,19 +14,21 @@ Full details about the NMEA-0183 standard itself can be found on the NMEA [websi
 
 The following are the most common NMEA sentences output by GPS / GNSS chips:
 
-- **GGA** - Global Positioning System Fix Data (e.g. $GPGGA or $GNGGA)
-  - Includes **time** (UTC), **latitude**, **longitude**, **fix** (2d / 3d), **sats** (0-99), **HDOP**, altitude
+- **GGA** \* - Global Positioning System Fix Data (e.g. $GPGGA or $GNGGA)
+  - Includes **time** (UTC), **latitude**, **longitude**, status, **sats** (00-99), **HDOP**, altitude
 - **GLL** - Geographic Position - Latitude/Longitude (e.g. $GPGLL or $GNGLL)
-  - Includes **time** (UTC), **latitude** and **longitude**
+  - Includes **time** (UTC), **latitude** and **longitude**, warning
 - **GSA** - GPS DOP and active satellites (e.g. $GPGSA or $GNGSA)
-  - Includes **fix type**, **satellite IDs**, **PDOP, HDOP, VDOP**
+  - Includes **mode** (2d / 3d), **satellite IDs**, **PDOP, HDOP, VDOP**
 - **GSV** - Satellites in view (e.g. $GPGSV or $GNGSV)
-  - Includes **sats** (0-99)
+  - Includes **sats** (00-99) and elevation + azimuth of each satellite
   
-- **RMC** - Recommended Minimum Navigation Information (e.g. $GPRMC or $GNRMC)
-  - Includes **time** (UTC), **latitude**, **longitude**, **SOG** and **COG**
+- **RMC** \* - Recommended Minimum Navigation Information (e.g. $GPRMC or $GNRMC)
+  - Includes **time** (UTC), warning, **latitude**, **longitude**, **SOG**, **COG**, date (ddmmyy)
 - **VTG** - Track made good and Ground speed (e.g. $GPVTG or $GNVTG)
-  - Includes **SOG** and **COG**
+  - Includes **COG** and **SOG**
+
+\* - Minimal NMEA implementation should support GGA and RMC.
 
 
 
@@ -40,7 +42,7 @@ Less common sentences include the following:
 - **GNS** - Fix data (e.g. $GPGNS or $GNGNS)
   - Includes **time** (UTC), **latitude**, **longitude**, **sats** (0-99) and **HDOP**
 - **ZDA** - GNSS Time & Date (e.g. $GPZDA or $GNZDA)
-  - Includes **time** and date (**UTC**)
+  - Includes **time** (UTC) and date (ddmmyyyy)
 
 
 
@@ -113,23 +115,24 @@ The MediaTek MT3333 has some [proprietary sentences](pdf/mediatek/M10478-M10578-
 
 Popular GPS / GNSS chips output a number of standard NMEA sentences:
 
-|          |                                           |            SiRF<br />Star III            |                      SiRF<br />Star IV                       |              SiRF<br />Star V              |                    MediaTek<br />MTK3333                     |                     Sony<br />CXD5603GF                      |                     Airoha<br />AG3335M                      |
-| :------: | ----------------------------------------- | :--------------------------------------: | :----------------------------------------------------------: | :----------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-|          |                                           | [GT-31](devices/locosys/gt-31/README.md) | [GW-52](devices/locosys/gw-52/README.md) / [GW-60](devices/locosys/gw-60/README.md) | [Ambit 3](devices/suunto/ambit3/README.md) | [Fenix 3](devices/garmin/fenix-3/README.md) / [5](devices/garmin/fenix-5/README.md) / [5+](devices/garmin/fenix-5-plus/README.md) | [APEX Pro](devices/coros/apex-pro/README.md) / [VERTIX](devices/coros/vertix/README.md)<br />Fenix 6 | [VERTIX 2](devices/coros/vertix-2/README.md)<br />Fenix 7<br />Suunto 9/5/7 |
-|   GBS    | time, 1-sigma errors for lat + long + alt |                    -                     |                              -                               |                     -                      |                              -                               |                              -                               |                              -                               |
-| **GGA**  | time, lat, long, sats, HDOP, alt          |                   Yes                    |                             Yes                              |                    Yes                     |                             Yes                              |                             Yes                              |                             Yes                              |
-|   GLL    | time, lat, long                           |                   Yes                    |                             Yes                              |                    Yes                     |                              -                               |                             Yes                              |                             Yes                              |
-|   GNS    | time, lat, long, sats, HDOP               |                    -                     |                              -                               |                    Yes                     |                              -                               |                             Yes                              |                              -                               |
-| **GSA**  | sats, PDOP, HDOP, VDOP                    |                   Yes                    |                             Yes                              |                    Yes                     |                             Yes                              |                             Yes                              |                             Yes                              |
-| **GSV**  | sats                                      |                   Yes                    |                             Yes                              |                    Yes                     |                             Yes                              |                             Yes                              |                             Yes                              |
-| **RMC**  | time, lat, long, SOG, COG                 |                   Yes                    |                             Yes                              |                    Yes                     |                             Yes                              |                             Yes                              |                             Yes                              |
-|   VTG    | SOG, COG                                  |                   Yes                    |                             Yes                              |                    Yes                     |                             Yes                              |                             Yes                              |                             Yes                              |
-|   ZDA    | time                                      |                  (Yes)                   |                             Yes                              |                    Yes                     |                              -                               |                             Yes                              |                             Yes                              |
-| $PSRFEPE | time, HDOP, EHPE, EVPE, EHVE, EHE         |                    -                     |                             TBC                              |                    Yes                     |                              -                               |                              -                               |                              -                               |
+|          |                                                         |            SiRF<br />Star III            |                      SiRF<br />Star IV                       |              SiRF<br />Star V              |                    MediaTek<br />MTK3333                     |                     Sony<br />CXD5603GF                      |                     Airoha<br />AG3335M                      |
+| :------: | ------------------------------------------------------- | :--------------------------------------: | :----------------------------------------------------------: | :----------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+|          |                                                         | [GT-31](devices/locosys/gt-31/README.md) | [GW-52](devices/locosys/gw-52/README.md) / [GW-60](devices/locosys/gw-60/README.md) | [Ambit 3](devices/suunto/ambit3/README.md) | [Fenix 3](devices/garmin/fenix-3/README.md) / [5](devices/garmin/fenix-5/README.md) / [5+](devices/garmin/fenix-5-plus/README.md) | [APEX Pro](devices/coros/apex-pro/README.md) / [VERTIX](devices/coros/vertix/README.md)<br />Fenix 6 | [VERTIX 2](devices/coros/vertix-2/README.md)<br />Fenix 7<br />Suunto 9/5/7 |
+|   GBS    | time, 1-sigma errors for lat + long + alt               |                    -                     |                              -                               |                     -                      |                              -                               |                              -                               |                              -                               |
+| **GGA**  | time, lat, long, status, sats (00-99), HDOP, alt        |                   Yes                    |                             Yes                              |                    Yes                     |                             Yes                              |                             Yes                              |                             Yes                              |
+|   GLL    | time, lat, long, warning                                |                   Yes                    |                             Yes                              |                    Yes                     |                              -                               |                             Yes                              |                             Yes                              |
+|   GNS    | time, lat, long, sats, HDOP                             |                    -                     |                              -                               |                    Yes                     |                              -                               |                             Yes                              |                              -                               |
+|   GSA    | mode (2d/3d), sat IDs, PDOP, HDOP, VDOP                 |                   Yes                    |                             Yes                              |                    Yes                     |                             Yes                              |                             Yes                              |                             Yes                              |
+|   GSV    | sats \(00-99) and elevation + azimuth of each satellite |                   Yes                    |                             Yes                              |                    Yes                     |                             Yes                              |                             Yes                              |                             Yes                              |
+| **RMC**  | time, warning, lat, long, SOG, COG, date                |                   Yes                    |                             Yes                              |                    Yes                     |                             Yes                              |                             Yes                              |                             Yes                              |
+|   VTG    | COG, SOG                                                |                   Yes                    |                             Yes                              |                    Yes                     |                             Yes                              |                             Yes                              |                             Yes                              |
+|   ZDA    | time + date                                             |                  (Yes)                   |                             Yes                              |                    Yes                     |                              -                               |                             Yes                              |                             Yes                              |
+| $PSRFEPE | time, HDOP, EHPE, EVPE, EHVE, EHE                       |                    -                     |                             TBC                              |                    Yes                     |                              -                               |                              -                               |                              -                               |
 
 Notes:
 
 - Locosys GT-31 firmware can output GGA, GLL, GSA, GSV, RMC, VTG and ZDA.
-- Locosys GW-52 and GW-60 firmware only support GPGGA, GPGSA, GPGSV and GPRMC sentences from a MediaTek chip.
-- GPSBabel only outputs GPGGA and GPRMC when processing SBP and SBN files.
+- Locosys GW-52 and GW-60 firmware only supports GGA, GSA, GSV and RMC from a MediaTek chip.
+- GPSBabel outputs GGA , GSA (partially populated), RMC and VTG when processing SBP and SBN files.
+- Minimal NMEA implementation should support GGA and RMC.
 
