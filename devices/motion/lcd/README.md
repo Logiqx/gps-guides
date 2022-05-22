@@ -35,5 +35,4 @@ Further details for the [Motion LCD](https://www.motion-gps.com/motion/documenta
 
 ### Tips
 
-- Be sure to update the timezone (via the built in settings) when clocks change.
-- Do not use the Motion to record walks because logging only occurs when speed > 3 knots.
+- Be sure to update the timezone (via the settings) when clocks change.
