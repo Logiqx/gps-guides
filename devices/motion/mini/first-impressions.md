@@ -25,7 +25,7 @@ I'd like to do a proper in-depth  review but for now, I'll just jot down some of
 
 #### File Format
 
-The Motion Mini uses a proprietary binary format called [OAO](https://www.motion-gps.com/motion/documentation/oao-file-format.html) which was designed by Julien. The OAO format is more compact than UBX and places less burden on the recording device.
+The Motion Mini uses a proprietary binary format called [OAO](https://www.motion-gps.com/motion/documentation/oao-file-format.html) "OnAndOn" which was designed by Julien. The OAO format is more compact than UBX and places less burden on the recording device.
 
 OAO files can be loaded into tools such as [GPSResults](https://www.gps-speed.com/index.html) and [GPS Speedreader](https://ecwindfest.org/GPS/GPSSpeedreader.html) or uploaded directly to [G3S](https://www.gps-speedsurfing.com/) via their web upload feature.
 
@@ -95,5 +95,5 @@ Cons:
 - My mobile phone (Samsung Galaxy S7) cannot access the Motion's built-in webserver.
   - I will investigate further... checking session results from my phone would be nice.
 - Wireless charger showed early signs of melting so I replaced it with an [Anker](https://www.amazon.co.uk/dp/B07THHQMHM/) charger.
-  - Julien is now aware and is looking to source an alternative wireless charger.
+  - Julien has now sent alternative wireless chargers to all customers who were affected.
 
