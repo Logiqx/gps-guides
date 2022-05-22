@@ -49,7 +49,7 @@ The Locosys GW-52 and GW-60 were useful devices for direct comparisons; 5 Hz vs 
 
 #### sAcc
 
-The u-blox GPS chips generate a speed accuracy metric (sAcc) which is similar to [SDOP](https://nujournal.net/estimating-accuracy-of-gps-doppler-speed-measurement-using-speed-dilution-of-precision-sdop-parameter/) from the [Locosys](../../locosys/README.md) devices since the [GT-31](../../locosys/gt-31/README.md).
+The u-blox GNSS chips generate a speed accuracy metric (sAcc) which is similar to [SDOP](https://nujournal.net/estimating-accuracy-of-gps-doppler-speed-measurement-using-speed-dilution-of-precision-sdop-parameter/) from the [Locosys](../../locosys/README.md) devices since the [GT-31](../../locosys/gt-31/README.md).
 
 sAcc is extremely consistent on the Motion Mini, far more so than SDOP on any of the Locosys devices. This suggests that speed accuracy is also more consistent than the Locosys devices.
 

@@ -6,7 +6,7 @@
 
 The ESP-GPS is an inexpensive GPS logger with display, specifically designed for speedsurfing.
 
-It is designed to be easy to build yourself with readily available components. It uses the Beitian BN180 / BN220 / BN280 GPS chips which are based on the u-blox [UBX-M8030](https://www.u-blox.com/en/product/ubx-m8030-series) GNSS chip.
+It is designed to be easy to build yourself with readily available components. It uses the Beitian BN180 / BN220 / BN280 GNSS modules which are based on the u-blox [UBX-M8030](https://www.u-blox.com/en/product/ubx-m8030-series) GNSS chip.
 
 The device provides superior data quality compared to the popular [Locosys](../locosys/README.md) devices and modern smart / sports watches from the likes of COROS, Garmin, Suunto and Polar.
 

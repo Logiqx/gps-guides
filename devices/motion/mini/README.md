@@ -7,7 +7,7 @@
 
 The Motion Mini provides superior data quality compared to the popular [Locosys](../../locosys/README.md) devices and modern smart / sports watches from the likes of COROS, Garmin, Suunto and Polar.
 
-The [UBX-M8030](https://www.u-blox.com/en/product/ubx-m8030-series) GPS chip combined with Motion's custom filters, amplifier and oscillator provide high accuracy positional, speed and verification data at 10 Hz.
+The [UBX-M8030](https://www.u-blox.com/en/product/ubx-m8030-series) GNSS chip combined with Motion's custom filters, amplifier and oscillator provide high accuracy positional, speed and verification data at 10 Hz.
 
 The device has no screen as it is purely designed to be a high-accuracy logging device. It is very reasonably priced and is perfect for anyone who cares about the accuracy of their data.
 

@@ -6,7 +6,7 @@
 
 The Gyro1 provides superior data quality compared to the popular [Locosys](../../locosys/README.md) devices and modern smart / sports watches from the likes of COROS, Garmin, Suunto and Polar.
 
-The u-blox [NEO-M8Q](https://www.u-blox.com/en/product/neo-m8-series) GPS chip provides high accuracy positional, speed and verification data at 10 Hz or 18 Hz, depending on the GPS systems being used.
+The u-blox [NEO-M8Q](https://www.u-blox.com/en/product/neo-m8-series) GNSS module provides high accuracy positional, speed and verification data at 10 Hz or 18 Hz, depending on the GPS systems being used.
 
 This was the first GPS device utilising a u-blox 8 to be officially [approved](https://www.gps-icesailing.com/default.aspx?mnu=forum&forum=6&val=108406) by GP3S. The history of the device and how it was developed can be found on [Windsurfing.nl](https://forum.windsurfing.nl/viewtopic.php?f=62&t=13890429).
 
