@@ -16,7 +16,7 @@ I'll briefly explain how these options work and then describe a workaround which
 
 ### Method 1
 
-Connect your computer / tablet / phone to the Motion's WiFi and access the build-in webserver using one of the following URLs:
+Connect your computer / tablet / phone to the Motion's WiFi and access the built-in webserver using one of the following URLs:
 
 - http://192.168.0.1/
 - http://motion-xxx/ where xxx is the numerical ID of the Motion
@@ -29,7 +29,7 @@ This method works fine for all of my laptops (Windows 11) and old tablet (iPad g
 
 ### Method 2
 
-Connect your Motion to an existing WiFi and access the build-in webserver using the following URL:
+Connect your Motion to an existing WiFi and access the built-in webserver using the following URL:
 
 - http://motion-xxx/ where xxx is the numerical ID of the Motion
 
@@ -41,7 +41,7 @@ This method works fine for all of my laptops (Windows 11) and old tablet (iPad g
 
 ### Method 3
 
-Connect your Motion to your mobile hotspot and access the build-in webserver using the following URL:
+Connect your Motion to your mobile hotspot and access the built-in webserver using the following URL:
 
 - http://motion-xxx/ where xxx is the numerical ID of the Motion
 
@@ -55,9 +55,9 @@ This method works fine for all of my laptops (Windows 11) and old tablet (iPad g
 
 You may have noticed that none of the methods described above work with my phone!
 
-However, I've discovered a workaround that allows the built in webserver to be accessed from my mobile phone.
+However, I've discovered a workaround that allows the built-in webserver to be accessed from my mobile phone.
 
-This is only possible with firmware 3106 (and newer) which introduced connection to regular WiFi networks.
+This is only possible with Motion firmware 3106 (and newer) which introduced connection to regular WiFi networks.
 
 
 
@@ -75,7 +75,7 @@ This requires prior configuration of the Motion; i.e. SSID + password of the mob
 
 
 
-#### Step 3 - Click on the connected device (e.g. motion-470)
+#### Step 3 - Click on the connected device (e.g. motion-470) to see further details.
 
 ![img](img/03.jpg)
 
