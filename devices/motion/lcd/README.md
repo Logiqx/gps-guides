@@ -38,3 +38,4 @@ Further details for the [Motion LCD](https://www.motion-gps.com/motion/documenta
 - Be sure to update the time zone (via the settings) when clocks change.
   - This only affects filenames and times reported by the internal webserver.
   - Logging will always use UTC timestamps.
+- Have a look at my [WiFi tips](../wifi.md) if you can't access the built-in webserver from your phone.
