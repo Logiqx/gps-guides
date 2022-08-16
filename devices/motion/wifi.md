@@ -35,7 +35,7 @@ Connect your Motion to an existing WiFi and access the built-in webserver using 
 
 
 
-This method works fine for all of my laptops (Windows 11) and old tablet (iPad gen 3) but not my phone (Samsung Galaxy S7).
+This method works fine for all of my laptops (Windows 11), old tablet (iPad gen 3) and my phone (Samsung Galaxy S7).
 
 
 
@@ -53,9 +53,9 @@ This method works fine for all of my laptops (Windows 11) and old tablet (iPad g
 
 ### Workaround
 
-You may have noticed that none of the methods described above work with my phone!
+You may have noticed that methods 1 and 3 do not work with my phone but I can't use method 2 (home network) when I'm out and about.
 
-However, I've discovered a workaround that allows the built-in webserver to be accessed from my mobile phone.
+Fortunately, I've discovered a workaround for method 3 that allows the built-in webserver to be accessed from my mobile phone.
 
 This is only possible with Motion firmware 3106 (and newer) which introduced connection to regular WiFi networks.
 
