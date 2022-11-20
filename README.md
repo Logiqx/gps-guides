@@ -46,5 +46,5 @@ If you wish to make contact, feel free to message me on [Facebook](https://www.f
 
 GPS technology is pretty complex but it is certainly interesting to understand the general principles.
 
-For those wanting some technical details, I'd recommend this [interactive](https://ciechanow.ski/gps) page, [GPS MOOC](https://scpnt.stanford.edu/about/gps-mooc-massive-open-online-course) and the lectures on [YouTube](https://www.youtube.com/watch?v=o1Fyn_h6LKU&list=PLGvhNIiu1ubyEOJga50LJMzVXtbUq6CPo).
+For those wanting some technical details, I'd recommend this [interactive](https://ciechanow.ski/gps/) page, [GPS MOOC](https://scpnt.stanford.edu/about/gps-mooc-massive-open-online-course) and the lectures on [YouTube](https://www.youtube.com/watch?v=o1Fyn_h6LKU&list=PLGvhNIiu1ubyEOJga50LJMzVXtbUq6CPo).
 
