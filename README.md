@@ -22,7 +22,6 @@ I have created a separate page for all of my articles and information relating t
 
 #### General Topics
 
-- [NMEA](nmea.md) sentences which are commonly supported by GPS / GNSS chips - 29 Apr 2022
 - [General Guidance](guidance.md) has been written for all users of smart / sports watches - 4 Apr 2022
 - [Doppler Speed Resolution](devices/coros/apex-pro/speed-resolution.md) applies to the COROS APEX Pro + VERTIX and maybe other devices using the Sony chip - 2 Apr 2022
 - [GPS Devices - Speed Sailing Feature Comparison](devices/feature-comparison.pdf) was my original GPS guide - 6 Jul 2010
