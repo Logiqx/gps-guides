@@ -22,11 +22,12 @@ I have created a separate page for all of my articles and information relating t
 
 #### General Topics
 
-- [Locosys Detective Work](detective.md) aimed to discover the most likely GPS chip of the GW-52 and GW-60 - 29 Apr 2022
 - [NMEA](nmea.md) sentences which are commonly supported by GPS / GNSS chips - 29 Apr 2022
 - [General Guidance](guidance.md) has been written for all users of smart / sports watches - 4 Apr 2022
 - [Doppler Speed Resolution](devices/coros/apex-pro/speed-resolution.md) applies to the COROS APEX Pro + VERTIX and maybe other devices using the Sony chip - 2 Apr 2022
 - [GPS Devices - Speed Sailing Feature Comparison](devices/feature-comparison.pdf) was my original GPS guide - 6 Jul 2010
+
+Detailed technical document are now available in the GitHub pages of [GPS Wizard](https://logiqx.github.io/gps-wizard/articles.md).
 
 
 
