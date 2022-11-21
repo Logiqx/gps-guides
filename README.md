@@ -12,39 +12,33 @@ Due to several [observations](devices/coros/data-issues.md) relating to the CORO
 
 
 
-### Articles
-
-#### GPS Devices
+### GPS Devices
 
 I have created a separate page for all of my articles and information relating to individual [GPS devices](devices/README.md).
 
+Use the link above to access the articles!
 
 
-#### General Topics
+
+### General Guidance
+
+Some general articles relating to GPS technology are listed below:
 
 - [General Guidance](guidance.md) has been written for all users of smart / sports watches - 4 Apr 2022
 - [Doppler Speed Resolution](devices/coros/apex-pro/speed-resolution.md) applies to the COROS APEX Pro + VERTIX and maybe other devices using the Sony chip - 2 Apr 2022
 - [GPS Devices - Speed Sailing Feature Comparison](devices/feature-comparison.pdf) was my original GPS guide - 6 Jul 2010
 
-Detailed technical document are now available in the GitHub pages of [GPS Wizard](https://logiqx.github.io/gps-wizard/articles.md).
+Further detailed / technical articles are also available in the GitHub pages of [GPS Wizard](https://logiqx.github.io/gps-wizard/articles.html).
 
 
 
-#### Session Analysis
+### Session Analysis
 
-The session data and detailed analysis relating to all of my recent articles is also available on a [dedicated page](sessions/README.md).
+The session data and detailed analysis relating to all of the articles are available on a [dedicated page](sessions/README.md).
 
 
 
 ### Contact
 
 If you wish to make contact, feel free to message me on [Facebook](https://www.facebook.com/michael.george.545) or [Seabreaze.com](https://www.seabreeze.com.au/Members/Profile/Details.aspx?member=K888).
-
-
-
-### Links
-
-GPS technology is pretty complex but it is certainly interesting to understand the general principles.
-
-For those wanting some technical details, I'd recommend this [interactive](https://ciechanow.ski/gps/) page, [GPS MOOC](https://scpnt.stanford.edu/about/gps-mooc-massive-open-online-course) and the lectures on [YouTube](https://www.youtube.com/watch?v=o1Fyn_h6LKU&list=PLGvhNIiu1ubyEOJga50LJMzVXtbUq6CPo).
 
