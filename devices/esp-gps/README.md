@@ -6,7 +6,7 @@
 
 The ESP-GPS is an inexpensive GPS logger with display, specifically designed for speedsurfing.
 
-It is designed to be easy to build yourself with readily available components. It uses the Beitian BN180 / BN220 / BN280 GNSS modules which are based on the u-blox [UBX-M8030](https://www.u-blox.com/en/product/ubx-m8030-series) GNSS chip.
+It is designed to be easy to build yourself with readily available components. It uses the Beitian BN180 / BN220 / BN280 GNSS modules which are based on the u-blox [UBX-M8030-KT](https://www.u-blox.com/en/product/ubx-m8030-series) GNSS chip.
 
 The device provides superior data quality compared to the popular [Locosys](../locosys/README.md) devices and modern smart / sports watches from the likes of COROS, Garmin, Suunto and Polar.
 
@@ -27,7 +27,7 @@ Full details of the [ESP-GPS](https://tinyurl.com/yc87n4p5), including the [DIY]
 | Download                                                   | [FTP](https://en.wikipedia.org/wiki/File_Transfer_Protocol) - connect to built-in FTP server |
 | Best Format                                                | [OAO](https://www.motion-gps.com/motion/documentation/oao-file-format.html) |
 | Other Formats                                              | UBX                                                          |
-| GPS chipset                                                | Beitian BN180 / BN220 / BN280 - based on u-blox [UBX-M8030](https://www.u-blox.com/en/product/ubx-m8030-series) |
+| GPS chipset                                                | Beitian BN180 / BN220 / BN280 - based on u-blox [UBX-M8030-KT](https://www.u-blox.com/en/product/ubx-m8030-series) |
 | Additional Logging                                         | Sats, HDOP, sAcc                                             |
 | Approved for [GP3S](https://www.gps-speedsurfing.com/)     | [Yes](https://www.gps-speedsurfing.com/default.aspx?mnu=item&item=gpsother) |
 | Approved for [GPSTC](https://www.gpsteamchallenge.com.au/) | No                                                           |
