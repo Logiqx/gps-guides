@@ -24,7 +24,7 @@ Full details of the [ESP-GPS](https://tinyurl.com/yc87n4p5), including the [DIY]
 | Memory                                                     | Micro SD card                                                |
 | Battery                                                    | ~15 hours                                                    |
 | Charging                                                   | Micro USB cable or Wireless                                  |
-| Download                                                   | [FTP](https://en.wikipedia.org/wiki/File_Transfer_Protocol) - connect to built-in FTP server |
+| Download                                                   | WiFi - connect to built-in webserver<br />[FTP](https://en.wikipedia.org/wiki/File_Transfer_Protocol) - connect to built-in FTP server |
 | Best Format                                                | [OAO](https://www.motion-gps.com/motion/documentation/oao-file-format.html) |
 | Other Formats                                              | UBX                                                          |
 | GPS chipset                                                | Beitian BN180 / BN220 / BN280 - based on u-blox [UBX-M8030-KT](https://www.u-blox.com/en/product/ubx-m8030-series) |
