@@ -12,6 +12,12 @@ The GW-52 superseded the [GT-31](../gt-31/README.md) in 2015, when Locosys stopp
 
 
 
+### Observations
+
+- [SDOP](https://nujournal.net/estimating-accuracy-of-gps-doppler-speed-measurement-using-speed-dilution-of-precision-sdop-parameter/) on the GW-52 is typically lower than on the [GW-60](../gw-60/README.md) watch, possibly due to a larger antenna and better shielding.
+
+
+
 ### Tips
 
 - Although an option exists in the GW52Util, do not convert the SBP files to GPX format.
@@ -34,9 +40,3 @@ The GW-52 superseded the [GT-31](../gt-31/README.md) in 2015, when Locosys stopp
 | Additional Logging | Sats, HDOP, SDOS |
 | Approved for [GP3S](https://www.gps-speedsurfing.com/) | [Yes](https://www.gps-speedsurfing.com/default.aspx?mnu=item&item=GTx) |
 | Approved for [GPSTC](https://www.gpsteamchallenge.com.au/) | [Yes](https://www.gpsteamchallenge.com.au/pages/rules)      |
-
-
-
-### Observations
-
-- [SDOP](https://nujournal.net/estimating-accuracy-of-gps-doppler-speed-measurement-using-speed-dilution-of-precision-sdop-parameter/) on the GW-52 is typically lower than on the [GW-60](../gw-60/README.md) watch, possibly due to a larger antenna and better shielding.
