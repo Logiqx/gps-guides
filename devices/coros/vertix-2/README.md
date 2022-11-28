@@ -32,7 +32,7 @@ Since the APEX Pro, VERTIX and VERTIX 2 are so similar in features. all of the [
 | Auto Upload                                                | [Yes](https://www.gps-speedsurfing.com/default.aspx?mnu=item&item=HowAddSession) |
 | Best Format                                                | [FIT](https://developer.garmin.com/fit/protocol/)            |
 | Other Formats                                              | [GPX](https://en.wikipedia.org/wiki/GPS_Exchange_Format)     |
-| GPS chipset                                                | [Airoha AG3335M](http://www.airoha.com.tw/webe/html/pro/index.aspx?kind=80&num=182&lv=2) |
+| GPS chipset                                                | [Airoha AG3335M](https://www.airoha.com/products/p/A0Dmm0pijWW3MScb) |
 | Additional Logging                                         | Sats, HDOP                                                   |
 | Approved for [GP3S](https://www.gps-speedsurfing.com/)     | No                                                           |
 | Approved for [GPSTC](https://www.gpsteamchallenge.com.au/) | No                                                           |
