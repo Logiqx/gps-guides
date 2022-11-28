@@ -36,7 +36,7 @@ Details about the [Fenix 7S](https://www.garmin.com/en-GB/p/735542) + [Fenix 7](
 | Download                                                   | Export from Garmin Connect                                   |
 | Best Format                                                | [FIT](https://developer.garmin.com/fit/protocol/)            |
 | Other Formats                                              | [GPX](https://en.wikipedia.org/wiki/GPS_Exchange_Format) + [TCX](https://en.wikipedia.org/wiki/Training_Center_XML) |
-| GPS chipset                                                | [Airoha AG3335M](http://www.airoha.com.tw/webe/html/pro/index.aspx?kind=80&num=182&lv=2) |
+| GPS chipset                                                | [Airoha AG3335M](https://www.airoha.com/products/p/A0Dmm0pijWW3MScb) |
 | Additional Logging                                         | No                                                           |
 | Approved for [GP3S](https://www.gps-speedsurfing.com/)     | No                                                           |
 | Approved for [GPSTC](https://www.gpsteamchallenge.com.au/) | No                                                           |
