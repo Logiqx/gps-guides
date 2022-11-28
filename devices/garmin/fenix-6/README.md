@@ -32,7 +32,7 @@ Details about the [Fenix 6S](https://www.garmin.com/en-GB/p/641501) + [Fenix 6](
 | Download                                                   | Export from Garmin Connect                                   |
 | Best Format                                                | [FIT](https://developer.garmin.com/fit/protocol/)            |
 | Other Formats                                              | [GPX](https://en.wikipedia.org/wiki/GPS_Exchange_Format) + [TCX](https://en.wikipedia.org/wiki/Training_Center_XML) |
-| GPS chipset                                                | [Sony](https://www.sony-semicon.co.jp/e/products/lsi/gps/product.html) CXD5603GF |
+| GPS chipset                                                | [Sony](https://www.sony-semicon.co.jp/e/products/lsi/gps/product.html) CXD5603GF / CXD5605GF |
 | Additional Logging                                         | No                                                           |
 | Approved for [GP3S](https://www.gps-speedsurfing.com/)     | No                                                           |
 | Approved for [GPSTC](https://www.gpsteamchallenge.com.au/) | No                                                           |
