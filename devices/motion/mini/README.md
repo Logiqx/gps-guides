@@ -17,6 +17,7 @@ I have written up my [first impressions](first-impressions.md) of the Motion Min
 
 ### Tips
 
+- Turn on a few minutes prior to sailing.
 - Be sure to update the time zone (via the settings) when clocks change.
   - This only affects filenames and times reported by the internal webserver.
   - Logging will always use UTC timestamps.
