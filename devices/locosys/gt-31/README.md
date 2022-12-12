@@ -21,7 +21,7 @@ The GT-31 was superseded by the [GW-52](../gw-52/README.md) in 2015, when Locosy
 
 ### Tips
 
-- Enable DGPS (SBAS) for improved positional accuracy.
+- Enable DGPS ([SBAS](https://en.wikipedia.org/wiki/GNSS_augmentation)) for improved positional accuracy.
 
 
 
