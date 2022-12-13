@@ -14,7 +14,6 @@ You can find some details about it in my [feature comparison](../../feature-comp
 
 ### Tips
 
-- Enable DGPS ([SBAS](https://en.wikipedia.org/wiki/GNSS_augmentation)) for improved positional accuracy.
 - Always answer "Y" when asked the question "MOVE LONG?". This is necessary to ensure accurate logging.
 - Always answer "Y" when asked the question "INDOORS?". This will disable logging until the receiver is taken outside.
 
