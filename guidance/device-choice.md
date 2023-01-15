@@ -1,6 +1,4 @@
-## General Guidance
-
-### Choosing a Device
+## Choosing a Device
 
 In the last few years the quality of consumer GPS devices has improved a lot. For that reason [GP3S](https://www.gps-speedsurfing.com/default.aspx?mnu=item&item=GPSInfo) decided to accept non-verified devices for the so called "fun rankings" and day-to-day use. GP3S have concluded that many standard consumer devices are quite suitable for normal day-to-day usage and for the average session they can be a convenient alternative for many windsurfers. 
 
