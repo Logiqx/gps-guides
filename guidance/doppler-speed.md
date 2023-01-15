@@ -1,6 +1,6 @@
-## General Guidance
+## Doppler Speed
 
-### Doppler Speed
+### Estimation of Position and Speed
 
 You may have heard the term "Doppler Speed" and wondered what it is and why it is important when speed sailing?
 
@@ -15,7 +15,7 @@ It should also be noted that the explanation above is a huge oversimplification 
 
 
 
-#### Doppler Speed vs Positional Speed
+### Doppler Speed vs Positional Speed
 
 Spikes often occur in speeds derived from positional estimates, whereas Doppler-derived speeds are far less susceptible to such spikes. The example below illustrates an obvious spike caused by the derivation of speed from positional data.
 
@@ -31,7 +31,7 @@ A GW-60 was also worn at the same time and confirmed that 33 knots was indeed th
 
 
 
-#### Summary
+### Summary
 
 GPS / GNSS chips typically produce estimates of position and speed using two different approaches. Estimation of position uses pseudo-ranges and the method of trilateration, whereas speed is typically estimated using the observable Doppler shifts. The Doppler observable is a lot less susceptible to errors than the pseudo-range observable so the estimated speed is typically a lot more accurate than estimated position (and speeds derived from positions).
 

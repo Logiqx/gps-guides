@@ -1,6 +1,6 @@
-## General Guidance
+## FIT vs GPX
 
-### FIT vs GPX
+### Overview
 
 Prior to reading this section you will need to understand the significance of Doppler-derived speeds. A separate article provides a quick [overview](doppler-speed.md) of why Doppler-derived speeds are preferrable to speeds derived from positional data.
 
@@ -12,7 +12,7 @@ With a prior understanding of the differences between Doppler-derived speed and 
 
 
 
-#### GP3S Sessions
+### GP3S Sessions
 
 Rankings on [GP3S](https://www.gps-speedsurfing.com/) highlight any sessions posted using non-Doppler speeds by showing a yellow icon on the rankings pages, instead of the green icon of [approved](https://www.gps-speedsurfing.com/default.aspx?mnu=item&item=GPSInfo) devices. If you see a COROS user with yellow icons against their sessions they are almost certainly uploading GPX data.
 
@@ -22,7 +22,7 @@ If you can't directly upload the FIT file (GPSAR is one example) you can convert
 
 
 
-#### Summary
+### Summary
 
 If FIT exports are available for your smart / sports watch then then you should not not use the GPX exports. COROS, Garmin, Suunto and Timex all provide FIT exports so GP3S uploads from those devices should all use the FIT exports.
 

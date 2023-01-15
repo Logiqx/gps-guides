@@ -1,6 +1,4 @@
-## General Guidance
-
-### Accuracy Data
+## Accuracy Data
 
 All of the GPS devices approved for GP3S record attempts record the following additional data items:
 
