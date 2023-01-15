@@ -11,7 +11,7 @@ To encourage wider participation in GPS speedsurfing events it can make sense to
 The following should be considered the minimum device requirements when posting to GP3S and any of the events:
 
 - **1 Hz** logging is a minimum requirement. "Smart" logging is often the default setting and is not sufficient for speed sailing.
-- **Doppler**-derived speed should be logged at a minimum of 1 Hz. This will often necessitate .FIT exports instead of .GPX exports.
+- **Doppler**-derived speed should be logged at a minimum of 1 Hz. This will typically necessitate .FIT exports instead of .GPX exports.
 - On request, original tracks should be provided to the event organisers. Non-ratified sessions may be removed from the rankings.
 
 A list of recommended devices can be found on [GP3S](https://www.gps-speedsurfing.com/default.aspx?mnu=item&item=GPSInfo) and more detailed information is also available on this [site](../devices/README.md). Ideally, anyone who cares about their speeds should simply use a dedicated device from the list on this [site](../devices/README.md).
