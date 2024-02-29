@@ -1,6 +1,8 @@
 ## Locosys GT-11
 
-The GT-11 was released by Locosys in 2006 but details are no longer on their website.
+![gt-11](img/gt-11.jpg)
+
+The [GT-11](https://web.archive.org/web/20100430102528/http://www.locosystech.com:80/product.php?zln=en&id=5) was released by Locosys in 2006 and it can still be found on the Wayback Machine.
 
 It was the original benchmark for quality 1 Hz logging at an affordable price!
 
