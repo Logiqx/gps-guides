@@ -31,7 +31,7 @@ You can find some details about it in my [feature comparison](../../feature-comp
 | Charging                                                   | Mini USB cable                                 |
 | Download                                                   | SD card or mini USB cable + NAVILINK           |
 | Best Formats                                               | SiRF binary (SBN) or SiRF binary, packed (SBP) |
-| Other Formats                                              | n/a                                            |
+| Other Formats                                              | NMEA                                           |
 | GPS chipset                                                | SiRFstar II                                    |
 | Additional Logging                                         | Sats, HDOP                                     |
 | Approved for [GP3S](https://www.gps-speedsurfing.com/)     | No                                             |
