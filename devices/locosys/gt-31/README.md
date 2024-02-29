@@ -35,7 +35,7 @@ The GT-31 was superseded by the [GW-52](../gw-52/README.md) in 2015, when Locosy
 | Charging                                                   | Mini USB cable                                               |
 | Download                                                   | SD card or mini USB cable + NAVILINK                         |
 | Best Formats                                               | SiRF binary (SBN) or SiRF binary, packed (SBP)               |
-| Other Formats                                              | n/a                                                          |
+| Other Formats                                              | NMEA                                                         |
 | GPS chipset                                                | [SiRFstar III](https://en.wikipedia.org/wiki/SiRF#SiRFstarIII) |
 | Additional Logging                                         | Sats, HDOP, SDOP                                             |
 | Approved for [GP3S](https://www.gps-speedsurfing.com/)     | [Yes](https://www.gps-speedsurfing.com/default.aspx?mnu=item&item=GTx) |
