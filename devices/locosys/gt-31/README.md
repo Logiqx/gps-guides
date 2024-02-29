@@ -1,6 +1,6 @@
 ## Locosys GT-31
 
-![apex-pro](img/gt-31.jpg)
+![gt-31](img/gt-31.jpg)
 
 
 
