@@ -8,7 +8,7 @@ Lightwind windfoil session in south-easterly winds. Portland Harbour, UK.
 
 Issues highlighted:
 
-- This session was used for the detailed [analysis](../../devices/coros/apex-pro/speed-resolution.md) relating to Doppler "speed resolution" on the APEX Pro.
+- This session was used for the detailed [analysis](https://logiqx.github.io/gps-details/devices/coros/resolution/) relating to Doppler "speed resolution" on the APEX Pro.
 - There is an abundance of repeated speeds from the APEX Pro. The same speed every second to 3 decimal places!
 - Effect of an underhand grip when wearing the GW-60 is clearly evident.
 - Subtle differences between speeds on the COROS app and the GP3S website.
@@ -171,7 +171,7 @@ The GP3S website shows exactly the same results that you can obtain on your own 
 
 Repeated speeds in the APEX Pro data are commonplace and to be logging exactly the same speed for as long as 11 seconds is clearly not accurate, especially when reported to 3 decimal places!
 
-My [analysis](../../devices/coros/apex-pro/speed-resolution.md) into the "speed resolution" of the APEX Pro concluded that the speeds effectively have a precision equivalent to 1 decimal place. This goes some way to explaining why speeds are repeated but it still does not fully explain the phenomenon.
+My [analysis](https://logiqx.github.io/gps-details/devices/coros/resolution/) into the "speed resolution" of the APEX Pro concluded that the speeds effectively have a precision equivalent to 1 decimal place. This goes some way to explaining why speeds are repeated but it still does not fully explain the phenomenon.
 
 When looking across a number of runs it is clear that there are lots of flat regions in the APEX Pro data (red), showing no change of speed.
 

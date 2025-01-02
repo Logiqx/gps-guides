@@ -27,7 +27,7 @@ TODO - Notes on static test in garden (Motion Mini).
 
 Issues highlighted:
 
-- This session was used for the detailed [analysis](../devices/coros/apex-pro/speed-resolution.md) relating to Doppler "speed resolution" on the APEX Pro.
+- This session was used for the detailed [analysis](https://logiqx.github.io/gps-details/devices/coros/resolution/) relating to Doppler "speed resolution" on the APEX Pro.
 - There is an abundance of repeated speeds from the APEX Pro. The same speed every second to 3 decimal places!
 - Effect of an underhand grip when wearing the GW-60 is clearly evident.
 - Subtle differences between speeds on the COROS app and the GP3S website.
