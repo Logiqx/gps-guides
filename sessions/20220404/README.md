@@ -7,7 +7,7 @@
 Windfoil session in westerly winds. Brogborough Lake, UK.
 
 - My first time breaking 30 knots on a hydrofoil. yay!
-- Importantly, I confirmed the COROS [data issues](../../devices/coros/data-issues.md) are still present in the V2.66.0 firmware.
+- Importantly, I confirmed the COROS [data issues](https://logiqx.github.io/gps-details/devices/coros/issues/) are still present in the V2.66.0 firmware.
 - 500m results add useful insight into appropriate mAcc filter values.
 - I also did some "crash testing" during the session. Useful for SDOP and sAcc analysis!
 
