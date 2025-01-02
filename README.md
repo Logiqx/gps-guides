@@ -8,8 +8,6 @@ The Locosys [GT-31](devices/locosys/gt-31/README.md) was the "gold-standard" dev
 
 After several years using the Locosys [GW-60](devices/locosys/gw-60/README.md) watch (successor to the GW-52), I've now upgraded to the COROS [APEX Pro](devices/coros/apex-pro/README.md) and [Motion Mini](devices/motion/mini/README.md). I've been using the APEX Pro regularly since June 2021 and had the Motion Mini since mid-March 2022.
 
-Due to several [observations](devices/coros/data-issues.md) relating to the CORO APEX Pro, I've decided to write some new articles to share my findings and what I have learnt about other modern GPS devices.
-
 
 
 ### GPS Devices
