@@ -29,12 +29,6 @@ Further detailed / technical articles are also available in the GitHub pages of 
 
 
 
-### Session Analysis
-
-The session data and detailed analysis relating to all of the articles are available on a [dedicated page](sessions/README.md).
-
-
-
 ### Contact
 
 If you wish to make contact, feel free to message me on [Facebook](https://www.facebook.com/michael.george.545) or [Seabreaze.com](https://www.seabreeze.com.au/Members/Profile/Details.aspx?member=K888).

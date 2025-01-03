@@ -59,7 +59,6 @@ This isn't a full review (or even a mini-review) and is simply a list of bullet 
 - Early analysis in GPSResults lacked some data; Satellites, COG, HDOP, SDOP, +/-.
   - This has been confirmed as being due to the content of the earlier FIT files.
   - All of my FIT exports since early Oct 2021 have contained Satellites, COG, HDOP.
-  - Sessions from [Mark](../../../sessions/contacts/newm/README.md) include additional data as of late July 2021. Possibly due to changes in [2.54](https://support.coros.com/hc/en-us/articles/360039842992-Released-updates-for-COROS-APEX-Pro)?
 - I could not see any of the water sports sessions on the COROS website.
   - Most other activities were visible on [workout history](https://en.coros.com/web/webdata/datalist.html); run, bike, swim, triathlon, etc.
   - Subsequently discovered all of the water sports sessions in the personal [workout list](https://t.coros.com/admin/views/activities).
