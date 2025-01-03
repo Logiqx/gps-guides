@@ -8,7 +8,7 @@ Things have moved on in recent years, so this repository contains some more up-t
 
 
 
-### GPS Devices
+### Popular Devices
 
 There is a separate page detailing several popular [GPS devices](devices/README.md).
 
