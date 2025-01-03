@@ -7,6 +7,4 @@ Please read the general [guidance](../../guidance.md) for all users of smart / s
 Popular Suunto Watches:
 
 - [Ambit3](ambit3/README.md)
-- Suunto 9
-- Suunto 5
-- Suunto 7
+

@@ -2,30 +2,26 @@
 
 ### Background
 
-Back in 2010, I published an extensive GPS [feature comparison](devices/feature-comparison.pdf) with a primary focus on speed sailing.
+Back in 2010, I published a GPS [feature comparison](devices/feature-comparison.pdf) which focused on speed sailing.
 
-The Locosys [GT-31](devices/locosys/gt-31/README.md) was the "gold-standard" device at the time but technology has since moved on and aside from writing up my first impressions of the Locosys [GW-52](devices/locosys/gw-52/README.md), I haven't written any subsequent GPS articles.
-
-After several years using the Locosys [GW-60](devices/locosys/gw-60/README.md) watch (successor to the GW-52), I've now upgraded to the COROS [APEX Pro](devices/coros/apex-pro/README.md) and [Motion Mini](devices/motion/mini/README.md). I've been using the APEX Pro regularly since June 2021 and had the Motion Mini since mid-March 2022.
+Things have moved on in recent years, so this repository contains some more up-to-date information.
 
 
 
 ### GPS Devices
 
-I have created a separate page for all of my articles and information relating to individual [GPS devices](devices/README.md).
-
-Use the link above to access the articles!
+There is a separate page detailing several popular [GPS devices](devices/README.md).
 
 
 
 ### General Guidance
 
-Some general articles relating to GPS technology are listed below:
+Articles relating to the use of GPS technology:
 
 - [General Guidance](guidance.md) has been written for all users of smart / sports watches - 4 Apr 2022
 - [GPS Devices - Speed Sailing Feature Comparison](devices/feature-comparison.pdf) was my original GPS guide - 6 Jul 2010
 
-Further detailed / technical articles are also available in the GitHub pages of [GPS Wizard](https://logiqx.github.io/gps-wizard/articles.html).
+Further detailed / technical articles are also available in [GPS Details](https://logiqx.github.io/gps-details/) and [GPS Wizard](https://logiqx.github.io/gps-wizard/articles.html).
 
 
 
