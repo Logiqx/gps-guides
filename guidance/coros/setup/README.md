@@ -17,11 +17,19 @@ System -> More Settings -> Device Info -> Software
 **IMPORTANT** - recent firmware releases have been detrimental to the accuracy / reliability of COROS watches. Those issues are being worked on right now!
 
 - APEX Pro + VERTIX
-  - 3.0309.0 and 3.0409.0 were good versions, so keep them installed.
+  - 3.0309.0, 3.0408.0 and 3.0409.0 were good versions, so keep them installed.
   - DO NOT upgrade to 3.0508.0
-- APEX 2 + APEX 2 Pro + VERTIX 2 / 2S
+- APEX 2 + APEX 2 Pro
+  - 3.0708.0 onwards are known to be good versions.
+  - DO NOT use 3.0408.0, 3.0409.0, 3.0508.0 or 3.0510.0
+- VERTIX 2
   - 3.0308.0 was the last good version, so keep it installed.
-  - DO NOT upgrade to 3.0408.0, 3.0409.0, 3.0508.0 or 3.0510.0
+  - DO NOT use 3.0408.0, 3.0409.0, 3.0508.0, 3.0510.0, 3.0708.0 or 3.0709.0
+- VERTIX 2S
+  - There is yet to be a reliable public firmware for the VERTIX 2S.
+  - DO NOT upgrade to 3.0708.0 or 3.0709.0
+
+The firmware issues of 2024 have all been [documented](https://logiqx.github.io/gps-details/devices/coros/firmware/) and reported to COROS.
 
 
 
@@ -33,9 +41,11 @@ You can also check the firmware version from within the COROS application, but b
 
 **TOP TIPS**
 
-- If you have 3.0508.0 on your APEX Pro or VERTIX you can downgrade to 3.0309.0 by following the [instructions](https://support.coros.com/hc/en-us/articles/15344945273620-How-to-manually-update-my-COROS-watch) from COROS.
-- If you have 3.0308.0 or earlier on APEX 2 / APEX 2 Pro / VERTIX 2 / VERTIX 2S then leave it installed at this time.
-- You should re-check your GPS / GNSS settings after every firmware update because they have a tendency to revert to standard GPS.
+- If you have 3.05xx.0 on your APEX Pro or VERTIX you should downgrade to [3.0309.0](https://logiqx.github.io/gps-details/devices/coros/firmware/3.0309.0/install.html).
+- If you have 3.04xx.0 or 3.05xx.0 on your APEX 2 or APEX 2 Pro then you should upgrade to the latest firmware.
+- If you have 3.04xx.0, 3.05xx.0, 3.07xx.0 on VERTIX 2 / VERTIX 2S then you should upgrade to [3.0708.1113](https://logiqx.github.io/gps-details/devices/coros/firmware/3.0708.1113/install.html) beta.
+
+Note: You should re-check your GPS / GNSS settings after every firmware update because they have a tendency to revert back to standard GPS.
 
 
 

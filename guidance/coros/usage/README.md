@@ -25,12 +25,17 @@ I was guilty of denying these were actually relevant when I started speedsurfing
 Ensure you are using an appropriate firmware:
 
 - APEX / VERTIX
-  - Use 3.0309.0 or 3.0409.0.
-  - Avoid 3.0508.0.
-
-- APEX 2 / APEX 2 Pro / VERTIX 2 / VERTIX 2S
-  - Use 3.0308.0.
-  - Avoid 3.0408.0, 3.0409.0, 3.0508.0 and 3.0510.0.
+  - Use [3.0309.0](https://logiqx.github.io/gps-details/devices/coros/firmware/3.0309.0/install.html), 3.0408.0 or 3.0409.0
+  - Avoid 3.0508.0
+- APEX 2 + APEX 2 Pro
+  - Use 3.0706.0 or newer
+  - Avoid 3.0408.0, 3.0409.0, 3.0508.0 and 3.0510.0
+- VERTIX 2
+  - Use 3.0308.0 or [3.0708.1113](https://logiqx.github.io/gps-details/devices/coros/firmware/3.0708.1113/install.html) beta
+  - Avoid 3.0408.0, 3.0409.0, 3.0508.0, 3.0510.0, 3.0708.0 and 3.0709.0
+- VERTIX 2S
+  - Use [3.0708.1113](https://logiqx.github.io/gps-details/devices/coros/firmware/3.0708.1113/install.html) beta
+  - Avoid 3.0408.0, 3.0409.0, 3.0508.0, 3.0510.0, 3.0708.0 and 3.0709.0
 
 
 Ensure you are using the correct watch settings:
