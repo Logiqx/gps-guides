@@ -13,7 +13,7 @@ Things have moved on in recent years, so this repository contains some more up-t
 Articles relating to the use of GPS technology:
 
 - [General Guidance](guidance/README.md) has been written for all users of smart / sports watches - 4 Apr 2022
-- [GPS Devices - Speed Sailing Feature Comparison](devices/feature-comparison.pdf) was my original GPS guide - 6 Jul 2010
+- [GPS Devices - Speed Sailing Feature Comparison](guidance/features/feature-comparison.pdf) was my original GPS guide - 6 Jul 2010
 
 Further detailed / technical articles are also available in [GPS Details](https://logiqx.github.io/gps-details/) and [GPS Wizard](https://logiqx.github.io/gps-wizard/articles.html).
 

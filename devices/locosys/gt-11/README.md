@@ -10,7 +10,7 @@ In addition to the positional data (latitude and longitude) it recorded Doppler 
 
 It was also sold as NAVI GPS by NAVMAN and the [Amaryllo Trip Tracker](https://www.amaryllo.com/almooj/sports-products/amaryllo-trip-tracker-gps-sports-device-7.html) by Amaryllo.
 
-You can find some details about it in my [feature comparison](../../feature-comparison.pdf), last updated in Jul 2010.
+You can find some details about it in my [feature comparison](../../../guidance/features/feature-comparison.pdf), last updated in Jul 2010.
 
 
 
