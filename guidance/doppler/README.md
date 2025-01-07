@@ -1,4 +1,4 @@
-## Doppler Speed
+## Doppler-derived Speed
 
 ### Estimation of Position and Speed
 
