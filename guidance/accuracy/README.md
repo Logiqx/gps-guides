@@ -1,5 +1,13 @@
 ## Accuracy Data
 
+Author: Michael George
+
+Created: Jan 2023
+
+
+
+### Overview
+
 All of the GPS devices approved for GP3S record attempts record the following additional data items:
 
 - Doppler-derived speed - AKA "Doppler speed"
@@ -20,4 +28,4 @@ All of the above items allow GP3S results to be validated / reviewed and invalid
 
 
 
-Note: Sports watches from the likes of COROS, Garmin and Suunto also include the Doppler-derived speed, but only when exporting to the .FIT format. A separate [page](fit-vs-gpx.md) describes the differences between FIT and GPX.
+Note: Sports watches from the likes of COROS, Garmin and Suunto also include the Doppler-derived speed, but only when exporting to the .FIT format. A separate [page](../fit/README.md) describes the differences between FIT and GPX.

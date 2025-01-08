@@ -2,6 +2,12 @@
 
 
 
+Author: Michael George
+
+Created: 10 Jan 2025
+
+
+
 ## COROS Advice
 
 Do you own a COROS watch, or thinking of buying one for windsurfing / wingfoiling / kitesurfing? If the answer is yes, then this guide has been written for the benefit of you and your mates!

@@ -1,5 +1,11 @@
 ## Doppler-derived Speed
 
+Author: Michael George
+
+Created: Jan 2023
+
+
+
 ### Estimation of Position and Speed
 
 You may have heard the term "Doppler Speed" and wondered what it is and why it is important when speed sailing?
@@ -37,5 +43,5 @@ GPS / GNSS chips typically produce estimates of position and speed using two dif
 
 The chips will often make use of a Kalman filter and thus be based on proprietary models / predictions, and not just simple sensor readings based on the time taken for radio signals to travel from the satellite to the receiver. Doppler-derived speed estimates will almost always be more accurate / reliable than speeds that are have been derived from the positional estimates. Doppler-derived estimated speeds should therefore be used in preference to the non-Doppler speeds derived from positional data.
 
-To ensure the Doppler-derived speeds are used it is typically necessary to use FIT files from sports watches, rather than GPX files. A separate [article](fit-vs-gpx.md) discusses the difference between FIT and GPX in more detail.
+To ensure the Doppler-derived speeds are used it is typically necessary to use FIT files from sports watches, rather than GPX files. A separate [article](../fit/README.md) discusses the difference between FIT and GPX in more detail.
 

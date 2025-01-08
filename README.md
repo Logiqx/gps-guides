@@ -2,26 +2,35 @@
 
 ### Background
 
-Back in 2010, I published a GPS [feature comparison](devices/feature-comparison.pdf) which focused on speed sailing.
+Back in 2010, I published a GPS [feature comparison](guidance/features/feature-comparison.pdf) which focused on speed sailing and GPS devices of that time.
 
-Things have moved on in recent years, so this repository contains some more up-to-date information.
+Things have moved on significantly in recent years, so this repository contains some more up-to-date information.
 
 
 
-### General Guidance
+### General Articles
 
-Articles relating to the use of GPS technology:
+Here is a selection of articles providing advice and guidance:
 
-- [General Guidance](guidance/README.md) has been written for all users of smart / sports watches - 4 Apr 2022
-- [GPS Devices - Speed Sailing Feature Comparison](guidance/features/feature-comparison.pdf) was my original GPS guide - 6 Jul 2010
-
-Further detailed / technical articles are also available in [GPS Details](https://logiqx.github.io/gps-details/) and [GPS Wizard](https://logiqx.github.io/gps-wizard/articles.html).
+- [Garmin](guidance/garmin/README.md) advice - 10 Jan 2025
+- [COROS](guidance/coros/README.md) advice - 10 Jan 2025
+- [General Guidance](guidance/README.md) relating to sports watches - 4 Apr 2022
+- [GPS Devices](guidance/features/feature-comparison.pdf) - Speed Sailing Feature Comparison - 6 Jul 2010
 
 
 
 ### Popular Devices
 
 There is a separate page detailing several popular [GPS devices](devices/README.md).
+
+
+
+### Technical Articles
+
+Technical articles are also available in other GitHub repositories:
+
+- [GPS Details](https://logiqx.github.io/gps-details/)
+- [GPS Wizard](https://logiqx.github.io/gps-wizard/articles.html)
 
 
 

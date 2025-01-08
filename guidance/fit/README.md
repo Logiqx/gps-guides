@@ -1,8 +1,14 @@
 ## FIT vs GPX
 
+Author: Michael George
+
+Created: Jan 2023
+
+
+
 ### Overview
 
-Prior to reading this section you will need to understand the significance of Doppler-derived speeds. A separate article provides a quick [overview](doppler-speed.md) of why Doppler-derived speeds are preferrable to speeds derived from positional data.
+Prior to reading this section you will need to understand the significance of Doppler-derived speeds. A separate article provides a quick [overview](../doppler/README.md) of why Doppler-derived speeds are preferrable to speeds derived from positional data.
 
 With a prior understanding of the differences between Doppler-derived speed and speed derived from positional data we can compare the [GPX](https://en.wikipedia.org/wiki/GPS_Exchange_Format) and [FIT](https://developer.garmin.com/fit/protocol/) formats. When exporting tracks for speed analysis, always choose the FIT file format in preference to GPX:
 
