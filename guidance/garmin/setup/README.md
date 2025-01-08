@@ -26,7 +26,7 @@ This can be achieved on the watch itself, or in the Garmin Connect application o
 
 #### Satellite Settings
 
-The GPS / GNSS mode has far more impact than you might think. The standard GPS setting gives longer battery life, which is great for ultra-running or endurance-cycling, but far more likely to report fictitious speeds.
+The GPS / GNSS mode has far more impact than you might think. The standard GPS setting gives longer battery life, which is great for ultra-running or endurance-cycling, but far more likely to report erroneous speeds.
 
 The worst errors that I have seen from GPS watches have occurred when using standard GPS mode. It's therefore important that you use the most appropriate multi-GNSS setting on your watch.
 

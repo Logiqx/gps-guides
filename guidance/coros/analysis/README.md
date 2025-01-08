@@ -18,9 +18,9 @@ If you've linked your COROS account to GPS-Speedsurfing, Hoolan or Waterspeed th
 
 If you haven't linked your COROS account to GPS-Speedsurfing, Hoolan or Waterspeed then you may need to manually export your data.
 
-The most important point is to export as a FIT file, not GPX. GPX is fine for route planning and navigation, but not speed analysis.
+The most important point is to export as a FIT file, not GPX. The GPX format is great for route planning and navigation, but not speed analysis.
 
-In a nutshell, GPX doesn't have an agreed way to exchange [Doppler-derived speeds]((https://medium.com/@mikeg888/the-importance-of-doppler-b886b14bb65d)) which makes GPX highly undesirable, although thoroughly [documented](https://logiqx.github.io/gps-wizard/gpx/).
+In a nutshell, GPX doesn't have an agreed way to exchange [Doppler-derived speeds](https://medium.com/@mikeg888/the-importance-of-doppler-b886b14bb65d) which makes it unsuitable for speed analysis.
 
 You can export the FIT file by logging in to the [COROS Training Hub](https://trainingeu.coros.com/admin/views/activities) on your computer and exporting the data.
 

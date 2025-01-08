@@ -18,7 +18,7 @@ You can link your Garmin Connect account to [GPS-Speedsurfing](https://www.gps-s
 
 This is quickly demonstrated in a short video on [YouTube](https://www.youtube.com/watch?v=a6jI8dON5OI), should you require further assistance.
 
-Dashboard -> My Items -> My Deviceshttps://www.gps-speedsurfing.com/mygps.aspx?mnu=mydevices)
+Dashboard -> My Items -> My Devices
 
 ![gp3s-devices](img/gp3s-devices.png)
 

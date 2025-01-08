@@ -48,15 +48,15 @@ Pertinent differences between the watch ranges:
 - GNSS chipset
   - [Multi-band](https://support.garmin.com/en-GB/?faq=9NWiPDU4gM0JWMfdWFol7A) compatibility
 - Watch size
-  - Several ranges come in 42 (S) / 47 / 51 (X) mm
+  - Several watch ranges come in 42 / 47 / 51 mm
 - Battery life
   - Bigger watches typically have longer battery life
 - Ruggedness
-  - fēnix > Forerunner > vívoactive
+  - e.g. fēnix > Forerunner > vívoactive
 - HR monitor
-  - Elevate 5 > Elevate 4
-- Buttons or touchscreen
-  - Touchscreen not ideal when wet - vívoactive / Venu
+  - Elevate 5 sensor (e.g. fēnix 7 pro) > Elevate 4 sensor (e.g. fēnix 7)
+- Buttons and / or touchscreen
+  - Touchscreens are not ideal when wet - e.g. vívoactive or Venu
 
 These differences might help your to choose a watch that is best suited to your own requirements and budget.
 
@@ -64,7 +64,7 @@ These differences might help your to choose a watch that is best suited to your 
 
 ### Recommendations
 
-Bearing in mind what was said about the GNSS chipset it is important to choose a watch that uses an Airoha chipset, if you are to avoid getting spurious speeds. You can find the GNSS details for all of the different Garmin watches on [GitHub](https://logiqx.github.io/gps-details/devices/garmin/watches/), if you are unsure about any of the models.
+Bearing in mind what was said about the GNSS chipset it is advisable to choose a Garmin watch that uses an Airoha chipset, if you are to avoid getting spurious speeds. You can find the GNSS details for all of the different Garmin watches on [GitHub](https://logiqx.github.io/gps-details/devices/garmin/watches/), if you are unsure about a specific model.
 
 You should also choose a watch that has a good watersports application available on the Connect IQ store. I would recommend choosing [APPro](https://apps.garmin.com/apps/9567700b-6587-44be-9708-879bfc844791?tid=0) which has undergone a lot of development in recent months, easy to install, and will give you a great experience on the water.
 

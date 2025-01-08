@@ -43,9 +43,9 @@ Ensure you are using the correct watch settings:
 
 #### Activity Mode
 
-It is important to note that different activity modes implement their own unique filtering and smoothing. The implementation of each activity is unique to the watch manufacturer and this page shows[] the "Stand up Paddling" activity of Garmin for illustrative purposes.
+It is important to note that different activity modes implement their own unique filtering and smoothing. The implementation of each activity is unique to the watch manufacturer and this page shows the stand up paddleboarding activity of Garmin for illustrative purposes.
 
-The image below compares speeds from an Forerunner 255 (red), vívoactive 3 (green), and vívoactive 4 (magenta) against a 5 Hz [Motion](https://www.motion-gps.com/) GPS (blue). The poor accuracy from all of the watches is very clear, and entirely due to use of the "Stand Up Paddleboarding" activity with its heavy filtering / smoothing.
+The image below compares speeds from a Forerunner 255 (red), vívoactive 3 (green), and vívoactive 4 (magenta) against a 5 Hz [Motion](https://www.motion-gps.com/) GPS (blue). The poor accuracy from all of the watches is very clear, and entirely due to use of the stand up paddleboarding activity with its heavy filtering / smoothing.
 
 ![activity-sup](img/activity-sup.png)
 
@@ -66,7 +66,7 @@ Practically every single Garmin activity profile has been tested on multiple wat
   - Surfing
   - Sailing
   - Boating
-  - ... and anything related to running, walking, etc.
+  - ... and running, hiking, walking, etc.
 
 One of the benefits of using an app such as [APPro](https://apps.garmin.com/apps/9567700b-6587-44be-9708-879bfc844791) is that it will automatically select a suitable activity mode, and appropriate GNSS setting(s).
 
@@ -76,7 +76,7 @@ One of the benefits of using an app such as [APPro](https://apps.garmin.com/apps
 
 To ensure the watch buttons do not seize up:
 
-- Occasionally rinse / soak the watch body in fresh water.
+- Occasionally rinse / soak the watch in fresh water.
 
 Handy everyday tips:
 
@@ -85,9 +85,9 @@ Handy everyday tips:
 
 Additional tips:
 
-- Ignore "max speed" which is prone to measurement errors / noise. Instead, use max 2 secs as a measure of your top speed, but take it with a pinch of salt.
-  - You can also use the max 10s / 100m / 250m as a sanity check.
-- Learn to save your location by holding the light button to open the controls menu, just in case you lose something in the sea.
+- Ignore "max speed" which is prone to measurement errors / noise. Instead, use max 2 secs to gauge your top speed, but take it with a pinch of salt.
+  - You can use the max 10s / 100m / 250m as a simple sanity check.
+- Learn to save your location by pressing the light button to open the controls menu, just in case you lose something in the sea.
   - You can then return to approximately the same spot with a mask + snorkel, or a diver!
 
 

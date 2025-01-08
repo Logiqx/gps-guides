@@ -18,9 +18,9 @@ If you've linked your Garmin Connect account to GPS-Speedsurfing, Hoolan or Wate
 
 If you haven't linked your Garmin Connect account to GPS-Speedsurfing, Hoolan or Waterspeed then you may need to manually export your data.
 
-The most important point is to export as a FIT file, not GPX. GPX is fine for route planning and navigation, but not speed analysis.
+The most important point is to export as a FIT file, not GPX. The GPX format is great for route planning and navigation, but not speed analysis.
 
-In a nutshell, GPX doesn't have an agreed way to exchange [Doppler-derived speeds]((https://medium.com/@mikeg888/the-importance-of-doppler-b886b14bb65d)) which makes GPX highly undesirable, although thoroughly [documented](https://logiqx.github.io/gps-wizard/gpx/).
+In a nutshell, GPX doesn't have an agreed way to exchange [Doppler-derived speeds](https://medium.com/@mikeg888/the-importance-of-doppler-b886b14bb65d) which makes it unsuitable for speed analysis.
 
 You can export the FIT file by logging in to [Garmin Connect](https://connect.garmin.com/modern/activities) on your computer and exporting the data.
 
@@ -30,7 +30,7 @@ You can also export the FIT file using the web browser on your smartphone, in mu
 
 ![export-app-highlighted](img/export-app-highlighted.png)
 
-One final way to copy the FIT files from your watch is to connect the watch to your computer using the USB charge cable and navigating to the Garmin Activity folder.
+One final way to acquire the FIT files from your Garmin watch is to connect it to your computer using the USB charge cable and navigating to the Garmin Activity folder.
 
 ![usb-storage](img/usb-storage.png)
 
