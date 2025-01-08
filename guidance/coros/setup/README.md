@@ -51,6 +51,8 @@ Note: You should re-check your GPS / GNSS settings after every firmware update b
 
 ### Watch Settings
 
+#### Satellite Settings
+
 The GPS / GNSS mode has far more impact than you might think. The default mode of standard GPS gives longer battery life, which is great for ultra-running or endurance-cycling, but far more likely to report fictitious speeds.
 
 The worst errors that I have seen from the Airoha-based COROS watches have occurred when using the standard GPS mode. It's really important that you use All Systems or Dual Frequency on the latest watches.
@@ -63,6 +65,8 @@ System -> More Settings -> Satellite Systems -> Mode
 
 
 
+#### Automatic Date and Time
+
 The time of day on COROS watches can start to drift quite quickly, but this can be avoided by ensuring [auto-sync](https://support.coros.com/hc/en-us/articles/5859961688212-The-watch-is-not-displaying-the-correct-time) is switched on. The time will then be kept up-to-date by the COROS app.
 
 System -> More Settings -> Date / Time -> Auto Sync
@@ -70,6 +74,18 @@ System -> More Settings -> Date / Time -> Auto Sync
 ![auto-sync](img/auto-sync.jpg)
 
 
+
+#### Touch Screen
+
+Some watches have a touch screen which can behave erratically during watersport activities. This can be disabled in the system settings, or toggled by pressing / holding the "down" and "start" buttons.
+
+System -> More Settings
+
+- Touch Screen = map only
+
+
+
+#### Other Settings
 
 These are some other settings that I would recommend / advise:
 
@@ -79,12 +95,13 @@ These are some other settings that I would recommend / advise:
   - Add for manual sync, and faster downloads of maps + newer firmware
 - System -> More Settings
   - Gesture Backlight = off, avoiding the bright light when sleeping!
-  - Touch Screen = map only, since it can behave eratically when wet
 - System -> More Settings -> Auto Lock
   - Standby Mode = hold to unlock, since it is easier than using the dial
   - Activity Mode = hold to unlock, since it is easier than using the dial
 
 
+
+#### Activity Settings
 
 Prior to starting the activity you can also change the following settings:
 
@@ -108,8 +125,7 @@ Within the COROS app you can also configure the speedsurfing activity:
 
 
 
-
-Notes:
+#### Finally
 
 - The COROS settings are clearly described in the [guide](https://drive.google.com/file/d/1YQbuPNeTJ3ivgykGI4qOz2yzMxxHmD9B/view?usp%3Dsharing) by Ingolf van Oostveen.
 - You should re-check your GPS / GNSS settings after every firmware update!

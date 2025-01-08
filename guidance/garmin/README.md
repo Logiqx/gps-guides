@@ -8,8 +8,6 @@ Do you own a Garmin watch, or thinking of buying one for windsurfing / wingfoili
 
 All GPS receivers are prone to errors, but some are more susceptible than others. Even if you own the best GPS watch, your settings and how you use it will influence the accuracy and likelihood of speeds being legitimate.
 
-The biggest downside with comparing max speeds is the susceptibility to errors. For example, during a routine test session my APEX Pro recently reported a max of [37.88](https://www.facebook.com/michael.george.545/posts/10220672656646659) knots when I was wingfoiling, instead of the actual 23 knots!
-
 This guide has been written to help you get the best accuracy and features out of your Garmin watch(es), and hopefully get as much enjoyment from your sessions as possible. 🤙
 
 
@@ -36,16 +34,22 @@ Please let me know if you find the guide useful, or whether anything needs furth
 
 ### Summary
 
-**TODO** !!!
+I appreciate this was quite a long article, so here is a quick summary!
 
-Choose an Airoha watch, set it up properly
+1. Choose a watch that uses the Airoha chipset - Forerunner 255, fēnix 7, epix (Gen 2), fēnix 8, Instinct 3, etc.
+2. Set it up properly - firmware and settings, especially the satellite systems which should be "All Systems" or "All Systems + Multi-Band" and "every second" logging.
+3. Link your Garmin Connect account to GPS-Speedsurfing, Hoolan, Waterspeed, etc.
+4. Ensure your watch has a clear view of the sky for as much of the time as possible (especially during speed runs) and use a suitable app such as APPro.
+5. Try out the applications GpsarPro, GPSResults, and GPS Speedreader for more insights into your tracks.
 
-Use  windsurfing (or other) activity profile, or recommended application
+A couple of notes about the most common causes of data issues, elevated speeds, and spikes:
 
-Be mindful of the pitfalls when exporting and importing sessions. Use FIT.
+- Exporting GPX files and importing them into GPS-Speedsurfing, Waterspeed, Strava, etc.
+- Garmin watches using the Sony chipset are especially prone to spikes - fēnix 6, Instinct 2, etc.
+- Inappropriate apps, activity modes and GNSS settings may be prone to spikes. This won't happen with APPro.
+- Ignore the "max" speed reported by Garmin watches and take the max 2 seconds with a pinch of salt.
 
-Known issues.
 
 
+I hope this guide is useful to people who own a Garmin watch. The advice will help you to get the most from your watch and maximize the chances of your speeds being accurate.
 
-I hope this guide is useful to people who own a Garmin watch. The advice will help you to get the most from your watch and maximise the chances of your speeds being accurate.

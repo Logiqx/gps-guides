@@ -39,7 +39,7 @@ There are a number of niggly display bugs that you may notice during a session:
 
 There are some known recording issues:
 
-- Newer watches such as the VERTIX 2 can record the GNSS data in a way that leads to [fantasy alphas](https://logiqx.github.io/gps-details/devices/coros/alpha/) on GP3S.
+- Newer watches such as the APEX 2 Pro, APEX 2 Pro and VERTIX 2 can record the GNSS data in a way that leads to [fantasy alphas](https://logiqx.github.io/gps-details/devices/coros/alpha/) on GP3S.
 
 
 

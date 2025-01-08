@@ -59,7 +59,7 @@ A related option called [Phone Connection Alerts](https://support.garmin.com/en-
 
 #### Touch Screen
 
-Some phone have a touch screen which can behave erratically during watersport activities. This can be disabled in the system settings, or toggled by pressing / holding the "down" and "start" buttons.
+Some watches have a touch screen which can behave erratically during watersport activities. This can be disabled in the system settings, or toggled by pressing / holding the "down" and "start" buttons.
 
 
 
