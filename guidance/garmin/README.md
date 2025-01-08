@@ -4,15 +4,13 @@
 
 ## Garmin Advice
 
-Do you own a Garmin watch, or planning to buy one for windsurfing / wingfoiling / kitesurfing? If your answer is yes, then this guide has been written specifically for you and your mates!
+Do you own a Garmin watch, or thinking of buying one for windsurfing / wingfoiling / kitesurfing? If your answer is yes, then this guide has been written specifically for you and your mates!
 
-Knowing your speed on the water and whether you are faster than your mates adds an element of fun to your water time, but your watch choice and setup can make a big difference to the accuracy.
+All GPS receivers are prone to errors, but some are more susceptible than others. Even if you own the best GPS watch, your settings and how you use it will influence the accuracy and likelihood of speeds being legitimate.
 
-The biggest problem with comparing max speeds is their susceptibility to errors; large and small. For example, during a routine test session my APEX Pro recently reported a max of [37.88](https://www.facebook.com/michael.george.545/posts/10220672656646659) knots when I was wingfoiling, instead of the actual 23 knots.
+The biggest downside with comparing max speeds is the susceptibility to errors. For example, during a routine test session my APEX Pro recently reported a max of [37.88](https://www.facebook.com/michael.george.545/posts/10220672656646659) knots when I was wingfoiling, instead of the actual 23 knots!
 
-All GPS receivers are prone to errors, but some are more prone to issues than others. Even if you own a decent GPS watch, your setup and usage will have a huge influence on the likelihood of speeds being accurate / real.
-
-This guide has been written to help you get the best out of your watch(es), and avoid the various pitfalls.
+This guide has been written to help you get the best accuracy and features out of your Garmin watch(es), and hopefully get as much enjoyment from your sessions as possible. 🤙
 
 
 
@@ -24,7 +22,7 @@ There is quite a lot to cover, but I'll try to be concise and will cover the fol
   - GNSS chipset and general features
 - [Watch setup](setup/README.md)
   - Firmware, watch settings, and applications
-- [Linked accounts](accounts/README.md)
+- [Linking accounts](accounts/README.md)
   - GPS-Speedsurfing, Hoolan, Waterspeed, Strava, Relive
 - [Watch usage](usage/README.md)
   - Wearing the watch, recording an activity, additional tips

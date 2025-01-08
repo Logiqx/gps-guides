@@ -4,100 +4,75 @@
 
 ## Watch Choice
 
-Not as simple as Garmin, or Fenix.
+COROS watches have been popular on [gps-speedsurfing.com](https://www.gps-speedsurfing.com/) since their approval in 2020. This was off the back of Locosys devices becoming scarce / discontinued and a suitable alternative was desperately required at the time.
 
-Until earlier this year, I'd have advised against a Garmin
+During 2024 there were extensive evaluations of comparable Garmin watches and several models were identified as being suitable for watersports and the speedsurfing community. These models include the Forerunner 255 and fenix 7 series.
 
-Last couple of years, good watches started to appear
+Many of the more recent Garmin watches are well suited to watersports, but acceptable GNSS accuracy / precision is limited to a selection of the Garmin watches released since 2022 / 2023. This page is intended to be a quick summary. 
 
 
 
 ### GNSS Chipset
 
-Create coloured timeline?
+The [GNSS](https://en.wikipedia.org/wiki/Satellite_navigation) chipset is the primary limiting factor when it comes to the accuracy of GPS watches. Additional factors include the antenna design, GNSS firmware, watch firmware, user settings and activity mode / watch app.
 
-- GNSS chipset is a primary factor
-  - pre-2012 = SiRF
-  - 2012 to 2018 = MediaTek
-  - 2019 to 2021 = Sony (and Jan-Feb 2022 for the Instinct 2 and Venu 2 Plus)
-    - Repeated speeds
-    - Spikes after loss of lock
-  - 2022 onwards = Airoha (except Jan-Feb 2022 for the Instinct 2 and Venu 2 Plus
-    - Decent data when using the right firmware, settings, activity / application
-    - Can be pretty terrible data if you get these things wrong!
+Various popular watches from Garmin use a Sony GNSS chipset which prioritizes low power usage over accuracy. The Sony-based watches (e.g. fēnix 6 and Instinct 2) have a number of inherent accuracy issues:
 
-Link to my chipset details.
+- Identical speeds being repeated several seconds in a row
+- Big spikes after loss of lock, especially when the watch is submersed during a crash or launching / landing.
+- Speeds that are too high (or low) even during normal usage, especially in the non-Doppler data.
+
+The newer Garmin models use an Airoha / MediaTek chipset. These can produce good quality speed data with appropriate watch settings, and activity mode. They can also be unreliable / inaccurate if you get these things wrong, hence this advice / guidance!
+
+A full list of Garmin watches that use an Airoha GNSS chipset is available on [GitHub](https://logiqx.github.io/gps-details/devices/garmin/watches/) but includes:
+
+- fēnix 7 / fēnix 7 Pro / fēnix 8 / fēnix E
+- epix (Gen 2) / epix Pro (Gen 2)
+- quatix 7 / tactix 7
+- Instinct 2X (not 2) / Instinct E / Instinct 3
+- Forerunner 165 / 255 / 265 / 955 / 965
+- Enduro 2 / Enduro 3
+- vívoactive 5
+- Venu Sq 2 / Venu 3
+
+
 
 ### General Features
 
-Activity profiles / applications
+There are a lot of Garmin watches to choose from and I intend to write an article on this topic.
 
-- Windsurfing activity - not available on Forerunner
-- APPro Windsurf, GPSTC V4
-- I've reviewed every other application
+Pertinent differences between the watch ranges:
 
-Things to consider:
-
-- Satellite systems (Multi-Band, All Systems, GPS + Galileo / GPS + GLONASS)
-- AMOLED display
-- HR monitor
-- Buttons or touchscreen (e.g. vívoactive / Venu) - relevant in water!
+- Display type
+  - [MIP or AMOLED](https://lifehacker.com/health/which-is-better-smart-watch-display-mip-vs-amoled)
+- GNSS chipset
+  - [Multi-band](https://support.garmin.com/en-GB/?faq=9NWiPDU4gM0JWMfdWFol7A) compatibility
+- Watch size
+  - Several ranges come in 42 (S) / 47 / 51 (X) mm
 - Battery life
+  - Bigger watches typically have longer battery life
+- Ruggedness
+  - fēnix > Forerunner > vívoactive
+- HR monitor
+  - Elevate 5 > Elevate 4
+- Buttons or touchscreen
+  - Touchscreen not ideal when wet - vívoactive / Venu
 
-Mileage might vary... excuse the pun!
+These differences might help your to choose a watch that is best suited to your own requirements and budget.
+
 
 
 ### Recommendations
 
+Bearing in mind what was said about the GNSS chipset it is important to choose a watch that uses an Airoha chipset, if you are to avoid getting spurious speeds. You can find the GNSS details for all of the different Garmin watches on [GitHub](https://logiqx.github.io/gps-details/devices/garmin/watches/), if you are unsure about any of the models.
 
-Cheapest
+You should also choose a watch that has a good watersports application available on the Connect IQ store. I would recommend choosing [APPro](https://apps.garmin.com/apps/9567700b-6587-44be-9708-879bfc844791?tid=0) which has undergone a lot of development in recent months, easy to install, and will give you a great experience on the water.
 
-- Forerunner 165 £250 (GPSTC, no APro or wsurf)
-- vívoactive 5 £260 (APPro + wsurf, no GPSTC)
-- Forerunner 255 £300 *dual band* (all apps)
+A great all-round watch at a reasonable price is the [Forerunner 255](https://www.garmin.com/en-GB/p/7801390) which currently costs around 200 EUR and has already been approved by [GPS-Speedsurfing.com](https://www.gps-speedsurfing.com/) and [GPS Team Challenge](https://www.gpsteamchallenge.com.au/). It is made of a lightweight fibre-reinforced polymer, waterproof and produces good data.
 
-Mid-range
+It is also worth considering the fēnix 7 and epix (gen 2) models which have been discounted, ever since the release of the fēnix 8 in October. The fēnix 7 has a MIP display and epix has an AMOLED display, but aside from the displays the various models in the ranges are directly comparable.
 
-- Instinct 2X (no apps)
-- Forerunner 265 / 265S £430 (GPSTC + wsurf, no APro)
-- Forerunner 955 £440 (all apps)
-- Venu Sq. 2 (no wsurf)
-- Venu 3 / 3S £450 (wsurf, no GPSTC or APPro)
-- quatix 7 £500 (all apps)
-- fēnix 7 £520 (all apps)
-
-Most expensive
-
-- fēnix E 
-- Forerunner 965 £600 (GPSTC + wsurf, no APPro)
-- epix (gen 2) £700 (all apps)
-- Enduro 2 £729 (all apps)
-- tactix 7 £800 (all apps)
-- Enduro 3
-- fēnix 8 £999
-
-
-
-
-Airoha
-fēnix 8, fēnix E, fēnix 7, epix (Gen 2), quatix 7, tactix 7 ... Instinct 2X (no apps)
-Forerunner 165/255/265/955/965, Enduro 3, Enduro 2, vívoactive 5, Venu Sq 2, Venu 3
-n.b. 165/265 and Venu 3 not supported by APPro Windsurf. Venu Sq. 2 not by Windsurfing App
-
-Sony
-fēnix 6, quatix 6, tactix Delta ... Instinct Solar, Instinct Esports, Instinct 2
-Forerunner 45/55/158/245/745/945, Enduro, vívoactive 4, Venu, Venu Sq, Venu 2, Venu 2 Plus
-IGNORE the Sony models!
-
-MediaTek
-fēnix [2/3/Chronos/5], epix, quatix [3/5], tactix [Bravo/Charlie] ... Instinct
-Forerunner 10/15/25/30/35/220/225/230/235/620/630/645/735XT/920XT/935, vívoactive HR, vívoactive 3
-n.b. fēnix® Chronos is too posh. Unsure if vívoactive HR is supported by the apps but no Galileo
-
-Recommended watches from 2015 onwards, due to MT3333 and app support:
-  fēnix® 3, fēnix® 5, quatix® 3, quatix® 5, tactix® Bravo, tactix® Charlie
-  Forerunner [645/935], vívoactive® 3 - Galileo + both apps
-  Forerunner [230/235/630/735XT] - No Galileo + only one app
+The fēnix 7 and epix (gen 2) are much more rugged than a Forerunner. It would also be beneficial to choose a model that supports multi-band GNSS, as some of the cheaper models are single-band. The Fenix 8 is comparable to a fēnix 7  / epix (gen 2), but with dive capabilities and voice features.
 
 
 

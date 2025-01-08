@@ -6,67 +6,75 @@
 
 ### Firmware
 
-Dodgy
+Unlike the COROS watches that have experienced numerous firmware issues since the middle of 2024, you don't really need to worry about accidentally installing a bad firmware on your Garmin.
 
-- GP3S Fenix 7
-  - 3865 (GNSS) = 2.23
-- Mark + zugm - Fenix 7 
-  - 3866 = 2.27
-- John FR-255
-  - 3865 (GNSS) = 2.33
-
-OK
-
-- Mike FR-255
-  - 3865 (GNSS) = 9.03 and 10
-  - 3955 = 30.2
-  - 3992 (FR-255) = 19.18
-
-Be sure to re-check your settings after a firmware update.
+Simply ensure that you are using the latest firmware version that is available by opening the Garmin Connect application on your phone, opening "System" and selecting "Software Update". 
 
 
 
 ### Watch Settings
 
-Sats
+#### Data Recording
 
-![satellites](img/satellites.jpg)
+It is important that data recording / frequency is set to every second, rather than the default which is called "smart". This option can be found in the system settings.
 
-Recording
+This can be achieved on the watch itself, or in the Garmin Connect application on your phone. 
 
 ![recording](img/recording.jpg)
 
-- Satellite settings = all systems, GPS + Galileo, or GPS + GLONASS
-- Data recording = every 1 second
-- Phone Apps
-  - Device Settings -> System -> Data recording = Every 1 Second (default = Smart)
-- Watch
-  - Vivoactive 3
-    - Settings -> Activities & Apps -> [Activity] -> [Activity] settings -> GPS = GPS + Galileo (default = On)
-    - Alternatively, can change it before you start the activity by swiping
-  - Vivoactive 4
-    - Settings -> Activities & Apps -> [Activity] -> [Activity] settings -> GPS = GPS + Galileo (default = On)
-    - Alternatively, can change it before you start the activity by swiping
-  - FR 255
-    - Settings -> System -> Satellites = All Systems (default = GPS)
-    - Settings -> Activities & Apps -> [Activity] -> [Activity] Settings -> Satellites = All Systems (default = GPS)
-    - Alternatively, can change it before you start the activity by pressing the menu button
+
+
+#### Satellite Settings
+
+It is highly advisable use one of the multi-GNSS settings instead of GPS only, which can be very susceptible to spikes and other inaccuracies.
+
+- Airoha chipset
+  - All Systems + Multi-Band, or All Systems
+- Sony or MediaTek chipset
+  - GPS + Galileo is preferable to GPS + GLONASS
+
+![satellites](img/satellites.jpg)
+
+
+
+#### Automatic Date and Time
+
+Your Garmin can automatically set the time to match your phone, but be sure that your phone is using the date and time provided by the network. On Android phones this option is called "automatic date and time", but "set automatically" is also available on the iPhone.
+
+Assuming your phone is set to use the network date and time then your watch will always be showing the correct time, assuming the watch setting also set to "auto". If your watch and / or phone time is wrong then it can affected the logging and your GPS track may use inaccurate timestamps.
+
+
+
+#### Find My Phone Alerts
+
+You may wish to disable [Find My Phone Alerts](https://support.garmin.com/en-GB/?faq=rQd3VdvlHj78fOJ9V4Uz19) to avoid the following screen appearing on your watch whilst you are on the water!
+
+![find-my-phone](img/find-my-phone.png)
+
+
+
+A related option called [Phone Connection Alerts](https://support.garmin.com/en-GB/?faq=NVd6I8uPsl4NkIqyM8dh99) is disabled by default, and probably best left disabled.
+
+
+
+#### Touch Screen
+
+Some phone have a touch screen which can behave erratically during watersport activities. This can be disabled in the system settings, or toggled by pressing / holding the "down" and "start" buttons.
+
 
 
 
 ### Watch Apps
 
-IMPORTANT - Application will select the activity profile and satellite settings
+You will need to install a suitable app on your watch but most people won't find anything better than [APPro](https://apps.garmin.com/apps/9567700b-6587-44be-9708-879bfc844791?tid=0) for keeping track of their speeds. Simply open the Connect IQ app on your phone, search for "APPro" then click "Install".
 
-- Activity profile / app / data field
-  - Activity type = other / windsurfing / kitesurfing
-  - Satellite settings = all systems, GPS + Galileo, or GPS + GLONASS
-- Apps / data fields
-  - APPro Windsurf, GPSTC V4
-  - Windsurf PRO and Any Sport PRO do not support all systems
+![appro](img/appro.jpg)  
 
-APPro
-https://forums.garmin.com/developer/connect-iq/f/showcase/2976/app-appro-windsurf
+
+
+APPro is very simple to use and will ensure that your watch is using the most appropriate GNSS settings and activity mode. The app will also display a "run report" after each run, whether you have come to a stop, or tacked / gybed. 
+
+Basic instructions for APPro are available on the Connect IQ store. You may wish to change the selections for field 1 + field 2 (perhaps "2 sec" and "10 sec") and speed units, but most of the default settings should suit most users. 
 
 
 

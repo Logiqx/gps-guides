@@ -27,6 +27,7 @@ Activity profiles / filters - SUP example
 Built in activities
 
 - windsurfing - not available on Forerunner
+- kiteboarding
 - other
 
 Recommended applications
@@ -44,6 +45,12 @@ IMPORTANT - Remember that the app will choose the satellite mode and activity pr
 ### Additional Tips
 
 - Find my phone + find my watch
+  - Turn off auto-locate
+
+- Turn off touch screen
+  - Keyboard shortcut
+
+- Ignore max and take 2s with a pinch of salt, compare to 10s / 100m / 250m
 
 
 
