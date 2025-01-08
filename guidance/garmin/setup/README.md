@@ -45,7 +45,7 @@ General advice:
 
 Your Garmin can automatically set the time to match your phone, but be sure that your phone is using the date and time provided by the network. On Android phones this option is called "automatic date and time", but "set automatically" is also available on the iPhone.
 
-Assuming your phone is set to use the network date and time then your watch will always be showing the correct time, assuming the watch setting also set to "auto". If your watch and / or phone time is wrong then it can affected the logging and your GPS track may use inaccurate timestamps.
+Assuming your phone is set to use the network date and time then your watch will always be showing the correct time, assuming the watch setting also set to "auto". If your watch and / or phone time is wrong then it can affect the logging and your GPS track may use inaccurate timestamps.
 
 
 

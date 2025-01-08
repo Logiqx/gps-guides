@@ -4,7 +4,7 @@
 
 ## Linking Accounts
 
-It is possible to link your COROS account to other websites, such as GPS-Speedsurfing, Hoolan, Waterspeed, Strava, and Relive.
+It is possible to link your Garmin Connect account to other websites, such as GPS-Speedsurfing, Hoolan, Waterspeed, Strava, and Relive.
 
 This will ensure that your sessions are automatically uploaded to these websites, without doing manual data exports and data imports.
 
