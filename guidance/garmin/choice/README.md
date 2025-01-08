@@ -6,7 +6,7 @@
 
 COROS watches have been popular on [gps-speedsurfing.com](https://www.gps-speedsurfing.com/) since their approval in 2020. This was off the back of Locosys devices becoming scarce / discontinued and a suitable alternative was desperately required at the time.
 
-During 2024 there were extensive evaluations of comparable Garmin watches and several models were identified as being suitable for watersports and the speedsurfing community. These models include the Forerunner 255 and fenix 7 series.
+During 2024 there were extensive evaluations of comparable Garmin watches and several models were identified as being suitable for watersports and the speedsurfing community. These models include the Forerunner 255 and fēnix 7 series.
 
 Many of the more recent Garmin watches are well suited to watersports, but acceptable GNSS accuracy / precision is limited to a selection of the Garmin watches released since 2022 / 2023. This page is intended to be a quick summary. 
 
@@ -18,11 +18,11 @@ The [GNSS](https://en.wikipedia.org/wiki/Satellite_navigation) chipset is the pr
 
 Various popular watches from Garmin use a Sony GNSS chipset which prioritizes low power usage over accuracy. The Sony-based watches (e.g. fēnix 6 and Instinct 2) have a number of inherent accuracy issues:
 
-- Identical speeds being repeated several seconds in a row
+- Identical speeds being repeated several seconds in a row, sometimes for more than 15 seconds!
 - Big spikes after loss of lock, especially when the watch is submersed during a crash or launching / landing.
 - Speeds that are too high (or low) even during normal usage, especially in the non-Doppler data.
 
-The newer Garmin models use an Airoha / MediaTek chipset. These can produce good quality speed data with appropriate watch settings, and activity mode. They can also be unreliable / inaccurate if you get these things wrong, hence this advice / guidance!
+The newer Garmin models use an Airoha chipset. These can produce good quality speed data with appropriate watch settings, and activity mode. They can also be somewhat unreliable / inaccurate if you get these things wrong, hence this advice / guidance!
 
 A full list of Garmin watches that use an Airoha GNSS chipset is available on [GitHub](https://logiqx.github.io/gps-details/devices/garmin/watches/) but includes:
 
@@ -68,11 +68,11 @@ Bearing in mind what was said about the GNSS chipset it is important to choose a
 
 You should also choose a watch that has a good watersports application available on the Connect IQ store. I would recommend choosing [APPro](https://apps.garmin.com/apps/9567700b-6587-44be-9708-879bfc844791?tid=0) which has undergone a lot of development in recent months, easy to install, and will give you a great experience on the water.
 
-A great all-round watch at a reasonable price is the [Forerunner 255](https://www.garmin.com/en-GB/p/7801390) which currently costs around 200 EUR and has already been approved by [GPS-Speedsurfing.com](https://www.gps-speedsurfing.com/) and [GPS Team Challenge](https://www.gpsteamchallenge.com.au/). It is made of a lightweight fibre-reinforced polymer, waterproof and produces good data.
+A great all-round watch at a reasonable price is the [Forerunner 255](https://www.garmin.com/en-GB/p/780139) which currently costs around 200 EUR and has already been approved by [GPS-Speedsurfing.com](https://www.gps-speedsurfing.com/) and [GPS Team Challenge](https://www.gpsteamchallenge.com.au/). It is made of a lightweight fibre-reinforced polymer, waterproof and produces good data.
 
-It is also worth considering the fēnix 7 and epix (gen 2) models which have been discounted, ever since the release of the fēnix 8 in October. The fēnix 7 has a MIP display and epix has an AMOLED display, but aside from the displays the various models in the ranges are directly comparable.
+It is also worth considering the [fēnix 7](https://www.garmin.com/en-GB/p/735611/pn/010-02540-01) and [epix (gen 2)](https://www.garmin.com/en-GB/p/1285545/pn/010-02582-01) models which have been discounted, ever since the release of the fēnix 8 in October. The fēnix 7 has a MIP display and epix has an AMOLED display, but aside from the displays the various models in the ranges are directly comparable.
 
-The fēnix 7 and epix (gen 2) are much more rugged than a Forerunner. It would also be beneficial to choose a model that supports multi-band GNSS, as some of the cheaper models are single-band. The Fenix 8 is comparable to a fēnix 7  / epix (gen 2), but with dive capabilities and voice features.
+The fēnix 7 and epix (gen 2) are much more rugged than a Forerunner. It would also be beneficial to choose a model that supports multi-band GNSS, as some of the cheaper models are single-band. The Fenix 8 is comparable to a fēnix 7  pro sapphire / epix (gen 2) pro sapphire, but with dive capabilities and voice features.
 
 
 

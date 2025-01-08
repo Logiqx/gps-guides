@@ -16,7 +16,7 @@ Simply ensure that you are using the latest firmware version that is available b
 
 #### Data Recording
 
-It is important that data recording / frequency is set to every second, rather than the default which is called "smart". This option can be found in the system settings.
+It is important that data recording is set to every second, rather than the Garmin default which is called "smart" recording. This option can be found in the system settings.
 
 This can be achieved on the watch itself, or in the Garmin Connect application on your phone. 
 
@@ -26,7 +26,11 @@ This can be achieved on the watch itself, or in the Garmin Connect application o
 
 #### Satellite Settings
 
-It is highly advisable use one of the multi-GNSS settings instead of GPS only, which can be very susceptible to spikes and other inaccuracies.
+The GPS / GNSS mode has far more impact than you might think. The standard GPS setting gives longer battery life, which is great for ultra-running or endurance-cycling, but far more likely to report fictitious speeds.
+
+The worst errors that I have seen from GPS watches have occurred when using standard GPS mode. It's therefore important that you use the most appropriate multi-GNSS setting on your watch.
+
+General advice:
 
 - Airoha chipset
   - All Systems + Multi-Band, or All Systems
@@ -47,7 +51,7 @@ Assuming your phone is set to use the network date and time then your watch will
 
 #### Find My Phone Alerts
 
-You may wish to disable [Find My Phone Alerts](https://support.garmin.com/en-GB/?faq=rQd3VdvlHj78fOJ9V4Uz19) to avoid the following screen appearing on your watch whilst you are on the water!
+You may wish to disable [Find My Phone Alerts](https://support.garmin.com/en-GB/?faq=rQd3VdvlHj78fOJ9V4Uz19) if you sometimes see the following screen appearing on your watch, whilst you are on the water!
 
 ![find-my-phone](img/find-my-phone.png)
 
@@ -72,7 +76,7 @@ You will need to install a suitable app on your watch but most people won't find
 
 
 
-APPro is very simple to use and will ensure that your watch is using the most appropriate GNSS settings and activity mode. The app will also display a "run report" after each run, whether you have come to a stop, or tacked / gybed. 
+APPro is very simple to use and will ensure that your watch is using the most appropriate GNSS setting(s) and activity mode. The app will also display a "run report" after each run, whether you have come to a stop, or tacked / gybed. 
 
 Basic instructions for APPro are available on the Connect IQ store. You may wish to change the selections for field 1 + field 2 (perhaps "2 sec" and "10 sec") and speed units, but most of the default settings should suit most users. 
 

@@ -21,13 +21,13 @@ System -> More Settings -> Device Info -> Software
   - DO NOT upgrade to 3.0508.0
 - APEX 2 + APEX 2 Pro
   - 3.0708.0 onwards are known to be good versions.
-  - DO NOT use 3.0408.0, 3.0409.0, 3.0508.0 or 3.0510.0
+  - DO NOT use 3.04xx.0, 3.05xx.0
 - VERTIX 2
   - 3.0308.0 was the last good version, so keep it installed.
-  - DO NOT use 3.0408.0, 3.0409.0, 3.0508.0, 3.0510.0, 3.0708.0 or 3.0709.0
+  - DO NOT use 3.04xx.0, 3.05xx.0, 3.07xx.0
 - VERTIX 2S
   - There is yet to be a reliable public firmware for the VERTIX 2S.
-  - DO NOT upgrade to 3.0708.0 or 3.0709.0
+  - DO NOT upgrade to 3.07xx.0
 
 The firmware issues of 2024 have all been [documented](https://logiqx.github.io/gps-details/devices/coros/firmware/) and reported to COROS.
 
@@ -41,7 +41,7 @@ You can also check the firmware version from within the COROS application, but b
 
 **TOP TIPS**
 
-- If you have 3.05xx.0 on your APEX Pro or VERTIX you should downgrade to [3.0309.0](https://logiqx.github.io/gps-details/devices/coros/firmware/3.0309.0/install.html).
+- If you have 3.0508.0 on your APEX Pro or VERTIX you should downgrade to [3.0309.0](https://logiqx.github.io/gps-details/devices/coros/firmware/3.0309.0/install.html).
 - If you have 3.04xx.0 or 3.05xx.0 on your APEX 2 or APEX 2 Pro then you should upgrade to the latest firmware.
 - If you have 3.04xx.0, 3.05xx.0, 3.07xx.0 on VERTIX 2 / VERTIX 2S then you should upgrade to [3.0708.1113](https://logiqx.github.io/gps-details/devices/coros/firmware/3.0708.1113/install.html) beta.
 
@@ -55,7 +55,7 @@ Note: You should re-check your GPS / GNSS settings after every firmware update b
 
 The GPS / GNSS mode has far more impact than you might think. The default mode of standard GPS gives longer battery life, which is great for ultra-running or endurance-cycling, but far more likely to report fictitious speeds.
 
-The worst errors that I have seen from the Airoha-based COROS watches have occurred when using the standard GPS mode. It's really important that you use All Systems or Dual Frequency on the latest watches.
+The worst errors that I have seen from the Airoha-based watches have occurred when using the standard GPS mode. It's therefore important that you use the most appropriate multi-GNSS setting on your watch.
 
 If you have one of the older Sony-based watches then you should choose one of the modes which uses multiple systems, and not just standard GPS. Personally, I use GPS + BeiDou + Galileo + QZSS.
 
@@ -68,6 +68,8 @@ System -> More Settings -> Satellite Systems -> Mode
 #### Automatic Date and Time
 
 The time of day on COROS watches can start to drift quite quickly, but this can be avoided by ensuring [auto-sync](https://support.coros.com/hc/en-us/articles/5859961688212-The-watch-is-not-displaying-the-correct-time) is switched on. The time will then be kept up-to-date by the COROS app.
+
+Your COROS will set the time to match your phone, but be sure that your phone is using the date and time provided by the network. On Android phones this option is called "automatic date and time", but "set automatically" is also available on the iPhone.
 
 System -> More Settings -> Date / Time -> Auto Sync
 

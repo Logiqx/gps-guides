@@ -6,20 +6,20 @@
 
 ### Firmware
 
-Firmware issues in 2024 have already discussed, but just as a reminder:
+There were several COROS firmware issues during 2024 which have already discussed, but just as a reminder:
 
 - APEX Pro + VERTIX
-  - 3.0309.0, 3.0408.0 and 3.0409.0 were good versions, so keep them installed.
+  - [3.0309.0](https://logiqx.github.io/gps-details/devices/coros/firmware/3.0309.0/install.html), 3.0408.0 and 3.0409.0 were good versions, so keep them installed.
   - DO NOT upgrade to 3.0508.0
 - APEX 2 + APEX 2 Pro
   - 3.0708.0 onwards are known to be good versions.
-  - DO NOT use 3.0408.0, 3.0409.0, 3.0508.0 or 3.0510.0
+  - DO NOT use 3.04xx.0, 3.05xx.0
 - VERTIX 2
   - 3.0308.0 was the last good version, so keep it installed.
-  - DO NOT use 3.0408.0, 3.0409.0, 3.0508.0, 3.0510.0, 3.0708.0 or 3.0709.0
+  - DO NOT use 3.04xx.0, 3.05xx.0, 3.07xx.0
 - VERTIX 2S
   - There is yet to be a reliable public firmware for the VERTIX 2S.
-  - DO NOT upgrade to 3.0708.0 or 3.0709.0
+  - DO NOT upgrade to 3.07xx.0
 
 The firmware issues of 2024 have all been [documented](https://logiqx.github.io/gps-details/devices/coros/firmware/) and reported to COROS.
 
@@ -27,7 +27,7 @@ The firmware issues of 2024 have all been [documented](https://logiqx.github.io/
 
 ### Watch Display
 
-There are a number of niggly display bugs that you may notice during a session:
+There are a number of niggly display bugs that you may notice during a speedsurfing session:
 
 - New record alerts sometimes say the wrong thing, like "2s" instead of "5 x 10s".
 - Run detection does not understand turns (gybe or tack), so you can sail for hours and only do one run!

@@ -6,7 +6,7 @@
 
 COROS watches have been popular on [gps-speedsurfing.com](https://www.gps-speedsurfing.com/) since their approval in 2020. It all began when the Locosys devices were becoming scarce / discontinued and a suitable alternative was desperately required.
 
-At the time, COROS were the only brand willing to collaborate with the speedsurfing community and they developed a dedicated speedsurfing activity. They weren't perfect and were a bit buggy, but seemed like a decent way forward.
+At the time, COROS were the only brand willing to collaborate with the speedsurfing community and they developed a dedicated speedsurfing activity. The watches weren't perfect and were a bit buggy, but seemed like a decent way forward.
 
 Since the original APEX Pro / VERTIX, several new watches have been approved for use on [gps-speedsurfing.com](https://www.gps-speedsurfing.com/); APEX 2 / APEX 2 Pro / VERTIX 2 / VERTIX 2S. The newer devices are significantly better in terms of accuracy.
 
@@ -16,16 +16,16 @@ Since the original APEX Pro / VERTIX, several new watches have been approved for
 
 The [GNSS](https://en.wikipedia.org/wiki/Satellite_navigation) chipset is the primary limiting factor when it comes to the accuracy of GPS watches. Additional factors include the antenna design, GNSS firmware, watch firmware, user settings and activity mode / watch app.
 
-The APEX Pro and VERTIX both use a Sony GNSS chipset which prioritizes low power usage over accuracy. This comes at the expense of trustworthy speeds, which isn't ideal but back in 2020 was deemed good enough.
+The APEX Pro and VERTIX both use a Sony GNSS chipset which prioritizes low power usage over accuracy. This comes at the expense of trustworthy speeds, which isn't ideal but back in 2020 there were limited options.
 
 The Sony-based watches (COROS and Garmin) have a number of inherent issues:
 
-- Identical speeds being repeated several seconds in a row
+- Identical speeds being repeated several seconds in a row, sometimes for more than 15 seconds!
 - Big spikes after loss of lock, especially when the watch is submersed during a crash or launching / landing.
 - Speeds that are too high (or low) even during normal usage, especially in the non-Doppler data.
 - Low resolution / precision of speed; unique to the Sony chipset used by COROS.
 
-The APEX 2, APEX 2 Pro, VERTIX 2 and VERTIX 2S use an Airoha / MediaTek chipset. These can record good quality speed data with the right firmware, watch settings, and activity mode. They can also be unreliable / inaccurate if you get any of these things wrong, hence this advice / guidance!
+The APEX 2, APEX 2 Pro, VERTIX 2 and VERTIX 2S use an Airoha chipset. These can record good quality speed data with the right firmware, watch settings, and activity mode. They can also be somewhat unreliable / inaccurate if you get any of these things wrong, hence this advice / guidance!
 
 
 
@@ -35,6 +35,8 @@ When choosing a COROS watch you should ensure that it includes the speedsurfing 
 
 Pertinent differences between the watch ranges:
 
+- Price
+  - VERTIX 2 > APEX 2 Pro > APEX 2
 - Watch size
   - VERTIX 2 > APEX 2 Pro > APEX 2
 - Battery life

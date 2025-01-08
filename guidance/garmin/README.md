@@ -4,9 +4,9 @@
 
 ## Garmin Advice
 
-Do you own a Garmin watch, or thinking of buying one for windsurfing / wingfoiling / kitesurfing? If your answer is yes, then this guide has been written specifically for you and your mates!
+Do you own a Garmin watch, or thinking of buying one for windsurfing / wingfoiling / kitesurfing? If the answer is yes, then this guide has been written for the benefit of you and your mates!
 
-All GPS receivers are prone to errors, but some are more susceptible than others. Even if you own the best GPS watch, your settings and how you use it will influence the accuracy and likelihood of speeds being legitimate.
+All GPS receivers are prone to errors, but some are more susceptible to glitches than others. Even if you own the best GPS watch, your settings and how you use it will influence the accuracy and likelihood of speeds being legitimate.
 
 This guide has been written to help you get the best accuracy and features out of your Garmin watch(es), and hopefully get as much enjoyment from your sessions as possible. 🤙
 
@@ -14,7 +14,7 @@ This guide has been written to help you get the best accuracy and features out o
 
 ### Topics
 
-There is quite a lot to cover, but I'll try to be concise and will cover the following topics:
+There is quite a lot to cover, so it has been split into the following topics:
 
 - [Watch choice](choice/README.md)
   - GNSS chipset and general features
@@ -34,20 +34,25 @@ Please let me know if you find the guide useful, or whether anything needs furth
 
 ### Summary
 
-I appreciate this was quite a long article, so here is a quick summary!
+I appreciate this was quite a long article, so here is a quick summary of the previous sections.
 
 1. Choose a watch that uses the Airoha chipset - Forerunner 255, fēnix 7, epix (Gen 2), fēnix 8, Instinct 3, etc.
-2. Set it up properly - firmware and settings, especially the satellite systems which should be "All Systems" or "All Systems + Multi-Band" and "every second" logging.
-3. Link your Garmin Connect account to GPS-Speedsurfing, Hoolan, Waterspeed, etc.
-4. Ensure your watch has a clear view of the sky for as much of the time as possible (especially during speed runs) and use a suitable app such as APPro.
-5. Try out the applications GpsarPro, GPSResults, and GPS Speedreader for more insights into your tracks.
+2. Set it up properly - "every second" logging and suitable satellite systems.
+3. Link your Garmin Connect account to websites such as GPS-Speedsurfing, Hoolan, Waterspeed, etc.
+4. Use a suitable app (e.g. APPro) to ensure the correct GNSS settings and suitable sport profile are used. 
+5. Ensure your watch has a clear view of the sky for as much of the time as possible, especially during speed runs.
+6. Try out the applications GpsarPro, GPSResults, and GPS Speedreader for more insights into your performance.
 
-A couple of notes about the most common causes of data issues, elevated speeds, and spikes:
+
+
+### Final Notes
+
+The most common causes of data issues, elevated speeds, and spikes:
 
 - Exporting GPX files and importing them into GPS-Speedsurfing, Waterspeed, Strava, etc.
 - Garmin watches using the Sony chipset are especially prone to spikes - fēnix 6, Instinct 2, etc.
-- Inappropriate apps, activity modes and GNSS settings may be prone to spikes. This won't happen with APPro.
-- Ignore the "max" speed reported by Garmin watches and take the max 2 seconds with a pinch of salt.
+- Inappropriate apps, activity modes and GNSS settings may result in inaccuracies and / or spikes.
+- Ignore the "max" speed reported by Garmin watches and use the 2 secs instead, but taking it with a pinch of salt.
 
 
 
