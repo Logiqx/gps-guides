@@ -4,7 +4,7 @@
 
 ## Known Issues
 
-### Firmware
+### Early Firmware
 
 The first Garmin watches to use the Airoha chipset were released by Garmin in 2022, but there was a firmware issue affecting the speed data. The issue was fixed some time prior to 2024, but its not clear when the fix was rolled out.
 

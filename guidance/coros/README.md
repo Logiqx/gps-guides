@@ -45,7 +45,7 @@ I appreciate this was quite a long article, so here is a quick summary of the pr
 
 
 
-### Final Notes
+### Finally
 
 The most common causes of data issues, elevated speeds, and spikes:
 

@@ -70,7 +70,7 @@ Some watches have a touch screen which can behave erratically during watersport 
 
 ### Watch Apps
 
-You will need to install a suitable app on your watch but most people won't find anything better than [APPro](https://apps.garmin.com/apps/9567700b-6587-44be-9708-879bfc844791?tid=0) for keeping track of their speeds. Simply open the Connect IQ app on your phone, search for "APPro" then click "Install".
+You will need to install a suitable app on your watch but most people won't find anything better than [APPro](https://apps.garmin.com/apps/9567700b-6587-44be-9708-879bfc844791?tid=0) for keeping track of their speeds. Simply open the Garmin Connect IQ app on your phone, search for "APPro" then click "Install".
 
 ![appro](img/appro.jpg)  
 
