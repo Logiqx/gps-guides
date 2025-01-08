@@ -84,7 +84,7 @@ Basic instructions for APPro are available on the Connect IQ store. You may wish
 
 ## Next Page
 
-[Linked accounts](../accounts/README.md)
+[Linking accounts](../accounts/README.md)
 
 - GP3S, Hoolan, Waterspeed, Strava, Relive
 

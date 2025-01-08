@@ -15,10 +15,10 @@ There were several COROS firmware issues during 2024 which have already discusse
   - 3.0708.0 onwards are known to be good versions.
   - DO NOT use 3.04xx.0, 3.05xx.0
 - VERTIX 2
-  - 3.0308.0 was the last good version, so keep it installed.
+  - 3.0308.0 was the last working public firmware, so keep it installed or upgrade to [3.0708.1113](https://logiqx.github.io/gps-details/devices/coros/firmware/3.0708.1113/install.html) beta.
   - DO NOT use 3.04xx.0, 3.05xx.0, 3.07xx.0
 - VERTIX 2S
-  - There is yet to be a reliable public firmware for the VERTIX 2S.
+  - There is yet to be a reliable public firmware for the VERTIX 2S, except [3.0708.1113](https://logiqx.github.io/gps-details/devices/coros/firmware/3.0708.1113/install.html) beta.
   - DO NOT upgrade to 3.07xx.0
 
 The firmware issues of 2024 have all been [documented](https://logiqx.github.io/gps-details/devices/coros/firmware/) and reported to COROS.

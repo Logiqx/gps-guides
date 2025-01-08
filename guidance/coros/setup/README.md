@@ -23,10 +23,10 @@ System -> More Settings -> Device Info -> Software
   - 3.0708.0 onwards are known to be good versions.
   - DO NOT use 3.04xx.0, 3.05xx.0
 - VERTIX 2
-  - 3.0308.0 was the last good version, so keep it installed.
+  - 3.0308.0 was the last working public firmware, so keep it installed or upgrade to [3.0708.1113](https://logiqx.github.io/gps-details/devices/coros/firmware/3.0708.1113/install.html) beta.
   - DO NOT use 3.04xx.0, 3.05xx.0, 3.07xx.0
 - VERTIX 2S
-  - There is yet to be a reliable public firmware for the VERTIX 2S.
+  - There is yet to be a reliable public firmware for the VERTIX 2S, except [3.0708.1113](https://logiqx.github.io/gps-details/devices/coros/firmware/3.0708.1113/install.html) beta.
   - DO NOT upgrade to 3.07xx.0
 
 The firmware issues of 2024 have all been [documented](https://logiqx.github.io/gps-details/devices/coros/firmware/) and reported to COROS.
@@ -79,7 +79,7 @@ System -> More Settings -> Date / Time -> Auto Sync
 
 #### Touch Screen
 
-Some watches have a touch screen which can behave erratically during watersport activities. This can be disabled in the system settings, or toggled by pressing / holding the "down" and "start" buttons.
+Some watches have a touch screen which can behave erratically during watersport activities. This can be disabled in the system settings.
 
 System -> More Settings
 
@@ -89,7 +89,7 @@ System -> More Settings
 
 #### Other Settings
 
-These are some other settings that I would recommend / advise:
+These are some other settings that you might wish to change:
 
 - System -> Activity Interface
   - Auto Scroll = off / on, depending on personal preference
@@ -148,7 +148,7 @@ Activity modes will be discussed in the section "Recording an Activity".
 
 ## Next Page
 
-[Linked accounts](../accounts/README.md)
+[Linking accounts](../accounts/README.md)
 
 - GP3S, Hoolan, Waterspeed, Strava, Relive
 
