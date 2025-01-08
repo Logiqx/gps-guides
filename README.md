@@ -14,14 +14,16 @@ Here is a selection of articles providing advice and guidance:
 
 - [Garmin](guidance/garmin/README.md) advice - 10 Jan 2025
 - [COROS](guidance/coros/README.md) advice - 10 Jan 2025
-- [General Guidance](guidance/README.md) relating to sports watches - 4 Apr 2022
-- [GPS Devices](guidance/features/feature-comparison.pdf) - Speed Sailing Feature Comparison - 6 Jul 2010
+- [Short articles](guidance/README.md) - 4 Apr 2022
+- [Speed Sailing Feature Comparison](guidance/features/feature-comparison.pdf) - 6 Jul 2010
 
 
 
 ### Popular Devices
 
-There is a separate page detailing several popular [GPS devices](devices/README.md).
+There is a separate page for popular GPS devices:
+
+- Popular [GPS devices](devices/README.md)
 
 
 

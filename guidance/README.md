@@ -11,7 +11,7 @@ Some detailed articles providing advice / guidance:
 
 ### Short Articles
 
-A few very short articles on some general topics.
+A few short articles providing general advice / guidance.
 
 - [Choosing a Device](device/README.md) - Jan 2023
 - [Doppler-derived Speed](doppler/README.md) - Jan 2023
