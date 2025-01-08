@@ -26,7 +26,7 @@ Select the Garmin option under (re-)Connect a device which will then walk you th
 
 ![gp3s-coros](img/gp3s-garmin.png)
 
-Once the connection process has been completed your watersports sessions will automatically be uploaded to GP3S, allowing you to quickly post to any of the GP3S sites.
+Once the connection process has been completed all of your subsequent watersports sessions will automatically be uploaded to GP3S, allowing you to quickly post to any of the GP3S sites.
 
 What actually happens is the FIT files for your sessions are automatically processed by GP3S, whereby obvious spikes are removed. However, some spikes (especially Sony GNSS chipset) can slip through the filters.
 
