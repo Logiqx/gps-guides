@@ -2,7 +2,7 @@
 
 ### Background
 
-Back in 2010, I published a GPS [feature comparison](guidance/features/feature-comparison.pdf) which focused on speed sailing and GPS devices of that time.
+Back in 2010, I published a GPS [feature comparison](guidance/features/feature-comparison.pdf) which focused on speed sailing and GPS devices of the time.
 
 Things have moved on significantly in recent years, so this repository contains some more up-to-date information.
 
