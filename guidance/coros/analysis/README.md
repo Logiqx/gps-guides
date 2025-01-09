@@ -45,11 +45,12 @@ I would encourage you to have a look at your sessions on a laptop, giving you so
 
 This is particularly important with unapproved devices such as the PACE 2 or PACE 3, because it allows you to looks for any obvious spikes.
 
-These are the best applications for speed analysis, listed in alphabetical order:
+These are the best applications for Garmin speed analysis:
 
-- [GpsarPro](http://gpsactionreplay.free.fr/index.php?menu=2) by Yann Mathet - 60 day trial, Windows + Mac
 - [GPSResults](https://www.gps-speed.com/download_e.html) by Manfred Fuchs - 30 day trial, Windows
 - [GPS Speedreader](https://github.com/prichterich/GPS-Speedreader/) by Peter Richterich - unrestricted, Windows + Mac
+
+Unfortunately, [GpsarPro](http://gpsactionreplay.free.fr/index.php?menu=2) by Yann Mathet does not support the FIT format.
 
 
 
