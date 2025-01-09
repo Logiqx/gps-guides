@@ -43,7 +43,7 @@ A couple of final notes:
 
 I would encourage you to have a look at your sessions on a laptop, giving you some insight into your sailing and to keep an eye on the performance of your watch.
 
-This is particularly important with unapproved devices such as the PACE 2 or PACE 3, because it allows you to looks for any obvious spikes.
+This is particularly important with unapproved devices such as the APEX / PACE 2 / PACE 3 / PACE Pro, because it allows you to looks for any obvious spikes.
 
 These are the best applications for Garmin speed analysis:
 

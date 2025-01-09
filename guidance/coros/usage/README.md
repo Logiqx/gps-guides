@@ -71,7 +71,7 @@ Summary:
 
 - Use the speedsurfing activity for the best possible accuracy.
   - Do NOT use the windsurfing activity which is [non-Doppler](https://medium.com/@mikeg888/the-importance-of-doppler-b886b14bb65d).
-- Use the GPS cardio activity on watches such as the APEX, PACE 2 or PACE 3.
+- Use the GPS cardio activity on watches such as the APEX, PACE 2, PACE 3, PACE Pro.
   - Do not use the “custom” activities as the data is absolutely terrible, as illustrated earlier.
 
 

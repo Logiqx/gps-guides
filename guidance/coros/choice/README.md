@@ -55,7 +55,7 @@ These differences might help your to choose the watch best suited to your own re
 
 ### Recommendations
 
-Nowadays, I can only recommend the APEX 2, APEX 2 Pro, VERTIX 2, and VERTIX 2S. Although the PACE 3 uses the Airoha GNSS chipset, it does not have the speedsurfing activity which is crucial for reliable / accurate data.
+Nowadays, I can only recommend the APEX 2, APEX 2 Pro, VERTIX 2, and VERTIX 2S. Although the PACE 3 and PACE Pro use the Airoha GNSS chipset, they do not have the speedsurfing activity which is crucial for reliable / accurate data.
 
 The earlier models such as the APEX Pro and VERTIX are too prone to inaccuracies, just like Garmin watches using the same family of Sony GNSS chipset. If you own an APEX Pro or VERTIX then it may be worth treating yourself to an upgrade!
 

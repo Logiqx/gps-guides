@@ -140,7 +140,7 @@ COROS watches do not benefit from third party applications, like Apple or Garmin
 
 If you have a watch that includes speedsurfing and windsurfing activities, you should use the speedsurfing activity.
 
-If you are using an APEX, PACE 2 or PACE 3 then GPS cardio is probably your best bet. You should avoid custom activities.
+If you are using an APEX, PACE 2, PACE 3 or PACE Pro then GPS cardio is probably your best bet. You should avoid custom activities.
 
 Activity modes will be discussed in the section "Recording an Activity".
 

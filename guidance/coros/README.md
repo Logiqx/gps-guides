@@ -57,7 +57,7 @@ The most common causes of data issues, elevated speeds, and spikes:
 
 - Exporting GPX files and importing them into GPS-Speedsurfing, Waterspeed, Strava, etc.
 - COROS watches using the Sony chipset are especially prone to spikes - APEX Pro and VERTIX.
-- COROS watches without the speedsurfing activity are prone to spikes - APEX, PACE 2, PACE 3, etc.
+- COROS watches without the speedsurfing activity are prone to spikes - APEX, PACE 2, PACE 3, PACE Pro.
 - Firmware issues since May 2024 have made many of the COROS watches quite unreliable!
 - Newer watches such as the VERTIX 2 are prone to spikes when using standard GPS and / or windsurfing mode.
 
