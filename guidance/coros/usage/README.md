@@ -93,8 +93,9 @@ Additional tips:
 - You can control your action camera from some of the COROS watches.
   - GoPro - COROS help on [control](https://support.coros.com/hc/en-us/articles/4411031553044-How-to-control-GoPro-Cameras) + article by [GoPro](https://gopro.com/en/gb/news/open-gopro-coros).
   - Insta360 - COROS help on [control](https://support.coros.com/hc/en-us/articles/4406181409300-How-to-control-Insta360-from-your-COROS-watch) + [data overlay](https://support.coros.com/hc/en-us/articles/28945366751764-Insta360-Data-Overlay).
-- Learn to [save your location](https://support.coros.com/hc/en-us/articles/360055691511-Using-Waypoints-and-Saved-Locations) by holding the "back" button to open the toolbox menu, just in case you lose something in the sea.
-  - You can then return to approximately the same spot with a mask + snorkel, or a diver!
+- Learn to [save your location](https://support.coros.com/hc/en-us/articles/360055691511-Using-Waypoints-and-Saved-Locations) by holding the "back" button to open the toolbox menu.
+  - This could be useful if you lose something at sea, perhaps if your foil breaks!
+  - You can then return to the same spot with a mask + snorkel, or a diver.
 
 
 

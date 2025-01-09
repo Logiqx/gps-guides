@@ -80,15 +80,21 @@ To ensure the watch buttons do not seize up:
 
 Handy everyday tips:
 
-- The flashlight on some of the more rugged Garmin watches is extremely handy!
+- Tide information is available on some watches - e.g. [fēnix 7](https://www8.garmin.com/manuals/webhelp/GUID-C001C335-A8EC-4A41-AB0E-BAC434259F92/EN-US/GUID-B46ED9C3-8DED-41B5-B0C5-1707D9A56522.html), [epix (gen 2)](https://www8.garmin.com/manuals/webhelp/GUID-E5C62F3F-DCE3-4197-8CA5-E419B2A55D12/EN-US/GUID-B46ED9C3-8DED-41B5-B0C5-1707D9A56522.html), and [Instinct 3](https://www8.garmin.com/manuals/webhelp/GUID-2DA54DF8-8084-40ED-954F-EDA09C13B47F/EN-US/GUID-3DB3FF64-F943-4D96-8334-C9C7764FE85E.html).
+- The flashlight that is built into the more rugged watches is extremely handy!
 - [Find my phone](https://support.garmin.com/en-GB/?faq=mE1Jmwvzd84s9YuDqa3GB7) + [find my device](https://support.garmin.com/en-GB/?faq=L7pODPT7jN3oMXe1xg1Ks8) can be super-useful when they are misplaced.
 
 Additional tips:
 
-- Ignore "max speed" which is prone to measurement errors / noise. Instead, use max 2 secs to gauge your top speed, but take it with a pinch of salt.
-  - You can use the max 10s / 100m / 250m as a simple sanity check.
-- Learn to save your location by pressing the light button to open the controls menu, just in case you lose something in the sea.
-  - You can then return to approximately the same spot with a mask + snorkel, or a diver!
+- Ignore "max speed" which is prone to measurement errors / noise.
+  - Instead, use max 2 secs to gauge your top speed, but take it with a pinch of salt.
+  - You can always use the max 10s / 100m / 250m as a simple sanity check.
+- Learn to save your location by pressing the light button to open the controls menu.
+  - This could be useful if you lose something at sea, perhaps if your foil breaks!
+  - You can then return to the same spot with a mask + snorkel, or a diver.
+- Consider adding a [hot key](https://support.garmin.com/en-GB/?faq=jbZhv8loj14TUvcW4l2Le9) to quickly enable / disable the touch screen.
+  - For example, START (top-right) + DOWN (bottom-left) to toggle the touch screen.
+
 
 
 
