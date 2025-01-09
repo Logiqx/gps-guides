@@ -34,7 +34,7 @@ What actually happens is the FIT files for your sessions are automatically proce
 
 ### Hoolan + Waterspeed
 
-[Hoolan](https://www.hoolan.app/) and [Waterspeed](https://waterspeedapp.com/) are popular apps for Apple watch (and iPhone) owners. Hoolan and Waterspeed can both be linked to your Garmin Connect account, ensuring that watersport activities are automatically uploaded to their platforms.
+Hoolan and Waterspeed are popular apps for Apple watch (and iPhone) owners. [Hoolan](https://www.hoolan.app/garmin-integration) and [Waterspeed](https://waterspeed.crunch.help/en/how-to/how-to-import-from-garmin-connect) can both be linked to your Garmin Connect account, ensuring that watersport activities are automatically uploaded to their platforms.
 
 The integration with Hoolan definitely makes use of the FIT files and the [Doppler-derived speeds](https://medium.com/@mikeg888/the-importance-of-doppler-b886b14bb65d), but I have not been able to verify whether the integration with Waterspeed does the same thing.
 
@@ -42,7 +42,7 @@ The integration with Hoolan definitely makes use of the FIT files and the [Doppl
 
 ### Strava + Relive
 
-You can link your Garmin Connect account to [Strava](https://www.strava.com/) and [Relive](https://www.relive.cc/), but I feel obliged to provide a warning. Strava does NOT know how to process the speed data recorded by your Garmin watch and can therefore result in fictitious speeds.
+You can link your Garmin Connect account to [Strava](https://support.strava.com/hc/en-us/articles/216918057-Garmin-and-Strava) and [Relive](https://support.relive.cc/kb/guide/en/tracker-apps-to-connect-to-relive-vKNjTaiOqX/Steps/29827), but I feel obliged to provide a warning. Strava does NOT know how to process the speed data recorded by your Garmin watch and can therefore result in fictitious speeds.
 
 If you want to know why, Strava does not process the [Doppler-derived speeds](https://medium.com/@mikeg888/the-importance-of-doppler-b886b14bb65d) from the GPS / GNSS chipset and is therefore prone to producing spikes. These spikes may be small (e.g. just a few knots), or large (e.g. tens of knots).
 
