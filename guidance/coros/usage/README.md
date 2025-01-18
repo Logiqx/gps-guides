@@ -38,10 +38,7 @@ Due to various [issues](https://logiqx.github.io/gps-details/devices/coros/firmw
 - APEX 2 + APEX 2 Pro
   - Use 3.0706.0 or newer
   - Avoid 3.04xx.0, 3.05xx.0
-- VERTIX 2
-  - Use 3.0808.0 or newer
-  - Avoid 3.04xx.0, 3.05xx.0, 3.07xx.0
-- VERTIX 2S
+- VERTIX 2 + VERTIX 2S
   - Use 3.0808.0 or newer
   - Avoid 3.04xx.0, 3.05xx.0, 3.07xx.0
 

@@ -14,10 +14,7 @@ There were several COROS firmware issues during 2024 which have already discusse
 - APEX 2 + APEX 2 Pro
   - 3.0708.0 onwards are known to be good versions.
   - DO NOT use 3.04xx.0, 3.05xx.0
-- VERTIX 2
-  - 3.0808.0 onwards are known to be good versions.
-  - DO NOT use 3.04xx.0, 3.05xx.0, 3.07xx.0
-- VERTIX 2S
+- VERTIX 2 + VERTIX 2S
   - 3.0808.0 onwards are known to be good versions.
   - DO NOT use 3.04xx.0, 3.05xx.0, 3.07xx.0
 
