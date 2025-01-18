@@ -39,10 +39,10 @@ Due to various [issues](https://logiqx.github.io/gps-details/devices/coros/firmw
   - Use 3.0706.0 or newer
   - Avoid 3.04xx.0, 3.05xx.0
 - VERTIX 2
-  - Use 3.0308.0 or [3.0708.1113](https://logiqx.github.io/gps-details/devices/coros/firmware/3.0708.1113/install.html) beta
+  - Use 3.0808.0 or newer
   - Avoid 3.04xx.0, 3.05xx.0, 3.07xx.0
 - VERTIX 2S
-  - Use [3.0708.1113](https://logiqx.github.io/gps-details/devices/coros/firmware/3.0708.1113/install.html) beta
+  - Use 3.0808.0 or newer
   - Avoid 3.04xx.0, 3.05xx.0, 3.07xx.0
 
 
