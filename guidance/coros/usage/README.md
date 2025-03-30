@@ -33,7 +33,7 @@ These points may seem nitpicky, but they really do make a difference to the over
 Due to various [issues](https://logiqx.github.io/gps-details/devices/coros/firmware/) introduced by COROS during 2024, please check that you are using an appropriate firmware:
 
 - APEX / VERTIX
-  - Use [3.0309.0](https://logiqx.github.io/gps-details/devices/coros/firmware/3.0309.0/install.html), 3.0408.0 or 3.0409.0
+  - 3.0509.0 is the best version to use.
   - Avoid 3.0508.0
 - APEX 2 + APEX 2 Pro
   - Use 3.0706.0 or newer

@@ -9,8 +9,8 @@
 There were several COROS firmware issues during 2024 which have already discussed, but just as a reminder:
 
 - APEX Pro + VERTIX
-  - [3.0309.0](https://logiqx.github.io/gps-details/devices/coros/firmware/3.0309.0/install.html), 3.0408.0 and 3.0409.0 were good versions, so keep them installed.
-  - DO NOT upgrade to 3.0508.0
+  - 3.0509.0 is the best version to use.
+  - DO NOT use 3.0508.0
 - APEX 2 + APEX 2 Pro
   - 3.0708.0 onwards are known to be good versions.
   - DO NOT use 3.04xx.0, 3.05xx.0
