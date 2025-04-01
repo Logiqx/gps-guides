@@ -28,11 +28,12 @@ A full list of Garmin watches that use an Airoha GNSS chipset is available on [G
 
 - fēnix 7 / fēnix 7 Pro / fēnix 8 / fēnix E
 - epix (Gen 2) / epix Pro (Gen 2)
-- quatix 7 / tactix 7
+- quatix 7
+- tactix 7 / tactix 8
 - Instinct 2X (not 2) / Instinct E / Instinct 3
 - Forerunner 165 / 255 / 265 / 955 / 965
 - Enduro 2 / Enduro 3
-- vívoactive 5
+- vívoactive 5 / vívoactive 6
 - Venu Sq 2 / Venu 3
 
 
