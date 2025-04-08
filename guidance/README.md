@@ -4,6 +4,7 @@
 
 Some detailed articles providing advice / guidance:
 
+- [Which Garmin for Watersports?](https://medium.com/@mikeg888/which-garmin-for-watersports-e1000c43a868) - 8 Apr 2025
 - [Garmin](garmin/README.md) advice - 10 Jan 2025
 - [COROS](coros/README.md) advice - 10 Jan 2025
 
