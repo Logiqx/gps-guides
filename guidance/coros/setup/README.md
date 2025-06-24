@@ -18,7 +18,7 @@ System -> More Settings -> Device Info -> Software
 
 - APEX Pro + VERTIX
   - 3.0509.0 is the best version to use.
-  - DO NOT use 3.0508.0
+  - DO NOT use 3.0508.0 or 3.0510.0, downgrade to [3.0309.0](https://logiqx.github.io/gps-details/devices/coros/firmware/3.0309.0/install.html)
 - APEX 2 + APEX 2 Pro
   - 3.0708.0 onwards are known to be good versions.
   - DO NOT use 3.04xx.0, 3.05xx.0
@@ -38,7 +38,7 @@ You can also check the firmware version from within the COROS application, but b
 
 **TOP TIPS**
 
-- If you have 3.0508.0 on your APEX Pro or VERTIX you should upgrade to 3.0509.0.
+- If you have 3.0508.0 or 3.0510.0 on your APEX Pro or VERTIX you should downgrade to [3.0309.0](https://logiqx.github.io/gps-details/devices/coros/firmware/3.0309.0/install.html).
 - If you have 3.04xx.0 or 3.05xx.0 on your APEX 2 or APEX 2 Pro then you should upgrade to the latest firmware.
 - If you have 3.04xx.0, 3.05xx.0, 3.07xx.0 on VERTIX 2 or VERTIX 2S then you should upgrade to the latest firmware.
 
