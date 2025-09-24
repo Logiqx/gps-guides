@@ -34,7 +34,7 @@ Due to various [issues](https://logiqx.github.io/gps-details/devices/coros/firmw
 
 - APEX / VERTIX
   - 3.0509.0 is the best version to use.
-  - Avoid 3.0508.0 and 3.0510.0, downgrade to [3.0309.0](https://logiqx.github.io/gps-details/devices/coros/firmware/3.0309.0/install.html) if necessary.
+  - Avoid 3.0508.0, 3.0510.0 and 3.0808.0, downgrade to [3.0309.0](https://logiqx.github.io/gps-details/devices/coros/firmware/3.0309.0/install.html) if necessary.
 - APEX 2 + APEX 2 Pro
   - Use 3.0706.0 or newer.
   - Avoid 3.04xx.0, 3.05xx.0
